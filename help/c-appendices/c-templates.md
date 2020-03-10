@@ -924,7 +924,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
  </tbody> 
 </table>
 
-##  {#section_C1EB3B9D8E1242798A6E04609D1E3543}
+## どういう意味だ？ {#section_C1EB3B9D8E1242798A6E04609D1E3543}
 
 検索で結果が返されず、検索語句がアカウントの辞書にない場合は、Did You Meanタグを使用して、提案への一連のリンクを作成できます。 次に、Did You Meanタグの使用例を示します。
 
