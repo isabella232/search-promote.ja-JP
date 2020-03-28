@@ -7,7 +7,7 @@ title: シミュレーターについて
 topic: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 **シミュレーターを使用するには**
 
 1. 製品メニューで、をクリックしま **[!UICONTROL Simulator]**&#x200B;す。
-1. ドロップ **[!UICONTROL Options]** ダウンリストで、実行するオプションを選択します。
+1. ドロップダウ **[!UICONTROL Options]** ンリストで、実行するオプションを選択します。
 
    <!-- 
    
@@ -41,7 +41,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
    
    -->
 
-   （オプション）シミュレーターページの表のチェックボックス列を使用して、シミュレーションで特定のルールのオン/オフを切り替えます。
+   （オプション）シミュレーターページの表のチェックボックス列を使用して、シミュレーター内の特定のルールのオン/オフを切り替えます。シミュレーション
 
    <table> 
     <thead> 
@@ -52,28 +52,28 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>ステージング/シミュレートライブ </p> </td> 
-      <td colname="col2"> <p>ライブ環境のシミュレーションとステージ環境のシミュレーションを切り替えます。 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">ステージング/シミュレートライブ</span> </p> </td> 
+      <td colname="col2"> <p>ライブシミュレーションとステージ環境の間の別の環境。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>処理ルールの表示/非表示 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">処理ルールの表示/非表示</span> </p> </td> 
       <td colname="col2"> <p>ビジネスルールだけでなく、実行されたすべての処理ルールを表示または非表示にします。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>シミュレーション日の変更 </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">変更シミュレーション日</span> </p> </td> 
       <td colname="col2"> <p>指定した日付の検索結果をシミュレートします。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>PCでシミュレート </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">PCでシミュレート</span> </p> </td> 
       <td colname="col2"> <p>検索結果を、パソコンを使っているかのようにシミュレートします。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>モバイルでシミュレート </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">モバイルでシミュレート</span> </p> </td> 
       <td colname="col2"> <p>携帯電話やタブレットを使用している場合と同じように、検索結果をシミュレートします。 </p> <p>このオプションを選択すると、次の関連するオプションから選択できます。 </p> 
         <ul id="ul_2A9901418212486A8EE67A78CB99CBE4"> 
-        <li id="li_B210E954DF0D44C397718112C72C2103"> <b>デバイス</b> <p>携帯電話やタブレットでの検索結果をシミュレートします。 </p> </li> 
-        <li id="li_90B64EAA0B57446A90CE22172E703594"> <b>解像度</b> <p>選択したデバイスに基づいて、関連する解像度を選択できます。 </p> </li> 
-        <li id="li_042AF9FA3FA846EDB48F7296DB361515"> <b>水平表示</b> <p>選択したデバイス上でシミュレートされた検索結果が水平方向にどのように表示されるかを確認します。 </p> </li> 
+        <li id="li_B210E954DF0D44C397718112C72C2103"> <b><span class="uicontrol">デバイス</span></b> <p>携帯電話やタブレットでの検索結果をシミュレートします。 </p> </li> 
+        <li id="li_90B64EAA0B57446A90CE22172E703594"> <b><span class="uicontrol">解像度</span></b> <p>選択したデバイスに基づいて、関連する解像度を選択できます。 </p> </li> 
+        <li id="li_042AF9FA3FA846EDB48F7296DB361515"> <b><span class="uicontrol">水平表示</span></b> <p>表示したデバイス上でシミュレートされた検索結果が水平に表示される方法。 </p> </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
