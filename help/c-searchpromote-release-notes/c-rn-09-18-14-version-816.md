@@ -7,7 +7,7 @@ title: Search&Promote 8.16.0リリースノート（2014年9月19日）
 topic: Release Notes,Site search and merchandising
 uuid: 0a59858b-213b-40d6-aea1-d085c4d6d2fa
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
 
 ---
 
@@ -50,5 +50,5 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 * The Index Connector **[!UICONTROL Strip HTML]** setting was always displaying as checked.
 * Inconsistent search results were experienced with the **[!UICONTROL Common Phrases]** feature.
 * ルールリストの概要で、属性名の表示が切り詰められていた問題を修正しました。
-* 個別のビジネスルールをライブにプッシュすると、すべてのビジネスルールがライブにプッシュされていた問題を修正しました。
+* 個々のビジネスルールをライブにプッシュすると、すべてのビジネスルールがライブにプッシュされていました。
 
