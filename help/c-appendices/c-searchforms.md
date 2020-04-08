@@ -7,7 +7,7 @@ title: フォームの検索
 topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
-source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
+source-git-commit: 4542702e1d2ba04c70d9f6b24bfa32e1f1c6acb5
 
 ---
 
@@ -151,7 +151,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col02"> <p>検索フォームをテストします。 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> 検索フォームのテスト </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> 検索フォームのテスト </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,7 +286,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
 
 上記の例の表示フォームのHTMLコード全体を検索できます。
 
-詳しくは、HTML [コードからのアドバンス検索を参照してくださ](../c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9)い。
+詳しくは、HTML [コードからのアドバンス検索を参照してくださ](#reference_9AAD4A46B68D4D48865508982CB86DB9)い。
 
 詳しくは、 [オートコンプリートCSSの設定を参照してください](../c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)。
 
@@ -435,7 +435,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
 
 サンプルのアドバンス検索フォームトピックの先頭に表示されるアドバンス検索フォームの生成に使用されるHTMLフォームコード。
 
-詳しくは、 [アドバンス検索フォームの例を参照してくださ](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A)い。
+詳しくは、 [アドバンス検索フォームの例を参照してくださ](#reference_82E1051918744EBA88A01E9E6AE42C4A)い。
 
 このコードを使用する場合は、の値を実際のアカウ `sp_a` ント番号に置 `sp99999999` き換えてください。
 
