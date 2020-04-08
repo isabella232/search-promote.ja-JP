@@ -7,18 +7,16 @@ title: フォームの検索
 topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: 55f48748f8c0a2f739dfbe30e8d42b73c8106b81
 
 ---
 
 
 # フォームの検索{#search-forms}
 
-## フォームの検索 {#concept_915FFF20FF644830B7B3C6E00F416BCB}
-
 ## 検索フォームでのコレクションの使用 {#reference_5A079AEEEFB84457892EF0870D0605C3}
 
-コレクションを使用すると、顧客はWebサイトの特定の領域を検索できます。 コンボボックスを実装するか、チェックボックスのリストを実装するかに応じて、顧客が1つのコレクションまたは複数のコレクションを検索できるようにできます。
+コレクションを使用すると、顧客はWebサイトの特定の領域を検索できます。 コンボボックスを実装するか、チェックボックスのリストを実装するかに応じて、顧客が1つのコレクションまたは複数のコレクションを検索できるようにします。
 
 コレクションにつ [いても参照](../c-about-settings-menu/c-about-searching-menu.md#concept_62E42ACE53D54EEE9273433B86259127)。
 
@@ -88,7 +86,7 @@ source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
 
 ## Search results {#section_BBDD5B44E2B349BC88D937F44583D350}
 
-検索テンプレートタ `<search-input-collections>` グは、検索結果にコレクションのリストボックスHTMLを生成し、検索で指定されたコレクションを自動的に選択します。 代わりにチェックボックスを生成する場合は、次のようにタ `<search-input>` グの代わりにタグを `<input>` 使用してください。
+検索リストタグは、検索 `<search-input-collections>` 結果にコレクションテンプレートボックスHTMLを生成し、検索で指定されたコレクションを自動的に選択します。 代わりにチェックボックスを生成する場合は、次のようにタ `<search-input>` グの代わりにタグを `<input>` 使用してください。
 
 ```
 <search-input type="checkbox" name="sp_k" value="">All of Adobe<br> 
@@ -108,14 +106,14 @@ HTMLフレームとHTMLフレームセット要素について詳しくは、次
 
 [https://www.w3schools.com/html/html_frames.asp](https://www.w3schools.com/html/html_frames.asp)
 
-サイトでフレームを使用している場合は、検索結果のリンクのターゲットフレームを指定できます。 デフォルトのターゲットは_selfで、現在のフレームまたはブラウザーウィンドウにリンクを開きます。 代わりに、サイト固有のターゲットまたはブラウザー予約のターゲットを指定できます。
+サイトでフレームを使用している場合は、検索結果のリンクのターゲットフレームを指定できます。 デフォルトのターゲットは_selfで、現在のフレームまたはブラウザーウィンドウにリンクを開きます。 代わりに、サイト固有またはブラウザー予約のターゲットを指定できます。
 
 * _top (browser-reserved)結果は、現在のブラウザウィンドウで開き、現在のフレームをすべて置き換えます。
 * _blank (browser-reserved)結果は、新しいブラウザウィンドウで開きます。
 * _parent (browser-reserved)結果は、現在のフレームの親フレームで開きます。
 * frame2（サイト固有）の結果は、「frame2」という名前のフレームで開きます。 任意のフレームの名前を値（メインやコンテンツなど）として指定できます。
 
-サイトでフレームが使用されていない場合は、デフォルトのターゲット名を変更しないでください。
+サイトでフレームが使用されていない場合は、デフォルトのターゲット名を変更しません。
 
 Webサイト用の検索結果のカスタムテンプレートを作成する場合は、タグの属性を使用して、指定した設定を上書 `target` きすることがで `<search-link>` きます。
 
@@ -132,23 +130,23 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col02"> <p>Webページの目的のフレームにフォームを追加します。 </p> </td> 
-   <td colname="col2"> <p> <a href="../c-appendices/c-searchforms.md#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> 検索フォームコードを </a> </p> </td> 
+   <td colname="col02"> <p>Web追加ページ内の目的のフレームにフォームを配置します。 </p> </td> 
+   <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> 検索フォームコードを </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col02"> <p>検索結果ページのターゲットフレームを設定 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> 検索結果ページのターゲットフレームの設定 </a> </p> </td> 
+   <td colname="col02"> <p>検索結果ページのターゲットフレームを設定します。 </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> 検索結果ページのターゲットフレームの設定 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
-   <td colname="col02"> <p>検索結果ページから作成されたリンクのターゲットを設定します。 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> 検索結果から作成されたリンクのターゲットを設定しています… </a> </p> </td> 
+   <td colname="col02"> <p>検索結果ターゲットページから作成したリンクのリンクを設定します。 </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> 検索結果から作成されたリンクのターゲットを設定しています… </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
    <td colname="col02"> <p>ナビゲーションフレームのページを編集し、インデックスが作成されないようにします。 </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> ナビゲーションフレームページを編集して禁止する… </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> ナビゲーションフレームページを編集して禁止する… </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
@@ -182,7 +180,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
 
 ## 検索結果ページのターゲットフレームの設定 {#section_532CACB90888467093D95EACB64FDFA1}
 
-上記のように、検索フォームコードを縦置きのナビゲーションフレームに配置した場合、検索結果を大きいメインフレームに表示できます。 この例では、メインフレームを「body」と呼び出し、ターゲットフレームとして設定します。
+上記のように、検索フォームコードを縦置きのナビゲーションフレームに配置した場合、検索結果を大きいメインフレームに表示できます。 この例では、メインフレームを「body」と呼び出し、それをターゲットフレームとして設定します。
 
 ![](assets/frames2.gif)
 
@@ -194,32 +192,32 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
 
    `<form target="body" method="get" action="https://search.atomz.com/search/">`
 
-   フォームのターゲット値は必ず引用符で囲んでください。
+   フォームのターゲット値は必ず引用符で囲みます。
 
 顧客がWebサイトの検索を行うと、検索結果がWebページの「本文」フレームに表示されます。
 
-## 検索結果ページから作成されたリンクのターゲットの設定 {#section_523248C5AC424D878321C21A23A5CD66}
+## 検索結果ターゲットページから作成されたリンクのページの設定 {#section_523248C5AC424D878321C21A23A5CD66}
 
 テンプレートを直接編集して、コピー先のフレームを設定できます。
 
-検索結果が「body」フレームに表示される場合は、「body」フレームでもリンクを開く必要があると考えられます。 これは同じフレームで、デフォルト設定 `"_self"` のターゲット値なので、変更を行う必要はありません。
+検索結果が「body」フレームに表示される場合は、「body」フレームでもリンクを開く必要があると考えられます。 これは同じフレームで、ターゲット値がデ `"_self"` フォルトの設定なので、変更を加える必要はありません。
 
 また、結果リンクのリンク先フレームを設定することもできます。 次に、実行できる操作の例を示します。
 
 * 検索結果とリンクに対して異なるフレームを指定し、クリックした結果が別々のフレームで開かれる間、検索結果がそれぞれのフレームでアクティブなままになるようにします。
 * 検索結果を新しい空白のウィンドウで開くように指定します。古いウィンドウは元の内容のままで、検索結果も保持されます。
 
-ターゲット名は、HTMLで指定されたフレームの名前か、次のHTMLのデフォルトのいずれかになります。
+ターゲット名は、HTMLで指定されたフレームの名前か、次のHTMLのデフォルトのいずれかです。
 
 * `target="_blank"` リンクを新しい、空白の、名前のないウィンドウで開きます。
 
-* `target="_self"` デフォルト. 検索結果が存在するのと同じウィンドウでリンクを開きます。 この場合、元の検索結果ウィンドウ。 グローバルに割り当てられたベースターゲットを上書きするには、このオプションを使用します。
+* `target="_self"` デフォルト. 検索結果が存在するのと同じウィンドウでリンクを開きます。 この場合、元の検索結果ウィンドウ。 グローバルに割り当てられたベースターゲットを上書きする
 
 * `target="_parent"` リンクページの親フレームセット内のリンクを開きます。 ドキュメントに親がない場合は、デフォルトと同様に機能 `"_self"` します。
 
-* `target="_top"` 全ウィンドウでリンクを開きます。 ドキュメントが既に先頭にある場合は、デフォルトと同様に機能 `"_self"` します。 このオプションを使用すると、任意の深さのフレームのネストを解除できます。
+* `target="_top"` 全ウィンドウでリンクを開きます。 ドキュメントが既に最上位にある場合は、デフォルトと同様に機能 `"_self"` します。 このオプションを使用すると、任意の深さのフレームのネストを解除できます。
 
-例えば、ターゲットフレーム `_blank` を設定するには、次の方法でテンプレートを編集します。
+例えば、テンプレートの表示先 `_blank` ターゲットフレームを設定するには、次の方法でテンプレートを編集します。
 
 1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
 
@@ -228,7 +226,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
 
    `<search-link><search-title length=100></search-link>`
 
-1. タグにフレームターゲットを追加 `<search-link>` します。 上の例で、と入力します `target="_blank"`。 ターゲット値の前後には、必ずアンダースコアと引用符を含めてください。
+1. フ追加レームターゲットをタグに追加 `<search-link>` します。 上の例で、と入力します `target="_blank"`。 必ず、アンダースコアと引用符を含めてターゲット値を囲みます。
 
    タグは `<search-link>` 次のように表示されます。
 
@@ -241,7 +239,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
 通常、検索結果のインデックスが作成されるナビゲーションフレームを除外します。 この機能を実現するには、これらのページに `noindex` metaタグを追加します。
 
 1. ナビゲーションフレームのHTMLページソースを開きます。
-1. HTMLのセクション内に次のmetaタグ `<head>` を追加します。
+1. HTML追加のセクション内に次の `<head>` metaタグがあります。
 
    `<meta name="robots" content="noindex">`
 
@@ -263,8 +261,8 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
 
    次の点が当てはまります。
 
-   * 指定したターゲットフレームに検索結果ページが表示されます。
-   * 検索結果からのリンクは、指定したターゲットフレームに含まれます。
+   * 検索結果ページが指定したターゲット枠に表示されます。
+   * 検索結果からのリンクは、指定したターゲット枠に表示されます。
    * ナビゲーションフレームの結果は表示されません。
    検索フォームのテスト後にフレームに関する問題が発生した場合は、カスタマーサポートにお問い合わせください。
 
@@ -272,7 +270,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
 
 デザインやコンテンツのニーズに合わせて高度なフォームコードを編集したり、検索パラメータを追加または削除したりできます。
 
-多くのお客様が検索機能を求めているので、ホームページはアドバンス検索フォームを挿入するのに適した場所です。 また、検索フォームやその他の役立つ情報を含むHTMLページを作成し、Webサイト全体を通じてそのページにリンクすることもできます。
+多くのお客様がホームページで検索機能を見つけたいと考えているので、アドバンス検索フォームを挿入するのに適した場所です。 また、検索フォームやその他の役立つ情報を含むHTMLページを作成し、Webサイト全体を通じてそのページにリンクすることもできます。
 
 安全なコンテンツのインデックスを作成する場合は、安全な検索ウェブサーバから検索結果を提供できます。 検索フォームのアクション属性のURLを次に変更します。action=&quot;https://search.atomz.com/search/&quot;を使用してこれを行います。
 
@@ -286,7 +284,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
 
 ![](assets/advancedsearchform.png)
 
-上記のサンプルのアドバンス検索フォームのHTMLコード全体を表示できます。
+上記の例の表示フォームのHTMLコード全体を検索できます。
 
 詳しくは、HTML [コードからのアドバンス検索を参照してくださ](../c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9)い。
 
@@ -308,7 +306,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
    <td colname="col2"> <p>アドバンス検索フォームのオプションを有効にする（非表示フィールド） </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> sp_advanced </span> </p> </td> 
    <td colname="col3"> <p> <span class="syntax html codeph"> &lt;input type=hidden name="sp_advanced" value=1&gt; </span> </p> </td> 
-   <td colname="col4"> <p>アドバンス検索オプションの有効化/無効化 例えば、高度なフォームを含む2ページ目へのリンクを含む標準検索フォームをホームページに配置できます。 この場合、標準フォームのコピーを <span class="codeph"> &lt;search-if-not-advanced&gt;内に置きます。&lt;/search-if-not-advanced&gt;テンプレートタ </span> グ。 </p> <p>標準フォームから検索を実行する顧客は、検索結果が表示されるときに標準検索フォームを表示します。 アドバンス検索フォーム画面で、 <span class="codeph"> &lt;input type=hidden name="sp_advanced" value=1&gt;タグを他のアドバンスフォーム </span> オプションと共に含めます。 </p> <p>また、&lt;search-if-advanced&gt;内にアドバンス検索フォームのコピーを含めます。&lt;/search-if-advanced&gt;テンプレートタグ。 アドバンス検索フォームから検索を実行する顧客は、検索結果が表示される際にアドバンス検索フォームを表示します。 </p> </td> 
+   <td colname="col4"> <p>アドバンス検索オプションの有効化/無効化 例えば、標準の検索フォームをホームページに配置し、高度なフォームを含む2ページ目へのリンクを設定できます。 この場合、標準フォームのコピーを <span class="codeph"> &lt;search-if-not-advanced&gt;内に置きます。&lt;/search-if-not-advanced&gt;テンプレートタ </span> グ。 </p> <p>標準フォームから検索を実行する顧客は、検索結果が表示されるときに標準検索フォームを表示します。 アドバンス検索フォーム画面で、 <span class="codeph"> &lt;input type=hidden name="sp_advanced" value=1&gt;タグを他のアドバンスフォーム </span> オプションと共に含めます。 </p> <p>また、&lt;search-if-advanced&gt;内にアドバンス検索フォームのコピーを含めます。&lt;/search-if-advanced&gt;テンプレートタグ。 アドバンス検索フォームから検索を実行する顧客は、検索結果が表示される際にアドバンス検索フォームを表示します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> 任意、すべてまたはフレーズに一致 </p> </td> 
@@ -325,7 +323,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;enables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
       &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value=1&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="alike"&gt;&nbsp;Sound-alike&nbsp;matching </code> </p> </td> 
-   <td colname="col4"> <p>サウンドに似た一致を有効または無効にできます。 「類似した」一致を使用すると、スペルミスのある検索クエリで、ドキュメント内の「類似した」単語を一致させることができます。 </p> <p>sp_w_controlパラメー <span class="codeph"> タを1に設定し、 </span><span class="codeph"></span> sp_wパラメータを「類似」に設定すると、生成されたチェックボックスが選択され、デフォルトで類似音の一致が有効になります。 </p> <p>sp_wパラメ <span class="codeph"> ータが"" </span> に設定されている場合、チェックボックスは選択されません。 </p> <p>最新のインデックス作成操作中に、類似音の一致を有効にしなかった場合、類似音の一致は使用できず、 <span class="codeph"> sp_wパラメータは無視 </span> されます。 サウンドに類似した一致を有効にするには、製品メニューで、言語/ <span class="uicontrol"> 単語と言 </span> 語/ <span class="uicontrol"> サウンドに </span> 類似した <span class="uicontrol"> 一致をクリックしま </span>す。 </p> <p>また、次の方法で、 <span class="codeph"> sp_wとsp_w_control </span> の各パラメ <span class="codeph"> ータを割り当 </span> てることもできます。 </p> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;disables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
+   <td colname="col4"> <p>サウンドに似た一致を有効または無効にできます。 「類似した」一致を使用すると、スペルミスのある検索クエリを、ドキュメント内の「類似した」単語と一致させることができます。 </p> <p>sp_w_controlパラメー <span class="codeph"> タを1に設定し、 </span><span class="codeph"></span> sp_wパラメータを「類似」に設定すると、生成されたチェックボックスが選択され、デフォルトで類似音の一致が有効になります。 </p> <p>sp_wパラメ <span class="codeph"> ータが"" </span> に設定されている場合、チェックボックスは選択されません。 </p> <p>最新のインデックス作成操作中に、類似音の一致を有効にしなかった場合、類似音の一致は使用できず、 <span class="codeph"> sp_wパラメータは無視 </span> されます。 サウンドに類似した一致を有効にするには、製品メニューで、言語/ <span class="uicontrol"> 単語と言 </span> 語/ <span class="uicontrol"> サウンドに </span> 類似した <span class="uicontrol"> 一致をクリックしま </span>す。 </p> <p>また、次の方法で、 <span class="codeph"> sp_wとsp_w_control </span> の各パラメ <span class="codeph"> ータを割り当 </span> てることもできます。 </p> <p> <code class="syntax html"> &lt;!--&nbsp;Checkbox&nbsp;disables&nbsp;sound-alike&nbsp;matching&nbsp;--&gt; 
       &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value=0&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="exact"&gt; 
       No&nbsp;sound-alike&nbsp;matching </code> </p> <p>この場合、 <span class="codeph"> sp_w_controlパラメータが0に設定され、 </span> sp_wパラメータが「完全一致」に設定され <span class="codeph"></span> ると、音と似た一致はデフォルトで無効になります。 sp_wパラメ <span class="codeph"> ータが"" </span> に設定されている場合は、音と同じ一致が有効になります。 </p> </td> 
@@ -336,7 +334,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
    <td colname="col3"> <p> <code class="syntax html"> &lt;!--Specifies&nbsp;type&nbsp;of&nbsp;date&nbsp;range&nbsp;searching&nbsp;to&nbsp;perform.--&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_d"&nbsp;value="custom"&nbsp;checked&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_d"&nbsp;value="specific"&gt; </code> </p> </td> 
-   <td colname="col4"> <p>sp_dパ <span class="codeph"> ラメー </span> タは、実行するカスタムデータ範囲の一致、または実行する特定の日付範囲の一致を指定します。 </p> <p>デフォルトのアドバンス検索フォームでは、このオプションは、 <span class="codeph"> sp_date_rangeパラメータで生成された「カスタム」日付範囲のドロップダウンリストを含むラジオボタングループとして表示され </span> ます。 また、sp_start_day、sp_start_ <span class="codeph"> month、sp_start_year </span>_sp_end_ <span class="codeph"> days、sp_start_ </span>st_end_ <span class="codeph"> day、sp_sp_end_end_end、sp_ </span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span> end_end_end_end_end_earパラメータで生成される「特定の」開始日と終了日のグループも含みます。 </p> <p>「カスタム」日付範囲は、検索する日付の名前付き範囲です。 例えば、「Anytime」、「Today」、「Within the last year」など。 </p> <p>「特定の」日付範囲は、開始日と終了日で構成されます。 例えば、「2009年9月8日～ 2011年10月18日」のように指定します。 </p> </td> 
+   <td colname="col4"> <p>sp_dパ <span class="codeph"> ラメー </span> タは、実行するカスタムデータ範囲の一致、または実行する特定の日付範囲の一致を指定します。 </p> <p>デフォルトのアドバンス検索フォームでは、このオプションは、 <span class="codeph"> sp_date_rangeパラメータで生成された「カスタム」日付範囲のドロップダウンリストを持つラジオボタングループとして表示され </span> ます。 また、sp_ <span class="codeph"> 開始_dayで生成された「特定の」開始と終了日のグループ、sp_開始_ </span>month、sp_開始_month、 <span class="codeph"> sp_sp__year、sp_end_ </span>day、sp_end_sp_end、および、sp_end_end、sp_end_ <span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span> end、sp_endを含みます。 </p> <p>「カスタム」日付範囲は、検索する日付の名前付き範囲です。 例えば、「Anytime」、「Today」、「Within the last year」など。 </p> <p>「特定の」日付範囲は、開始日と終了日で構成されます。 例えば、「2009年9月8日～ 2011年10月18日」のように指定します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>日付範囲の一致：カスタム日付範囲 </p> </td> 
@@ -366,15 +364,15 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
   </tr> 
   <tr> 
    <td colname="col2"> <p>日付範囲の一致：開始日 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> sp_start_day、sp_start_month、sp_start_year </span> </p> <p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sp_開始_日、sp_開始_月、sp_開始_年 </span> </p> <p> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>3つの数値で構成されるこの3つの数値は、検索する特定の日付範囲の開始日を指定します。 部分的に指定された日付は無視されるので、3つの値をすべて指定してください。 </p> <p>開始日のみ、終了日のみ、または開始日と終了日の両方を指定することができます。 開始日のみを指定した場合は、開始日以降の日付に一致するドキュメントが検索対象に含まれます。 終了日のみを指定した場合、終了日以前に一致するドキュメントが検索に含まれます。 開始日と終了日の両方を指定した場合、開始日から終了日までの一致するドキュメントが検索対象に含まれます。 </p> <p>すべての日付は、グリニッジ標準時を基準に検索されます。 </p> </td> 
+   <td colname="col4"> <p>この3進数値は、検索する特定の開始範囲の日付を指定します。 部分的に指定された日付は無視されるので、3つの値をすべて指定してください。 </p> <p>開始日のみ、終了日のみ、または開始日と終了日の両方を指定できます。 開始日のみを指定した場合、検索には開始日以降の日付に一致するドキュメントが含まれます。 終了日のみを指定した場合、終了日以前の一致するドキュメントが検索に含まれます。 開始日と終了日の両方を指定した場合、検索には開始日から終了日までの一致するドキュメントが含まれます。 </p> <p>すべての日付は、グリニッジ標準時を基準に検索されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> 日付範囲の一致：終了日 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> sp_end_day、sp_end_month、sp_end_year </span> </p> <p> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>3つの数値で構成されるこの3つの数値は、検索する特定の日付範囲の終了日を指定します。 部分的に指定された日付は無視されるので、3つの値をすべて指定してください。 </p> <p>開始日のみ、終了日のみ、または開始日と終了日の両方を指定することができます。 開始日のみを指定した場合は、開始日以降の日付に一致するドキュメントが検索対象に含まれます。 終了日のみを指定した場合、終了日以前に一致するドキュメントが検索に含まれます。 開始日と終了日の両方を指定した場合、開始日から終了日までの一致するドキュメントが検索対象に含まれます。 </p> <p>すべての日付は、グリニッジ標準時を基準に検索されます。 </p> </td> 
+   <td colname="col4"> <p>3つの数値で構成されるこの3つの数値は、検索する特定の日付範囲の終了日を指定します。 部分的に指定された日付は無視されるので、3つの値をすべて指定してください。 </p> <p>開始日のみ、終了日のみ、または開始と終了日の両方を指定できます。 開始日のみを指定した場合、検索には開始日以降の日付に一致するドキュメントが含まれます。 終了日のみを指定した場合、終了日以前の一致するドキュメントが検索に含まれます。 開始と終了日の両方を指定した場合、検索には開始日から終了日までの一致するドキュメントが含まれます。 </p> <p>すべての日付は、グリニッジ標準時を基準に検索されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>検索フィールド内 </p> </td> 
@@ -391,7 +389,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
       &lt;option&nbsp;value="target"&gt;Target&lt;/option&gt; 
       &lt;option&nbsp;value="date"&gt;Date&lt;/option&gt;* 
       &lt;/select&gt; </code> </p> </td> 
-   <td colname="col4"> <p>[ <span class="codeph"> sp_x ]リ </span> ストボックスを使用して、クエリ文字列を検索するフィールドを指定できます。 </p> <p>顧客は、すべてのフィールド、タイトル、ドキュメントの説明、ドキュメントのキーワード、本文、代替テキスト、ドキュメントのURL、日付またはターゲットのキーワードのいずれかを選択できます。 </p> <p>sp_xパラメータを使用する場合、検索クエリ文字列で「title:」、「desc:」、「keys:」、「body:」、「alt:」、「url:」および「target:」を指定する必要はありません。 <span class="codeph"></span> </p> <p>sp_xパラメ <span class="codeph"> ータ </span> ーが省略された場合、または""または"any"に設定された場合、フィールド指定子文字列を引き続き使用できます。 sp_xパラメ <span class="codeph"> ーターが特 </span> 定のフィールドに設定されている場合、他のフィールド指定子文字列はすべて無視されます。 </p> <p><a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local">検索について</a>を参照してください。 </p> </td> 
+   <td colname="col4"> <p>[ <span class="codeph"> sp_x </span> リスト]ボックスを使用すると、顧客は文字列を検索するフィールドを指定できます。 </p> <p>すべてのフィールド、タイトル、ドキュメントの説明、ドキュメントのキーワード、本文、代替テキスト、ドキュメントのURL、日付、ターゲットのキーワードのいずれかを選択できます。 </p> <p>sp_xパラメータを使用する場合、検索クエリ文字列で「title:」、「desc:」、「keys:」、「body:」、「alt:」、「url:」および「ターゲット:」を指定する必要はありません。 <span class="codeph"></span> </p> <p>sp_xパラメ <span class="codeph"> ータ </span> ーが省略された場合、または""または"any"に設定された場合、フィールド指定子文字列を引き続き使用できます。 sp_xパラメ <span class="codeph"> ーターが特 </span> 定のフィールドに設定されている場合、他のフィールド指定子文字列はすべて無視されます。 </p> <p><a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local">検索について</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>結果数を表示 </p> </td> 
@@ -426,7 +424,7 @@ Webサイト用の検索結果のカスタムテンプレートを作成する�
       &lt;option&nbsp;value=0&nbsp;selected&gt;relevance&lt;/option&gt; 
       &lt;option&nbsp;value=1&gt;date&lt;/option&gt; 
       &lt;/select&gt; </code> </p> </td> 
-   <td colname="col4"> <p>結果を関連性のある順に表示するか、日付順に表示するかを顧客が選択できます。 </p> <p>この値を1に設定すると、最も最近変更されたドキュメントから最も新しく変更されたドキュメントまでの結果が表示されます。 値を0に設定すると、最も関連性の高い結果から最も関連性の低い結果が表示されます。 次の例のように、このパラメーターをラジオボタンと共に使用することもできます。 </p> <p> <code class="syntax html"> &lt;!--&nbsp;Sort&nbsp;results&nbsp;by&nbsp;relevance&nbsp;or&nbsp;by&nbsp;date&nbsp;--&gt; 
+   <td colname="col4"> <p>結果を関連性のある順に表示するか、日付順に表示するかを顧客が選択できます。 </p> <p>この値を1に設定すると、最も最近変更されたドキュメントから最も最近変更されたアイテムへの結果が表示されます。 値を0に設定すると、最も関連性の高い結果から最も関連性の低い結果が表示されます。 次の例のように、このパラメーターをラジオボタンと共に使用することもできます。 </p> <p> <code class="syntax html"> &lt;!--&nbsp;Sort&nbsp;results&nbsp;by&nbsp;relevance&nbsp;or&nbsp;by&nbsp;date&nbsp;--&gt; 
       &lt;input&nbsp;type=radio&nbsp;name="sp_s"&nbsp;value=0&nbsp;selected&gt;Sort&nbsp;by&nbsp;relevance 
       &lt;input&nbsp;type=radio&nbsp;name="sp_s"&nbsp;value=1&gt;Sort&nbsp;by&nbsp;date </code> </p> </td> 
   </tr> 
