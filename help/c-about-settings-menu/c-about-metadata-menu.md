@@ -8,9 +8,9 @@ title: メタデータメニューについて
 topic: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 translation-type: tm+mt
-source-git-commit: e080a61e24a3809beff7c212ff3d088b2a8ad3b6
+source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
 workflow-type: tm+mt
-source-wordcount: '8064'
+source-wordcount: '8039'
 ht-degree: 1%
 
 ---
@@ -68,10 +68,9 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>メタタグ名 </p> </td> 
-      <td colname="col2"> <p>定義済みのフィールドに関連付けられている内容を決定します。 </p> <p>名前のリストは255文字までです。 また、nameには、HTMLメタタグのname属性で許可されている任意の文字を含めることができます。 </p> <p>1つのフィールド定義で複数のmetaタグを指定できます。 </p> <p>複数の値はコンマで区切る必要があり、特定のWebページで見つかった左端のメタタグ名が優先されます。 </p> <p>例えば、「auth」という名前のフィールドを定義したとします。 フィールド名には、「author, dc.author」というメタタグが関連付けられています。 この場合、「author」メタタグのコンテンツのインデックスが作成され、両方のメタタグがWebページに表示される場合は、「dc.author」のコンテンツが検索されます。 </p> <p>ユーザ定義フィールドの定義には、メタタグ名が少なくとも1つ必要です。 事前定義済みのフィールドには、メタタグを関連付ける必要はありません。 ただし、1つ以上のmetaタグを指定した場合は、metaタグの内容が各タグの現在のデータソースよりも優先されます。 </p> <p>例えば、メタタグ「dc.title」が事前定義済みの「title」フィールドに関連付けられている場合、「dc.title」メタタグのコンテンツは、 
-      <userinput>
+      <td colname="col2"> <p>定義済みのフィールドに関連付けられている内容を決定します。 </p> <p>名前のリストは255文字までです。 また、nameには、HTMLメタタグのname属性で許可されている任意の文字を含めることができます。 </p> <p>1つのフィールド定義で複数のmetaタグを指定できます。 </p> <p>複数の値はコンマで区切る必要があり、特定のWebページで見つかった左端のメタタグ名が優先されます。 </p> <p>例えば、「auth」という名前のフィールドを定義したとします。 フィールド名には、「author, dc.author」というメタタグが関連付けられています。 この場合、「author」メタタグのコンテンツのインデックスが作成され、両方のメタタグがWebページに表示される場合は、「dc.author」のコンテンツが検索されます。 </p> <p>ユーザ定義フィールドの定義には、メタタグ名が少なくとも1つ必要です。 事前定義済みのフィールドには、メタタグを関連付ける必要はありません。 ただし、1つ以上のmetaタグを指定した場合は、metaタグの内容が各タグの現在のデータソースよりも優先されます。 </p> <p>例えば、メタタグ「dc.title」が事前定義の「title」フィールドに関連付けられている場合、「dc.title」メタタグのコンテンツは、特定のドキュメントの <code>
         &lt;title&gt; 
-      </userinput> タグを使用します。 </p> <p>次に例を示します。 </p> <p> 
+      </code> タグのコンテンツに対してインデックス化されます。 </p> <p>次に例を示します。 </p> <p> 
       <ul id="ul_0132E15FC19E4C0CA13CD5A12EA3BBEC"> 
       <li id="li_ECD3B194FECB4C2090CAEC8449320D3F"> dc.date </li> 
       <li id="li_09C76BC7AC7348859D01989697212E31"> description </li> 
@@ -97,37 +96,30 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>許可リスト </p> </td> 
-      <td colname="col2"> <p>データタイプ「 <span class="uicontrol"> テキスト」 </span>または「 <span class="uicontrol"> 数値」が選択されている場合にのみ使用 </span> できます。 </p> <p>このフィールドのメタデータコンテンツ内の区切り値を個別にインデックス化します。 </p> <p>例えば、「許可リスト」が選択されている場合、コンテンツ「Red, Yellow, Green, Blue」は、1つではなく4つの個別の値として扱われます。 この処理は、範囲検索( 
-      <userinput>
+      <td colname="col2"> <p>データタイプ「 <span class="uicontrol"> テキスト」 </span>または「 <span class="uicontrol"> 数値」が選択されている場合にのみ使用 </span> できます。 </p> <p>このフィールドのメタデータコンテンツ内の区切り値を個別にインデックス化します。 </p> <p>例えば、「許可リスト」が選択されている場合、コンテンツ「Red, Yellow, Green, Blue」は、1つではなく4つの個別の値として扱われます。 この処理は、範囲検索（、、またはを使用）および <code>
         sp_q_min 
-      </userinput>、 
-      <userinput>
+      </code>、、および <code>
         sp_q_max 
-      </userinput> または  
-      <userinput>
+      </code>を使用する場合に最も役立ち <code>
         sp_q_exact 
-      </userinput>)と 
-      <userinput>
-        &lt;search-field-value-リスト&gt; 
-      </userinput>、 
-      <userinput>
+      </code><code>
+        &lt;search-field-value-list&gt; 
+      </code><code>
         &lt;search-field-values&gt; 
-      </userinput>, および 
-      <userinput>
+      </code><code>
         &lt;search-display-field-values&gt; 
-      </userinput>。 </p> <p>「Version」データ型が選択されている場合は使用できません。 </p> </td> 
+      </code>ます。 </p> <p>「Version」データ型が選択されている場合は使用できません。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> 動的ファセット </p> </td> 
       <td colname="col2"> <p> 
-        <!--NEW 2/2/2014--> <p>注意：この機能は、デフォルトでは有効になっていません。テクニカルサポートに問い合わせて、使用するライセンス認証を行ってください。 アクティブ化すると、ユーザーインターフェイスに表示されます。 </p> </p> <p>識別されたファセットを動的に設定します。 </p> <p>ファセットは、メタタグフィールドの上に構築されます。 メタタグフィールドは、アドビSearch&amp;Promoteの低レベルのコア検索レイヤーです。 一方、ファセットはGS（ガイド付き検索）の一部で、AdobeSearch&amp;Promoteの高レベルのプレゼンテーションレイヤーです。 ファセット自体のメタタグフィールドは、ファセットに関する情報を何も持っていません。 </p> <p>動的ファセット <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> についてを参照してくだ </a>さい。 </p> </td> 
+        <!--NEW 2/2/2014--> <p>注意：この機能は、デフォルトでは有効になっていません。テクニカルサポートに問い合わせて、使用するライセンス認証を行ってください。 アクティブ化すると、ユーザーインターフェイスに表示されます。 </p> </p> <p>識別されたファセットを動的に設定します。 </p> <p>ファセットは、メタタグフィールドの上に構築されます。 メタタグフィールドは、AdobeSearch&amp;Promoteの低レベルの中核的な検索層です。 一方、ファセットはGS（ガイド付き検索）の一部で、AdobeSearch&amp;Promoteの高レベルなプレゼンテーション層です。 ファセット自体のメタタグフィールドは、ファセットに関する情報を何も持っていません。 </p> <p>動的ファセット <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> についてを参照してくだ </a>さい。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>重複除外を許可 </p> </td> 
-      <td colname="col2"> <p>このフィールドの重複排除 - 重複を有効にする場合は、このオプションを選択します。 つまり、このフィールドを検索時に 
-        <userinput>
+      <td colname="col2"> <p>このフィールドの重複排除 - 重複を有効にする場合は、このオプションを選択します。 つまり、検索時に、 <code>
           sp_dedupe_field 
-        </userinput> CGIパラメーターを検索します。 </p> <p>CGIパラメーターの <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> 検索を参照してくだ </a>さい。 </p> </td> 
+        </code> Search CGIパラメーターを使用してこのフィールドを指定できます。 </p> <p>CGIパラメーターの <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> 検索を参照してくだ </a>さい。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>テーブル名 </p> </td> 
@@ -151,10 +143,9 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>並べ替え </p> </td> 
-      <td colname="col2"> <p>指定したフィールドで結果を並べ替えるタイミングを、 
-        <userinput>
+      <td colname="col2"> <p>検索CGIパラメーターを使用して、指定されたフィールドで結果を並べ替えるタイミングを指定し <code>
           sp_s 
-        </userinput> CGIパラメーターを検索します。 </p> <p>CGIパラメーターの <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> 検索を参照してくだ </a>さい。 </p> </td> 
+        </code> ます。 </p> <p>CGIパラメーターの <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> 検索を参照してくだ </a>さい。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>言語 </p> </td> 
@@ -186,20 +177,17 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>既定の単位 </p> </td> 
-      <td colname="col2"> <p>「データタイプ」で「 <span class="uicontrol"> 場所」データタイプが選択さ </span> れている場合にのみ使用できます。 </p> <p>近接検索の距離値の処理を制御します。 </p> <p>デフォルトの単位を <span class="uicontrol"> マイルに設定し </span>た場合、( 
-      <userinput>
+      <td colname="col2"> <p>「データタイプ」で「 <span class="uicontrol"> 場所」データタイプが選択さ </span> れている場合にのみ使用できます。 </p> <p>近接検索の距離値の処理を制御します。 </p> <p>デフォルトの単位を「マイル」に設定した場合、( <span class="uicontrol"> または </span><code>
         sp_q_min[_#] 
-      </userinput>  または  
-      <userinput>
+      </code><code>
         sp_q_max[_#] 
-      </userinput> 検索CGIパラメーター)はマイルとして扱われ、それ以外はキロメートルとして扱われます。 </p> <p>このオプションは、 
-      <userinput>
+      </code> Search CGIパラメーターを介して)このフィールドに適用される近接検索の最小/最大距離条件はマイルとして扱われ、それ以外はキロメートルとして扱われます。 </p> <p>このオプションは、近接検索出力フィールドに適用した場合に検索結果テンプレートタグの出力に適用される <code>
         &lt;Search-Display-Field&gt; 
-      </userinput> 近接検索出力フィールドに適用した場合の検索結果テンプレートタグ。 </p> <p>近接検索 <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> についてを参照してくだ </a>さい。 </p> </td> 
+      </code> 既定の距離の単位も制御します。 </p> <p>近接検索 <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> についてを参照してくだ </a>さい。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>範囲の説明を作成しますか？ </p> </td> 
-      <td colname="col2"> <p>「データタイプ」で「 <span class="uicontrol"> 数値」が選択さ </span> れている場合にのみ使用できます。 </p> <p>フィールド範囲の説明の自動作成を制御します。これは、 <span class="uicontrol"> デザイン/ </span> ナビゲーション/ <span class="uicontrol"> ファセットで使用 </span><span class="uicontrol"></span>します。 </p> <p>ファセット <a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" format="dita" scope="local"> についてを参照してくだ </a>さい。 </p> <p> <p>注意：  このフィールドで「 <span class="uicontrol"></span> 垂直更新フィールド」がオンになっている場合、生成されるフィールド範囲の説明フィールドは、「垂直更新」の実行中に更新されます。 ただし、「 <span class="uicontrol"> 範囲フィールド」で指定したフィールドでは、「 </span> 垂直方向の更新フィールド」も <span class="uicontrol"></span> オンにすることをお勧めします。 </p> </p> </td> 
+      <td colname="col2"> <p>「データタイプ」で「 <span class="uicontrol"> 数値」が選択さ </span> れている場合にのみ使用できます。 </p> <p>フィールド範囲の説明の自動作成を制御します。この設定は、 <span class="uicontrol"> デザイン/ </span> ナビゲーション/ <span class="uicontrol"> ファセットで使用 </span><span class="uicontrol"></span>します。 </p> <p>ファセット <a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" format="dita" scope="local"> についてを参照してくだ </a>さい。 </p> <p> <p>注意： このフィールドで「 <span class="uicontrol"></span> 垂直更新フィールド」がオンになっている場合、生成されるフィールド範囲の説明フィールドは、「垂直更新」の実行中に更新されます。 ただし、「 <span class="uicontrol"> 範囲フィールド」で指定したフィールドでは、「 </span> 垂直方向の更新フィールド」も <span class="uicontrol"></span> オンにすることをお勧めします。 </p> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>範囲フィールド </p> </td> 
@@ -224,19 +212,19 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>"より小さい"形式 </p> </td> 
-      <td colname="col2"> <p>「範囲の説明を <span class="uicontrol"> 作成」がオン </span> で、「 <span class="uicontrol"> 範囲フィールド」 </span> 項目が選択されている場合にのみ使用できます。 </p> <p>これは、[範囲の値]の最小値より小さい値の範囲の説明を指定するために使用するテンプレ <span class="uicontrol"> ート </span>です。 最小値は、数値プレースホルダトークン <span class="uicontrol"> ～N～を使用して表 </span>します。 次に例を示します。 </p> <code> Less&amp;nbsp;than&amp;nbsp;~N~ </code> <p>または </p> <code> ~N~&amp;nbsp;and&amp;nbsp;below </code> <p>通常、値は「そのまま」の形式で設定されます。つまり、 <span class="uicontrol"> 範囲値の </span> 定義が「5 10 20」で、指定の値が「1」の場合、生成される範囲の説明は「5未満」のような単純な値になります。 「4.99以下」にする場合は、「 <span class="uicontrol"> 精度」 </span> を <span class="uicontrol"> 2に設定 </span> し、次の形式を使用します。 </p> <code> ~n~&amp;nbsp;and&amp;nbsp;below </code> <p>「次より小さい」 <span class="uicontrol"> 形式では、小文字の </span>～n～を使用すると、 <span class="uicontrol"> 精度の設定に従って値が切り捨てら </span> れ <i></i><span class="uicontrol"></span> ます。 </p> <p>注意： 範囲の説明に任意の数値プレースホルダーを含めるには、バックスラッシュ(\)プレフィックスを付けて指定します。例えば、 <span class="uicontrol"> \～N～ </span> または <span class="uicontrol"> \～n～ </span>。 バックスラッシュ文字を含めるには、別のバックスラッシュを使用して指定します(例： <span class="uicontrol"> \\ </span>. </p> </td> 
+      <td colname="col2"> <p>「範囲の説明を <span class="uicontrol"> 作成」がオン </span> で、「 <span class="uicontrol"> 範囲フィールド」 </span> 項目が選択されている場合にのみ使用できます。 </p> <p>これは、[範囲の値]の最小値より小さい値の範囲の説明を指定するために使用するテンプレ <span class="uicontrol"> ート </span>です。 最小値は、数値プレースホルダトークン <span class="uicontrol"> ～N～を使用して表 </span>します。 次に例を示します。 </p> <code> Less&amp;nbsp;than&amp;nbsp;~N~ </code> <p>または </p> <code> ~N~&amp;nbsp;and&amp;nbsp;below </code> <p>通常、値は「そのまま」の形式で設定されます。つまり、 <span class="uicontrol"> 範囲値の </span> 定義が「5 10 20」で、指定の値が「1」の場合、生成される範囲の説明は「5未満」のような単純な値になります。 「4.99以下」にする場合は、「 <span class="uicontrol"> 精度」 </span> を <span class="uicontrol"> 2に設定 </span> し、次の形式を使用します。 </p> <code> ~n~&amp;nbsp;and&amp;nbsp;below </code> <p>「次より小さい」 <span class="uicontrol"> 形式では、小文字の </span>～n～を使用すると、 <span class="uicontrol"> 精度の設定に従って値が切り捨てら </span> れ <i></i><span class="uicontrol"></span> ます。 </p> <p>注意：範囲の説明に任意の数値プレースホルダーを含めるには、バックスラッシュ(\)プレフィックスを付けて指定します。例えば、 <span class="uicontrol"> \～N～ </span> または <span class="uicontrol"> \～n～ </span>。 バックスラッシュ文字を含めるには、別のバックスラッシュを使用して指定します(例： <span class="uicontrol"> \\ </span>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>中間形式 </p> </td> 
-      <td colname="col2"> <p>「範囲の説明を <span class="uicontrol"> 作成」がオン </span> で、「 <span class="uicontrol"> 範囲フィールド」 </span> 項目が選択されている場合にのみ使用できます。 </p> <p>これは、[範囲の値]にある最小値と最大値の間にある値の範囲の説明を指定するために使用するテンプレ <span class="uicontrol"> ート </span>です。 指定された範囲では、範囲の小さい値は数値プレースホルダトークン <span class="uicontrol"> ～L～を使用して表され </span>、大きい値はトークン <span class="uicontrol"> ～H～を使用して表され </span>ます。 次に例を示します。 </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>または </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>または </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>通常、値は「そのまま」の形式で設定されます。つまり、 <span class="uicontrol"> 範囲値の </span> 定義が「5 10 20」で、指定の値が「8」の場合、生成される範囲の説明は「5 ～ 10」のような単純な値になります。 値を「5 ～ 9.99」にし、値を <i>下に調整する場合は</i>、 <span class="uicontrol"> 精度 </span> を2に設定し <span class="uicontrol"></span> 、次の形式を使用します。 </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>同様に、 <span class="uicontrol"> ～L～を～l～に置き換えて、値を小さくして上に調整するこ </span> ともできます <span class="uicontrol"> 。また、 </span> 精度設定に従って、～l～を <i></i><span class="uicontrol"></span> 上に調整することもできます。 これは、次のような定義を意味します。 </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>の <span class="uicontrol"> 精度 </span> 値を2に設定すると、「5.01 ～ 10」が <span class="uicontrol"></span> 作成されます。 </p> <p>小文字l～は <span class="uicontrol"> 精度設定に従って小文字を切り上げ </span> 、小文字を小文字を小文字にして小文字を <i>小文字にし、小文字を小文字にして小文字を小文字にして大文字を小文字にして小文字を小文字にし</i><span class="uicontrol"></span><span class="uicontrol"></span><i></i>ます。 </p> <p>注意： 範囲の説明に任意の数値プレースホルダーを含めるには、バックスラッシュ(\)プレフィックスを付けて指定します。例えば、 <span class="uicontrol"> \～L～ </span> または <span class="uicontrol"> \～h～ </span>。 バックスラッシュ文字を含めるには、別のバックスラッシュを使用して指定します(例： <span class="uicontrol"> \\ </span>. </p> </td> 
+      <td colname="col2"> <p>「範囲の説明を <span class="uicontrol"> 作成」がオン </span> で、「 <span class="uicontrol"> 範囲フィールド」 </span> 項目が選択されている場合にのみ使用できます。 </p> <p>これは、[範囲の値]にある最小値と最大値の間にある値の範囲の説明を指定するために使用するテンプレ <span class="uicontrol"> ート </span>です。 指定された範囲では、範囲の小さい値は数値プレースホルダトークン <span class="uicontrol"> ～L～を使用して表され </span>、大きい値はトークン <span class="uicontrol"> ～H～を使用して表され </span>ます。 次に例を示します。 </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>または </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>または </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>通常、値は「そのまま」の形式で設定されます。つまり、 <span class="uicontrol"> 範囲値の </span> 定義が「5 10 20」で、指定の値が「8」の場合、生成される範囲の説明は「5 ～ 10」のような単純な値になります。 値を「5 ～ 9.99」にし、値を <i>下に調整する場合は</i>、 <span class="uicontrol"> 精度 </span> を2に設定し <span class="uicontrol"></span> 、次の形式を使用します。 </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>同様に、 <span class="uicontrol"> ～L～を～l～に置き換えて、値を小さくして上に調整するこ </span> ともできます <span class="uicontrol"> 。また、 </span> 精度設定に従って、～l～を <i></i><span class="uicontrol"></span> 上に調整することもできます。 これは、次のような定義を意味します。 </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>の <span class="uicontrol"> 精度 </span> 値を2に設定すると、「5.01 ～ 10」が <span class="uicontrol"></span> 作成されます。 </p> <p>小文字l～は <span class="uicontrol"> 精度設定に従って小文字を切り上げ </span> 、小文字を小文字を小文字にして小文字を <i>小文字にし、小文字を小文字にして小文字を小文字にして大文字を小文字にして小文字を小文字にし</i><span class="uicontrol"></span><span class="uicontrol"></span><i></i>ます。 </p> <p>注意：範囲の説明に任意の数値プレースホルダーを含めるには、バックスラッシュ(\)プレフィックスを付けて指定します。例えば、 <span class="uicontrol"> \～L～ </span> または <span class="uicontrol"> \～h～ </span>。 バックスラッシュ文字を含めるには、別のバックスラッシュを使用して指定します(例： <span class="uicontrol"> \\ </span>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>「次よりも大きい」形式 </p> </td> 
-      <td colname="col2"> <p>「範囲の説明を <span class="uicontrol"> 作成」がオン </span> で、「 <span class="uicontrol"> 範囲フィールド」 </span> 項目が選択されている場合にのみ使用できます。 </p> <p>これは、[範囲値]の最大値より大きい値の範囲の説明を指定するために使用するテンプレ <span class="uicontrol"> ート </span>です。 最大値は、数値プレースホルダートークン <span class="uicontrol"> ～N～を使用して表 </span>されます。 次に例を示します。 </p> <code> Greater&amp;nbsp;than&amp;nbsp;~N~ </code> <p>または </p> <code> ~N~&amp;nbsp;and&amp;nbsp;above </code> <p>通常、値は「そのまま」の形式で設定されます。つまり、 <span class="uicontrol"> 範囲値の </span> 定義が「5 10 20」で、指定の値が30の場合、生成される範囲の説明は単に「20より大きい」のようになります。 代わりに「20.01以上」にする場合は、「 <span class="uicontrol"> 精度」 </span> を <span class="uicontrol"> 2に設定 </span> し、次の形式を使用します。 </p> <code> ~n~&amp;nbsp;and&amp;nbsp;above </code> <p>「次よりも大きい」 <span class="uicontrol"> 形式 </span>では、小文字の <span class="uicontrol"> ～n～を使用すると、 </span> 精度の設定に従って値が切り上げ <i>られ</i><span class="uicontrol"></span> ます。 </p> <p>注意： 範囲の説明に任意の数値プレースホルダーを含めるには、バックスラッシュ(\)プレフィックスを付けて指定します。例えば、 <span class="uicontrol"> \～N～ </span> または <span class="uicontrol"> \～n～ </span>。 バックスラッシュ文字を含めるには、別のバックスラッシュを使用して指定します(例： <span class="uicontrol"> \\ </span>. </p> </td> 
+      <td colname="col2"> <p>「範囲の説明を <span class="uicontrol"> 作成」がオン </span> で、「 <span class="uicontrol"> 範囲フィールド」 </span> 項目が選択されている場合にのみ使用できます。 </p> <p>これは、[範囲値]の最大値より大きい値の範囲の説明を指定するために使用するテンプレ <span class="uicontrol"> ート </span>です。 最大値は、数値プレースホルダートークン <span class="uicontrol"> ～N～を使用して表 </span>されます。 次に例を示します。 </p> <code> Greater&amp;nbsp;than&amp;nbsp;~N~ </code> <p>または </p> <code> ~N~&amp;nbsp;and&amp;nbsp;above </code> <p>通常、値は「そのまま」の形式で設定されます。つまり、 <span class="uicontrol"> 範囲値の </span> 定義が「5 10 20」で、指定の値が30の場合、生成される範囲の説明は単に「20より大きい」のようになります。 代わりに「20.01以上」にする場合は、「 <span class="uicontrol"> 精度」 </span> を <span class="uicontrol"> 2に設定 </span> し、次の形式を使用します。 </p> <code> ~n~&amp;nbsp;and&amp;nbsp;above </code> <p>「次よりも大きい」 <span class="uicontrol"> 形式 </span>では、小文字の <span class="uicontrol"> ～n～を使用すると、 </span> 精度の設定に従って値が切り上げ <i>られ</i><span class="uicontrol"></span> ます。 </p> <p>注意：範囲の説明に任意の数値プレースホルダーを含めるには、バックスラッシュ(\)プレフィックスを付けて指定します。例えば、 <span class="uicontrol"> \～N～ </span> または <span class="uicontrol"> \～n～ </span>。 バックスラッシュ文字を含めるには、別のバックスラッシュを使用して指定します(例： <span class="uicontrol"> \\ </span>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>精度 </p> </td> 
-      <td colname="col2"> <p>「範囲の説明を <span class="uicontrol"> 作成」がオン </span> で、「 <span class="uicontrol"> 範囲フィールド」 </span> 項目が選択されている場合にのみ使用できます。 </p> <p>小数点以下の桁数を指定する整数値。 これは丸め処理も制御します。 </p> </td> 
+      <td colname="col2"> <p>「範囲の説明を <span class="uicontrol"> 作成」がオン </span> で、「 <span class="uicontrol"> 範囲フィールド」 </span> 項目が選択されている場合にのみ使用できます。 </p> <p>小数点の右側の桁数を指定する整数値。 これは丸め処理も制御します。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>先頭のゼロを削除しますか？ </p> </td> 
@@ -410,7 +398,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> append|replace </span> </p> </td> 
-   <td colname="col2"> <p>「append」を選択して、挿入定義(「Adobe: お問い合わせ」または「今すぐ発売！」 上記の例では)を既存のフィールドのコンテンツに追加します。 「置換」を選択して、既存のフィールドの内容を定義された値で上書きします。 フィールドに現在コンテンツが含まれていない場合は、どのオプション（追加または置換）が使用されているかに関係なく、定義された値が自動的に追加されます。 </p> </td> 
+   <td colname="col2"> <p>「append」を選択して、インジェクション定義(「Adobe:お問い合わせ」または「今すぐ発売！」 上記の例では)を既存のフィールドのコンテンツに追加します。 「置換」を選択して、既存のフィールドの内容を定義された値で上書きします。 フィールドに現在コンテンツが含まれていない場合は、どのオプション（追加または置換）が使用されているかに関係なく、定義された値が自動的に追加されます。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> field </span> </p> </td> 
@@ -426,7 +414,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       <li id="li_FD0B1CD9E6304B18B9D7F57E61015107"> <span class="codeph"> target </span> </li> 
       <li id="li_400D7E3F3E9B47EFB2FF5C0D278DB573"> <span class="codeph"> title </span> </li> 
       <li id="li_449BCBEE4F64424BB69F780C10F5956C"> <span class="codeph"> url </span> </li> 
-     </ul> </p> <p>各フィールド名は、サイトページの要素に対応しています。 例えば、フィールド名 <span class="codeph"></span> descを指定する場合、サイトページの説明Metaタグに対応するフィールドにインジェクション定義値を追加できます。 </p> <p>説明Metaタグがページに存在しない場合、定義済みのコンテンツによってタグが作成されます。 注 <span class="codeph"></span> 釈挿入で指定した内容は、メタ説明の内容と同じように、結果ページに表示されます。 </p> <p>同じフィールド名を使用して、複数の定義を作成することもできます。 例えば、以下のような注射があるとします。 </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>上記の例のすべてのサイトページに、「Welcome to My Site」という挿入されたタイトルが付きます。 「/会社/」フォルダー内のページに、「My Site: 「お問い合わせ」が表示されます。 </p> <p>挿入は、「 <span class="wintitle"> フィールド挿入定義」(Field Injection Definitions)テキスト </span> ボックスに表示される順に適用されます。 同じ場所にあるページに同じフィールド（この例では「タイトル」）が複数回定義されている場合は、後の定義が優先されます。 </p> <p> <span class="codeph"> [regexp] </span> — オプション。 regexpオプションを使用する場合、定義されたURLは正規式として扱われ <span class="codeph"></span> ます。 </p> <p>詳しくは、 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 正規式を参照してくだ </a>さい。 </p> <p>次の定義では、 </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> 正規式^に一致するすべてのページの「ターゲット」フィールドに、「重要な情報」が挿入され <span class="codeph"> ます。*/products/.*\.html$ </span>. </p> <p>したがって、次のようになります。 </p> <p> <code> https://www.mydomain.com/products/page1.html 
+     </ul> </p> <p>各フィールド名は、サイトページの要素に対応しています。 例えば、フィールド名 <span class="codeph"></span> descを指定する場合、サイトページの説明Metaタグに対応するフィールドにインジェクション定義値を追加できます。 </p> <p>説明Metaタグがページに存在しない場合、定義済みのコンテンツによってタグが作成されます。 注 <span class="codeph"></span> 釈挿入で指定した内容は、メタ説明の内容と同様に結果ページに表示されます。 </p> <p>同じフィールド名を使用して、複数の定義を作成することもできます。 例えば、以下のような注射があるとします。 </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>上記の例のすべてのサイトページに、「Welcome to My Site」という挿入されたタイトルが付きます。 「/会社/」フォルダー内のページに、「My Site:「お問い合わせ」が表示されます。 </p> <p>挿入は、「 <span class="wintitle"> フィールド挿入定義」(Field Injection Definitions)テキスト </span> ボックスに表示される順に適用されます。 同じ場所にあるページに同じフィールド（この例では「タイトル」）が複数回定義されている場合は、後の定義が優先されます。 </p> <p> <span class="codeph"> [regexp] </span> — オプション。 regexpオプションを使用する場合、定義されたURLは正規式として扱われ <span class="codeph"></span> ます。 </p> <p>詳しくは、 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 正規式を参照してくだ </a>さい。 </p> <p>次の定義では、 </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> 正規式^に一致するすべてのページの「ターゲット」フィールドに、「重要な情報」が挿入され <span class="codeph"> ます。*/products/.*\.html$ </span>. </p> <p>したがって、次のようになります。 </p> <p> <code> https://www.mydomain.com/products/page1.html 
       &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p> <code> https://www.mydomain.com/product/oldstuff.html 
       &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;not&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p>次の例では、 </p> <p> <code> append&amp;nbsp;title&amp;nbsp;regexp&amp;nbsp;^.*\.pdf$&amp;nbsp;Millennium&amp;nbsp;Science </code> </p> <p>挿入により、ファイル名拡張子が「.pdf」で終わるすべてのページの「タイトル」コンテンツに「ミレニアムサイエンス」が追加されます。 </p> </td> 
   </tr> 
@@ -480,7 +468,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 >[!NOTE]
 >
->Attribute Loaderを使用するには、アドビのアカウント担当者またはアドビサポートがお使いのアカウントでAttribute Loaderを有効にする必要がある場合があります。
+>Attribute Loaderを使用するには、Adobeアカウント担当者またはAdobeサポートがアカウントでAttribute Loaderを有効にする必要がある場合があります。
 
 データフィード入力ソースを使用すると、Webサイトで一般的に検出されるものとは異なるフォームに保存されたコンテンツにアクセスできます。 これは、使用可能なクロール方法の1つを使用して行います。 これらのソースのデータは、クロールされたコンテンツからデータに挿入できます。
 
@@ -528,7 +516,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
       ... 
       &lt;/head&gt;&lt;body&gt; 
       {body} 
-      &lt;/body&gt;&lt;/html&gt; </code> </p> <p><span class="codeph"> &lt;title&gt; </span> 要素は、タイトルメタデータフィールドへのマッピングが存在する場合にのみ生成されます。 同様に、 <span class="codeph"> &lt;body&gt; </span> 要素は、Bodyメタデータフィールドへのマッピングが存在する場合にのみ生成されます。 </p> <p> <b>重要</b>: 事前定義されたURLメタタグへの値の割り当てはサポートされていません。 </p> <p>その他すべてのマッピングに対して、 <span class="codeph"> &lt;meta&gt; </span> タグは、元のドキュメントで見つかったデータを持つ各フィールドに対して生成されます。 </p> <p>各ドキュメントのフィールドがキャッシュに追加されます。 キャッシュに書き込まれるドキュメントごとに、次の例のようなリンクも生成されます。 </p> <p> <code class="syntax html"> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
+      &lt;/body&gt;&lt;/html&gt; </code> </p> <p><span class="codeph"> &lt;title&gt; </span> 要素は、タイトルメタデータフィールドへのマッピングが存在する場合にのみ生成されます。 同様に、 <span class="codeph"> &lt;body&gt; </span> 要素は、Bodyメタデータフィールドへのマッピングが存在する場合にのみ生成されます。 </p> <p> <b>重要</b>:事前定義されたURLメタタグへの値の割り当てはサポートされていません。 </p> <p>その他すべてのマッピングに対して、 <span class="codeph"> &lt;meta&gt; </span> タグは、元のドキュメントで見つかったデータを持つ各フィールドに対して生成されます。 </p> <p>各ドキュメントのフィールドがキャッシュに追加されます。 キャッシュに書き込まれるドキュメントごとに、次の例のようなリンクも生成されます。 </p> <p> <code class="syntax html"> &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
       &lt;a&nbsp;href="index:Adobe?key=&lt;primary&nbsp;key&nbsp;field&gt;\"&nbsp;/&gt; 
       .... </code> </p> <p>設定のマッピングには、プライマリキーとして識別される1つのフィールドが必要です。 このマッピングは、データがキャッシュから取得される際に使用されるキーを形成します。 </p> <p>クローラはURL <span class="codeph"> インデックスを認識します。 </span> スキームのプレフィックスが追加され、ローカルにキャッシュされたデータにアクセスできます。 </p> </td> 
   </tr> 
@@ -565,7 +553,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
   </tr> 
   <tr> 
    <td colname="col1"> <p>フィード </p> </td> 
-   <td colname="col2"> <p>データソースをダウンロードし、単純なXML解析を実行します。 </p> <p>結果のXPath識別子はMapテーブルのタグ行に表示され、同様の値はFieldsにも表示されます。 これらの行は使用可能なデータのみを識別し、より複雑なXPath定義は生成されません。 ただし、XMLデータを説明し、Itemtagを識別するので、この方法が役に立ちます。 </p> <p> <p>注意：  セットアップマップ機能は、XMLソース全体をダウンロードして分析を実行します。 ファイルのサイズが大きい場合は、この操作がタイムアウトする可能性があります。 </p> </p> <p>成功した場合、この関数は可能なすべてのXPath項目を識別しますが、その多くは使用が望ましくない項目です。 結果のMap定義を確認し、不要または不要なMap定義を削除してください。 </p> </td> 
+   <td colname="col2"> <p>データソースをダウンロードし、単純なXML解析を実行します。 </p> <p>結果のXPath識別子はMapテーブルのタグ行に表示され、同様の値はFieldsにも表示されます。 これらの行は使用可能なデータのみを識別し、より複雑なXPath定義は生成されません。 ただし、XMLデータを説明し、Itemtagを識別するので、この方法が役に立ちます。 </p> <p> <p>注意： セットアップマップ機能は、XMLソース全体をダウンロードして分析を実行します。 ファイルのサイズが大きい場合は、この操作がタイムアウトする可能性があります。 </p> </p> <p>成功した場合、この関数は可能なすべてのXPath項目を識別しますが、その多くは使用が望ましくない項目です。 結果のMap定義を確認し、不要または不要なMap定義を削除してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -578,7 +566,7 @@ replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 
 Attribute Loaderデータは、Index操作の前に読み込まれます。
 
-アトリビュートローダを追加する際、オプションでこの機能を使用してデータを検証できます。こ **[!UICONTROL Preview]** の機能は、保存しているかのように使用できます。 設定をアカウントに保存せずに、設定に対するテストを実行します。 テストは、設定済みのデータソースにアクセスします。 ただし、ダウンロードキャッシュは一時的な場所に書き込まれます。 インデックス作成クローラが使用するメインキャッシュフォルダと競合しません。
+アトリビュートローダを追加する際、オプションでこの機能を使用してデータを検証できます。こ **[!UICONTROL Preview]** の機能は、保存しているかのように使用できます。 設定をアカウントに保存せずに、設定に対するテストを実行します。 テストは、設定済みのデータソースにアクセスします。 ただし、ダウンロードキャッシュは一時的な場所に書き込まれます。インデックス作成クローラが使用するメインキャッシュフォルダと競合しません。
 
 プレビューは、 **Acct:IndexConnector-**&#x200B;プレビュー-Max-ドキュメントで制御される5つのドキュメントのデフォルトのみを処理します。 プレビューしたドキュメントは、インデックス作成クローラに表示されるとおり、ソース形式で表示されます。 表示は、Webブラウザーの「表示ソース」機能に似ています。 標準のナビゲーションリンクを使用して、プレビューセット内のドキュメントを移動できます。
 
@@ -590,7 +578,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
 
 >[!NOTE]
 >
->Attribute Loaderを使用するには、アドビのアカウント担当者またはアドビサポートがお使いのアカウントでAttribute Loaderを有効にする必要がある場合があります。
+>Attribute Loaderを使用するには、Adobeアカウント担当者またはAdobeサポートがアカウントでAttribute Loaderを有効にする必要がある場合があります。
 
 新しい有効な定義の効果がユーザーに表示される前に、サイトインデックスを作成し直します。
 
@@ -621,12 +609,12 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <b>データソースの種類： テキスト</b> </p> </td> 
+      <td colname="col1"> <p> <b>データソースの種類：テキスト</b> </p> </td> 
       <td colname="col2"> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>有効 </p> </td> 
-      <td colname="col2"> <p>使用する設定を「オン」にします。 または、設定を「オフ」にして、使用しない場合には回避できます。 </p> <p> <b>注意</b>: 無効な属性ローダーの設定は無視されます。 </p> </td> 
+      <td colname="col2"> <p>使用する設定を「オン」にします。 または、設定を「オフ」にして、使用しない場合には回避できます。 </p> <p> <b>注意</b>:無効な属性ローダーの設定は無視されます。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>ホストアドレス </p> </td> 
@@ -640,7 +628,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
       <td colname="col1"> <p>Protocol </p> </td> 
       <td colname="col2"> <p>ファイルへのアクセスに使用するプロトコルを指定します。 次の中から選択できます。 </p> <p> 
       <ul id="ul_F6BC10FD51CA4A1D855B2B3212838A9C"> 
-      <li id="li_79FB7DC65E774ABBB23E57BF98AD9738"> HTTP <p>必要に応じて、適切な認証資格情報を入力してHTTPサーバーにアクセスできます。 </p> </li> 
+      <li id="li_79FB7DC65E774ABBB23E57BF98AD9738"> HTTP <p>必要に応じて、適切な認証資格情報を入力してHTTPサーバーにアクセスすることができます。 </p> </li> 
       <li id="li_BAA9AD5E4B014E09B3A66C94022B7225"> HTTPS <p>必要に応じて、HTTPSサーバーにアクセスするための正しい認証資格情報を入力できます。 </p> </li> 
       <li id="li_E716ABB169DD408BA91F1CA27F445A16"> FTP <p>FTPサーバーにアクセスするには、適切な認証資格情報を入力する必要があります。 </p> </li> 
       <li id="li_FD7143019C5244C3B8A5B1B5AA84859A"> SFTP <p>SFTPサーバーにアクセスするには、適切な認証資格情報を入力する必要があります。 </p> </li> 
@@ -684,12 +672,12 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
       </ul> </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p> <b>データソースの種類： フィード</b> </p> </td> 
+      <td colname="col1"> <p> <b>データソースの種類：フィード</b> </p> </td> 
       <td colname="col2"> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>有効 </p> </td> 
-      <td colname="col2"> <p>使用する設定を「オン」にします。 または、設定を「オフ」にして、使用しない場合には回避できます。 </p> <p> <b>注意</b>: 無効な属性ローダーの設定は無視されます。 </p> </td> 
+      <td colname="col2"> <p>使用する設定を「オン」にします。 または、設定を「オフ」にして、使用しない場合には回避できます。 </p> <p> <b>注意</b>:無効な属性ローダーの設定は無視されます。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>ホストアドレス </p> </td> 
@@ -703,7 +691,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
       <td colname="col1"> <p>Protocol </p> </td> 
       <td colname="col2"> <p>ファイルへのアクセスに使用するプロトコルを指定します。 次の中から選択できます。 </p> <p> 
       <ul id="ul_976A34FD14A841F2B610C1C0CCBB82B9"> 
-      <li id="li_05BBA0F670F14431A89AE4178F1A6F94"> HTTP <p>必要に応じて、適切な認証資格情報を入力してHTTPサーバーにアクセスできます。 </p> </li> 
+      <li id="li_05BBA0F670F14431A89AE4178F1A6F94"> HTTP <p>必要に応じて、適切な認証資格情報を入力してHTTPサーバーにアクセスすることができます。 </p> </li> 
       <li id="li_100446691F304572B8FC3F083F86A2CB"> HTTPS <p>必要に応じて、HTTPSサーバーにアクセスするための正しい認証資格情報を入力できます。 </p> </li> 
       <li id="li_027088A8E30444DAA8CCCC5B0BAA74C1"> FTP <p>FTPサーバーにアクセスするには、適切な認証資格情報を入力する必要があります。 </p> </li> 
       <li id="li_DCEF9D5C99354990B03E29083C2ED8DC"> SFTP <p>SFTPサーバーにアクセスするには、適切な認証資格情報を入力する必要があります。 </p> </li> 
@@ -712,7 +700,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
       </tr> 
       <tr> 
       <td colname="col1"> <p>Itemtag </p> </td> 
-      <td colname="col2"> <p>指定したデータソースファイル内の個々のXML行を識別するために使用できるXML要素を識別します。 </p> <p>例えば、Adobe XMLドキュメントの次のフィードフラグメントでは、Itemtagの値は <span class="codeph"> recordで </span>す。 </p> <p> <code class="syntax xml"> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
+      <td colname="col2"> <p>指定したデータソースファイル内の個々のXML行を識別するために使用できるXML要素を識別します。 </p> <p>例えば、AdobeXMLドキュメントの次のフィードフラグメントでは、Itemtagの値は <span class="codeph"> recordで </span>す。 </p> <p> <code class="syntax xml"> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
         &lt;!DOCTYPE&nbsp;gsafeed&nbsp;PUBLIC&nbsp;"-//Google//DTD&nbsp;GSA&nbsp;Feeds//EN"&nbsp;""&gt; 
         &lt;gsafeed&gt; 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt; 
@@ -763,14 +751,14 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
       <td colname="col1"> <p>マップ </p> </td> 
       <td colname="col2"> <p>XPath式を使用して、XML要素とメタデータとのマッピングを指定できます。 </p> <p> 
       <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
-      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> タグ </span> <p>解析済みXMLデータのXPath表現を指定します。 上記のAdobe XMLドキュメントの例を使用して、Itemtagオプションの下で、次の構文を使用してマッピングできます。 </p> <p> <code class="syntax xml"> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
+      <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> タグ </span> <p>解析済みXMLデータのXPath表現を指定します。 上記のAdobeXMLドキュメントの例を使用して、Itemtagオプションの下で、次の構文を使用してマッピングできます。 </p> <p> <code class="syntax xml"> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>上記の構文は、次のように変換されます。 </p> <p> 
         <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
         <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code class="syntax xml"> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>レコード <span class="codeph"> 要素の </span> displayurl <span class="codeph"> 属性は、メタデータフィールド </span> のpage-urlにマップされ <span class="codeph"></span>ます。 </p> </li> 
         <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>メタ要素内に含まれる <span class="codeph"> メタ要素の </span> 内容属性、メタ要素内に含まれるメタ要素、メタデータ要素内に含まれる <span class="codeph"> 要素、メタデータ要素内に含まれる要素名をメタデータフィールド要素とメタデータフィールド要素 </span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>とを対応付ける要素 </p> </li> 
-        <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>メタ要素内に含まれる <span class="codeph"> メタ要素の </span> 内容属性、メタ要素内に含まれるメタ要素、メタデータ要素内に含まれる <span class="codeph"> 要素、メタデータ要素内に含まれる要素名の説明、メタデータフィールドの属性 </span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>とメタデータフィールドの説明とを対応付ける要素。 </p> </li> 
+        <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>メタ要素内に含まれる <span class="codeph"> メタ要素の </span> 内容属性、メタ要素内に含まれるメタ要素、メタデータ要素内に含まれる <span class="codeph"> 要素、メタデータ要素内に含まれる要素名の説明、メタデータフィールド属性の説明、メタデータフィールド </span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>説明との対応付けを行う要素。 </p> </li> 
         <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>メタデータ要素内に含まれる <span class="codeph"> メタ要素の </span> 内容属性、メタデータ要素内に含まれるメタ <span class="codeph"> 要素、メタデータ要素内に含まれる </span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span>要素、メタデータ要素内に含まれる名前を記述し、メタデータフィールド本体に対する属性をマップする要素。 </p> </li> 
         </ul> </p> <p>XPathは比較的複雑な表記法です。 詳しくは、次の場所を参照してください。 </p> <p>https://www.w3schools.com/xpath/を参照して <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> ください。 </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> フィールド </span> <p>生成された各 <span class="codeph"> &lt;meta&gt; </span> タグに使用するname属性値を定義します。 </p> </li> 
@@ -806,7 +794,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
 
 >[!NOTE]
 >
->Attribute Loaderを使用するには、アドビのアカウント担当者またはアドビサポートがお使いのアカウントでAttribute Loaderを有効にする必要がある場合があります。
+>Attribute Loaderを使用するには、Adobeアカウント担当者またはAdobeサポートがアカウントでAttribute Loaderを有効にする必要がある場合があります。
 
 ドロップダウンリストの「属性ローダーの名前」や「タイプ」など、一部の「属性ローダー」オプションを変更できるわけではありません [!DNL Type] 。
 
@@ -839,7 +827,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
 
 >[!NOTE]
 >
->Attribute Loaderを使用するには、アドビのアカウント担当者またはアドビサポートがお使いのアカウントでAttribute Loaderを有効にする必要がある場合があります。
+>Attribute Loaderを使用するには、Adobeアカウント担当者またはAdobeサポートがアカウントでAttribute Loaderを有効にする必要がある場合があります。
 
 アトリビュートローダの定義をコピーする場合、コピーされた定義はデフォルトで無効になります。 定義を有効または「有効にする」には、 [!DNL Attribute Loader Edit] ページで定義を編集し、を選択する必要があり **[!UICONTROL Enable]**&#x200B;ます。
 
@@ -871,7 +859,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
 
 >[!NOTE]
 >
->Attribute Loaderを使用するには、アドビのアカウント担当者またはアドビサポートがお使いのアカウントでAttribute Loaderを有効にする必要がある場合があります。
+>Attribute Loaderを使用するには、Adobeアカウント担当者またはAdobeサポートがアカウントでAttribute Loaderを有効にする必要がある場合があります。
 
 **アトリビュートローダ定義の名前を変更するには**
 
@@ -968,7 +956,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
 
 >[!NOTE]
 >
->Attribute Loaderを使用するには、アドビのアカウント担当者またはアドビサポートがお使いのアカウントでAttribute Loaderを有効にする必要がある場合があります。
+>Attribute Loaderを使用するには、Adobeアカウント担当者またはAdobeサポートがアカウントでAttribute Loaderを有効にする必要がある場合があります。
 
 **アトリビュートローダ定義の設定を表示するには**
 
@@ -994,7 +982,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
 
 >[!NOTE]
 >
->Attribute Loaderを使用するには、アドビのアカウント担当者またはアドビサポートがお使いのアカウントでAttribute Loaderを有効にする必要がある場合があります。
+>Attribute Loaderを使用するには、Adobeアカウント担当者またはAdobeサポートがアカウントでAttribute Loaderを有効にする必要がある場合があります。
 
 **アトリビュートローダ定義を削除するには**
 
