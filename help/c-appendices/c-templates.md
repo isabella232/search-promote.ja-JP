@@ -931,7 +931,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-##  {#section_C1EB3B9D8E1242798A6E04609D1E3543}
+## Did You Mean {#section_C1EB3B9D8E1242798A6E04609D1E3543}
 
 検索で結果が返されず、検索語句がアカウントの辞書にない場合は、「あなたの平均」タグを使用して、提案への一連のリンクを作成できます。 次に、Did You Meanタグの使用例を示します。
 
