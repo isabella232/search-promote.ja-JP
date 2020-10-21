@@ -1,9 +1,16 @@
 ---
-source-git-commit: aa5364886b5e09fdbf5840c058ac3f3f364344ab
+source-git-commit: 2c0ca6307586f4b63599856bc20aee196cb8b98f
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 72%
 
 ---
 # Contribute article for Search &amp; Promote
+
+| EXL-PR | EXL | プレビュー | アクティブ化 | 発行数 | ヘルプ |
+|--- |--- |--- |--- |--- |--- |
+| [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/search-promote.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/search-promote.en_pr-exl/lastBuild/) | [![ビルドの状態](https://docs.ci.corp.adobe.com/view/exl-pr/job/search-promote.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/search-promote.en_exl/lastBuild/lastBuild) | [プレビューURL](https://experienceleague.corp.adobe.com/docs/search-promote/using/sp-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [ライブURL](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=en) | [オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Adobe のコミュニティやドキュメントチーム以外の従業員からの貢献を歓迎します。
 
@@ -13,7 +20,7 @@ Adobe のコミュニティやドキュメントチーム以外の従業員か�
 
 ## Adobe コンテンツへの貢献について
 
-詳しくは、 [Adobe Docs寄稿者ガイドを参照してください](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+『 [Adobeドキュメント寄稿者ガイド](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)』を参照してください。
 
 どのように貢献するかは、貢献者の技術経験度と、貢献者がどのような変更に貢献したいかによって異なります。
 
