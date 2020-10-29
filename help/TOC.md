@@ -1,13 +1,13 @@
 ---
 cloud: experience-cloud
 product: adobe search and promote
-solution: Search & Promote
+solution: Target
 type: Documentation
 audience: end-user
 user-guide-title: Adobe検索&アンプ；アンプ；プロモートガイド
 breadcrumb-title: Adobe検索&アンプ；アンプ；プロモートガイド
 translation-type: tm+mt
-source-git-commit: 6eb14df0475c70547e22af6dc370cf5d7eb36a28
+source-git-commit: bee14583a104abb8c9e829116b3e3f921cadea62
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 11%
@@ -20,7 +20,7 @@ ht-degree: 11%
 + [Search&amp;Promoteドキュメントの概要](sp-home.md)
 + Release notes {#release-notes}
    + [Search&amp;Promote18.1.1リリースノート（2018年2月14日）](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
-   + [Search&amp;Promote17.11.1リリースノート（2017年10月31日）](c-searchpromote-release-notes/c-rn-10-31-17-version-1711.md)
+   + [Search&amp;Promote 17.11.1 Release Notes (10/31/2017)](c-searchpromote-release-notes/c-rn-10-31-17-version-1711.md)
    + [Search&amp;Promote15.3.1リリースノート（2015年3月25日）](c-searchpromote-release-notes/c-rn-03-19-15-version-153.md)
    + [Search&amp;Promote15.1.1リリースノート（2015年1月16日）](c-searchpromote-release-notes/c-rn-01-15-15-version-151.md)
    + [Search&amp;Promote8.17.0リリースノート（2014年10月31日）](c-searchpromote-release-notes/c-rn-10-30-14-version-817.md)
