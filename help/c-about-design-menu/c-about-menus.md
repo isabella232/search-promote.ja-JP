@@ -20,13 +20,13 @@ ht-degree: 1%
 
 メニューを使用して、プレゼンテーションレイヤーをカスタマイズできます。
 
-## メニューの使用 {#concept_68123CE5CF4447B59217B5D721424E32}
+## メニューの使用{#concept_68123CE5CF4447B59217B5D721424E32}
 
 検索内の設定に追加マップするメニュー。 メニュー内の各項目は、メニューの設定の値を指定します。 メニューのラベルをカスタマイズすることもできます。
 
 プレゼンテーションテンプレートでは、定義されたメニューを参照できます。 その後、選択コントロールなど、必要な任意のHTMLコンポーネントにそれらを配置できます。 この組み合わせにより、ユーザーは検索結果をカスタマイズできます。 次の3種類のメニューがサポートされています。並べ替え、カウント、ナビゲーション。
 
-## Adding a new menu {#task_EE171532D3AE477FAFE8C2F4077A6D73}
+## 新しいメニューの追加{#task_EE171532D3AE477FAFE8C2F4077A6D73}
 
 検索結果内の設定にマップするメニューを追加できます。
 
@@ -42,13 +42,13 @@ t_adding_a_new_menu.xml
 
 **新しいメニューを追加するには**
 
-1. 製品メニューで、//をクリックし **[!UICONTROL Design]** ま **[!UICONTROL Navigation]** す **[!UICONTROL Menus]**。
-1. ページで、 [!DNL Menus] をクリックし **[!UICONTROL Add New Menu]**&#x200B;ます。
-1. ページで、目的のオプションを設定 [!DNL Add Menu] します。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Navigation]**/**[!UICONTROL Menus]**&#x200B;をクリックします。
+1. [!DNL Menus]ページで、**[!UICONTROL Add New Menu]**&#x200B;をクリックします。
+1. [!DNL Add Menu]ページで、必要なオプションを設定します。
 
    これらの設定は、階層リンクの動作とデフォルト表示の両方に影響します。 これらの設定の一部は、プレゼンテーションテンプレートの設定を使用して上書きできます。
 
-   メニュー [についてを参照してください](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF4447B59217B5D721424E32)。
+   [メニューについて](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF4447B59217B5D721424E32)を参照してください。
 
    <!-- 
    r_add_menu_options.xml
@@ -71,8 +71,8 @@ t_adding_a_new_menu.xml
       <td colname="col2"> <p>次の3種類のメニューのいずれかを設定します。 </p> <p> 
       <ul id="ul_7E66ACC1DA494B20BEC3B0B2CCAB103A"> 
       <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> 並べ替え </span> <p>定義済みのメタデータタイプで検索を編成します。 </p> <p>例えば、次のメタデータ型を使用して並べ替えメニューを定義できます。関連性の3項目可用性コードなどのカスタムメタデータフィールド価格 この3つの項目には、それぞれ「関連性順に並べ替え」、「利用可能な順に並べ替え」、「価格順に並べ替え」というラベルを付けることができます。 プレゼンテーションテンプレートにこれを含めると、顧客はこのコントロールを使用して検索結果を並べ替えることができます。 </p> </li> 
-      <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> カウント数 </span> <p>表示する検索結果の数を定義します。 このメニュータイプは、cgiパラメータ <span class="varname"> sp_cに対応付けられ </span>ます。 </p> <p>「 <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> バックエンド検索CGIパラメーター」を参照してくだ </a>さい。 </p> </li> 
-      <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> ナビゲーション </span> <p>メニュー項目に関連付けられた静的URLのセットを指定します。 通常、検索結果ページにトップレベルのナビゲーションバーを作成するには、ナビゲーションメニューを使用します。 </p> <p>例えば、次のようなメニュー項目を持つ女性、男性、男性、女性を含むメニューを作成できます。
+      <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> カウント数 </span> <p>表示する検索結果の数を定義します。 このメニュータイプは、cgiパラメーター<span class="varname"> sp_c </span>に対応しています。 </p> <p><a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local">バックエンド検索CGIパラメーター</a>を参照してください。 </p> </li> 
+      <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> ナビゲーション </span> <p>メニュー項目に関連付けられた静的URLのセットを指定します。 通常、検索結果ページにトップレベルのナビゲーションバーを作成するには、ナビゲーションメニューを使用します。 </p> <p>例えば、次のようなメニュー項目を持つ女性、男性、男性、女性を含むメニューを作成できます。 
       <code>
         /?q1=womens;x1=gender 
       </code>, 
@@ -84,7 +84,7 @@ t_adding_a_new_menu.xml
       <tr> 
       <td colname="col1"> <p>マーチャンダイジング </p> 
         <!--DONT' KNOW WHAT THIS DOES--> </td> 
-      <td colname="col2"> <p>このオプションは、「並べ替え」メニュータイプを選択した場合にのみ使用でき <span class="uicontrol"> ます。 </span> </p> </td> 
+      <td colname="col2"> <p>このオプションは、「<span class="uicontrol">並べ替え」メニューの種類を選択した場合にのみ使用できます。</span> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>メニュー内の項目数 </p> </td> 
@@ -114,21 +114,21 @@ t_adding_a_new_menu.xml
     </table>
 
 1. クリック **[!UICONTROL Add]**.
-1. （オプション） [!DNL Menus] ページで、次のいずれかの操作を行います。
+1. （オプション）[!DNL Menus]ページで、次のいずれかの操作を行います。
 
-   * をクリック **[!UICONTROL History]** すると、行った変更がすべて元に戻ります。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      「Historyオプションの [使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)」を参照してください。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設定の [表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、 [ステージ設定をライブにプッシュするを参照してください](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## メニューの編集 {#task_0770DBFD0C7046169097FB6F771B9114}
+## メニューの編集{#task_0770DBFD0C7046169097FB6F771B9114}
 
 追加したメニューの設定は編集できます。
 
@@ -144,27 +144,27 @@ t_editing_a_menu.xml
 
 **メニューを編集するには**
 
-1. 製品メニューで、//をクリックし **[!UICONTROL Design]** ま **[!UICONTROL Navigation]** す **[!UICONTROL Menus]**。
-1. ページ上で、 [!DNL Menus] メニュー名 **[!UICONTROL Edit]** の一番右をクリックします。
-1. ページで、目的のオプションを設定 [!DNL Edit Menu] します。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Navigation]**/**[!UICONTROL Menus]**&#x200B;をクリックします。
+1. [!DNL Menus]ページで、メニュー名の一番右にある&#x200B;**[!UICONTROL Edit]**&#x200B;をクリックします。
+1. [!DNL Edit Menu]ページで、必要なオプションを設定します。
 
-   「新しいメニューの [追加」のオプションの表を参照してください](../c-about-design-menu/c-about-menus.md#task_EE171532D3AE477FAFE8C2F4077A6D73)。
+   [新しいメニューの追加](../c-about-design-menu/c-about-menus.md#task_EE171532D3AE477FAFE8C2F4077A6D73)のオプションの表を参照してください。
 1. クリック **[!UICONTROL Save Changes]**.
-1. （オプション） [!DNL Menus] ページで、次のいずれかの操作を行います。
+1. （オプション）[!DNL Menus]ページで、次のいずれかの操作を行います。
 
-   * をクリック **[!UICONTROL History]** すると、行った変更がすべて元に戻ります。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      「Historyオプションの [使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)」を参照してください。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設定の [表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、 [ステージ設定をライブにプッシュするを参照してください](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## メニューの削除 {#task_645E212311A045CD8D9D906878165F47}
+## メニューの削除{#task_645E212311A045CD8D9D906878165F47}
 
 追加したメニューは削除できます。
 
@@ -176,20 +176,20 @@ t_deleting_a_menu.xml
 
 **メニューを削除するには**
 
-1. 製品メニューで、/ **[!UICONTROL Design]** /をクリックし **[!UICONTROL Navigation]** ます。 **[!UICONTROL Menus]**
-1. ページ上で、 [!DNL Menus] メニュー名 **[!UICONTROL Delete]** の一番右をクリックします。
-1. ダイアログボックスで、 [!DNL Confirmation] をクリックし **[!UICONTROL OK]**&#x200B;ます。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Navigation]**/**[!UICONTROL Menus]**&#x200B;をクリックします。
+1. [!DNL Menus]ページで、メニュー名の一番右にある&#x200B;**[!UICONTROL Delete]**&#x200B;をクリックします。
+1. [!DNL Confirmation]ダイアログボックスで、**[!UICONTROL OK]**&#x200B;をクリックします。
 1. （オプション）次のいずれかの操作を行います。
 
-   * をクリック **[!UICONTROL History]** すると、行った変更がすべて元に戻ります。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      「Historyオプションの [使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)」を参照してください。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設定の [表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、 [ステージ設定をライブにプッシュするを参照してください](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
