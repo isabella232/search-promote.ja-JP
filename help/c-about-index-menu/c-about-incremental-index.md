@@ -20,7 +20,7 @@ ht-degree: 0%
 
 増分インデックスを使用すると、頻繁に変更されるページの集まりなど、ライブWebサイトやステージングされたWebサイトの「断片」のインデックスを作成できます。
 
-## 増分インデックスの使用 {#concept_A7770F0552D14C47B3DDB65DB78FFFEE}
+## 増分インデックスの使用{#concept_A7770F0552D14C47B3DDB65DB78FFFEE}
 
 増分インデックスの実行に要する時間は数秒で、完全なインデックス作成までに数時間かかる大容量Webサイトで役立ちます。
 
@@ -30,14 +30,14 @@ ht-degree: 0%
 
 新しい増分インデックスが本番用Webサイトに作成される間、ユーザーは最後の増分インデックスを使用してサイトを検索し続けることができます。
 
-## ステージングされたWebサイトの増分インデックスの設定 {#task_46A367B0786C4C90BFFA5D3F95FD86C0}
+## ステージングされたWebサイトの増分インデックスの設定{#task_46A367B0786C4C90BFFA5D3F95FD86C0}
 
 WebサイトのURLとURLマスクを指定することで、インクリメンタルインデックスに含めるWebサイトページを設定できます。
 
 **ステージングされたWebサイトの増分インデックスを構成するには**
 
-1. 製品メニューで、//をクリックし **[!UICONTROL Index]** ま **[!UICONTROL Incremental Index]** す **[!UICONTROL Configuration]**。
-1. ページ上で、様々なフィールドを使用して、インデックスを作成するページを指定します。 **[!UICONTROL Incremental Index Configuration]**
+1. 製品メニューで、**[!UICONTROL Index]**/**[!UICONTROL Incremental Index]**/**[!UICONTROL Configuration]**&#x200B;をクリックします。
+1. **[!UICONTROL Incremental Index Configuration]**&#x200B;ページで、様々なフィールドを使用して、インデックスを作成するページを指定します。
 
    <table> 
     <thead> 
@@ -57,25 +57,29 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
           <li id="li_32C2B21DE75C4459908384CC44822F7D"> 
           <code>
             noindex 
-          </code> <p>指定したURLと一致するページ上のテキストのインデックスを作成せず、そのページのリンクに従う場合は、次の例のようにURLの <code>
+          </code> <p>指定したURLと一致するページ上のテキストのインデックスを作成しないで、そのページのリンクに従う場合は、 
+            次の例のように、URLの後に<code>
               noindex 
-            </code> 後にを追加します。 </p> <p> 
+            </code>が続きます。 </p> <p> 
             <code>
               https://www.mydomain.com/products/new.html noindex 
-            </code> </p> <p>URLとURLは必ずスペース <code>
+            </code> </p> <p>必ず別の 
+            <code>
               noindex 
-            </code> で区切ってください。コンマは有効な区切り文字ではありません。 </p> </li> 
+            </code>をURLからスペースで囲み、コンマは有効な区切り文字ではありません。 </p> </li> 
           <li id="li_33AB62B669084BF7B976F4308715E435"> 
           <code>
             nofollow 
-          </code> <p>指定したURLと一致するが、ページのリンクに従わないページ上のテキストのインデックスを作成する場合は、次の例のように、URLの <code>
+          </code> <p>指定したURLと一致するが、ページのリンクに従わないページ上のテキストのインデックスを作成する場合は、 
+            次の例のように、URLの後に<code>
               nofollow 
-            </code> 後にを追加します。 </p> <p> 
+            </code>が続きます。 </p> <p> 
             <code>
               https://www.mydomain.com/products/new.html nofollow 
-            </code> </p> <p> URLとURLは必ずスペース <code>
+            </code> </p> <p> 必ず別の 
+            <code>
               nofollow 
-            </code> で区切ってください。コンマは有効な区切り文字ではありません。 </p> </li> 
+            </code>をURLからスペースで囲み、コンマは有効な区切り文字ではありません。 </p> </li> 
         </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -86,11 +90,13 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
       </code> </p> <p>次の例のように、正規式も使用できます。 </p> <p> 
       <code>
         regexp ^https://www\.mydomain\.com/products/household/.*\.html$ 
-      </code> </p> <p>詳しくは、 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 正規式を参照してください</a>。 </p> <p>また、上記の「URLのキーワード <code>
+      </code> </p> <p>「<a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local">正規式</a>」を参照してください。 </p> <p>また、 
+      <code>
         nofollow 
-      </code> と、URLの追加更新」の説明に従ってキーワードを使用することも <code>
+      </code>と 
+      <code>
         noindex 
-      </code> で <span class="uicontrol"> き </span> ます。 </p> </td> 
+      </code>を参照してくだ追加さい。<span class="uicontrol"></span> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>URLマスクを含める/除外する </p> </td> 
@@ -100,15 +106,19 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
       </code> </p> <p> 
       <code>
         exclude https://www.mydomain.com/products/ 
-      </code> </p> <p>は、ページ <code>
+      </code> </p> <p>ページのインデックス 
+      <code>
         lightbulbs1.html 
-      </code> とのインデックス <code>
+      </code>と 
+      <code>
         lightbulbs2.html 
-      </code>です。 ただし、productsディレクトリにリストされている他のページのインデックスは作成されません。 </p> <p>最初に表示されるURLマスクは、リストの後ろに表示されるURLマスクよりも常に優先されます。 また、検索ロボットが「含むマスク」と「除外するマスク」の両方に一致するドキュメントを検出すると、最初に表示されるマスクが優先されます。 </p> <p>また、上記の「URLのキーワード <code>
+      </code>. ただし、productsディレクトリにリストされている他のページのインデックスは作成されません。 </p> <p>最初に表示されるURLマスクは、リストの後ろに表示されるURLマスクよりも常に優先されます。 また、検索ロボットが「含むマスク」と「除外するマスク」の両方に一致するドキュメントを検出すると、最初に表示されるマスクが優先されます。 </p> <p>また、 
+      <code>
         nofollow 
-      </code> と、URLの追加更新」の説明に従ってキーワードを使用することも <code>
+      </code>と 
+      <code>
         noindex 
-      </code> で <span class="uicontrol"> き </span> ます。 </p> <p>URLマスク <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> についてを参照してください</a>。 </p> </td> 
+      </code>を参照してくだ追加さい。<span class="uicontrol"></span> </p> <p><a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> URLマスクについて</a>を参照してください。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>日付マスクを含める/除外する </p> </td> 
@@ -141,22 +151,24 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
       <li id="li_172692DEDA8744B3AA492701D24C2D80"> 
       <code>
         exclude-days NNN 
-      </code> <p>指定したURLマスクに一致し、NNN日以上経過しているすべてのドキュメントのインデックス作成を無効にします。 </p> <p>オプションで、URLマスクをキーワードでフォローでき <code>
+      </code> <p>指定したURLマスクに一致し、NNN日以上経過しているすべてのドキュメントのインデックス作成を無効にします。 </p> <p>オプションで、URLマスクをキーワードでフォローできます 
+        <code>
           server-date 
-        </code>ます。 </p> <p>次のマスクの例では、90日前以前のPDFファイルをすべてインデックスから除外します。 </p> <p> 
+        </code>. </p> <p>次のマスクの例では、90日前以前のPDFファイルをすべてインデックスから除外します。 </p> <p> 
         <code>
           exclude-days 90 *.pdf 
         </code> </p> </li> 
       <li id="li_26078517744D4AECBE1351008926CBAE"> 
       <code>
         exclude-date YYYY-MM-DD 
-      </code> <p>指定したURLマスクに一致し、YYYY-MM-DDより古い、または古いすべてのドキュメントのインデックス作成を無効にします。 </p> <p>オプションで、URLマスクをキーワードでフォローでき <code>
+      </code> <p>指定したURLマスクに一致し、YYYY-MM-DDより古い、または古いすべてのドキュメントのインデックス作成を無効にします。 </p> <p>オプションで、URLマスクをキーワードでフォローできます 
+        <code>
           server-date 
-        </code>ます。 </p> <p>次のマスクの例では、2004年4月23日以前の/archive/フォルダー内のすべてのドキュメントーが除外されます。 </p> <p> 
+        </code>. </p> <p>次のマスクの例では、2004年4月23日以前の/archive/フォルダー内のすべてのドキュメントーが除外されます。 </p> <p> 
         <code>
           exclude-date 2004-04-23 https://www.mydomain.com/archive/ 
         </code> </p> </li> 
-      </ul> </p> <p>日付マスク <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_F4F1F58A646F4A86B8650EC46FDCEF66" type="concept" format="dita" scope="local"> についてを参照してください</a>。 </p> </td> 
+      </ul> </p> <p><a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_F4F1F58A646F4A86B8650EC46FDCEF66" type="concept" format="dita" scope="local">日付マスクについて</a>を参照してください。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>URLの削除 </p> </td> 
@@ -170,7 +182,7 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
       </code> </p> <p>次の例のように、正規式も使用できます。 </p> <p> 
       <code>
         regexp ^https://www\.mydomain\.com/products/199[567]/.*$ 
-      </code> </p> <p>詳しくは、 <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 正規式を参照してください</a>。 </p> </td> 
+      </code> </p> <p>「<a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local">正規式</a>」を参照してください。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -178,25 +190,25 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
 1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）次のいずれかの操作を行います。
 
-   * をクリック **[!UICONTROL History]** すると、行った変更がすべて元に戻ります。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      「Historyオプションの [使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)」を参照してください。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設定の [表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、 [ステージ設定をライブにプッシュするを参照してください](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## ライブWebサイトのインクリメンタルインデックススケジュールの設定 {#task_2A46BA189ECC4317A9D5C6E99A336F33}
+## ライブWebサイト{#task_2A46BA189ECC4317A9D5C6E99A336F33}の増分インデックススケジュールの設定
 
 増分インデックスの頻度と、増分インデックスのクロールと更新に使用する基準時間を選択できます。
 
 選択する時刻は、「アカウントの設定」で設定したタイムゾーンに応じてローカルに設定されます。
 
-「アカウント設定の [指定](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)」を参照してください。
+「[アカウント設定の指定](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)」を参照してください。
 
 多くの場合、Webサーバーは、深夜にメンテナンスのためにダウンする予定です。 スケジュールされたインデックス時間中にサーバーがダウンした場合、インデックス作成プロセスは失敗します。 Webサーバーが利用可能な時間帯を選択していることを確認してください。
 
@@ -204,12 +216,12 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
 
 **ライブWebサイトのインクリメンタルインデックススケジュールを設定するには**
 
-1. 製品メニューで、//をクリックし **[!UICONTROL Index]** ま **[!UICONTROL Incremental Index]** す **[!UICONTROL Live Schedule]**。
-1. [ページ内]のドロップダウン **[!UICONTROL Incremental Index Schedule]****[!UICONTROL Incrementally Index]** リストで、インデックス作成頻度を時間単位または分単位で選択します。
-1. ドロップダウンリストで、新しい増分インデックスを再生成する開始時間を選択します。 **[!UICONTROL Base Time]**
+1. 製品メニューで、**[!UICONTROL Index]**/**[!UICONTROL Incremental Index]**/**[!UICONTROL Live Schedule]**&#x200B;をクリックします。
+1. **[!UICONTROL Incremental Index Schedule]**&#x200B;ページの&#x200B;**[!UICONTROL Incrementally Index]**&#x200B;ドロップダウンリストで、インデックス作成頻度を時間単位または分単位で選択します。
+1. **[!UICONTROL Base Time]**&#x200B;ドロップダウンリストで、新しい増分インデックスを再生成する開始時間を選択します。
 1. クリック **[!UICONTROL Save Changes]**.
 
-## ライブWebサイトまたはステージ化されたWebサイトの増分インデックスの実行 {#task_9BFB6157F3884B2FAECB7E0E9CA318CB}
+## ライブWebサイトまたはステージWebサイトの増分インデックスの実行{#task_9BFB6157F3884B2FAECB7E0E9CA318CB}
 
 増分インデックスを使用すると、頻繁に変更されるページの集まりなど、ライブWebサイトやステージングされたWebサイトの「断片」のインデックスを作成できます。
 
@@ -217,14 +229,14 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
 
 1. 製品メニューで、次のいずれかの操作を行います。
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Index]**.
+   * **[!UICONTROL Index]**/**[!UICONTROL Incremental Index]**/**[!UICONTROL Live Index]**&#x200B;をクリックします。
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Staged Index]**.
+   * **[!UICONTROL Index]**/**[!UICONTROL Incremental Index]**/**[!UICONTROL Staged Index]**&#x200B;をクリックします。
 
 1. クリック **[!UICONTROL Incremental Index Now]**.
-1. （オプション）インデックス作成エラーが発生した場合は、をクリックして関連するログ **[!UICONTROL View Errors]** を表示します。
+1. （オプション）インデックスエラーが発生した場合は、**[!UICONTROL View Errors]**&#x200B;をクリックして関連するログを表示します。
 
-## ライブWebサイトまたはステージングされたWebサイトの増分インデックスログの表示 {#task_E668E1F1240C476DAA1CA783DC728232}
+## ライブWebサイトまたはステージWebサイトの増分インデックスログの表示{#task_E668E1F1240C476DAA1CA783DC728232}
 
 ライブ増分インデックスまたはステージ増分インデックスが完了した場合、関連するログを表示して、発生したエラーのトラブルシューティングを行うことができます。
 
@@ -235,13 +247,13 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
 
 1. 製品メニューで、次のいずれかの操作を行います。
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Live Log]**.
+   * **[!UICONTROL Index]**/**[!UICONTROL Incremental Index]**/**[!UICONTROL Live Log]**&#x200B;をクリックします。
 
-   * Click **[!UICONTROL Index]** > **[!UICONTROL Incremental Index]** > **[!UICONTROL Staged Log]**.
+   * **[!UICONTROL Index]**/**[!UICONTROL Incremental Index]**/**[!UICONTROL Staged Log]**&#x200B;をクリックします。
 
 1. ログページの上部または下部で、次のいずれかの操作を行います。
 
-   * ナビゲーションオプション **[!UICONTROL First]**、、、、 **[!UICONTROL Prev]**&#x200B;またはを使用して、ログ内 **[!UICONTROL Next]****[!UICONTROL Last]****[!UICONTROL Go to line]** を移動します。
+   * **[!UICONTROL First]**、**[!UICONTROL Prev]**、**[!UICONTROL Next]**、**[!UICONTROL Last]**、または&#x200B;**[!UICONTROL Go to line]**&#x200B;のナビゲーションオプションを使用してログ内を移動します。
 
-   * 表示オプション **[!UICONTROL Errors only]**、 **[!UICONTROL Wrap line]**&#x200B;または **[!UICONTROL Show]** を使用して、表示内容を調整します。
+   * 表示オプション&#x200B;**[!UICONTROL Errors only]**、**[!UICONTROL Wrap line]**、または&#x200B;**[!UICONTROL Show]**&#x200B;を使用して、表示内容を絞り込みます。
 
