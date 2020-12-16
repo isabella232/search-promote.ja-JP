@@ -8,15 +8,18 @@ topic: Design,Site search and merchandising
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
 translation-type: tm+mt
 source-git-commit: 60cedaac1846e384a37699a42bf7fda33828e1c0
+workflow-type: tm+mt
+source-wordcount: '2661'
+ht-degree: 1%
 
 ---
 
 
 # テンプレートについて{#about-templates}
 
-を使用して、プレゼンテーシ **[!UICONTROL Templates]** ョンテンプレートと転送テンプレートを管理できます。
+**[!UICONTROL Templates]**&#x200B;を使用して、プレゼンテーションテンプレートと転送テンプレートを管理できます。
 
-## テンプレートについて {#concept_06EB481B14864E18A8AE2BCD1D6EF0B5}
+## テンプレートについて{#concept_06EB481B14864E18A8AE2BCD1D6EF0B5}
 
 <!-- 
 
@@ -24,45 +27,45 @@ c_about_templates.xml
 
  -->
 
-プレゼンテーションテンプレートとトランスポートテンプレートを追加、編集、コピー、名前の変更または削除できます。 「テンプレート」(Templates)テーブル内の既存のテンプレート名をクリックすると、エディタ（またはビューア）ウィンドウで開き、変更を加えることができます。
+プレゼンテーションテンプレートとトランスポートテンプレートは、追加、編集、コピー、名前の変更または削除が可能です。 「テンプレート」(Templates)テーブル内の既存のテンプレート名をクリックすると、そのテンプレートがエディタ（またはビューア）ウィンドウに開き、変更を加えることができます。
 
-テンプレートに対して行った変更は、「テンプレート」(Templates)テーブルのテンプレート名のドロップダウンリストから、「ヒストリー」(History)機能を使用して元に戻すことができます。
+「テンプレート」(Templates)テーブルのテンプレート名のドロップダウンリストから、「ヒストリー」(History)機能を使用してテンプレートに加えた変更は、すべて元に戻すことができます。
 
-テンプレートテーブル内のテンプレートの対応するチェックボックスをオンにすることで、プレゼンテーションテンプレートのペ **[!UICONTROL Minimize]** ージの重みを軽減することができます。 テンプレートのページの重みを減らすことで、インラインのJavaScriptとCSSを動的に最小限に抑えることができます。 また、HTML内の重複した空白を削除します。 プレゼンテーションテンプレートのページの重みを最小限に抑えると、検索結果をより迅速に配信できます。
+テンプレートテーブル内のテンプレートに対応する&#x200B;**[!UICONTROL Minimize]**&#x200B;チェックボックスをオンにすると、プレゼンテーションテンプレートのページ重み付けを減らすことができます。 テンプレートのページ重み付けを減らすことで、インラインのJavaScriptとCSSを動的に最小化できます。 また、HTML内の重複した空白を削除します。 プレゼンテーションテンプレートのページ重み付けを最小化すると、検索結果をより迅速に配信するのに役立ちます。
 
-最小化したテンプレートの外観をプレビューするには、ファイル名の横のドロップダウンリストをクリックし、をクリックしま **[!UICONTROL Preview minimized]**&#x200B;す。 メインのプレゼンテーションテンプレートを最小限に抑える場合は、（タグに付属の）テンプレートを最小限に抑えることを忘れないでください。このオプションは継承でき `guided-include` ないためです。
+ファイル名の横のドロップダウンリストをクリックし、**[!UICONTROL Preview minimized]**&#x200B;をクリックすると、最小化したテンプレートの外観をプレビューできます。 メインのプレゼンテーションテンプレートを最小限に抑える場合は、（`guided-include`タグと共に）含めるテンプレートの最小化を必ず有効にしてください。このオプションは継承できないからです。
 
-プレゼンテーションテンプレートを最小化しても、同じテンプレートの「最小化されていない」バージョンを編集できます。
+プレゼンテーションテンプレートを最小化しても、同じテンプレートの「最小化解除」バージョンを編集できます。
 
-検索前のルール、検索後のルール、ビジネスルールを使用して、他のプレゼンテーションテンプレートの1つを使用するタイミングを決定できます。 「検索ごとに、対象のテンプレートをxxxxに設定する」などのルールを持つのが一般的です。 このようなルールを適用した状態で、「テンプレート」(Templates)テーブルの「デフォルト」(Default)テンプレートを変更しても、何の影響も与えないように見えます。
+検索前のルール、検索後のルールおよびビジネスルールを使用して、他のプレゼンテーションテンプレートのどちらかを使用するタイミングを決定できます。 「検索ごとに、ターゲットテンプレートをxxxxに設定」などのルールを設定するのは一般的です。 このようなルールを適用した場合、テンプレートテーブルで「デフォルト」テンプレートを変更しても効果がないように見えます。
 
-See [About Pre-Search Rules](../c-about-rules-menu/c-about-pre-search-rules.md#concept_5BF84BB6FACB4645BA9CB7496A01CD1F).
+[Pre-Search Rules](../c-about-rules-menu/c-about-pre-search-rules.md#concept_5BF84BB6FACB4645BA9CB7496A01CD1F)についてを参照してください。
 
-See [About Post-Search Rules](../c-about-rules-menu/c-about-post-search-rules.md#concept_AF6ADFCC0ADF4A788003964939917FDE).
+[検索後のルールについて](../c-about-rules-menu/c-about-post-search-rules.md#concept_AF6ADFCC0ADF4A788003964939917FDE)を参照してください。
 
-See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
+[ビジネスルールについて](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD)を参照してください。
 
-## プレゼンテーションテンプレートについて {#section_ACDDEA5C499E481C828A517C230D4596}
+## プレゼンテーションテンプレートについて{#section_ACDDEA5C499E481C828A517C230D4596}
 
-プレゼンテーションテンプレートは、顧客がWebサイトで検索結果を表示する際に表示されるHTMLテンプレートです。
+プレゼンテーションテンプレートは、顧客がWebサイト上で検索結果を表示する際に表示するHTMLテンプレートです。
 
-プレゼンテーションレイヤーには、さまざまなソースからの複数の検索結果を表示する単一のプレゼンテーションテンプレートを用意できます。 必要な数のプレゼンテーションテンプレートを定義したり、他のテンプレートが共有するプレゼンテーションテンプレートをコマンドを使用して定義することも `include` できます。 プレゼンテーションテンプレートは、ファセット、メニュー、パンくずリストなど、すべてのデザインコンポーネントを組み合わせる場所です。 様々なデザインコンポーネントを表示するには、プレゼンテーションテンプレートタグを使用する必要があります。
+プレゼンテーションレイヤーには、様々なソースからの複数の検索結果を表示する、単一のプレゼンテーションテンプレートを用意することができます。 プレゼンテーションテンプレートは必要な数だけ定義でき、`include`コマンドを使用して、他のテンプレートが共有するプレゼンテーションテンプレートも定義できます。 プレゼンテーションテンプレートは、ファセット、メニュー、パンくずリストなど、すべてのデザインコンポーネントを組み合わせる場所です。 様々なデザインコンポーネントを表示するには、プレゼンテーションテンプレートタグを使用する必要があります。
 
-「プレゼンテーシ [ョンテンプレートタグ」を参照してください。](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)
+[プレゼンテーションテンプレートタグ](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)を参照
 
-複数のプレゼンテーションテンプレートがある場合は、使用する各種プレゼンテーションテンプレートを、どの条件で定義します。 受信するCGIパラメーターとcookieに基づいて、使用するプレゼンテーションテンプレートを選択できます。 また、以前の検索の結果に基づいて、使用しているプレゼンテーションテンプレートを切り替えることもできます。
+複数のプレゼンテーションテンプレートがある場合は、使用する各種プレゼンテーションテンプレートを、どの条件で定義します。 受信するCGIパラメーターとCookieに基づいて、使用するプレゼンテーションテンプレートを選択できます。 また、以前の検索の結果に基づいて、使用しているプレゼンテーションテンプレートを切り替えることもできます。
 
-複数のプレゼンテーションテンプレートを使用する場合は、検索結果を最初に表示するテンプレートを必ず指定してください。 これは、テンプレートテーブルの **[!UICONTROL Default]** 列を使用して行います。
+複数のプレゼンテーションテンプレートを使用する場合は、検索結果を最初に表示するテンプレートを指定してください。 これは、Templatesテーブルの&#x200B;**[!UICONTROL Default]**&#x200B;列を使用して行うことができます。
 
-## 転送テンプレートについて {#section_35FD3E8AAA4E4695A737DB7E00C3258B}
+## トランスポートテンプレートについて{#section_35FD3E8AAA4E4695A737DB7E00C3258B}
 
-トランスポートテンプレートは、バックエンド検索からガイド付き検索プレゼンテーションレイヤーにデータを渡すXMLまたはJSONテンプレートのいずれかです。
+トランスポートテンプレートは、バックエンド検索からGuided Searchプレゼンテーションレイヤーにデータを渡すXMLまたはJSONテンプレートにすることができます。
 
-デフォルトでは、アカウントはXMLトランスポートテンプレートを使用するように設定されています。 ただし、JSONを使用してガイド付き検索にデータを渡す場合は、アドビのコンサルティング担当者にお問い合わせください。
+デフォルトでは、アカウントはXMLトランスポートテンプレートを使用するように設定されています。 ただし、JSONを使用してガイド付き検索にデータを渡す場合は、Adobeコンサルティングにお問い合わせください。
 
-プレゼンテーションレイヤーには、複数の検索結果を表示する単一のプレゼンテーションテンプレートを含めることができます。 各検索では、同じトランスポートテンプレートまたはカスタムトランスポートテンプレートを使用して、プレゼンテーションレイヤーにデータを渡すことができます。 トランスポートテンプレートは、プレゼンテーションレイヤーにデータを渡す目的でのみ使用されるので、検索結果の表示に使用するHTMLを持つことはできません。 テンプレートは、トランスポートテンプレートタグを使用して、検索の結果とファセットの入力の結果を渡します。 これらのタグ内では、標準の検索テンプレートタグを使用して実際の値が表示されます。
+プレゼンテーションレイヤーには、複数の検索結果を表示する単一のプレゼンテーションテンプレートを用意することができます。 各検索では、同じトランスポートテンプレートまたはカスタムトランスポートテンプレートを使用して、プレゼンテーションレイヤーにデータを渡すことができます。 トランスポートテンプレートはプレゼンテーションレイヤーにデータを渡す目的でのみ使用されるので、検索結果の表示に使用するHTMLを持つことはできません。 テンプレートは、トランスポートテンプレートタグを使用して検索の結果とファセットに入力する結果を渡します。 これらのタグ内では、標準の検索テンプレートタグを使用して実際の値が表示されます。
 
-詳しくは、検 [索テンプレートタグを参照してくださ](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4)い。
+[検索テンプレートタグ](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4)を参照してください。
 
 **XML Transport Template固有のタグ**
 
@@ -76,11 +79,11 @@ See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#conce
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-xml&gt;&lt;/guided-xml&gt; </span> </p> </td> 
-   <td colname="col2"> <p>これらは、プレゼンテーションレイヤーがトランスポートテンプレートから何を解析する必要があるかを検出するために使用するルートXMLタグです。 </p> </td> 
+   <td colname="col2"> <p>これらは、プレゼンテーションレイヤーがトランスポートテンプレートから解析する必要のある内容を検出するために使用するルートXMLタグです。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;general&gt;&lt;/general&gt; </span> </p> </td> 
-   <td colname="col2"> <p>この一連のタグは、結果セットに基づいて概要データを提供する検索テンプレートタグを囲みます。 通常、これらのタグには、結果の合計数、最小結果、最大結果を示す検索タグが含まれます。 汎用フィールドタグを使用して、任意の数の追加のグローバルフィール <span class="codeph"> ドを定義で </span> きます。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&lt;general&gt; 
+   <td colname="col2"> <p>この一連のタグは、結果セットに基づく概要データを提供する検索テンプレートタグを囲みます。 通常、これらのタグには、結果の合計数、最小の結果、最大の結果の検索タグが含まれます。 <span class="codeph"> general-field </span>タグを使用して、任意の数の追加のグローバルフィールドを定義できます。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&lt;general&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;total&gt;&lt;search-total&nbsp;/&gt;&lt;/total&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;lower&gt;&lt;search-lower&nbsp;/&gt;&lt;/lower&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;upper&gt;&lt;search-upper&nbsp;/&gt;&lt;/upper&gt; 
@@ -88,12 +91,12 @@ See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#conce
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/general&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;結果&gt;&lt;/results&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;results&gt;&lt;/results&gt; </span> </p> </td> 
    <td colname="col2"> <p>この一連のタグは検索結果に含まれるので、ガイド付き検索では検索場所がわかります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;結果&gt;&lt;/result&gt; </span> </p> </td> 
-   <td colname="col2"> <p>この一連のタグは各検索結果に含まれるので、1つの検索結果のコンテンツの開始と終了をガイド付き検索で認識できます。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&lt;results&gt; 
+   <td colname="col1"> <p> <span class="codeph"> &lt;result&gt;&lt;/result&gt; </span> </p> </td> 
+   <td colname="col2"> <p>この一連のタグは各検索結果に含まれるので、ガイド付き検索は1つの検索結果開始のコンテンツのどこを認識し、その終わりを識別します。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&lt;results&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;search-results&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;result&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;index&gt;&lt;search-index&nbsp;/&gt;&lt;/index&gt; 
@@ -104,7 +107,7 @@ See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#conce
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;attribute-table name="tablename"&gt; </span> </p> </td> 
-   <td colname="col2"> <p>このタグを使用すると、複数値のリストにある各項目をループ処理して1つの結果を得ることができます。 結果内でのみタグを使用します。 その主な目的は、結果フィールドに属する属性を繰り返し処理できるようにすることです。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;results&gt; 
+   <td colname="col2"> <p>このタグを使用すると、複数値のリストで各項目をループ処理して1つの結果を得ることができます。 タグは結果内でのみ使用します。 主な目的は、結果フィールドに属する属性を繰り返し実行できるようにすることです。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;results&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;search-results&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;result&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;index&gt;&lt;search-index&nbsp;/&gt;&lt;/index&gt; 
@@ -119,12 +122,12 @@ See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#conce
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/results&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;ファセット&gt;&lt;/facets&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;facets&gt;&lt;/facets&gt; </span> </p> </td> 
    <td colname="col2"> <p>このタグのセットは、ファセットを設定する結果を渡します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;facet name="name"&gt;&lt;/facet&gt; </span> </p> </td> 
-   <td colname="col2"> <p>各ファセットには、nameパラメーターがファセット名と一致する独自のファセットタグが必要です。 検索タグは、ファセット値のファセットタグ内で使用されます。 </p> <p>ファセットにつ <a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" type="concept" format="dita" scope="local"> いてを参照してくだ </a>さい。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&lt;facets&gt; 
+   <td colname="col2"> <p>名前パラメーターがファセット名と一致するファセットには、それぞれ独自のファセットタグが必要です。 検索タグは、ファセット値のファセットタグ内で使用されます。 </p> <p><a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" type="concept" format="dita" scope="local">ファセットについて</a>を参照してください。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&lt;facets&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;facet&nbsp;name="brand"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;values&gt;&lt;search-field-value-list&nbsp;name="brand"&nbsp;quotes="no"&nbsp;commas="yes"&nbsp;data="values"&nbsp;sortby="values"&nbsp;/&gt;&lt;/values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;counts&gt;&lt;search-field-value-list&nbsp;name="brand"&nbsp;quotes="no"&nbsp;commas="yes"&nbsp;data="counts"&nbsp;sortby="values"&nbsp;/&gt;&lt;/counts&gt; 
@@ -136,12 +139,12 @@ See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#conce
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/facets&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;サーチクエリ&gt;&lt;/suggestions&gt; </span> </p> </td> 
-   <td colname="col2"> <p>この一連のタグは、ガイド付き検索でどのXMLノードに提案が含まれているかを認識できるように、「Did You Mean」の提案をラップします。 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;suggestions&gt;&lt;/suggestions&gt; </span> </p> </td> 
+   <td colname="col2"> <p>この一連のタグは、「Did You Mean」の提案をラップするので、ガイド付き検索では、提案が含まれるXMLノードが認識されます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;提案&gt;&lt;/suggestion&gt; </span> </p> </td> 
-   <td colname="col2"> <p>この一連のタグは、「Did You Mean」の提案ごとに含まれます。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&lt;search-if-suggestions&gt; 
+   <td colname="col1"> <p> <span class="codeph"> &lt;suggestion&gt;&lt;/suggestion&gt; </span> </p> </td> 
+   <td colname="col2"> <p>この一連のタグは、各「Did You Mean」サーチクエリをラップします。 </p> <p> <b>例</b> </p> <p> <code> &nbsp;&nbsp;&nbsp;&nbsp;&lt;search-if-suggestions&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;suggestions&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;search-suggestions&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;suggestion&gt; 
@@ -157,12 +160,12 @@ See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#conce
 
 **JSONトランスポートテンプレート固有のタグ**
 
-JSONとXMLを検索エンジンから渡す方が、ペイロードが小さく、パーサーが高速なので、より高速に処理できます。 ただし、JSONを使用して出力内容が厳密なJSONであることを確認する場合は、パーサーが許可しないので注意が必要です。
+JSONとXMLを検索エンジンから渡す方が、ペイロードが小さく、パーサーが高速なので、処理が高速であることがわかっています。 ただし、JSONを使用して出力内容が厳密なJSONであることを確認する場合は、パーサーが許可しないので注意が必要です。
 
 JSONを初めて使用する場合は、次のリンクと例を使用して作業を開始できます。
 
-* JSONの紹介。 https://www.json.org/を参照し [てください](https://www.json.org/)。
-* JSONをテストして、有効であることを確認します。 https://jsonlint.com/を参照し [てください](https://jsonlint.com/)。
+* JSONの紹介。 [https://www.json.org/](https://www.json.org/)を参照してください。
+* JSONをテストして、有効であることを確認します。 [https://jsonlint.com/](https://jsonlint.com/)を参照してください。
 
 **JSONテンプレートの例**
 
@@ -254,7 +257,7 @@ JSONを初めて使用する場合は、次のリンクと例を使用して作�
 }
 ```
 
-**結果の属性テーブルを含むJSON結果セクションの例**
+**結果属性テーブルを含むJSON結果セクションの例**
 
 ```
 { 
@@ -296,7 +299,7 @@ JSONを初めて使用する場合は、次のリンクと例を使用して作�
 }
 ```
 
-**関連するフィールドを含むファセットのJSONファセットセクションの例**
+**関連付けられたフィールドを持つファセットのJSONファセットセクションの例**
 
 ```
 { 
@@ -318,7 +321,7 @@ JSONを初めて使用する場合は、次のリンクと例を使用して作�
 }
 ```
 
-**スロットファセット用のJSONファセットセクションの例**
+**スロットファセットのJSONファセットセクションの例**
 
 ```
 { 
@@ -335,9 +338,9 @@ JSONを初めて使用する場合は、次のリンクと例を使用して作�
 } 
 ```
 
-## 新しいプレゼンテーションまたは転送テンプレートファイルの追加 {#task_73199757B6E748CAA604902FF913F012}
+## 新しいプレゼンテーションまたはトランスポートテンプレートファイルの追加{#task_73199757B6E748CAA604902FF913F012}
 
-を使用して、ペ **[!UICONTROL Add Template]** ージにプレゼンテーションテンプレート(.tmpl)またはトランスポートテンプレート(.tpl)を追加で [!DNL Templates] きます。
+**[!UICONTROL Add Template]**&#x200B;を使用して、プレゼンテーションテンプレート(.tmpl)またはトランスポートテンプレート(.tpl)を[!DNL Templates]ページに追加できます。
 
 <!-- 
 
@@ -345,11 +348,11 @@ t_adding_a_new_presentation_or_transport_template_file.xml
 
  -->
 
-**新しいプレゼンテーションまたは転送テンプレートファイルを追加するには**
+**新しいプレゼンテーションまたはトランスポートテンプレートファイルを追加するには**
 
-1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
-1. ページ上で、 [!DNL Templates] をクリックしま **[!UICONTROL Add New Template]**&#x200B;す。
-1. ダイアログ [!DNL Add Template] ボックスで、必要なオプションを設定します。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Templates]**&#x200B;をクリックします。
+1. [!DNL Templates]ページで、**[!UICONTROL Add New Template]**&#x200B;をクリックします。
+1. [!DNL Add Template]ダイアログボックスで、必要なオプションを設定します。
 
    <!-- 
    
@@ -359,26 +362,26 @@ t_adding_a_new_presentation_or_transport_template_file.xml
 
    | オプション | 説明 |
    |--- |--- |
-   | 新しいファイル名 | 追加するテンプレートの名前を指定します。 選択したテンプレートタイプに基づいて、ファイル名に適切なファイル拡張子が自動的に追加されます。  プレゼンテーションテンプレートには.tmplファイル拡張子が付きます。トランスポートテンプレートには.tplファイル拡張子が付いています。 |
-   | 新しいテンプレートタイプ | 追加するプレゼンテーションまたは転送テンプレートを選択できます。  テンプレート [についてを参照してくださ](../c-about-design-menu/c-about-templates.md)い。 |
+   | 新しいファイル名 | 追加するテンプレートの名前を指定します。 選択したテンプレートタイプに基づいて、適切なファイル拡張子がファイル名に自動的に追加されます。  プレゼンテーションテンプレートには.tmplファイル拡張子が付きます。トランスポートテンプレートのファイル拡張子は.tplです。 |
+   | 新しいテンプレートタイプ | 追加するプレゼンテーションまたはトランスポートテンプレートを選択できます。  [テンプレートについて](../c-about-design-menu/c-about-templates.md)を参照してください。 |
 
-   プレゼンテーショ [ンまたは転送テンプレートの編集も参照してくださ](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3)い。
+   「[プレゼンテーションまたはトランスポートテンプレートの編集](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3)」も参照してください。
 1. クリック **[!UICONTROL Add]**.
-1. （オプション）ページ [!DNL Templates] で、次のいずれかの操作を行います。
+1. （オプション）[!DNL Templates]ページで、次のいずれかの操作を行います。
 
-   * 変更を **[!UICONTROL History]** 元に戻すには、をクリックします。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      詳しくは、「 [履歴」オプションの使用を参照してくださ](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)い。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設 [定の表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、ス [テージ設定をライブにプッシュするを参照してくださ](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)い。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## プレゼンテーションまたは転送テンプレートの編集 {#task_800E0E2265C34C028C92FEB5A1243EC3}
+## プレゼンテーションまたはトランスポートテンプレートの編集{#task_800E0E2265C34C028C92FEB5A1243EC3}
 
 テンプレートエディターを使用して、プレゼンテーションの内容を表示および編集し、テンプレートファイルを転送することができます。
 
@@ -388,44 +391,44 @@ t_editing_a_template.xml
 
  -->
 
-Webサイトの訪問者が引き続きテンプレートのライブバージョンを使用している間、ステージングされたプレゼンテーションやトランスポートテンプレートを編集およびテストできます。 ステージングされたテンプレートは、検索ドメインのURLのステージバージョンを使用してテストします。 例えば、ステージングされたトランスポートテンプレートをテストするには、トランスポートテンプレートの名前に設定されたステ `sp_staged=1``sp_t` ージングされたクエリ()を実行します。 レイアウトの表示方法に満足したら、テンプレートエディター内からテ **[!UICONTROL Push Live]** ンプレートを使用してライブにすることができます。 テンプレートがライブになると、サイトの訪問者はテンプレートを使用し始めます。
+Webサイトの訪問者が引き続きテンプレートのライブバージョンを使用する間、ステージングされたプレゼンテーションやトランスポートのテンプレートを編集およびテストできます。 ステージングされたテンプレートは、検索ドメインのURLのステージングされたバージョンを使用してテストします。 例えば、ステージングされたクエリ(`sp_staged=1`)を実行し、トランスポートテンプレートの名前に設定された`sp_t`を使用して、ステージングされたトランスポートテンプレートをテストできます。 レイアウトの表示に満足したら、テンプレートエディター内で&#x200B;**[!UICONTROL Push Live]**&#x200B;を使用してテンプレートをライブにします。 テンプレートがライブになると、サイトの訪問者はテンプレートの使用を開始します。
 
-プレゼンテーションテンプレートタグ参照を使用して、ファセット、パンくずリスト、メニューなどのガイド付き検索コンポーネントにプレゼンテーションテンプレートを接続する方法を学びます。
+プレゼンテーションテンプレートタグ参照を使用して、ファセット、パンくずリスト、メニューなどのガイド付き検索コンポーネントにプレゼンテーションテンプレートを接続する方法を学習します。
 
-「プレゼンテーシ [ョンテンプレートタグ」を参照してください。](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)
+[プレゼンテーションテンプレートタグ](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64)を参照
 
 トランスポートテンプレートで使用するタグの詳細については、トランスポートテンプレートタグ参照を参照してください。
 
-トランスポートテ [ンプレートタグを参照してください。](../c-appendices/c-templates.md#reference_227D199F5A7248049BE1D405C0584751)
+[トランスポートテンプレートタグ](../c-appendices/c-templates.md#reference_227D199F5A7248049BE1D405C0584751)を参照
 
 **[!UICONTROL To edit a presentation or a transport template]**
 
-1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
-1. ページ上で、プ [!DNL Templates] レゼンテーションまたはトランスポートテンプレートのファイル名をクリックします。
-1. ページ [!DNL Template Editor] で、タグとコーディングを変更します。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Templates]**&#x200B;をクリックします。
+1. [!DNL Templates]ページで、プレゼンテーションまたはトランスポートテンプレートファイル名をクリックします。
+1. [!DNL Template Editor]ページで、タグとコーディングを変更します。
 
-   で行う変更には注意が必要です [!DNL Template Editor]。元に戻す機能はありません。 不要な変更を行い、前のバージョンのファイルに戻る場合は、をクリックしてテンプレートの表に戻ります（その時点まで変更を保存しなかった場合）。 **[!UICONTROL Cancel]** 変更を保存済みの場合は、エディターを使用し **[!UICONTROL History]** て変更を元に戻すことができます。
-1. （オプション）をクリ **[!UICONTROL Insert Symbol]** ックして、米国英語キーボードに対応するキーを持たない特殊文字や記号を入力します。
+   [!DNL Template Editor]；で行う変更には注意が必要です。元に戻す機能はありません。 意図しない変更を行い、前のバージョンのファイルに戻る場合は、**[!UICONTROL Cancel]**&#x200B;をクリックしてテンプレートの表に戻ります（その時点まで変更を保存していない場合）。 変更を保存済みの場合は、エディターで&#x200B;**[!UICONTROL History]**&#x200B;を使用して、変更を元に戻すことができます。
+1. （オプション）**[!UICONTROL Insert Symbol]**&#x200B;をクリックして、米国英語のキーボードに対応するキーを持たない特殊文字や記号を入力します。
 1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）次のいずれかの操作を行います。
 
-   * 変更を **[!UICONTROL History]** 元に戻すには、をクリックします。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      詳しくは、「 [履歴」オプションの使用を参照してくださ](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)い。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設 [定の表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、ス [テージ設定をライブにプッシュするを参照してくださ](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)い。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-1. 完了したら、テンプレートエディターページを閉じます。テンプレートページに戻ります。
+1. 終了したら、テンプレートエディタページを閉じます。「テンプレート」ページに戻ります。
 
-## プレゼンテーションまたは転送テンプレートファイルのコピー {#task_B744AB3384C84DD59C33CD25E18C2C90}
+## プレゼンテーションまたはトランスポートテンプレートファイルのコピー{#task_B744AB3384C84DD59C33CD25E18C2C90}
 
-を使用すると、既 **[!UICONTROL Copy Template]** 存のプレゼンテーションテンプレート(.tmpl)またはトランスポートテンプレート(.tpl)を複製して、テンプレートページに追加することで、時間を節約できます。
+**[!UICONTROL Copy Template]**&#x200B;を使用すると、既存のプレゼンテーションテンプレート(.tmpl)またはトランスポートテンプレート(.tpl)を複製してテンプレートページに追加することで、時間を節約できます。
 
 <!-- 
 
@@ -437,31 +440,31 @@ t_copying_a_presentation_or_a_transport_template.xml
 
 テンプレートをコピーするには、既にテンプレートを追加しておく必要があります。
 
-詳しくは、新 [しいプレゼンテーションまたは転送テンプレートファイルの追加を参照してくださ](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)い。
+「[新しいプレゼンテーションまたはトランスポートテンプレートファイルの追加](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)」を参照してください。
 
-**プレゼンテーションまたは転送テンプレートファイルをコピーするには**
+**プレゼンテーションまたはトランスポートテンプレートファイルをコピーするには**
 
-1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
-1. ページ [!DNL Templates] 上で、コピーするテンプレート名の横のドロップダウンリストで、をクリックしま **[!UICONTROL Copy]**&#x200B;す。
-1. ダイアログ [!DNL Copy Template] ボックスで、必要な1つ以上のオプションを設定します。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Templates]**&#x200B;をクリックします。
+1. [!DNL Templates]ページの、コピーするテンプレート名の横にあるドロップダウンリストで、**[!UICONTROL Copy]**&#x200B;をクリックします。
+1. [!DNL Copy Template]ダイアログボックスで、必要な1つ以上のオプションを設定します。
 1. クリック **[!UICONTROL Copy]**.
 1. （オプション）次のいずれかの操作を行います。
 
-   * 変更を **[!UICONTROL History]** 元に戻すには、をクリックします。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      詳しくは、「 [履歴」オプションの使用を参照してくださ](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)い。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設 [定の表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、ス [テージ設定をライブにプッシュするを参照してくださ](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)い。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## プレゼンテーションまたは転送テンプレートファイルの名前の変更 {#task_CC30050FC2DE4898BF44379D8378EB31}
+## プレゼンテーションまたはトランスポートテンプレートファイルの名前の変更{#task_CC30050FC2DE4898BF44379D8378EB31}
 
-を使用して、既 [!DNL Rename Template] 存のプレゼンテーションテンプレート(.tmpl)またはトランスポートテンプレート(.tpl)の名前を変更できます。
+[!DNL Rename Template]を使用して、既存のプレゼンテーションテンプレート(.tmpl)またはトランスポートテンプレート(.tpl)の名前を変更できます。
 
 <!-- 
 
@@ -469,35 +472,35 @@ t_renaming_a_presentation_or_a_transport_template_file.xml
 
  -->
 
-また、必要に応じて、テンプレートのタイプを変更することもできます。
+必要に応じて、テンプレートタイプを変更することもできます。
 
-テンプレートの名前を変更するには、既にテンプレートを追加しておく必要があります。
+テンプレート名を変更するには、既にテンプレートを追加しておく必要があります。
 
-詳しくは、新 [しいプレゼンテーションまたは転送テンプレートファイルの追加を参照してくださ](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)い。
+「[新しいプレゼンテーションまたはトランスポートテンプレートファイルの追加](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)」を参照してください。
 
-**プレゼンテーションまたは転送テンプレートファイルの名前を変更するには**
+**プレゼンテーションまたはトランスポートテンプレートファイルの名前を変更するには**
 
-1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
-1. ページ [!DNL Templates] の、名前を変更するテンプレート名の横のドロップダウンリストで、をクリックしま **[!UICONTROL Rename]**&#x200B;す。
-1. ダイアログ [!DNL Rename Template] ボックスで、必要な1つ以上のオプションを設定します。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Templates]**&#x200B;をクリックします。
+1. [!DNL Templates]ページの、名前を変更するテンプレート名の横にあるドロップダウンリストで、**[!UICONTROL Rename]**&#x200B;をクリックします。
+1. [!DNL Rename Template]ダイアログボックスで、必要な1つ以上のオプションを設定します。
 1. クリック **[!UICONTROL Rename]**.
 1. （オプション）次のいずれかの操作を行います。
 
-   * 変更を **[!UICONTROL History]** 元に戻すには、をクリックします。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      詳しくは、「 [履歴」オプションの使用を参照してくださ](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)い。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設 [定の表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、ス [テージ設定をライブにプッシュするを参照してくださ](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)い。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## プレゼンテーションまたは転送テンプレートファイルの削除 {#task_67E532C2B83A449687737E3B06C5AA58}
+## プレゼンテーションまたはトランスポートテンプレートファイルの削除{#task_67E532C2B83A449687737E3B06C5AA58}
 
-を使用して、既 **[!UICONTROL Delete Template]** 存のプレゼンテーションテンプレート(.tmpl)またはトランスポートテンプレート(.tpl)を削除できます。
+**[!UICONTROL Delete Template]**&#x200B;を使用して、既存のプレゼンテーションテンプレート(.tmpl)またはトランスポートテンプレート(.tpl)を削除できます。
 
 <!-- 
 
@@ -505,38 +508,38 @@ t_deleting_a_presentation_or_a_transport_template_file.xml
 
  -->
 
-ライブにプッシュされたステージテンプレートの対応するバージョンが既に存在する場合があります。 削除したテンプレートが存在する場合は、を使用して削除したテンプレートをライブ **[!UICONTROL Staging]** にプッシュし、ライブ環境からも削除されるようにしてください。 または、テンプレートペ **[!UICONTROL Push Live]** ージでを使用できます。
+ライブにプッシュされたステージテンプレートに対応するバージョンが既に存在する可能性があります。 テンプレートが存在する場合は、必ず&#x200B;**[!UICONTROL Staging]**&#x200B;を使用して削除済みの環境をライブにプッシュし、ライブテンプレートからも削除されるようにしてください。 または、テンプレートページで&#x200B;**[!UICONTROL Push Live]**&#x200B;を使用できます。
 
-ステージングに [ついてを参照してください](../c-about-staging.md#concept_08B8F3CA1F4241108F14BA7FC7806CA7)
+[ステージングについて](../c-about-staging.md#concept_08B8F3CA1F4241108F14BA7FC7806CA7)を参照
 
-詳しくは、ステ [ージ設定のライブプッシュを参照してください。](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)
+[ステージ設定をライブにプッシュする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照
 
 テンプレートを削除するには、既にテンプレートを追加しておく必要があります。
 
-詳しくは、新し [いプレゼンテーションまたは転送テンプレートファイルの追加を参照してください。](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)
+「[新しいプレゼンテーションまたはトランスポートテンプレートファイルの追加](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)」を参照してください。
 
-**プレゼンテーションまたは転送テンプレートファイルを削除するには**
+**プレゼンテーションまたはトランスポートテンプレートファイルを削除するには**
 
-1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
-1. ページ [!DNL Templates] 上で、削除するテンプレート名の横のドロップダウンリストで、をクリックしま **[!UICONTROL Delete]**&#x200B;す。
-1. ダイアログボッ [!DNL Delete Template] クスで、「 **[!UICONTROL Delete.]**
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Templates]**&#x200B;をクリックします。
+1. [!DNL Templates]ページの、削除するテンプレート名の横にあるドロップダウンリストで、**[!UICONTROL Delete]**&#x200B;をクリックします。
+1. [!DNL Delete Template]ダイアログボックスで、**[!UICONTROL Delete.]**&#x200B;をクリックします
 1. （オプション）次のいずれかの操作を行います。
 
-   * 変更を **[!UICONTROL History]** 元に戻すには、をクリックします。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      詳しくは、「 [履歴」オプションの使用を参照してくださ](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)い。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設 [定の表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、ス [テージ設定をライブにプッシュするを参照してくださ](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)い。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## 最小化したプレゼンテーションテンプレートのプレビュー {#task_1757B6207CC74221AE4BFFE5674D320B}
+## 最小化したプレゼンテーションテンプレートのプレビュー{#task_1757B6207CC74221AE4BFFE5674D320B}
 
-を使用して、最 **[!UICONTROL Preview minimized]** 小限に抑えることを選択した場合に、プレゼンテーションテンプレートのページの重さがどのように減少するかを確認できます。
+プレゼンテーションテンプレートを最小限に抑える場合、**[!UICONTROL Preview minimized]**&#x200B;を使用して、プレゼンテーションテンプレートの縮小ページ重み付けがどのように表示されるかを確認できます。
 
 <!-- 
 
@@ -544,43 +547,43 @@ t_previewing_the_presentation_template_minimized.xml
 
  -->
 
-メインのプレゼンテーションテンプレートを最小限に抑える場合は、（ガイド付きのタグ付きで）テンプレートを含める場合は、このオプションは継承できないので、テンプレートの最小化を必ず有効にしてください。
+メインのプレゼンテーションテンプレートを最小限に抑える場合は、（ガイド付きインクルードタグと共に）テンプレートを含める際の最小化を必ず有効にしてください。これは、このオプションは継承できないからです。
 
-詳しく [は、プレゼンテーションテンプレートのページ重みを減らすを参照してください。](../c-about-design-menu/c-about-templates.md#task_B09BB3CE89714DEAAE8D9A899CF3009E)
+[プレゼンテーションテンプレートのページ重み付けを減らすを参照してください…](../c-about-design-menu/c-about-templates.md#task_B09BB3CE89714DEAAE8D9A899CF3009E)
 
-テンプレートを最小化してプレビューするには、既にテンプレートを追加しておく必要があります。
+テンプレートは、最小化した状態で、プレビューに既に追加されている必要があります。
 
-詳しくは、新し [いプレゼンテーションまたは転送テンプレートファイルの追加を参照してください。](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)
+「[新しいプレゼンテーションまたはトランスポートテンプレートファイルの追加](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)」を参照してください。
 
 トランスポートテンプレートファイルのXMLコードをプレビューできます。
 
-詳しくは、ト [ランスポートテンプレートファイルのXMLのプレビューを参照してください。](../c-about-design-menu/c-about-templates.md#task_58C6C52078E14AD88D2B2F0B3C439AE8)
+「[トランスポートテンプレートファイルのXMLのプレビュー](../c-about-design-menu/c-about-templates.md#task_58C6C52078E14AD88D2B2F0B3C439AE8)」を参照してください。
 
-**最小化したプレゼンテーションテンプレートをプレビューするには**
+**プレゼンテーションテンプレートを最小化してプレビューするには**
 
-1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
-1. ページの [!DNL Templates] プレゼンテーションテンプレート名の横のドロップダウンリストで、をクリックしま **[!UICONTROL Preview minimized]**&#x200B;す。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Templates]**&#x200B;をクリックします。
+1. [!DNL Templates]ページのプレゼンテーションテンプレート名の横のドロップダウンリストで、**[!UICONTROL Preview minimized]**&#x200B;をクリックします。
 
-   テンプレートテ **[!UICONTROL Type]** ーブルの列を使用して、テンプレートをプレゼンテーションとトランスポートで並べ替えます。
-1. （オプション）ページ上で、 [!DNL Preview Minimized Template] 定義されたウ **[!UICONTROL Wrap lines]** ィンドウ内のタグを読み取ります。
+   テンプレートテーブルの&#x200B;**[!UICONTROL Type]**&#x200B;列を使用して、プレゼンテーションとトランスポートでテンプレートを並べ替えます。
+1. （オプション）[!DNL Preview Minimized Template]ページで、**[!UICONTROL Wrap lines]**&#x200B;をチェックして、定義されたウィンドウ内のタグを読み取ります。
 1. クリック **[!UICONTROL Close]**.
 1. （オプション）次のいずれかの操作を行います。
 
-   * 変更を **[!UICONTROL History]** 元に戻すには、をクリックします。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      詳しくは、「 [履歴」オプションの使用を参照してくださ](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)い。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設 [定の表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、ス [テージ設定をライブにプッシュするを参照してくださ](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)い。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## Webサイト上のプレゼンテーションテンプレートのページ重みの軽減 {#task_B09BB3CE89714DEAAE8D9A899CF3009E}
+## Webサイト上のプレゼンテーションテンプレートのページ重み付けを減らす{#task_B09BB3CE89714DEAAE8D9A899CF3009E}
 
-テンプレートテーブルのオプションを使用すると、プレゼンテーションテンプレートのペ **[!UICONTROL Minimize]** ージの重みを軽減できます。
+テンプレートテーブルの&#x200B;**[!UICONTROL Minimize]**&#x200B;オプションを使用すると、プレゼンテーションテンプレートのページ重み付けを減らすことができます。
 
 <!-- 
 
@@ -588,33 +591,33 @@ t_reducing_the_page_weight_of_a_presentation_template.xml
 
  -->
 
-テンプレートのページの重みを減らすことで、インラインのJavaScriptとCSSを動的に最小限に抑えることができます。 また、HTML内の重複した空白を削除します。 プレゼンテーションテンプレートのページの重みを最小限に抑えると、検索結果をより迅速に配信できます。
+テンプレートのページ重み付けを減らすことで、インラインのJavaScriptとCSSを動的に最小化できます。 また、HTML内の重複した空白を削除します。 プレゼンテーションテンプレートのページ重み付けを最小化すると、検索結果をより迅速に配信するのに役立ちます。
 
-また、を使用して、最小化したプレゼンテーションテンプレートの外観をプレビューすることもできま **[!UICONTROL Preview minimized]**&#x200B;す。
+**[!UICONTROL Preview minimized]**&#x200B;を使用して、最小化したプレゼンテーションテンプレートの外観をプレビューすることもできます。
 
-詳しくは、最 [小化したプレゼンテーションテンプレートのプレビューを参照してくだ](../c-about-design-menu/c-about-templates.md#task_1757B6207CC74221AE4BFFE5674D320B)さい。
+[最小化したプレゼンテーションテンプレートのプレビュー](../c-about-design-menu/c-about-templates.md#task_1757B6207CC74221AE4BFFE5674D320B)を参照してください。
 
 **[!UICONTROL To reduce the page weight of a presentation template on your website]**
 
-1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
-1. ページの [!DNL Templates] 列の下で、Webサイ [!DNL Minimize] ト上で最小限に抑えて表示する1つ以上のプレゼンテーションテンプレートファイルのチェックボックスをオンにします。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Templates]**&#x200B;をクリックします。
+1. [!DNL Templates]ページの[!DNL Minimize]列の下で、Webサイト上で最小限に抑えてプッシュする1つ以上のプレゼンテーションテンプレートファイルのチェックボックスをオンにします。
 
-   表の列を使 **[!UICONTROL Type]** 用して、テ [!DNL Templates] ンプレートをプレゼンテーションと転送で並べ替えます。
+   [!DNL Templates]テーブルの&#x200B;**[!UICONTROL Type]**&#x200B;列を使用して、テンプレートをプレゼンテーションとトランスポートで並べ替えます。
 1. （オプション）次のいずれかの操作を行います。
 
-   * 変更を **[!UICONTROL History]** 元に戻すには、をクリックします。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      詳しくは、「 [履歴」オプションの使用を参照してくださ](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)い。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設 [定の表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、ス [テージ設定をライブにプッシュするを参照してくださ](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)い。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## Webサイトで使用するデフォルトのプレゼンテーションテンプレートファイルの設定 {#task_C1E8CE817E4D43E096167A347C54DD53}
+## Webサイトで使用するデフォルトのプレゼンテーションテンプレートファイルの設定{#task_C1E8CE817E4D43E096167A347C54DD53}
 
 複数のプレゼンテーションテンプレートがある場合、検索結果の表示に最初に使用するテンプレートを指定できます。
 
@@ -626,37 +629,37 @@ t_setting_the_default_presentation_template_file_to_use.xml
 
 検索前のルール、検索後のルールおよびビジネスルールを使用して、他のプレゼンテーションテンプレートの1つを使用するタイミングを決定できます。
 
-See [About Pre-Search Rules](../c-about-rules-menu/c-about-pre-search-rules.md#concept_5BF84BB6FACB4645BA9CB7496A01CD1F).
+[Pre-Search Rules](../c-about-rules-menu/c-about-pre-search-rules.md#concept_5BF84BB6FACB4645BA9CB7496A01CD1F)についてを参照してください。
 
-See [About Post-Search Rules](../c-about-rules-menu/c-about-post-search-rules.md#concept_AF6ADFCC0ADF4A788003964939917FDE).
+[検索後のルールについて](../c-about-rules-menu/c-about-post-search-rules.md#concept_AF6ADFCC0ADF4A788003964939917FDE)を参照してください。
 
-See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
+[ビジネスルールについて](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD)を参照してください。
 
-「検索ごとに、対象のプレゼンテーションテンプレートをxxxxに設定する」などのルールを設定するのは一般的です。 このようなルールを適用した状態で、テンプレートページの「デフォルト」テンプレートを変更しても効果がないように見えます。
+「検索ごとに、対象のプレゼンテーションテンプレートをxxxxに設定する」などのルールを設定するのは一般的です。 このようなルールを適用した状態で、テンプレートページの「デフォルト」テンプレートを変更しても何も起こりません。
 
 **[!UICONTROL To set the default presentation template file to use on your website]**
 
-1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
-1. ページの [!DNL Templates] 列の下で、デフ [!DNL Default] ォルトとして使用する対応するプレゼンテーションテンプレートファイルのラジオボタンをクリックします。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Templates]**&#x200B;をクリックします。
+1. [!DNL Templates]ページの[!DNL Default]列の下で、デフォルトとして使用する対応するプレゼンテーションテンプレートファイルのラジオボタンをクリックします。
 
-   表の列を使 **[!UICONTROL Type]** 用して、テ [!DNL Templates] ンプレートをプレゼンテーションと転送で並べ替えます。
+   [!DNL Templates]テーブルの&#x200B;**[!UICONTROL Type]**&#x200B;列を使用して、テンプレートをプレゼンテーションとトランスポートで並べ替えます。
 1. （オプション）次のいずれかの操作を行います。
 
-   * 変更を **[!UICONTROL History]** 元に戻すには、をクリックします。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      詳しくは、「 [履歴」オプションの使用を参照してくださ](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)い。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設 [定の表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、ス [テージ設定をライブにプッシュするを参照してくださ](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)い。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## トランスポートテンプレートファイルのXMLのプレビュー {#task_58C6C52078E14AD88D2B2F0B3C439AE8}
+## トランスポートテンプレートファイル{#task_58C6C52078E14AD88D2B2F0B3C439AE8}のXMLのプレビュー
 
-を使用して、追 [!DNL Preview] 加したトランスポートテンプレートのXMLを確認できます。
+[!DNL Preview]を使用して、追加したトランスポートテンプレートのXMLを確認できます。
 
 <!-- 
 
@@ -664,32 +667,32 @@ t_previewing_the_xml_of_a_transport_template_file.xml
 
  -->
 
-テンプレートのXMLをプレビューするには、既にトランスポートテンプレートを追加しておく必要があります。
+テンプレートのXMLには、既にプレビューにトランスポートテンプレートを追加しておく必要があります。
 
-詳しくは、新 [しいプレゼンテーションまたは転送テンプレートファイルの追加を参照してくださ](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)い。
+「[新しいプレゼンテーションまたはトランスポートテンプレートファイルの追加](../c-about-design-menu/c-about-templates.md#task_73199757B6E748CAA604902FF913F012)」を参照してください。
 
-最小化したプレゼンテーションテンプレートファイルをプレビューして、ページの重さを軽減できます。
+最小化したプレゼンテーションテンプレートファイルをプレビューして、その縮小ページ重み付けを表示できます。
 
-詳しくは、最 [小化したプレゼンテーションテンプレートのプレビューを参照してくだ](../c-about-design-menu/c-about-templates.md#task_1757B6207CC74221AE4BFFE5674D320B)さい。
+[最小化したプレゼンテーションテンプレートのプレビュー](../c-about-design-menu/c-about-templates.md#task_1757B6207CC74221AE4BFFE5674D320B)を参照してください。
 
 **トランスポートテンプレートファイルのXMLをプレビューするには**
 
-1. 製品メニューで、/をクリッ **[!UICONTROL Design]** クしま **[!UICONTROL Templates]**&#x200B;す。
-1. ページで、 [!DNL Templates] トランスポートテンプレート名の横のドロップダウンリストで、をクリックしま **[!UICONTROL Preview]**&#x200B;す。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Templates]**&#x200B;をクリックします。
+1. [!DNL Templates]ページのトランスポートテンプレート名の横のドロップダウンリストで、**[!UICONTROL Preview]**&#x200B;をクリックします。
 
-   表の列を使 **[!UICONTROL Type]** 用して、テ [!DNL Templates] ンプレートをプレゼンテーションと転送で並べ替えます。
-1. 表示ウィンドウを閉じ、に戻りま [!DNL site search/merchandising]す。
+   [!DNL Templates]テーブルの&#x200B;**[!UICONTROL Type]**&#x200B;列を使用して、テンプレートをプレゼンテーションとトランスポートで並べ替えます。
+1. 表示ウィンドウを閉じて[!DNL site search/merchandising]に戻ります。
 1. （オプション）次のいずれかの操作を行います。
 
-   * 変更を **[!UICONTROL History]** 元に戻すには、をクリックします。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      詳しくは、「 [履歴」オプションの使用を参照してくださ](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)い。
+      [「履歴」オプションの使用](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設 [定の表示を参照してください](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、ス [テージ設定をライブにプッシュするを参照してくださ](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)い。
+      [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
