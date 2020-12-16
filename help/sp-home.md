@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: dcbee1a3092f46db8f19e0b14f55cafac5fdbc13
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
 
-# AdobeSearch&amp;Promoteガイド {#search-promote-documentation}
+# Adobe Search&amp;Promote ガイド {#search-promote-documentation}
 
-## News and announcements {#topic_02625547D07F411DBAC9593FCBD4741B}
+## ニュースとお知らせ{#topic_02625547D07F411DBAC9593FCBD4741B}
 
 * Adobe Marketing Cloudリリースノート — すべてのMarketing Cloudソリューションの新機能、修正、既知の問題が含まれています。 主なリリースは春と秋に行われ、メンテナンスリリースは毎月行われます。
 
-   **早期アクセス**:Priority Product Update [(](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) Adobe優先製品の更新)にサインアップし、各リリースの1週間前にAdobe Marketing Cloudのリリースノートを受け取ります。
+   **早期アクセス**:Priority Product  [](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) Updateにサインアップして、各リリースの1週間前にAdobe Marketing Cloudのリリースノートを受け取ります。
 
 * 最新のAdobeSearch&amp;Promoteリリースノート：
 
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 [AdobeSearch&amp;Promoteのインデックスコネクタフィードについてと設計](https://marketing.adobe.com/resources/help/en_US/snp/index_connector_feeds.pdf)
 
-## Other information {#topic_34A00195904D4AE7AE982D3746F693AA}
+## その他の情報{#topic_34A00195904D4AE7AE982D3746F693AA}
 
 [AdobeSearch&amp;PromoteWebサイト](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html)
 
