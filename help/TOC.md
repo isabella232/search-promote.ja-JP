@@ -15,10 +15,10 @@ ht-degree: 11%
 ---
 
 
-# Adobe Search and Promote Guide {#using}
+# AdobeSearch and Promoteガイド{#using}
 
 + [Search&amp;Promoteドキュメントの概要](sp-home.md)
-+ Release notes {#release-notes}
++ リリースノート{#release-notes}
    + [Search&amp;Promote18.1.1リリースノート（2018年2月14日）](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
    + [Search&amp;Promote17.11.1リリースノート（2017年10月31日）](c-searchpromote-release-notes/c-rn-10-31-17-version-1711.md)
    + [Search&amp;Promote15.3.1リリースノート（2015年3月25日）](c-searchpromote-release-notes/c-rn-03-19-15-version-153.md)
@@ -47,7 +47,7 @@ ht-degree: 11%
 + [Search&amp;Promote使用の手引き](c-getting-started.md)
 + [ホーム](c-about-home.md)
 + [履歴の使用](t-using-the-history-option.md)
-+ 検索の設計 {#design}
++ 検索の設計{#design}
    + [ファセット](c-about-design-menu/c-about-facets.md)
    + [Facet Rail](c-about-design-menu/c-about-facet-rails.md)
    + [動的ファセット](c-about-design-menu/c-about-dynamic-facets.md)
@@ -58,14 +58,14 @@ ht-degree: 11%
    + [テンプレート](c-about-design-menu/c-about-templates.md)
    + [バナー](c-about-design-menu/c-about-banners.md)
    + [オートコンプリート](c-about-auto-complete.md)
-+ 検索ルールの適用 {#rules}
++ 検索ルールの適用{#rules}
    + [クエリクリーニング規則](c-about-rules-menu/c-about-query-cleaning-rules.md)
    + [直接ヒット](c-about-rules-menu/c-about-direct-hits.md)
    + [検索前のルール](c-about-rules-menu/c-about-pre-search-rules.md)
    + [検索後のルール](c-about-rules-menu/c-about-post-search-rules.md)
    + [ビジネスルール](c-about-rules-menu/c-about-business-rules.md)
    + [ランキングルール](c-about-rules-menu/c-about-ranking-rules.md)
-+ 検索言語学の使用 {#linguistics}
++ 検索言語の使用{#linguistics}
    + [辞書](c-about-linguistics-menu/c-about-dictionaries.md)
    + [単語と言語](c-about-linguistics-menu/c-about-words-and-language.md)
    + [本気か？](c-about-linguistics-menu/c-about-did-you-mean.md)
@@ -74,11 +74,11 @@ ht-degree: 11%
    + [共通フレーズ](c-about-linguistics-menu/c-about-common-phrases.md)
 + [シミュレータ](c-about-simulator.md)
 + [ステージング](c-about-staging.md)
-+ 検索レポートの生成 {#reports}
++ 検索レポートの生成{#reports}
    + [検索レポートの操作](c-about-reports-menu/c-about-reports-menu.md)
-   + [データビュー](c-about-reports-menu/c-about-data-views.md)
+   + [データ表示](c-about-reports-menu/c-about-data-views.md)
    + [アラート](c-about-reports-menu/c-about-alerts.md)
-+ コンテンツのインデックス作成 {#index}
++ コンテンツのインデックス作成{#index}
    + [インデックス全体](c-about-index-menu/c-about-full-index.md)
    + [増分インデックス](c-about-index-menu/c-about-incremental-index.md)
    + [スクリプトインデックス](c-about-index-menu/c-about-scripted-index.md)
@@ -87,7 +87,7 @@ ht-degree: 11%
    + [インデックス作成のリモート制御](c-about-index-menu/c-about-remote-control-for-indexing.md)
    + [インデックスのロールバック](c-about-index-menu/c-about-rollback-for-indexes.md)
    + [垂直方向の更新](c-about-index-menu/c-about-vertical-updates.md)
-+ Configuring settings {#settings}
++ 設定{#settings}を構成しています
    + [クロール](c-about-settings-menu/c-about-crawling-menu.md)
    + [検索中](c-about-settings-menu/c-about-searching-menu.md)
    + [メタデータ](c-about-settings-menu/c-about-metadata-menu.md)
@@ -99,7 +99,7 @@ ht-degree: 11%
    + [アカウントオプション](c-about-settings-menu/c-about-account-options-menu.md)
    + [ユーザー](c-about-settings-menu/c-about-users-menu.md)
 + [Search&amp;Promoteアカウントの操作](c-about-accounts-menu.md)
-+ 付録 {#appendices}
++ 付録{#appendices}
    + [日付形式](c-appendices/r-date-formats.md)
    + [正規表現](c-appendices/r-regular-expressions.md)
    + [近接検索](c-appendices/r-about-proximity-search.md)
