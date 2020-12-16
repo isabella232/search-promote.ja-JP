@@ -1,20 +1,23 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Search&Promote 8.9.3リリースノート（2012年11月1日）
+seo-title: Search&amp;Promote 8.9.3リリースノート（2012年11月1日）
 solution: Target
-title: Search&Promote 8.9.3リリースノート（2012年11月1日）
+title: Search&amp;Promote 8.9.3リリースノート（2012年11月1日）
 topic: Release Notes,Site search and merchandising
 uuid: 7bc7bcb6-f47f-4e05-94e5-a22a13a187b7
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 84%
 
 ---
 
 
-# Search&amp;Promote 8.9.3 Release Notes (11/01/2012){#search-promote-release-notes}
+# Search&amp;Promote8.9.3リリースノート（2012年11月1日）{#search-promote-release-notes}
 
-## Search&amp;Promote 8.9.3 Release Notes (11/01/2012) {#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
+## Search&amp;Promote8.9.3リリースノート（2012年11月1日） {#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
 
 <table> 
  <thead> 
@@ -55,7 +58,7 @@ source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
 * [!DNL Stage] インデックスがある場合、ビジネスルールの動作に一貫性がなくなる問題を修正しました。
 * 自動ランキングルールが、定型化されたランディングページに適用されるようになりました。
 
-   ランキングルールの追加のオプションの [表を参照してください](../c-about-rules-menu/c-about-ranking-rules.md#task_A132789FD4E5423DAD090DCDA7311E8A)。
+   [ランキングルールの追加](../c-about-rules-menu/c-about-ranking-rules.md#task_A132789FD4E5423DAD090DCDA7311E8A)のオプションの表を参照してください。
 
 * [!DNL promosearch.cgi] がプロモーションを返さなかった問題を修正しました。
 
