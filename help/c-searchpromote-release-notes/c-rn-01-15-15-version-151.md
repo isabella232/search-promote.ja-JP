@@ -1,36 +1,39 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Search&Promote 15.1.1リリースノート（2015年1月16日）
+seo-title: Search&amp;Promote 15.1.1リリースノート（2015年1月16日）
 solution: Target
-title: Search&Promote 15.1.1リリースノート（2015年1月16日）
+title: Search&amp;Promote 15.1.1リリースノート（2015年1月16日）
 topic: Release Notes,Site search and merchandising
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
 translation-type: tm+mt
 source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 17%
 
 ---
 
 
-# Search&amp;Promote 15.1.1 Release Notes (01/15/2015){#search-promote-release-notes}
+# Search&amp;Promote15.1.1リリースノート（2015年1月16日）{#search-promote-release-notes}
 
 ## 新機能 {#section_2A10EF6B40FC4F2CB2381FFA9FFA64BD}
 
 * これまでは、ガイド付き検索ルールのキーワードに語幹解釈や同義語といった言語学的調整が常に適用されていました。この拡張を無効にして、キーワードがそのまま使われるようにすることができます。
 
-   ビジネス・ルールにトリガー条件を適用する場合は、次の「 [!DNL Advanced Rule Builder], **[!UICONTROL If any/all of the following conditions are met]**」の最初のドロップダウン・リストでを選択し、2番目のドロップダウン・リストで新しい演算子 **[!UICONTROL keyword]****[!UICONTROL equal exact]** を選択します。
+   ビジネスルールにトリガー条件を適用する場合、[!DNL Advanced Rule Builder]の&#x200B;**[!UICONTROL If any/all of the following conditions are met]**&#x200B;の後の&lt;a1/>で、最初のドロップダウンリストで&#x200B;**[!UICONTROL keyword]**&#x200B;を選択し、2番目のドロップダウンリストで新しい演算子&#x200B;**[!UICONTROL equal exact]**&#x200B;を選択します。
 
-   See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD).
+   [ビジネスルールについて](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD)を参照してください。
 
-## Fixes and enhancements {#section_22D1AFC99F394D569898828A0D3C419D}
+## 修正点と機能強化{#section_22D1AFC99F394D569898828A0D3C419D}
 
-* [!DNL Visual Rule Builder] に設定さ [!DNL Advanced Rule Builder] れ、「MDI(Merchandising Document ID)」フィールドの値が切り捨てられなくなりました。
+* [!DNL Visual Rule Builder] MDI(マーチャンダイジングドキュメントID)フィールドの値が切り捨てら [!DNL Advanced Rule Builder] れなくなりました。
 * RBTA 関連のインデックスエラーを修正しました。
-* ステータスが「承認済み」の既存のビジネスルールを編集すると、「承認済み」ステータスが失効するようになりました。 You must use [!DNL Advanced Rule Builder] to recheck the option **[!UICONTROL Approved]**, and then save the rule as usual. If you do not reapprove an edited rule, the rule&#39;s status is automatically set to WIP (Work In Progress) on the [!DNL Business Rules] page.
-* A new **[!UICONTROL Advanced Search]** option is now available on the [!DNL Business Rules] page for improved filtering of rules.
-* 、、およ **[!UICONTROL contains word]** びのルールトリガーに条 [!DNL Query Cleaning]件を追 [!DNL Pre-Search Rules]加し、単語の改行を [!DNL Post Search Rules][!DNL Business Rules]簡単に指定できるようにしました。
-* ルールの表示時など、ビジネスルールのメモに対して行われた改良点で、そのルールのメモ履歴を取得できるようになりました。 また、メモは、>にログインされるようにな **[!UICONTROL Reports]** りまし **[!UICONTROL Change Log]**&#x200B;た。
-* Queries with nonzero `sp_i` values are no longer run through the [!DNL Adobe Analytics] redirector.
+* ステータスが「承認済み」の既存のビジネスルールを編集すると、「承認済み」ステータスが取り消されるようになりました。 [!DNL Advanced Rule Builder]を使用して&#x200B;**[!UICONTROL Approved]**&#x200B;オプションを再確認し、通常どおりルールを保存する必要があります。 編集したルールを再度承認しない場合、[!DNL Business Rules]ページで、ルールのステータスが自動的にWIP(Work In Progress)に設定されます。
+* 新しい&#x200B;**[!UICONTROL Advanced Search]**&#x200B;オプションが[!DNL Business Rules]ページで利用できるようになり、ルールのフィルター機能が強化されました。
+* **[!UICONTROL contains word]**&#x200B;条件を[!DNL Query Cleaning]、[!DNL Pre-Search Rules]、[!DNL Post Search Rules]および[!DNL Business Rules]のルールトリガーに追加し、単語の区切りを簡単に指定できるようにしました。
+* ルールを表示する際に、そのルールのメモ履歴を取得できるようになり、ビジネスルールのメモに対して改善が加えられました。 また、メモは&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Change Log]**&#x200B;にログインされるようになりました。
+* `sp_i`以外の値を持つクエリは、[!DNL Adobe Analytics]リダイレクターで実行されなくなりました。
 
-   バックエンド検索CGIパラメータの表の15 [行目を参照してください](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)。
+   [バックエンド検索CGIパラメーター](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8)の表の15行を参照してください。
 
