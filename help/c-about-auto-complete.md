@@ -20,11 +20,11 @@ ht-degree: 1%
 
 オートコンプリートの様々な領域を設定して、オートコンプリートが有効な検索フォームの生成を制御したり、オートコンプリートが有効な検索フォームの一部として含まれるautocomplete_data.jsファイルを制御したりできます。
 
-## オートコンプリートについて {#concept_093A9CD754864BA79B456FE4BEB64578}
+## オートコンプリートについて{#concept_093A9CD754864BA79B456FE4BEB64578}
 
-ファイル [!DNL autocomplete_data.js] は再生成され、オートコンプリートセットアップページで保存された変更があるたびに検索コンテンツネットワークに公開されます。
+[!DNL autocomplete_data.js]ファイルは再生成され、オートコンプリートセットアップページで保存された変更があるたびに検索コンテンツネットワークに公開されます。
 
-## オートコンプリートの設定 {#task_F491F2BFC4D24A61BBDC48B9059C11BB}
+## オートコンプリートの設定{#task_F491F2BFC4D24A61BBDC48B9059C11BB}
 
 オートコンプリート対応の検索フォームおよびファイルの生成を制御するオプションを設定および設定できます。
 
@@ -36,18 +36,18 @@ t_configuring_auto-complete.xml
 
 オートコンプリートを設定した後、結果として得られるHTMLソースをレビュー用に表示できます。 HTMLソースは、Webサイトのページにコピー&amp;ペーストするものです。
 
-詳しくは、検索フォームが表示されるとおりに [プレビューするを参照してください。](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
+[検索フォームが表示される状態をプレビューするを参照してください…](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
-「オートコンプリートWordリストの [設定](c-about-auto-complete.md#task_1F8E0F346263443383F8CFD2C7AB35D4)」を参照してください。
+「[オートコンプリートワードリストの設定](c-about-auto-complete.md#task_1F8E0F346263443383F8CFD2C7AB35D4)」を参照してください。
 
-詳しくは、オートコンプリートCSSの [設定を参照してください](c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)。
+「[オートコンプリートCSSの設定](c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)」を参照してください。
 
 **オートコンプリートを設定するには**
 
-1. 製品メニューで、//をクリックし **[!UICONTROL Design]** ま **[!UICONTROL Auto-Complete]** す **[!UICONTROL Auto-Complete Setup]**。
-1. ページで、目的のオプションを設定 [!DNL Auto-Complete Setup] します。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Auto-Complete]**/**[!UICONTROL Auto-Complete Setup]**&#x200B;をクリックします。
+1. [!DNL Auto-Complete Setup]ページで、必要なオプションを設定します。
 
-   検索フォームがユーザーの [目的に合わせて表示されるようにプレビューするものも参照してください。](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
+   [検索フォームが表示される状態でプレビューするを参照してください…](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
    <table> 
     <thead> 
@@ -71,15 +71,15 @@ t_configuring_auto-complete.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>フォーム名 </p> </td> 
-      <td colname="col2"> <p>オートコンプリート対応検索フォームの「form」タグの「name」属性を指定します。 例： </p> <p> <span class="filepath"> &lt;form name="SiteSearch" method="get" action="https://sp1004337c.guided.t1.atomz.com"ターゲット="_blank"&gt; </span> </p> <p>ここで、 <span class="filepath"> SiteSearch </span> はフォームタグのname属性です。 </p> </td> 
+      <td colname="col2"> <p>オートコンプリート対応検索フォームの「form」タグの「name」属性を指定します。 例： </p> <p> <span class="filepath"> &lt;form name="SiteSearch" method="get" action="https://sp1004337c.guided.t1.atomz.com" target="_blank"&gt; </span> </p> <p><span class="filepath"> SiteSearch </span>は、フォームタグのname属性です。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>DivタグID </p> </td> 
-      <td colname="col2"> <p>オートコンプリート対応検索フォームの"div"タグのID属性を指定します。 例： </p> <p> <span class="filepath"> &lt;div id="autocomplete"&gt; </span> </p> <p>ここで、 <span class="filepath"></span> オートコンプリートはdivタグの属性です。 </p> </td> 
+      <td colname="col2"> <p>オートコンプリート対応検索フォームの"div"タグのID属性を指定します。 例： </p> <p> <span class="filepath"> &lt;div id="autocomplete"&gt; </span> </p> <p>ここで<span class="filepath"> autocomplete </span>はdivタグの属性です。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Input tag ID </p> </td> 
-      <td colname="col2"> <p>オートコンプリート対応検索フォームの「input」タグのID属性を指定します。 例： </p> <p> <span class="filepath"> &lt;input type="text" id="q" name="q" /&gt; </span> </p> <p>ここで <span class="filepath"> q </span> は、inputタグのid属性です。 </p> </td> 
+      <td colname="col2"> <p>オートコンプリート対応検索フォームの「input」タグのID属性を指定します。 例： </p> <p> <span class="filepath"> &lt;input type="text" id="q" name="q" /&gt; </span> </p> <p>ここで<span class="filepath"> q </span>は、inputタグのid属性です。 </p> </td> 
       </tr> 
       <tr>
       <td colname="col1"> <p>シャドウを表示 </p> </td>
@@ -99,19 +99,19 @@ t_configuring_auto-complete.xml
 1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）次のいずれかの操作を行います。
 
-   * をクリック **[!UICONTROL History]** すると、行った変更がすべて元に戻ります。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      「Historyオプションの [使用](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)」を参照してください。
+      [「履歴」オプションの使用](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設定の [表示を参照してください](c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、 [ステージ設定をライブにプッシュするを参照してください](c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
+      [プッシュステージ設定をライブにする](c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## オートコンプリートWordリストの設定 {#task_1F8E0F346263443383F8CFD2C7AB35D4}
+## オートコンプリートワードリストの設定{#task_1F8E0F346263443383F8CFD2C7AB35D4}
 
 オートコンプリートで顧客に対して表示する語句のリストを提案として設定します。
 
@@ -121,16 +121,16 @@ t_configuring_auto-complete_word_list.xml
 
  -->
 
-「オートコンプリートの [設定](c-about-auto-complete.md#task_F491F2BFC4D24A61BBDC48B9059C11BB)」を参照してください。
+「[オートコンプリートの設定](c-about-auto-complete.md#task_F491F2BFC4D24A61BBDC48B9059C11BB)」を参照してください。
 
-詳しくは、オートコンプリートCSSの [設定を参照してください](c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)。
+「[オートコンプリートCSSの設定](c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)」を参照してください。
 
 **オートコンプリートワードリストを設定するには**
 
-1. 製品メニューで、//をクリックし **[!UICONTROL Design]** ま **[!UICONTROL Auto-Complete]** す **[!UICONTROL Auto-Complete Word List]**。
-1. ページで、目的のオプションを設定 [!DNL Auto-Complete Word List] します。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Auto-Complete]**/**[!UICONTROL Auto-Complete Word List]**&#x200B;をクリックします。
+1. [!DNL Auto-Complete Word List]ページで、必要なオプションを設定します。
 
-   詳しくは、検索フォームが表示されるとおりに [プレビューするを参照してください。](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
+   [検索フォームが表示される状態をプレビューするを参照してください…](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
    <table> 
     <thead> 
@@ -158,19 +158,21 @@ t_configuring_auto-complete_word_list.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>こ追加れらの語句 </p> </td> 
-      <td colname="col2"> <p> オートコンプリートの単語リストには、この領域に一覧表示されている単語とフレーズが入力されます。 </p> <p> 「 <span class="uicontrol"> 編集」をクリック </span> してリストを表示したり、リストに単語やフレーズを追加したりします。 完了したら、「変更の <span class="uicontrol"> 保存」をクリックし </span>ます。 </p> </td> 
+      <td colname="col2"> <p> オートコンプリートの単語リストには、この領域に一覧表示されている単語とフレーズが入力されます。 </p> <p> 「<span class="uicontrol">編集</span>」をクリックして、リストを表示したり、リストに単語やフレーズを追加したりします。 完了したら、「<span class="uicontrol">変更の保存</span>」をクリックします。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>これらの語句を削除する </p> </td> 
-      <td colname="col2"> <p> この領域のエントリは、オートコンプリートの単語リストには表示されません。 </p> <p> 「 <span class="uicontrol"> 編集」をクリック </span> してリストを表示したり、リストに単語やフレーズを追加したりします。 完了したら、「変更の <span class="uicontrol"> 保存」をクリックし </span>ます。 </p> <p> このリストでは正規式を使用できます。 このリストで正規式を指定するには、行の後に1つのスペースを続け、その後に正規式を続けて開始します。 <code>regexp</code> 正規式に一致する単語リスト内の行はすべて削除されます。 </p> <p> <b>重要</b>:正規式は、他のアプリケーションで以前に使用したことがある場合にのみ使用してください。 </p> <p>詳しくは、 <a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> 正規式を参照してくだ </a>さい。 </p> </td> 
+      <td colname="col2"> <p> この領域のエントリは、オートコンプリートの単語リストには表示されません。 </p> <p> 「<span class="uicontrol">編集</span>」をクリックして、リストを表示したり、リストに単語やフレーズを追加したりします。 完了したら、「<span class="uicontrol">変更の保存</span>」をクリックします。 </p> <p> このリストでは正規式を使用できます。 このリストで正規式を指定するには、行を<code>regexp</code>の後に1つのスペースを入れ、その後に正規式を入力します。 正規式に一致する単語リスト内の行はすべて削除されます。 </p> <p> <b>重要</b>:正規式は、他のアプリケーションで以前に使用したことがある場合にのみ使用してください。 </p> <p><a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local">正規式</a>を参照してください。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>大文字と小文字を区別しない </p> </td> 
-      <td colname="col2"> <p>オートコンプリートワードリストの重複エントリで、英字の大文字と小文字のみが異なるエントリは削除されます。単語リストのエントリはすべて強制的に小文字に変換されます。 </p> <p>オートコンプリートの提案を「最初の文字が大文字」または「すべて大文字」で表示する場合は、「/* styles for result item */」の下のオートコンプリートCSSコンテンツに、 <code>
+      <td colname="col2"> <p>オートコンプリートワードリストの重複エントリで、英字の大文字と小文字のみが異なるエントリは削除されます。単語リストのエントリはすべて強制的に小文字に変換されます。 </p> <p>オートコンプリートの提案を「先頭文字が大文字」または「すべて大文字」で表示する場合は、 
+        <code>
           text-transform : capitalize; 
-        </code> または <code>
+        </code>または 
+        <code>
           text-transform : uppercase; 
-        </code> CSSテキストプロパティを追加します。 </p> <p>詳しくは、オートコンプリートCSSの <a href="c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96" type="task" format="dita" scope="local"> 設定を参照してくだ </a>さい。 </p> </td> 
+        </code>オートコンプリートCSSコンテンツに対するCSSテキストプロパティ。「/* styles for result item */」の下。 </p> <p>「<a href="c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96" type="task" format="dita" scope="local">オートコンプリートCSSの設定</a>」を参照してください。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>再インデックス時に更新 </p> </td> 
@@ -182,20 +184,20 @@ t_configuring_auto-complete_word_list.xml
 1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）次のいずれかの操作を行います。
 
-   * をクリック **[!UICONTROL History]** すると、行った変更がすべて元に戻ります。
-   * 行っ **[!UICONTROL Preview Word List]** た変更を保存するには、をクリックします。その後、オートコンプリート候補リストを確認できる [!DNL Auto-Complete Word List Preview] ページを開きます。 ページ上部近くにあるナビゲーションオプションを使用して、表示されるリストを確認し、調整します。 完了したら、をクリック **[!UICONTROL Close]** して [!DNL Auto-Complete Word List] ページに戻ります。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
+   * **[!UICONTROL Preview Word List]**&#x200B;をクリックして変更内容を保存し、[!DNL Auto-Complete Word List Preview]ページを開いてオートコンプリートの提案リストを確認します。 ページ上部近くにあるナビゲーションオプションを使用して、表示されるリストを確認し、調整します。 終了したら、**[!UICONTROL Close]**&#x200B;をクリックして[!DNL Auto-Complete Word List]ページに戻ります。
 
-      「Historyオプションの [使用](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)」を参照してください。
+      [「履歴」オプションの使用](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設定の [表示を参照してください](c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、 [ステージ設定をライブにプッシュするを参照してください](c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
+      [プッシュステージ設定をライブにする](c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## オートコンプリートCSSの設定 {#task_EECE35DEB6C94F4A8A5B42B4DED76D96}
+## オートコンプリートCSSの設定{#task_EECE35DEB6C94F4A8A5B42B4DED76D96}
 
 オートコンプリートCSSを使用して、使用するオートコンプリートカスケードスタイルシートを設定します。
 
@@ -205,7 +207,7 @@ t_configuring_auto-complete_css.xml
 
  -->
 
-オートコンプリートCSSは、のコンテンツを制御し [!DNL autocomplete_styles.css]ます。このコンテンツはオートコンプリート対応の検索フォームの一部として含まれます。 ここで指定するCSSによって、オートコンプリートの提案リストが視覚的に表示されます。 可能な視覚的なプレゼンテーションのアイデアの例については、次を参照してください。
+オートコンプリートCSSは、[!DNL autocomplete_styles.css]の内容を制御します。これは、オートコンプリート対応の検索フォームの一部として含まれています。 ここで指定するCSSによって、オートコンプリートの提案リストが視覚的に表示されます。 可能な視覚的なプレゼンテーションのアイデアの例については、次を参照してください。
 
 [https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html](https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html).
 
@@ -215,32 +217,32 @@ t_configuring_auto-complete_css.xml
 
 オートコンプリートCSSの設定が完了したら、検索フォームをプレビューして、指定したCSSが外観とレイアウトで許容可能かどうかを確認できます。
 
-詳しくは、検索フォームが表示されるとおりに [プレビューするを参照してください。](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
+[検索フォームが表示される状態をプレビューするを参照してください…](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
-**重要**:カスタムのオートコンプリートCSSを適用するには、HTMLコードに表示される2行目からコメントタグを削除する必要があります。 次に、検索フォームを含むページのheadセクション内に同じ行を移動します。
+**重要**:カスタムのオートコンプリートCSSを適用するには、HTMLコードに表示される2行目からコメントタグを削除する必要があります。次に、検索フォームを含むページのheadセクション内に同じ行を移動します。
 
-「検索フォームのHTMLコードを…に [コピーする」を参照してください。](c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
+[検索フォームのHTMLコードを](c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
 
 **オートコンプリートCSSを設定するには**
 
-1. 製品メニューで、//をクリックし **[!UICONTROL Design]** ま **[!UICONTROL Auto-Complete]** す **[!UICONTROL Auto-Complete CSS]**。
-1. テキストフィールドに、オートコンプリート提案リストに関連付けるカスケードスタイルシートの情報を貼り付けるか、入力します。 [!DNL Auto-Complete CSS]
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Auto-Complete]**/**[!UICONTROL Auto-Complete CSS]**&#x200B;をクリックします。
+1. [!DNL Auto-Complete CSS]テキストフィールドに、オートコンプリート提案リストに関連付けるカスケードスタイルシートの情報を貼り付けるか、入力します。
 1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）次のいずれかの操作を行います。
 
-   * をクリック **[!UICONTROL History]** すると、行った変更がすべて元に戻ります。
+   * **[!UICONTROL History]**&#x200B;をクリックして、行った変更を元に戻します。
 
-      「Historyオプションの [使用](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)」を参照してください。
+      [「履歴」オプションの使用](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002)を参照してください。
 
    * クリック **[!UICONTROL Live]**.
 
-      ライブ設定の [表示を参照してください](c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)。
+      [ライブ設定の表示](c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F)を参照してください。
 
    * クリック **[!UICONTROL Push Live]**.
 
-      詳しくは、 [ステージ設定をライブにプッシュするを参照してください](c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)。
+      [プッシュステージ設定をライブにする](c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## 検索フォームがWebサイトに表示されるとおりにプレビューする {#task_437B35EFA5424603A08AF8E79E6B4714}
+## 検索フォームがWebサイトに表示されるとおりにプレビューする{#task_437B35EFA5424603A08AF8E79E6B4714}
 
 オートコンプリートCSSとオートコンプリートCSSの設定に基づいて、WebサイトにHTMLコードを追加する場合の検索フォームの表示をプレビューできます。
 
@@ -250,28 +252,28 @@ t_previewing_the_search_form_as_it_would_appear_on_your_website.xml
 
  -->
 
-「オートコンプリートの [設定](c-about-auto-complete.md#task_F491F2BFC4D24A61BBDC48B9059C11BB)」を参照してください。
+「[オートコンプリートの設定](c-about-auto-complete.md#task_F491F2BFC4D24A61BBDC48B9059C11BB)」を参照してください。
 
-詳しくは、オートコンプリートCSSの [設定を参照してください](c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)。
+「[オートコンプリートCSSの設定](c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)」を参照してください。
 
-「検索フォームのHTMLコードを…に [コピーする」を参照してください。](c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
+[検索フォームのHTMLコードを](c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
 
-「検索フォームでのコレクションの [使用](c-appendices/c-searchforms.md#reference_5A079AEEEFB84457892EF0870D0605C3)」を参照してください。
+「[検索フォームでのコレクションの使用](c-appendices/c-searchforms.md#reference_5A079AEEEFB84457892EF0870D0605C3)」を参照してください。
 
-フォーム [でのフレームの使用を参照してください](c-appendices/c-searchforms.md#reference_82CDDDA1E37042E4849EBF7EA05407C5)。
+[フォームでのフレームの使用](c-appendices/c-searchforms.md#reference_82CDDDA1E37042E4849EBF7EA05407C5)を参照してください。
 
-詳しくは、「アドバンス検索フォーム [の例](c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A)」を参照してください。
+「[アドバンス検索フォームの例](c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A)」を参照してください。
 
-詳しくは、HTMLコードからの [詳細検索を参照してください](c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9)。
+「[HTMLコードのアドバンス検索](c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9)」を参照してください。
 
-「 [アドバンス検索フォームテンプレートコード](c-appendices/c-searchforms.md#reference_D762C22E754E462DBEECD88D2C3FA579)」を参照してください。
+「[アドバンス検索フォームテンプレートコード](c-appendices/c-searchforms.md#reference_D762C22E754E462DBEECD88D2C3FA579)」を参照してください。
 
 **Webサイトに表示される検索フォームをプレビューするには**
 
-1. 製品メニューで、//をクリックし **[!UICONTROL Design]** ま **[!UICONTROL Auto-Complete]** す **[!UICONTROL Search Form]**。
-1. （オプション）をクリック **[!UICONTROL HTML code]** して、Webサイトのページにコピー&amp;ペーストするHTMLを表示します。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Auto-Complete]**/**[!UICONTROL Search Form]**&#x200B;をクリックします。
+1. （オプション）**[!UICONTROL HTML code]**&#x200B;をクリックして、コピーしてWebサイトのページに貼り付けたHTMLを表示します。
 
-## 検索フォームのHTMLコードのWebサイトのページへのコピー {#task_A3A01EA800F24C0AA33902387E0362C7}
+## 検索フォームのHTMLコードのWebサイトのページへのコピー{#task_A3A01EA800F24C0AA33902387E0362C7}
 
 オートコンプリートCSSとオートコンプリートCSSの設定に基づいて、WebサイトにHTMLコードを追加する場合の検索フォームの表示をプレビューできます。
 
@@ -281,29 +283,29 @@ t_copying_the_html_code_of_the_search_form_into_the_pages_of_your_website.xml
 
  -->
 
-「オートコンプリートの [設定](c-about-auto-complete.md#task_F491F2BFC4D24A61BBDC48B9059C11BB)」を参照してください。
+「[オートコンプリートの設定](c-about-auto-complete.md#task_F491F2BFC4D24A61BBDC48B9059C11BB)」を参照してください。
 
-詳しくは、オートコンプリートCSSの [設定を参照してください](c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)。
+「[オートコンプリートCSSの設定](c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96)」を参照してください。
 
-「検索フォームのHTMLコードを…に [コピーする」を参照してください。](c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
+[検索フォームのHTMLコードを](c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
 
-「検索フォームでのコレクションの [使用](c-appendices/c-searchforms.md#reference_5A079AEEEFB84457892EF0870D0605C3)」を参照してください。
+「[検索フォームでのコレクションの使用](c-appendices/c-searchforms.md#reference_5A079AEEEFB84457892EF0870D0605C3)」を参照してください。
 
-フォーム [でのフレームの使用を参照してください](c-appendices/c-searchforms.md#reference_82CDDDA1E37042E4849EBF7EA05407C5)。
+[フォームでのフレームの使用](c-appendices/c-searchforms.md#reference_82CDDDA1E37042E4849EBF7EA05407C5)を参照してください。
 
-詳しくは、「アドバンス検索フォーム [の例](c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A)」を参照してください。
+「[アドバンス検索フォームの例](c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A)」を参照してください。
 
-詳しくは、HTMLコードからの [詳細検索を参照してください](c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9)。
+「[HTMLコードのアドバンス検索](c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9)」を参照してください。
 
-「 [アドバンス検索フォームテンプレートコード](c-appendices/c-searchforms.md#reference_D762C22E754E462DBEECD88D2C3FA579)」を参照してください。
+「[アドバンス検索フォームテンプレートコード](c-appendices/c-searchforms.md#reference_D762C22E754E462DBEECD88D2C3FA579)」を参照してください。
 
 **検索フォームのHTMLコードをWebサイトのページにコピーするには**
 
-1. 製品メニューで、//をクリックし **[!UICONTROL Design]** ま **[!UICONTROL Auto-Complete]** す **[!UICONTROL Form Source]**。
+1. 製品メニューで、**[!UICONTROL Design]**/**[!UICONTROL Auto-Complete]**/**[!UICONTROL Form Source]**&#x200B;をクリックします。
 
    >[!NOTE]
    >
-   >フォームソースの `form name=` 値は変更しないでください。
+   >フォームソース内の`form name=`値は変更しないでください。
 
 1. （オプション）次のいずれかの操作を行います。
 
