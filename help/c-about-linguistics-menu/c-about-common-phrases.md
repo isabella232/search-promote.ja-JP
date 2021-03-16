@@ -1,15 +1,13 @@
 ---
 description: Webサイトで使用する共通フレーズを定義して、顧客が検索クエリを入力したときに、定義したフレーズを引用符で囲む必要がないようにすることができます。
-seo-description: Webサイトで使用する共通フレーズを定義して、顧客が検索クエリを入力したときに、定義したフレーズを引用符で囲む必要がないようにすることができます。
-seo-title: 共通フレーズについて
 solution: Target
 title: 共通フレーズについて
-topic: Linguistics,Site search and merchandising
+topic: 言語、サイト検索、マーチャンダイジング
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
 translation-type: tm+mt
-source-git-commit: 8efa90ac2927b263b7d48ccbf25d4b0e917dac79
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -31,7 +29,7 @@ Webサイトで使用する共通フレーズを定義して、顧客が検索�
 
 `hotels near the pacific ocean`
 
-`pacific ocean`の前後に引用符を追加しないと、顧客の検索結果は、世界中の海の近くにあるホテルに対して返されます。これは顧客の意図したものではありません。
+`pacific ocean`の周りに引用符を追加しないと、顧客の検索結果は世界中の海の近くにあるホテルに対して返されますが、これは顧客の意図したものではありません。
 
 ただし、「太平洋」という共通のフレーズを追加すると、検索クエリは自動的に次のように変換されます。
 
