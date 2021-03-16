@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: テンプレート一覧
+description: Search&amp;Promoteでのプレゼンテーションおよびテンプレートタグの使用について説明します。
 solution: Target
 title: テンプレート
-topic: Appendices,Site search and merchandising
+topic: 付録，サイト検索とマーチャンダイジング
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
 translation-type: tm+mt
-source-git-commit: ca4156f80d7dbb85d2d56b6caf7c0f560299d86e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '15139'
-ht-degree: 3%
+source-wordcount: '15153'
+ht-degree: 2%
 
 ---
 
@@ -211,8 +209,8 @@ ht-degree: 3%
     &amp;lt;guided-result-attribute-table&amp;nbsp;gsname=&quot;downloads&quot;&amp;gt;
     &amp;nbsp;&amp;lt;li&amp;gt;
     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;a&amp;nbsp;a&amp;lt;guided-result-atable-field-sp=;gsname=&quot;download_link&quot;&amp;nbsp;/&amp;gt;&quot;&amp;gt;
-    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;guided-result-attribute-table-field&amp;nbsp;gsname=&quot;download_title&quot;&amp;nbsp;&amp;nbsp;&amp;
-    nbsp;;&amp;nbsp;&amp;nbsp;&amp;lt;/a&amp;gt;&amp;nbsp;(&amp;lt;guided-result-field&amp;nbsp;gsname=&quot;title&quot;/&amp;gt;)
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;guided-result-attribute-table-field&amp;nbsp;gsname=&quot;download_title&quot;&amp;nbsp;&amp;nbsp;&amp;sp;;&amp;nbsp;&amp;nbsp;&amp;lt;/a&amp;gt;&amp;nbsp;(&amp;lt;guided-result-field&amp;nbsp;gsname=&quot;title&quot;/&amp;gt;)
+    
     
     
     
@@ -269,7 +267,7 @@ ht-degree: 3%
    <td colname="col2"> <p>ファセットの表示ラベルを返します。 </p> <p>ファセットでトランスポートテンプレートで<span class="codeph"> &lt;display-name&gt; </span>タグが使用されている場合、そのタグのコンテンツがラベルになります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--In search-eng version 1/31/13--> <span class="codeph"> &lt;guided-facet-rail&gt;&lt;/guided-facet-rail&gt; </span> </p> </td> 
    <td colname="col2"> <p> ファセットパネルの各ファセットの繰り返しパターンとして使用されるプレゼンテーションテンプレートのセクションを定義します。 </p> <p> ファセットパネルに属する各ファセットは、このセクションを使用して出力を評価します。 </p> <p>ファセットパネルの例を次に示します。 </p> <p> <code class="syntax html"> &lt;guided-facet-rail&gt; 
@@ -342,7 +340,7 @@ ht-degree: 3%
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-value-link&gt;&lt;guided-facet-value&nbsp;/&gt;&lt;/guided-facet-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-if-facet-single&gt; 
-      &lt;/guided-facet&gt; </code> </p> <p><span class="codeph"> gsname </span>属性を使用して特定のファセットを直接参照することで、<span class="codeph"> guided-facet </span>ブロックのコンテキスト外でも、この条件を使用できます。 </p> <p> <code class="syntax html"> &lt;guided-if-facet-single&nbsp;gsname="category"&gt; 
+      &lt;/guided-facet&gt; </code> </p> <p><span class="codeph"> gsname </span>属性を使用して特定のファセットを直接参照することで、<span class="codeph"> guided-facet </span>ブロックのコンテキスト外でこの条件を使用することもできます。 </p> <p> <code class="syntax html"> &lt;guided-if-facet-single&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;There&nbsp;is&nbsp;only&nbsp;one&nbsp;value&nbsp;in&nbsp;the&nbsp;category&nbsp;facet! 
       &lt;/guided-if-facet-single&gt; </code> </p> </td> 
   </tr> 
@@ -464,7 +462,7 @@ ht-degree: 3%
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-facet-link&gt;&lt;guided-facet-value/&gt;&lt;/guided-facet-link&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-facet-values&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/guided-if-facet-selected&gt; 
-      &lt;/guided-facet&gt; </code> </p> <p><span class="codeph"> gsname </span>属性を使用して特定のファセットを直接参照することで、<span class="codeph"> guided-facet </span>ブロックのコンテキスト外でも、この条件を使用できます。 </p> <p> <code class="syntax html"> &lt;guided-if-facet-selected&nbsp;gsname="category"&gt; 
+      &lt;/guided-facet&gt; </code> </p> <p><span class="codeph"> gsname </span>属性を使用して特定のファセットを直接参照することで、<span class="codeph"> guided-facet </span>ブロックのコンテキスト外でこの条件を使用することもできます。 </p> <p> <code class="syntax html"> &lt;guided-if-facet-selected&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;category&nbsp;facet&nbsp;is&nbsp;selected! 
       &lt;/guided-if-facet-selected&gt; </code> </p> </td> 
   </tr> 
@@ -622,7 +620,7 @@ ht-degree: 3%
       &lt;/guided-breadcrumb&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-breadcrumb-value /&gt; </span> </p> </td> 
    <td colname="col2"> <p>valueタグは、現在の階層リンクイテレーションの変換された値を出力します。 これは、<span class="codeph"> guided-breadcrum </span>ブロックのコンテキストでのみ使用されます。 </p> <p> <code class="syntax html"> &lt;guided-breadcrumb&gt; 
@@ -747,7 +745,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-pages&gt;&lt;/guided-pages&gt; </span> </p> </td> 
    <td colname="col2"> <p>ページナビゲーションのループタグ。 開始タグと終了タグの間のコンテンツは、各ページで反復されます。 </p> </td> 
@@ -891,7 +889,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-recent-searches&gt;&lt;/guided-recent-searches&gt; </span> </p> </td> 
    <td colname="col2"> <p>最近の検索のループタグ。 開始タグと終了タグの間のコンテンツは、各ページで反復されます。 </p> </td> 
   </tr> 
@@ -956,7 +954,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matches search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-suggestions&gt;&lt;/guided-suggestions&gt; </span> </p> </td> 
    <td colname="col2"> <p>これは、サーチクエリに対してループを行うためのループタグです。 </p> </td> 
@@ -968,7 +966,7 @@ ht-degree: 3%
    <td colname="col2"> <p>指定した提案へのリンクを作成します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Newly added from search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-suggestion-value /&gt; </span> </p> </td> 
    <td colname="col2"> </td> 
@@ -1042,7 +1040,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-autocomplete&gt; &lt;guided-else-autocomplete&gt; &lt;/guided-if-autocomplete&gt; </span> </p> </td> 
    <td colname="col2"> <p>オートコンプリート機能が有効かどうかを検出します。 タグを使用して、オートコンプリートに必要なヘッドおよびフォームコンテンツをオプションで取得できます。 これにより、この機能のオン/オフを切り替え、プレゼンテーションテンプレートを変更する必要がなくなります。 </p> </td> 
   </tr> 
@@ -1052,7 +1050,7 @@ ht-degree: 3%
    <td colname="col2"> <p>プレゼンテーションテンプレートのheadで使用され、オートコンプリート用の適切なCSSスクリプトインクルードに置き換えられます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-ac-form-content /&gt; </span> </p> </td> 
    <td colname="col2"> <p>フォーム内のオートコンプリートタグをハードコーディングする代わりに、プレゼンテーションテンプレートの検索フォーム（<span class="codeph"> &lt;form&gt; </span>タグと<span class="codeph"> &lt;/form&gt; </span>タグの間）で使用されます。 タグは、オートコンプリート機能を動作させるために必要な適切なHTMLに置き換えられます。 </p> </td> 
   </tr> 
@@ -1088,7 +1086,7 @@ ht-degree: 3%
    <td colname="col2"> <p>ユーザーがストアにいるかどうかを検出します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-store gsname="store"&gt; &lt;guided-else-store&gt; &lt;/guided-if-store&gt; </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> gsname </span>パラメーターで指定されたストアにユーザーが存在するかどうかを検出します。 </p> </td> 
   </tr> 
@@ -1107,7 +1105,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-zone gsname="zone area"&gt; </span> </p> </td> 
    <td colname="col2"> <p>任意のコンテンツをゾーンタグで囲むと、その領域からゾーンを作成できます。 これにより、必要に応じて、ビジネスルールを使用してゾーンを表示できます。 既定では、ゾーンは常に表示されます。 オプションの検索パラメーターとファセットパラメーターを使用して、ゾーンに関連付けられている検索またはファセットを示すことができます。 この機能により、ゾーンが非表示の場合に検索またはファセットをスキップし、検索時間のパフォーマンスを向上させることができます。 高さと幅の属性はオプションです。ゾーンを削除した場合のVisual Rule Builderでのプレースホルダの表示方法を設定する際に使用します。 </p> <p> 可能な場合は、ゾーンの代わりに<span class="codeph"> guided-if-facet[-not]-visible </span>タグを使用します。 プレゼンテーションテンプレートが簡単になります。 </p> </td> 
   </tr> 
@@ -1153,7 +1151,7 @@ ht-degree: 3%
    <td colname="col2"> <p>この条件は、現在の繰り返しがループの最後の繰り返しである場合にtrueになります。 これは、最後の結果または最後のページを意味するわけではなく、現在のコンテキスト（ページ）で最後に表示される結果を意味します。 サイト訪問者が、200件の結果を含み、1ページにつき10件の結果しかない結果セットの1ページ目にある場合、最後の反復は結果200ではなく結果10になります。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng version, 2/1/2013--> <code> &lt;guided-if[-not]-odd&gt;&lt;guided-else[-not]-odd&gt; 
       &lt;/guided-if[-not]-odd&gt; </code> </p> </td> 
@@ -1231,10 +1229,10 @@ ht-degree: 3%
    <td colname="col2"> <p>URL上にあるクエリパラメーターの既存の値を取得できます。 パラメーターが存在しない場合、このタグは空の文字列を返します。 エスケープオプションを指定しない場合、返される文字列は自動的にHTMLエスケープされます。HTMLエスケープまたはURLエスケープのどちらかを指定できます。 </p> <p>例： </p> <p> 
 
     &amp;lt;guided-クエリ-param&amp;nbsp;gsname=&quot;q&quot;&amp;nbsp;/&amp;gt;
-    ges&amp;nbsp;you&amp;nbsp;you&amp;nbsp;the&amp;nbsp;value&amp;nbs
+    ges&amp;nbsp;you&amp;nbsp;you&amp;nbsp;the&amp;nbsp;value&amp;nbsp;pants
     
     &amp;lt;gsname=&quot;&amp;nbsp;/&amp;gt;
-    は&amp;nbsp;you&amp;nbsp;the&amp;nbsp;valuenbsp;en
+    は&amp;nbsp;you&amp;sp;the&amp;nbsp;valueを与えるnbsp;en
     
     &amp;lt;guided-クエリ-param&amp;nbsp;gsname=&quot;test&quot;&amp;nbsp;/&amp;gt;
     ges&amp;nbsp;you&amp;nbsp;empty&amp;nbsp;string
@@ -1588,7 +1586,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-index&gt; </span> </p> </td> 
    <td colname="col2"> <p>現在の結果の数値インデックスを返します。 </p> </td> 
   </tr> 
@@ -1598,7 +1596,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p>現在の結果のページタイトルを返します。 オプションのlength属性を使用して、表示する文字列の長さを制限します。デフォルトは80文字です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-bodytext length="XX" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
    <td colname="col2"> <p>ページの先頭から始まる本文を返します。 関連する用語は太字で表示されます。 オプションのlength属性を使用して、表示する文字列の長さを制限します。デフォルトは80文字です。 encoding属性はオプションです。出力文字は、HTMLエンコーディング（デフォルト）、Javascriptエンコーディング、Perlエンコーディングまたはなしでエンコードできます。 </p> </td> 
   </tr> 
@@ -1758,7 +1756,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-link target="frame-name" hbx-enable="yes/no" hbx-linkid-name="field-name" hbx-linkid-none="text" hbx-linkid-length="XX"&gt; ...  &lt;/search-link&gt; </span> </p> </td> 
    <td colname="col2"> <p>このタグのペアによって、タグ間のHTMLの周囲にアンカーリンクが作成されます。 リンクをクリックすると、結果ページが表示されます。 オプションのターゲット属性は、フレーム対応ブラウザが結果ページを表示する名前付きウィンドウを指定します。 </p> <p>hbx-enable属性を「yes」に設定すると、HBXで利用できる分析を利用できます。 hbx-linkid-nameを、追跡するメタデータフィールドの名前に設定します。 例えば、SKU番号で検索結果を追跡するには、hbx-linkid-nameを、SKU情報を含むメタデータフィールドの名前に設定します。 </p> <p>日付型フィールドは現在サポートされていません。 hbx-linkid-nameの値は、生成されたアンカー内のリンクIDに追加されます。 名前の付いたメタデータフィールドが空の場合は常に、リンクIDにhbx-linkid-none属性の値が追加されます。 hbx-linkid-lengthの値は、Metaタグから取得して表示する文字の数を制限します。 デフォルトの文字数は12です。 </p> </td> 
   </tr> 
@@ -1791,7 +1789,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-first&gt; ...  &lt;/search-if-first&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-first&gt; ...  &lt;/search-if-not-first&gt; </span> </p> </td> 
    <td colname="col2"> <p>現在の結果がページ上の最初の結果（<span class="codeph"> &lt;search-results&gt; </span>内で使用された場合）の場合、または最初のフィールド値（<span class="codeph"> &lt;search-field-values&gt; </span>内で使用された場合）の場合、これらのタグ間のテキストが含まれます。 </p> </td> 
   </tr> 
@@ -1805,7 +1803,7 @@ r_search_template_tags.xml
       &lt;/search-results&gt; </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-inner&gt; ...  &lt;/search-if-inner&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-inner&gt; ...  &lt;/search-if-not-inner&gt; </span> </p> </td> 
    <td colname="col2"> <p>現在の結果がページの最初と最後の結果でない場合（<span class="codeph"> &lt;search-results&gt; </span>内で使用される場合）、または最初と最後のフィールド値でない場合（<span class="codeph"> &lt;search-field-values&gt; </span>内で使用される場合）、これらのタグ間のテキストが含まれます。 タグのnotバージョンは、結果が最初か最後かをテストします。 </p> </td> 
   </tr> 
@@ -1839,7 +1837,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>最初の結果 </p> </td> 
    <td colname="col3"> <p>× </p> </td> 
    <td colname="col4"> <p>× </p> </td> 
@@ -1851,7 +1849,7 @@ r_search_template_tags.xml
    <td colname="col4"> <p>○ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
+   <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>3番目の結果 </p> </td> 
    <td colname="col3"> <p>× </p> </td> 
    <td colname="col4"> <p>× </p> </td> 
@@ -1932,7 +1930,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list name="field-name" quotes="yes/no" commas="yes/no" data="values/counts/results" separator="X" sortby="none/values/counts/results" max-items="XX" date-format="date-format-string" gmt="yes/no" language="0/language-id" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
    <td colname="col2"> <p>このタグは、結果セット全体に含まれる一意のフィールド値、値の数または結果の数のリストを表示します。 </p> <p>このタグは、検索クエリの<span class="codeph"> sp_sfvl_field </span> CGIパラメータで指定されたフィールドの出力のみを生成します。 オプションの「引用符」属性は、出力される個々の項目を重複引用符で囲むかどうかを制御します（encoding=perlの場合は一重引用符）。 「quotes」のデフォルト値は「yes」です。 オプションの「コンマ」属性は、個々の項目の出力をコンマで区切るかどうかを制御します。 「コンマ」のデフォルト値は「yes」です。 オプションの「data」属性は、各固有フィールドの値を出力するか(data="values")、各固有フィールドの値の合計数を出力するか(data="counts")、各固有値を含む結果の数を出力するか(data="results")を制御します。 デフォルト値の「data」は「values」です。 リストタイプ以外のフィールドの場合、data="counts"とdata="results"は等価です。 separator属性は、出力の値の間に挿入される1文字または区切り文字を定義します。 オプションの「sortby」属性で、出力の順序を制御します。sortby="none"は特定の順序を意味しません。sortby="values"はフィールド値（フィールドのSortingプロパティに従って昇順または降順）で並べ替え、sortby="counts"はフィールド値のカウント順で並べ替え、sortby="results"は各値を含む結果の数の降順で並べ替えます。 </p> <p>sortby="counts"とsortby="results"は、リストタイプ以外のフィールドと同じです。 オプションの「max-items」属性では、出力する項目数を制限します。 デフォルト値の「max-items」は —1で、「output all items」を意味します。 </p> <p>最大アイテム数は100までに絶対制限されます。 「date-format」、「gmt」および「language」属性は、指定したフィールドのコンテンツタイプが「date」の場合にのみ有効です。 「date-format」属性には、「%A, %B %d, %Y」などのUNIXスタイルの日付形式文字列（「2016年7月25日月曜日」の場合）を指定します。 "gmt"はデフォルトで"yes"に設定され、日付文字列の時間部分をGMT("yes")で出力するか、アカウントのタイムゾーン("no")で出力するかを制御します。 </p> <p><a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local">日付形式の文字列</a>を参照してください。 </p> <p>「language」属性は、出力日付文字列の言語とロケールの規則を制御します。 「0」（デフォルト）は、「アカウントの言語を使用」を意味します。 その他の「言語」値は、特定の言語識別子として解釈されます。例えば、「en_US」は「英語（米国）」を意味します。 オプションの「encoding」属性は、出力文字列文字をHTMLエンコード、JavaScriptエンコード、Perlエンコード、URLエンコードのどちらにエンコードするかを制御し、結果ページの出力に使用します。 デフォルト値の「encoding」は「html」です。 </p> <p><a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local">言語識別子</a>を参照してください。 </p> </td> 
   </tr> 
@@ -1942,7 +1940,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p>このタグは、特定のsearch-field-value-リストのカウント情報を表示します。 このタグには3つの用途があります。 「name」属性のみを指定した場合、このタグは、結果セット全体に含まれる名前付きフィールドの固有値の数を出力します。 「name」と「value」の両方の属性を指定した場合、このタグは、結果セット全体内の指定された値の合計数（results="no"の場合）または結果セット全体に指定された値を含む結果の合計数（results="yes"の場合）を出力します。 デフォルト値の「results」は「no」です。 注意：リストタイプ以外のフィールドの場合、results="yes"とresults="no"は等価です。 「value」属性を指定しない場合、「results」の値は無視されます。 このタグは、検索クエリの<span class="codeph"> sp-sfvl-field </span> CGIパラメータで指定されたフィールドの出力のみを生成します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-field-value-list-count name="field-name" value="field-value"&gt; ...  &lt;/search-if-field-value-list-count&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-field-value-list-count name="field-name" value="field-value"&gt; ...  &lt;/search-if-not-field-value-list-count&gt; </span> </p> </td> 
    <td colname="col2"> <p>これらのタグは、<span class="codeph"> &lt;search-field-value-count name="field-name" value="field-value"&gt; </span>を呼び出した場合（または呼び出さない場合）、間にHTMLを表示します。 </p> </td> 
   </tr> 
@@ -1968,7 +1966,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-values name="field-name" sortby="none/values/counts/results" max-items="XX"&gt; ...  &lt;/search-field-values&gt; </span> </p> </td> 
    <td colname="col2"> <p>このタグは、結果セット全体に含まれる特定のフィールドのフィールド値と関連データを列挙するループを作成します。 このタグを別の<span class="codeph"> &lt;search-field-values&gt; </span>タグの中にネストしないでください。 "name"属性は、列挙する値が格納されているフィールドの名前を指定します。 オプションの「sortby」属性で、定義済みリストの順序を制御します。「なし」は特定の順序を持たないことを意味し、「値」はフィールドの値（Sortingプロパティに従って昇順または降順）で並べ替え、sortby="counts"はフィールドの値のカウント順で並べ替え、sortby="results"は各値を含む結果の数の降順で並べ替えます。 </p> <p>sortby="counts"とsortby="results"は、リストタイプ以外のフィールドと同じです。. オプションの「max-items」属性は、繰り返し回数を指定した値に制限します。 「max-items」のデフォルト値は —1です。これは、「すべての値を列挙」を意味します。 </p> </td> 
   </tr> 
@@ -2018,7 +2016,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p>このタグは、「提案」ループを生成します。このループには、推奨検索用語(「意図」、「意図」、「意図」など、元々「意図」として入力されたクエリ用)のリストが含まれます。 キーワードのリストを生成する際、検索エンジンはネストされたHTMLタグやテンプレートタグを最大5回まで繰り返します。これはサーチクエリの最大数です。 生成される提案の数(0 ～ 5)を指定するには、count属性を使用します。 </p> <p><span class="codeph"> &lt;search-suggestions&gt; </span>タグをページに複数回出現させて、修正候補のリストを繰り返すことができます。 複数の提案は、各結果の結果数に従って並べ替えられます。 </p> <p><span class="codeph"> &lt;search-suggestions&gt; </span>タグを開いたタグと閉じたタグの間にネストします。 <span class="codeph"> &lt;search-if-suggessions&gt; </span>タグは閉じます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-suggestion-link&gt; ...  &lt;/search-suggestion-link&gt; </span> </p> </td> 
    <td colname="col2"> <p>このタグは、元の検索語ではなく、選択した推奨検索語句を使用して、元の検索クエリへのリンクを生成します。 このタグは、クラス、ターゲット、スタイルなどのHTML属性を受け取って、単純に出力します。 タグにはURL属性も指定できます。この値は、生成されたリンクのベースURLとして使用されます。 タグは、<span class="codeph"> &lt;search-suggestions&gt; </span>ループ内でのみ使用できます。 </p> </td> 
   </tr> 
@@ -2074,7 +2072,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-body&gt; </span> </p> </td> 
    <td colname="col2"> <p>「基本外観」セクションで「テンプレート」リンクの下に設定される、検索リンクの色の設定を含むHTMLのbodyタグ。 結果ページに追加背景画像を表示するための、このタグのbackground属性。 このタグに追加される色属性は、基本ルックセクションで設定される検索リンクの色設定よりも優先されます。 </p> </td> 
   </tr> 
@@ -2202,7 +2200,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-next URL="https://search.yourdomain.com/search/"&gt; ...  &lt;/search-next&gt; </span> </p> <p> <span class="codeph"> &lt;search-prev URL="https://search.yourdomain.com/search/"&gt; ...  &lt;/search-prev&gt; </span> </p> </td> 
    <td colname="col2"> <p>結果の次のページまたは前のページを表示します。 </p> </td> 
   </tr> 
@@ -2212,7 +2210,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p>結果を日付順または関連性順に並べ替えます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-show-summaries URL="https://search.yourdomain.com/search/"&gt; ...  &lt;/search-show-summaries&gt; </span> </p> <p> <span class="codeph"> &lt;search-hide-summaries URL="https://search.yourdomain.com/search/"&gt; ...  &lt;/search-hide-summaries&gt; </span> </p> </td> 
    <td colname="col2"> <p>サマリの表示/非表示を切り替えます。 </p> </td> 
   </tr> 
@@ -2243,7 +2241,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p>前のページまたは次のページに結果が関連付けられている（または何も結果がない）場合、これらのタグにはHTMLが含まれます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-sort-by-score&gt; ...  &lt;/search-if-sort-by-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-sort-by-score&gt; ...  &lt;/search-if-not-sort-by-score&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-sort-by-date&gt; ...  &lt;/search-if-sort-by-date&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-sort-by-date&gt; ...  &lt;/search-if-not-sort-by-date&gt; </span> </p> </td> 
    <td colname="col2"> <p>これらのタグには、現在のページが関連性または日付で並べ替えられた場合、またはそれ以外の場合に、HTMLが含まれます。 </p> </td> 
   </tr> 
@@ -2294,14 +2292,14 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-input&gt; </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> &lt;input&gt; </span>タグの代わりにテンプレートで使用します。 タグがブラウザーに書き込まれると、<span class="codeph"> input </span>という単語が<span class="codeph"> search-input </span>を置き換え、タグ内の他のすべての情報がそのまま出力されます。 また、タグで指定された<span class="codeph">名</span>がCGIパラメーターとしてリストされ、タグで指定された<span class="codeph">値</span>がそのCGIパラメーターの値である場合、タグの末尾に<span class="codeph"> checked </span>という単語が追加されます。 このようにして、検索結果内のデフォルトのラジオボタンまたはチェックボックスの状態を、現在のクエリと同じ状態に自動的にすることができます。 </p> <p>例えば、チェックボックスのHTMLコードは次のようになります。 </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact"&gt;サウンドに似たものはありません  </span> </p> <p>このチェックボックスの対応するテンプレートコードは次のとおりです。 </p> <p> <span class="codeph"> &lt;search-input type="checkbox" name="sp_w" value="exact"&gt;サウンドに似たものはありません  </span> </p> <p>クエリのCGIパラメータ文字列に<span class="codeph"> sp_w=exact </span>が含まれる場合、検索結果と共にブラウザに書き込まれるタグは次のようになります（<span class="codeph"> checked </span>はタグの末尾に挿入されます）。 </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact" checked=""&gt;サウンドに似たものはありません  </span> </p> <p>クエリのCGIパラメータ文字列に<span class="codeph"> sp_w=exact </span>が含まれていない場合、検索結果と共にブラウザに書き込まれるタグは次のようになります（<span class="codeph"> checked </span>はタグに含まれません）。 </p> <p> <span class="codeph"> &lt;input type="checkbox" name="sp_w" value="exact"&gt;サウンドに似たものはありません  </span> </p> <p><span class="codeph"> &lt;search-input&gt; </span>タグは、チェックボックスやラジオボタンを検索テンプレートに挿入する場合に便利です。 検索テンプレートの<span class="codeph"> &lt;form&gt; </span>に追加するチェックボックスやラジオボタンがある場合は、<span class="codeph"> &lt;input...&gt; </span>の代わりに<span class="codeph"> &lt;search-input...&gt; </span>を使用します。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-select&gt; ...  &lt;/search-select&gt; </span> </p> <p> <span class="codeph"> &lt;search-option&gt; ...  &lt;/search-option&gt; </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> &lt;form&gt; </span>タグ内のドロップダウンリストボックスは、<span class="codeph"> &lt;select&gt; </span>タグで始まり、<span class="codeph"> &lt;/select&gt; </span>タグで終わります。 関連するCGIパラメーターの<span class="codeph">名</span>は、<span class="codeph"> &lt;select&gt; </span>タグの中に列挙されます。 <span class="codeph"> &lt;select&gt; </span>タグの後に続くリストは、<span class="codeph"> &lt;option&gt; </span>タグのリストで、「オプション」ボックス内に表示する値を指定します。 </p> <p><span class="codeph"> &lt;search-select&gt; </span>、<span class="codeph"> &lt;/search-select&gt; </span>、<span class="codeph"> &lt;search-option&gt; </span>、<span class="codeph"> &lt;/search-option&gt; </span>タグは、<span class="codeph"> &lt;search-input&gt; </span>タグと同様の機能を提供します。 つまり、<span class="codeph"> &lt;search-select&gt; </span>タグの<span class="codeph">名前</span>がCGIパラメーターとしてリストされ、そのCGIの<span class="codeph">値</span>がリストされている場合、<span class="codeph">選択された</span>という語が自動的にブラウザーに送信されますパラメーターは、特定の<span class="codeph"> &lt;search-option&gt; </span>タグの<span class="codeph">値</span>としてリストされます。 </span><span class="codeph">このようにして、検索結果内のデフォルトのリストボックスを、現在のクエリと同じように自動的に選択できます。 </span></p> <p>例えば、一般的なリストボックスは次のようになります。 </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
+   <td colname="col2"> <p><span class="codeph"> &lt;form&gt; </span>タグ内のドロップダウンリストボックスは、<span class="codeph"> &lt;select&gt; </span>タグで始まり、<span class="codeph"> &lt;/select&gt; </span>タグで終わります。 関連するCGIパラメーターの<span class="codeph">名</span>は、<span class="codeph"> &lt;select&gt; </span>タグの中に列挙されます。 <span class="codeph"> &lt;select&gt; </span>タグの後に続くリストは、<span class="codeph"> &lt;option&gt; </span>タグのリストで、「オプション」ボックス内に表示する値を指定します。 </p> <p><span class="codeph"> &lt;search-select&gt; </span>、<span class="codeph"> &lt;/search-select&gt; </span>、<span class="codeph"> &lt;search-option&gt; </span>、<span class="codeph"> &lt;/search-option&gt; </span>タグは、<span class="codeph"> &lt;search-input&gt; </span>タグと同様の機能を提供します。 つまり、<span class="codeph"> &lt;search-select&gt; </span>タグの<span class="codeph">名前</span>がCGIパラメーターとしてリストされ、そのCGIの<span class="codeph">値</span>がリストされている場合、<span class="codeph">選択された</span>という語が自動的にブラウザーに送信されますパラメーターは、特定の<span class="codeph"> &lt;search-option&gt; </span>タグの<span class="codeph">値</span>としてリストされます。 <span class="codeph"></span>このようにして、検索結果内のデフォルトのリストボックスを、現在のクエリと同じように自動的に選択できます。 </p> <p>例えば、一般的なリストボックスは次のようになります。 </p> <p> <code class="syntax html"> &lt;select&nbsp;name="sp_x"&nbsp;size=1&gt; 
       &lt;option&nbsp;value="any"&nbsp;selected&gt;Anywhere&lt;/option&gt; 
       &lt;option&nbsp;value="title"&gt;Title&lt;/option&gt; 
       &lt;option&nbsp;value="desc"&gt;Description&lt;/option&gt; 
@@ -2319,7 +2317,7 @@ r_search_template_tags.xml
       &lt;search-option&nbsp;value="alt"&gt;Alternate&nbsp;text&lt;/search-option&gt; 
       &lt;search-option&nbsp;value="url"&gt;URL&lt;/search-option&gt; 
       &lt;search-option&nbsp;value="target"&gt;Target&lt;/search-option&gt; 
-      &lt;/search-select&gt; </code> </p> <p>検索テンプレートの<span class="codeph"> &lt;form&gt; </span>に追加するリストボックスがある場合は、<span class="codeph"> &lt;select...&gt; </span> <span class="codeph"> </span>の代わりに<span class="codeph"> &lt;search-select..&gt; </span>を使用します。 <span class="codeph"> &lt;/select&gt;a9/&gt;, <span class="codeph"> &lt;search-option...&gt; </span> <span class="codeph"> &lt;option...&gt; </span>の代わりに&lt;a11/&gt; <span class="codeph"> &lt;/search-option&gt; <span class="codeph"> &lt;/option&gt; </span>.</span></span> </p> </td> 
+      &lt;/search-select&gt; </code> </p> <p>検索テンプレートの<span class="codeph"> &lt;form&gt; </span>に追加するリストボックスがある場合は、<span class="codeph"> &lt;select...&gt; </span> <span class="codeph"> </span>の代わりに<span class="codeph"> &lt;search-select..&gt; </span>を使用します。 <span class="codeph"> &lt;/select&gt;a9/&gt;, <span class="codeph"> &lt;search-option...&gt; </span> <span class="codeph"> &lt;option...&gt; </span>の代わりに</span> <span class="codeph"> &lt;/search-option&gt; <span class="codeph"> &lt;/option&gt; </span>.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -2347,7 +2345,7 @@ r_search_template_tags.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>%a </p> </td> 
-   <td colname="col2"> <p> 曜日の略称を国内表現したものに一致します。略語は最初の3文字を表します（例：「月」）。 <span class="uicontrol">言語</span> &gt; <span class="uicontrol">単語と言語</span> &gt; <span class="uicontrol">言語</span>の設定によって、国の表現が決まります。 </p> <p><a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local">単語と言語について</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 曜日の略称を国内表現したものに一致します。略語は最初の3文字を表します（例：「Mon」）。 <span class="uicontrol">言語</span> &gt; <span class="uicontrol">単語と言語</span> &gt; <span class="uicontrol">言語</span>の設定によって、国の表現が決まります。 </p> <p><a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local">単語と言語について</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>%B </p> </td> 
