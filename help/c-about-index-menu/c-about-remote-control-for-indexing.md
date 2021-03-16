@@ -1,15 +1,13 @@
 ---
 description: Webサイトが変更された場合は常に、リモートコントロールを使用して検索ロボットにインデックスの実行を要求するスクリプトまたはプログラムを実行できます。
-seo-description: Webサイトが変更された場合は常に、リモートコントロールを使用して検索ロボットにインデックスの実行を要求するスクリプトまたはプログラムを実行できます。
-seo-title: インデックス作成のためのリモートコントロールについて
 solution: Target
 title: インデックス作成のためのリモートコントロールについて
 topic: Index,Site search and merchandising
 uuid: 20e230c6-5c1a-4bf4-bff3-b8236d14ab21
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1042'
 ht-degree: 1%
 
 ---
@@ -76,7 +74,7 @@ Webサイトが変更された場合は常に、リモートコントロール�
      <ul id="ul_6CA190AC41694BC293FC7C6BABA629FE"> 
       <li id="li_EFC76E31D47E473F9A56B2EBA8A97CA1"> <span class="codeph"> full_index  </span> <p>検索ロボットはウェブサイトの完全なインデックスを実行します。 </p> </li> 
       <li id="li_A9ACE21718804A21B3DA7B84AB6729D3"> <span class="codeph"> incremental_index  </span> <p>検索ロボットは、<span class="uicontrol"> <b>インデックス</b> </span> <span class="uicontrol"> <b>増分インデックス</b> </span> <span class="uicontrol"> <b>設定</b></span>に設定された構成を使用して増分インデックスを実行します。 </p> </li> 
-      <li id="li_722FE409AE454AD48ACE95C4CDC7A00B"> <span class="codeph"> vertical_index  </span> <p>検索ロボットは、<span class="uicontrol"> <b>インデックス</b> </span> &gt; <span class="uicontrol"> <b>垂直更新</b> </span> &gt; <span class="uicontrol"> <b>設定</b></span>の下に設定された設定を使用して垂直更新を実行します。 </p> <p><a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local">垂直更新について</a>を参照してください。 </p> </li> 
+      <li id="li_722FE409AE454AD48ACE95C4CDC7A00B"> <span class="codeph"> vertical_index  </span> <p>検索ロボットは、<span class="uicontrol"> <b>インデックス</b> </span> &gt; <span class="uicontrol"> <b>垂直更新</b> </span> &gt; <span class="uicontrol"> <b>設定</b></span>に設定された設定を使用して垂直更新を実行します。 </p> <p><a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local">垂直更新について</a>を参照してください。 </p> </li> 
       <li id="li_A40B513CE17043A4925CE3D4DE0B48A4"> <span class="codeph"> script_index  </span> <p>検索ロボットは、<span class="uicontrol"> <b>インデックス</b> </span> <span class="uicontrol"> <b>スクリプトインデックス</b> </span> <span class="uicontrol"> <b>設定</b></span>で指定されたテキストファイルを使用してインクリメンタルインデックスを実行します。 </p> </li> 
       <li id="li_A0BC7F1373B14393997BAB7690FD3EF7"> <span class="codeph"> full_staged_index  </span> <p>検索ロボットは、ウェブサイトの完全なステージインデックスを実行します。 </p> </li> 
       <li id="li_47753E358457443A95B384A278FACA83"> <span class="codeph"> incremental_staged_index  </span> <p>検索ロボットは、<span class="uicontrol"> <b>インデックス</b> </span> <span class="uicontrol"> <b>増分インデックス</b> </span> <span class="uicontrol"> <b>設定</b></span>に設定された構成を使用して、増分ステージインデックスを実行します。 </p> </li> 
