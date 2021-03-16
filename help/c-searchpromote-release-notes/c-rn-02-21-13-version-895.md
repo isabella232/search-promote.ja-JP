@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.9.5リリースノート（2013年2月22日）
+description: Search&amp;Promote 8.9.5リリースノート。
 solution: Target
 title: Search&amp;Promote 8.9.5リリースノート（2013年2月22日）
-topic: Release Notes,Site search and merchandising
+topic: リリースノート，サイト検索とマーチャンダイジング
 uuid: 1cd8a540-f85f-4e87-8e0c-dbdcd230a6c4
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 32%
+source-wordcount: '90'
+ht-degree: 28%
 
 ---
 
