@@ -1,15 +1,13 @@
 ---
 description: Search&Promoteおよび動的なナビゲーションを初めて使用する場合は、ここに開始してアカウントを使用してください。 特に、Webサイトのインデックスを作成し、検索結果のルック&フィールをカスタマイズする方法について学びます。
-seo-description: Search&Promoteおよび動的なナビゲーションを初めて使用する場合は、ここに開始してアカウントを使用してください。 特に、Webサイトのインデックスを作成し、検索結果のルック&フィールをカスタマイズする方法について学びます。
-seo-title: 導入
 solution: Target
 title: 導入
-topic: Getting Started,Site search and merchandising
+topic: はじめに，サイト検索とマーチャンダイジング
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
