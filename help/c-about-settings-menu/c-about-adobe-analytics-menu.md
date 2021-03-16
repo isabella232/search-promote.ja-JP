@@ -1,16 +1,14 @@
 ---
 description: Adobe Analyticsメニューを使用して、Adobe Analytics指標認証の設定、レポートスイートのAdobe Analytics指標の管理、またはSAINTを使用して、外部のソースから表形式のデータを受け入れ、Adobe Analyticsレポートを強化します。
-seo-description: Adobe Analyticsメニューを使用して、Adobe Analytics指標認証の設定、レポートスイートのAdobe Analytics指標の管理、またはSAINTを使用して、外部のソースから表形式のデータを受け入れ、Adobe Analyticsレポートを強化します。
-seo-title: Adobe Analyticsメニューについて
 solution: Target
 subtopic: Adobe Analytics
 title: Adobe Analyticsメニューについて
-topic: Settings,Site search and merchandising
+topic: 設定，サイト検索とマーチャンダイジング
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3448'
+source-wordcount: '3412'
 ht-degree: 1%
 
 ---
