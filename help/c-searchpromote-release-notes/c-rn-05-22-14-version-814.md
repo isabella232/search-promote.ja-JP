@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.14.0リリースノート（2014年5月23日）
+description: Search&amp;Promote 8.14.0リリースノート。
 solution: Target
 title: Search&amp;Promote 8.14.0リリースノート（2014年5月23日）
-topic: Release Notes,Site search and merchandising
+topic: リリースノート，サイト検索とマーチャンダイジング
 uuid: 308d84a9-ec38-4fec-b146-e8a353e65be4
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 68%
+source-wordcount: '102'
+ht-degree: 63%
 
 ---
 
