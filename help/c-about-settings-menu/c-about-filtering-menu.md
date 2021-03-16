@@ -1,16 +1,14 @@
 ---
 description: フィルタリングメニューを使用して、Webドキュメントーのコンテンツを変更してからインデックスを作成するスクリプトを使用します。
-seo-description: フィルタリングメニューを使用して、Webドキュメントーのコンテンツを変更してからインデックスを作成するスクリプトを使用します。
-seo-title: フィルタリングメニューについて
 solution: Target
 subtopic: Filtering
 title: フィルタリングメニューについて
-topic: Settings,Site search and merchandising
+topic: 設定，サイト検索とマーチャンダイジング
 uuid: ebb08fa8-4e17-417d-868b-11fc2af9f284
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4026'
+source-wordcount: '4008'
 ht-degree: 1%
 
 ---
@@ -125,7 +123,7 @@ if ($main::ws_content_type =~ /^text\/html/) {
 
 | 変数 | 説明 |
 |--- |--- |
-| `$main::search_crawl_type` | `$main::search_crawl_type`の値は、進行中のインデックス操作の種類を示します。  非推奨フォーム：`$main::ws_crawl_type`インデックス操作と関連する値には、次のものがあります。 <ul><li>完全なインデックス：手動 — `manual`</li><li>完全なインデックス：スケジュール済み — `auto`</li><li>完全なインデックス：リモートコントロール — `CGI`</li><li>Incremental Index:手動 — `manual-incremental`</li><li>Incremental Index:スケジュール済み — `auto-incremental` </li><li>Incremental Index:リモートコントロール — `CGI-incremental`</li><li>スクリプトインデックス：手動 — `manual-indexlist.txt` </li><li>スクリプトインデックス：スケジュール済み — `auto-indexlist.txt`</li><li>スクリプトインデックス：リモートコントロール — `CGI-indexlist.txt`</li><li>再生成 — `manual-upgrade`</li></ul> |
+| `$main::search_crawl_type` | `$main::search_crawl_type`の値は、進行中のインデックス操作の種類を示します。  非推奨フォーム：`$main::ws_crawl_type`インデックス操作と関連する値には、次のものがあります。 <ul><li>完全なインデックス：手動 — `manual`</li><li>完全なインデックス：スケジュール済み — `auto`</li><li>完全なインデックス：リモートコントロール — `CGI`</li><li>Incremental Index:手動 — `manual-incremental`</li><li>Incremental Index:スケジュール済み — `auto-incremental` </li><li>Incremental Index:リモートコントロール — `CGI-incremental`</li><li>スクリプトインデックス：手動 — `manual-indexlist.txt` </li><li>スクリプトインデックス：スケジュール済み — `auto-indexlist.txt`</li><li>スクリプトインデックス：リモートコントロール — `CGI-indexlist.txt`</li><li>再生成 - `manual-upgrade`</li></ul> |
 | `$main::search_clear_cache` | この値は、現在のインデックス操作に対して「インデックスキャッシュをクリア」インデックスオプションが要求されたかどうかを示します。 &quot;Clear index cache&quot;が要求された場合、`$main::search_clear_cache`の値は&quot; `1`&quot;です。  廃止された形式：`$main::ws_clear_cache` |
 | `$main::search_fields` | この値には、アカウントで定義されているメタデータフィールドのタブ区切りリストが含まれます。 デフォルト値は次のとおりです。   `url title desc keys target body alt date charset language`非推奨フォーム：`$main::ws_fields` |
 | `$main::search_collections` | 値には、アカウントで定義されているコレクションのタブ区切りリストが含まれます。  廃止された形式：`$main::ws_collections` |
@@ -426,7 +424,7 @@ $main::doc_count = 0;
 
 初期化スクリプトは、フィルタリングスクリプト、終了スクリプト、URLマスクスクリプトと組み合わせて使用します。
 
-初期化スクリプトの結果がユーザーに表示されるように、サイトのインデックスを必ず再構築してください。
+初期化スクリプトの結果がユーザーに表示されるように、サイトインデックスを必ず再構築してください。
 
 「[ステージングされたWebサイトの増分インデックスの設定](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)」を参照してください。
 
@@ -580,7 +578,7 @@ _search_debug_log("Total docs: " . $main::doc_count);
 
 終了スクリプトは、フィルタリングスクリプト、終了スクリプト、およびURLマスクスクリプトと組み合わせて使用します。
 
-初期化スクリプトの結果がユーザーに表示されるように、サイトのインデックスを必ず再構築してください。
+初期化スクリプトの結果がユーザーに表示されるように、サイトインデックスを必ず再構築してください。
 
 「[ステージングされたWebサイトの増分インデックスの設定](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)」を参照してください。
 
