@@ -1,15 +1,13 @@
 ---
 description: 単語と言語を使用して、検索用語とWebページのコンテンツとの一致方法を判断できます。
-seo-description: 単語と言語を使用して、検索用語とWebページのコンテンツとの一致方法を判断できます。
-seo-title: 単語と言語について
 solution: Target
 title: 単語と言語について
-topic: Linguistics,Site search and merchandising
+topic: 言語、サイト検索、マーチャンダイジング
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
@@ -74,7 +72,7 @@ t_configuring_how_search_terms_matched_to_your_web_content.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>英数字の部分一致 </p> </td> 
-      <td colname="col2"> <p>デフォルトでは選択されていません。 </p> <p>このオプションを選択すると、アルファベット順の数値トランジションにトークンを分割して、部品や製品のトークンに対するフリーテキストの一致を許可できます。 </p> <p>例えば、Webサイト上の1つ以上のページの本文コンテンツに<span class="codeph"> 910XT </span>の製品識別子があるとします。 このオプションが<i>選択されて</i>いない&lt;a0/&gt;場合、<span class="keyword">AdobeSearch&amp;Promote</span>は、<span class="codeph"> 910XT </span>を検索する際に、この製品識別子に対する一致を検索します。 そして、<span class="uicontrol"> Search Concat-Div-Enable </span>をオンにすると、<span class="keyword">AdobeSearch&amp;Promote</span>も<span class="codeph"> 910 XT </span>を見つけ出します。 しかし、<span class="codeph"> 910 </span>や<span class="codeph"> XT </span>のインスタンスは排他的に見つかりません。 </p> <p>「<span class="uicontrol">英数字の部分一致</span>」を選択すると、インデクサーはこれらの英数字の混合トークンを複数のトークンに分割します。 例えば、<span class="codeph"> XYZ123 </span>などの製品識別子は、次の3つのトークンにインデックス化されます。<span class="codeph"> XYZ123 </span>、<span class="codeph"> XYZ </span>、および<span class="codeph"> 123 </span>。 この機能により、これらのバリアントのいずれかに対して検索時のフリーテキストの一致が可能になります。 </p> <p>別の例では、製品識別子<span class="codeph"> AB910XT </span>があるとします。 「<span class="uicontrol">部分的な英数字の一致</span> <i>と</i>に対して<span class="uicontrol">検索コンカット —Div-Enable </span>を有効にすると、<span class="keyword">AdobeSearch&amp;Promote</span>は<span class="codeph"> AB910XT </span>, &lt;a110/&gt; AB </span>、<span class="codeph"> 910 </span>、<span class="codeph"> XT </span>。 <span class="codeph">次に、ユーザが<span class="codeph"> 910XT </span>を検索すると、例えば、<span class="codeph"> 910XT </span>、<span class="codeph"> 910 </span>、または<span class="codeph"> XT </span>のインスタンスも検索できるように拡張する。 </span></p> <p> <p>注意： <span class="uicontrol">検索コンカット —Div-Enable </span>は、デフォルトでは有効になっていません。 お使いの機能をアクティブにするには、テクニカルサポートにお問い合わせください。 </p> </p> <p> <p>注意： <span class="uicontrol">英数字の部分一致</span>は、インデックス付きのすべてのフィールドにグローバルに適用されます。 ただし、これはフリーテキストの一致にのみ影響します。完全一致や範囲の一致には影響しません。 </p> </p> </td> 
+      <td colname="col2"> <p>デフォルトでは選択されていません。 </p> <p>このオプションを選択すると、アルファベット順の数値トランジションにトークンを分割して、部品や製品のトークンに対するフリーテキストの一致を許可できます。 </p> <p>例えば、Webサイト上の1つ以上のページの本文コンテンツに<span class="codeph"> 910XT </span>の製品識別子があるとします。 このオプションが<i>選択されて</i>いない場合、<span class="keyword">AdobeSearch&amp;Promote</span>は、<span class="codeph"> 910XT </span>を検索する際に、この製品識別子に対する一致を検索します。 そして、<span class="uicontrol"> Search Concat-Div-Enable </span>をオンにすると、<span class="keyword">AdobeSearch&amp;Promote</span>も<span class="codeph"> 910 XT </span>を見つけ出します。 しかし、<span class="codeph"> 910 </span>や<span class="codeph"> XT </span>のインスタンスは排他的に見つかりません。 </p> <p>「<span class="uicontrol">英数字の部分一致</span>」を選択すると、インデクサーはこれらの英数字の混合トークンを複数のトークンに分割します。 例えば、<span class="codeph"> XYZ123 </span>などの製品識別子は、次の3つのトークンにインデックス化されます。<span class="codeph"> XYZ123 </span>、<span class="codeph"> XYZ </span>、および<span class="codeph"> 123 </span>。 この機能により、これらのバリアントのいずれかに対して検索時のフリーテキストの一致が可能になります。 </p> <p>別の例では、製品識別子<span class="codeph"> AB910XT </span>があるとします。 「<span class="uicontrol">部分的な英数字の一致</span> <i>と</i>に対して<span class="uicontrol">検索コンカット —Div-Enable </span>を有効にすると、<span class="keyword">AdobeSearch&amp;Promote</span>は<span class="codeph"> AB910XT </span>, <span class="codeph"> AB </span>、<span class="codeph"> 910 </span>、<span class="codeph"> XT </span>。 次に、ユーザが<span class="codeph"> 910XT </span>を検索すると、例えば、<span class="codeph"> 910XT </span>、<span class="codeph"> 910 </span>、または<span class="codeph"> XT </span>のインスタンスも検索できるように拡張する。 </p> <p> <p>注意： <span class="uicontrol">検索コンカット —Div-Enable </span>は、デフォルトでは有効になっていません。 お使いの機能をアクティブにするには、テクニカルサポートにお問い合わせください。 </p> </p> <p> <p>注意： <span class="uicontrol">英数字の部分一致</span>は、インデックス付きのすべてのフィールドにグローバルに適用されます。 ただし、これはフリーテキストの一致にのみ影響します。完全一致や範囲の一致には影響しません。 </p> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>音に似たマッチング </p> </td> 
