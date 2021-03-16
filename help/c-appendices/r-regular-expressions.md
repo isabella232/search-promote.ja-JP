@@ -1,15 +1,13 @@
 ---
 description: 正規式を作成する構文とルールに関するリフレッシャー。
-seo-description: 正規式を作成する構文とルールに関するリフレッシャー。
-seo-title: 正規表現
 solution: Target
 title: 正規表現
-topic: Appendices,Site search and merchandising
+topic: 付録，サイト検索とマーチャンダイジング
 uuid: 369b54f6-372a-41de-bb5d-3ae0bd640199
 translation-type: tm+mt
-source-git-commit: 7b883870bb16284d8070a21547cdb62cc79d7632
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1050'
 ht-degree: 1%
 
 ---
