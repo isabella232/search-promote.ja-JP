@@ -1,15 +1,13 @@
 ---
 description: 履歴を使用すると、ファセット、パンくずリスト、バナー、テンプレートなど、実装された機能に対して行われたすべてのリビジョンのリストを確認して、いくつかのリビジョンを指定できます。
-seo-description: 履歴を使用すると、ファセット、パンくずリスト、バナー、テンプレートなど、実装された機能に対して行われたすべてのリビジョンのリストを確認して、いくつかのリビジョンを指定できます。
-seo-title: 「履歴」オプションの使用
 solution: Target
 title: 「履歴」オプションの使用
-topic: Using History,Site search and merchandising
+topic: 履歴、サイト検索、マーチャンダイジングの使用
 uuid: 48b9ee9d-cd61-41e7-b8c3-5f1665b9a9cb
 translation-type: tm+mt
-source-git-commit: 52c8d7985e7cb0aa35be1deabeb7cb92a55f07c2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
