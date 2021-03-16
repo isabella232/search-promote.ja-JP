@@ -1,15 +1,13 @@
 ---
 description: クエリクリーニング規則を使用して、入力クエリを分析および変更します。
-seo-description: クエリクリーニング規則を使用して、入力クエリを分析および変更します。
-seo-title: クエリクリーニングルールについて
 solution: Target
 title: クエリクリーニングルールについて
-topic: Rules,Site search and merchandising
+topic: ルール，サイト検索とマーチャンダイジング
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 translation-type: tm+mt
-source-git-commit: d07cdc2c88f93eed4cecb0ee8818f7fdea06ee9d
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1601'
 ht-degree: 1%
 
 ---
@@ -33,7 +31,7 @@ ht-degree: 1%
 
 ## クエリクリーニング操作について{#section_78F74A9B48DE484191CDA95F5B4E7154}
 
-一致条件を持つクエリクリーニングルール内のすべてのアクションが実行されます。 通常、アクションは、操作、操作を実行するデータ、および使用する値で構成されます。
+一致する条件を持つクエリクリーニングルール内のすべてのアクションが実行されます。 通常、アクションは、操作、操作を実行するデータ、および使用する値で構成されます。
 
 [クエリクリーニングルールの追加](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54)のオプションの表を参照してください。
 
