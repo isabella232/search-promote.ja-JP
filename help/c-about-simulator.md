@@ -1,15 +1,13 @@
 ---
 description: シミュレーターを使用して、現在ステージングされているライブ上の項目をすべてプッシュした場合の検索結果を確認します。
-seo-description: シミュレーターを使用して、現在ステージングされているライブ上の項目をすべてプッシュした場合の検索結果を確認します。
-seo-title: シミュレーターについて
 solution: Target
 title: シミュレーターについて
-topic: Simulator,Site search and merchandising
+topic: シミュレータ，サイト検索とマーチャンダイジング
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
 translation-type: tm+mt
-source-git-commit: 91ddead9f73b73ea1a20e26582998966f801d6ff
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
