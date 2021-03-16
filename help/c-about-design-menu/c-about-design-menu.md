@@ -1,16 +1,14 @@
 ---
 description: 「デザイン」メニューを使用して、検索結果ページのプレゼンテーションを作成します。
-seo-description: 「デザイン」メニューを使用して、検索結果ページのプレゼンテーションを作成します。
-seo-title: 検索結果ページのデザイン
 solution: Target
 title: 検索結果ページのデザイン
-topic: Design,Site search and merchandising
+topic: デザイン，サイト検索とマーチャンダイジング
 uuid: 61cb3ead-705e-45b7-a365-2c694d160d0a
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 4%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
