@@ -1,16 +1,14 @@
 ---
 description: メタデータメニューを使用して、検索定義とインデックス挿入をカスタマイズします。
-seo-description: メタデータメニューを使用して、検索定義とインデックス挿入をカスタマイズします。
-seo-title: メタデータメニューについて
 solution: Target
 subtopic: Metadata
 title: メタデータメニューについて
-topic: Settings,Site search and merchandising
+topic: 設定，サイト検索とマーチャンダイジング
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '8039'
+source-wordcount: '8029'
 ht-degree: 1%
 
 ---
@@ -170,7 +168,7 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>タイムゾーン </p> </td> 
-      <td colname="col2"> <p>「データタイプ」で「<span class="uicontrol">日付</span>」が選択されている場合にのみ使用できます。 </p> <p>タイムゾーンを指定しないこのフィールドの日付値をインデックス付けする際に適用される想定タイムゾーンを制御します。 </p> <p>例えば、アカウントのタイムゾーンを「米国/ロサンゼルス」に設定し、「<span class="uicontrol">アカウントのタイムゾーンを使用</span>」を選択した場合、次のメタ日付値は、指定したタイムゾーンを持たない太平洋標準時として扱われ、夏時間を考慮します。 </p> <p>&lt;meta name="dc.date" content="Mon, 05 Sep 201213:12:00"&gt; </p> </td> 
+      <td colname="col2"> <p>「データタイプ」で「<span class="uicontrol">日付</span>」が選択されている場合にのみ使用できます。 </p> <p>タイムゾーンを指定しないこのフィールドの日付値をインデックス付けする際に適用される想定タイムゾーンを制御します。 </p> <p>例えば、アカウントのタイムゾーンを「米国/ロサンゼルス」に設定し、「<span class="uicontrol">アカウントのタイムゾーンを使用</span>」を選択した場合、次のメタ日付値は、指定したタイムゾーンを持たない太平洋時間として扱われ、夏時間を考慮します。 </p> <p>&lt;meta name="dc.date" content="Mon, 05 Sep 201213:12:00"&gt; </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>最も重要でないランクの値 </p> </td> 
@@ -675,7 +673,7 @@ Attribute Loaderデータは、Index操作の前に読み込まれます。
       <td colname="col1"> <p>マップ </p> </td> 
       <td colname="col2"> <p>列番号を使用して、列とメタデータのマッピングを指定します。 </p> <p> 
       <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
-      <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> 列 </span> <p> 最初の列を1にして、列番号を指定します。 各列に新しいマップ行を追加するには、「<span class="wintitle">アクション</span>」の下の「<span class="uicontrol"> + </span>」をクリックします。 </p> <p>データソースの各列を参照する必要はありません。 代わりに、値をスキップすることもできます。 </p> </li> 
+      <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> 列 </span> <p> 最初の列を1にして、列番号を指定します。 各列に新しいマップ行を追加するには、<span class="wintitle">アクション</span>の下の<span class="uicontrol"> + </span>をクリックします。 </p> <p>データソースの各列を参照する必要はありません。 代わりに、値をスキップすることもできます。 </p> </li> 
       <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> フィールド </span> <p>生成された各&lt;meta&gt;タグで使用するname属性値を定義します。 </p> </li> 
       <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> メタデータ? </span> <p><span class="uicontrol">フィールド</span>が、現在のアカウントに対して定義済みのメタデータフィールドを選択できるドロップダウンリストになります。 </p> <p>必要に応じて、<span class="uicontrol">フィールド</span>の値は、未定義のメタデータフィールドにすることができます。 未定義のメタデータフィールドは、<span class="wintitle">フィルタースクリプト</span>で使用されるコンテンツの作成に役立つ場合があります。 </p> <p><a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local">フィルタリングスクリプトについて</a>を参照してください。 </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> プライマリキー? </span> <p>主キーとして識別されるフィールドは1つだけです。 このフィールドは、Attribute Loaderデータとインデックス内の対応するドキュメントとを一致させる「外部キー」として使用されます。 </p> </li> 
