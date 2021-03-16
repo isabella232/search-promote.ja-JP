@@ -1,16 +1,14 @@
 ---
 description: フルインデックスを使用して、ステージングされたWebサイトまたはライブWebサイトのすべてのページのインデックスを作成できます。 インデックス作成により、検索対象や検索を実行する際に必要なものを見つけやすくなります。
-seo-description: フルインデックスを使用して、ステージングされたWebサイトまたはライブWebサイトのすべてのページのインデックスを作成できます。 インデックス作成により、検索対象や検索を実行する際に必要なものを見つけやすくなります。
-seo-title: フルインデックスについて
 solution: Target
 subtopic: Full Index
 title: フルインデックスについて
 topic: Index,Site search and merchandising
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '760'
 ht-degree: 1%
 
 ---
@@ -98,7 +96,7 @@ Webサイトをクロールしてインデックスを更新する日時を指�
     </table>
 
 1. クリック **[!UICONTROL Full Index Now]**.
-1. （オプション）インデックス作成エラーが発生した場合は、**[!UICONTROL View Errors]**&#x200B;をクリックして関連するログを表示します。
+1. （オプション）インデックスエラーが発生した場合は、**[!UICONTROL View Errors]**&#x200B;をクリックして関連するログを表示します。
 
 ## ライブまたはステージングされたWebサイトの完全なインデックスログの表示{#task_02E5E944C56B4EB19CC1FF321F3221B8}
 
