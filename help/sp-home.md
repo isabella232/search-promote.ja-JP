@@ -5,10 +5,10 @@ solution: Target
 topic: サイト検索とマーチャンダイジング
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 1914d67d2634cb13368ab72d54da7da5988de13f
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 22%
+source-wordcount: '139'
+ht-degree: 23%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 ## ニュースとお知らせ{#topic_02625547D07F411DBAC9593FCBD4741B}
 
-* **注意：** [AdobeSearch&amp;Promoteサービス終了のお知らせ](/help/sp-eol.md)。
+<!-- * **Attention:** [Adobe Search&amp;Promote End-of-Service Announcement](/help/sp-eol.md). -->
 
 * Adobe Marketing Cloudリリースノート — すべてのMarketing Cloudソリューションの新機能、修正、既知の問題が含まれています。 主なリリースは春と秋に行われ、メンテナンスリリースは毎月行われます。
 
