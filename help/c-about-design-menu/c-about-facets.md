@@ -1,16 +1,14 @@
 ---
 description: ファセットを使用すると、プレゼンテーションレイヤーをカスタマイズし、ユーザーに対して、検索結果を詳しく調べるためのガイド付き検索を提供できます。
-seo-description: ファセットを使用すると、プレゼンテーションレイヤーをカスタマイズし、ユーザーに対して、検索結果を詳しく調べるためのガイド付き検索を提供できます。
-seo-title: ファセットについて
 solution: Target
 subtopic: Navigation
 title: ファセットについて
-topic: Design,Site search and merchandising
+topic: デザイン，サイト検索とマーチャンダイジング
 uuid: 28bc4d4d-a84c-4a77-befb-b0fb3bbdb966
 translation-type: tm+mt
-source-git-commit: 52c8d7985e7cb0aa35be1deabeb7cb92a55f07c2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3855'
+source-wordcount: '3832'
 ht-degree: 1%
 
 ---
