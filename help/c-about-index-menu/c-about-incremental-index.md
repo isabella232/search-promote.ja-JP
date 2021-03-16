@@ -1,16 +1,14 @@
 ---
 description: 増分インデックスを使用すると、頻繁に変更されるページの集まりなど、ライブWebサイトやステージングされたWebサイトの「断片」のインデックスを作成できます。
-seo-description: 増分インデックスを使用すると、頻繁に変更されるページの集まりなど、ライブWebサイトやステージングされたWebサイトの「断片」のインデックスを作成できます。
-seo-title: 増分インデックスについて
 solution: Target
 subtopic: Incremental Index
 title: 増分インデックスについて
 topic: Index,Site search and merchandising
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -57,7 +55,7 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
           <li id="li_32C2B21DE75C4459908384CC44822F7D"> 
           <code>
             noindex 
-          </code> <p>指定したURLと一致するページ上のテキストのインデックスを作成しないで、そのページのリンクに従う場合は、 
+          </code> <p>指定したURLと一致するページ上のテキストのインデックスを作成せず、そのページのリンクに従う場合は、 
             次の例のように、URLの後に<code>
               noindex 
             </code>が続きます。 </p> <p> 
@@ -234,7 +232,7 @@ WebサイトのURLとURLマスクを指定することで、インクリメン�
    * **[!UICONTROL Index]**/**[!UICONTROL Incremental Index]**/**[!UICONTROL Staged Index]**&#x200B;をクリックします。
 
 1. クリック **[!UICONTROL Incremental Index Now]**.
-1. （オプション）インデックスエラーが発生した場合は、**[!UICONTROL View Errors]**&#x200B;をクリックして関連するログを表示します。
+1. （オプション）インデックス作成エラーが発生した場合は、**[!UICONTROL View Errors]**&#x200B;をクリックして関連するログを表示します。
 
 ## ライブWebサイトまたはステージWebサイトの増分インデックスログの表示{#task_E668E1F1240C476DAA1CA783DC728232}
 
