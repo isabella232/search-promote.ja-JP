@@ -1,15 +1,13 @@
 ---
 description: 顧客が失敗した検索を試みた場合に、有効な検索用語に対する提案を受け取るように、「Did You Mean」を設定できます。 サーチクエリは、有効な検索に結びついた検索用語に対するスペルや修正を探して入力することで形成されます。
-seo-description: 顧客が失敗した検索を試みた場合に、有効な検索用語に対する提案を受け取るように、「Did You Mean」を設定できます。 サーチクエリは、有効な検索に結びついた検索用語に対するスペルや修正を探して入力することで形成されます。
-seo-title: Did You Mean
 solution: Target
 title: Did You Mean
-topic: Linguistics,Site search and merchandising
+topic: 言語、サイト検索、マーチャンダイジング
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
