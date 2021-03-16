@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: CGIパラメーター
+description: 様々なCGIパラメーターの使用方法について説明します。
 solution: Target
 title: CGIパラメーター
-topic: Appendices,Site search and merchandising
+topic: 付録，サイト検索とマーチャンダイジング
 uuid: a5f43547-bc15-44aa-ba23-6b8b573e09d2
 translation-type: tm+mt
-source-git-commit: 930ceebc6c35006c6b8bc96bc799b3242b6818e1
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1943'
 ht-degree: 1%
 
 ---
@@ -62,7 +60,7 @@ SEO形式を使用してリクエストが送信されると、すべての出�
 
 通常、お客様はガイド付き検索と呼ばれるプレゼンテーションレイヤーとやり取りします。 ただし、理論的には、Guided Searchレイヤーをスキップし、このページで説明するCGIパラメーターを使用してバックエンドのコア検索と直接やり取りすることは可能です。
 
-次の表から、バックエンド検索のCGIパラメーターを選択できます。
+次の表から、バックエンド検索CGIパラメーターを選択できます。
 <table> 
  <thead> 
   <tr> 
