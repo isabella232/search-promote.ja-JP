@@ -1,16 +1,14 @@
 ---
 description: 検索メニューを使用して、除外する単語、コレクション、制限、プレビューおよびフレームを設定します。
-seo-description: 検索メニューを使用して、除外する単語、コレクション、制限、プレビューおよびフレームを設定します。
-seo-title: 検索メニューについて
 solution: Target
 subtopic: Searching
 title: 検索メニューについて
-topic: Settings,Site search and merchandising
+topic: 設定，サイト検索とマーチャンダイジング
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '11182'
+source-wordcount: '11170'
 ht-degree: 1%
 
 ---
@@ -54,7 +52,7 @@ HTTP転送者、IPアドレス、またはリクエストスキーム（HTTPま�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>スペルチェック </p> </td> 
-   <td colname="col2"> <p>検索用語のスペルが正しいことを確認します。 <span class="uicontrol">言語<span class="uicontrol"> &gt; <span class="uicontrol">単語と言語</span>で&lt;a0/&gt;サウンドアリクマッチ</span>が有効な場合、検索エンジンは検索用語に似た単語を探そうとします。 </span>ただし、検索用語のスペルを正しく入力することをお勧めします。 </p> <p><a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local">単語と言語について</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p>検索用語のスペルが正しいことを確認します。 <span class="uicontrol">言語<span class="uicontrol"> &gt; <span class="uicontrol">単語と言語</span>で</span>サウンドアリクマッチ</span>が有効な場合、検索エンジンは検索用語に似た単語を探そうとします。 ただし、検索用語のスペルを正しく入力することをお勧めします。 </p> <p><a href="../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79" type="concept" format="dita" scope="local">単語と言語について</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>複数の単語を使用 </p> </td> 
@@ -64,7 +62,7 @@ HTTP転送者、IPアドレス、またはリクエストスキーム（HTTPま�
      </code> </p> <p>複数語のクエリは、単一語のクエリよりも絞り込みの効果を返します。 </p> <p>例えば、 
      <code>
        our free product 
-     </code>は単に&lt;a0/&gt;を返す以上の結果を返します 
+     </code>は単にを返す以上の結果を返します 
      <code>
        product 
      </code>. </p> <p>すべてのクエリ用語が含まれていない場合でも、関連する結果が返されることに注意してください。 </p> </td> 
@@ -747,7 +745,7 @@ c_about_collections.xml
 
    [正規式](../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A)を参照してください。
 
-「コレクション」フィールドの各行に含めることができるURLマスクは1つだけです。 ただし、同じコレクション名に対して、異なる行で複数のURLマスクを指定できます。 次の例には、4つの異なるコレクション名と5つのURLマスクが含まれています。
+「コレクション」フィールドの各行には、1つのURLマスクのみを含めることができます。 ただし、同じコレクション名に対して、異なる行で複数のURLマスクを指定できます。 次の例には、4つの異なるコレクション名と5つのURLマスクが含まれています。
 
 ```
 Company Info https://www.yoursite.com/company 
@@ -1113,7 +1111,7 @@ t_creating_a_feed.xml
           <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
         <li id="li_760F5068D3ED46C582AE41392A2CA342"> <span class="uicontrol"> アップロード方法  </span> <p>ほとんどのフィードには、ファイルを配布する方法が2つあります。FTPとホストコンテンツネットワークを参照してください。 </p> 
           <ul id="ul_666759EDDD034537AA7C0ED936A2F315"> 
-          <li id="li_B4AD5CEEBB7B41C0B8DC291B95DC5F83"> <span class="uicontrol">FTP</span> <p>サイト検索/マーチャンダイジングサーバーはパッシブFTPを使用します。 </p> <p>ファイルを別のサーバーにプッシュするには、FTPしか使用できません。 </p> <p> <span class="uicontrol"> FTPサーバー </span> - FTPサーバーの名前を指定します。プロトコルや先行する「ftp://」は含めないでください。 </p> <p> <span class="uicontrol"> FTPユーザー名 </span> - FTPアカウント名を指定します。 </p> <p> <span class="uicontrol"> FTPパスワード </span> - FTPアカウントのパスワードを指定します。 </p> <p> <span class="uicontrol"> FTPファイル名 </span>  — 送信するファイルの名前を指定します。この名前は、フィードで複数のファイルが生成される場合にテンプレートとなります。通常、名前の末尾で拡張子の前に番号が増えます。 次に例を示します。basename.xml、basename1.xml、basename2.xml、...、basename-Nth.xml </p> <p> <span class="uicontrol"> FTPディレクトリ </span>  — 特定のディレクトリパスが必要な場合は、ここに入力します。パスにファイル名を含めないでください。 </p> </li> 
+          <li id="li_B4AD5CEEBB7B41C0B8DC291B95DC5F83"> <span class="uicontrol">FTP</span> <p>サイト検索/マーチャンダイジングサーバーはパッシブFTPを使用します。 </p> <p>ファイルを別のサーバーにプッシュするには、FTPが唯一の方法です。 </p> <p> <span class="uicontrol"> FTPサーバー </span> - FTPサーバーの名前を指定します。プロトコルや先行する「ftp://」は含めないでください。 </p> <p> <span class="uicontrol"> FTPユーザー名 </span> - FTPアカウント名を指定します。 </p> <p> <span class="uicontrol"> FTPパスワード </span> - FTPアカウントのパスワードを指定します。 </p> <p> <span class="uicontrol"> FTPファイル名 </span>  — 送信するファイルの名前を指定します。この名前は、フィードで複数のファイルが生成される場合にテンプレートとなります。通常、名前の末尾で拡張子の前に番号が増えます。 次に例を示します。basename.xml、basename1.xml、basename2.xml、...、basename-Nth.xml </p> <p> <span class="uicontrol"> FTPディレクトリ </span>  — 特定のディレクトリパスが必要な場合は、ここに入力します。パスにファイル名を含めないでください。 </p> </li> 
           <li id="li_C082D3993C6C469B9067F207703BE619"> <span class="uicontrol"> ホストコンテンツネットワーク  </span> <p>コンテンツネットワークは、サイト検索/マーチャンダイジングのWebサーバーからファイルを提供する手段です。 フィードの受信者は、HTTPリクエストを使用してWebサーバーから取り込みます。 この設定に必要な情報は<span class="uicontrol">コンテンツネットワークファイル名</span>だけです。 ファイル名は、提供されるファイルの基本名です。 ファイル名の拡張子が付いたファイル名のみを使用してください。 フィードに応じて、ファイル名は複数のファイルのテンプレートになります。フィードによって次の形式で複数のファイルが生成される場合があります。basename.xml、basename1.xml、basename2.xml、...、basename-Nth.xml。 </p> <p>ベースファイル名を入力し、フィードが正常に保存されると、コンテンツネットワークファイルのURLがウィザードの検証パネルに表示されます。 URLは、フィードが正常に処理されるとアクティブになります。 ベンダーは、このURLからフィードデータを取得できます。 複数のファイルが同じURLパスを使用します。 ただし、定義済みリストスキームに従ってファイル名を置き換えたり、変更したりする必要があります。 </p> </li> 
           </ul> </li> 
         </ul> </td> 
@@ -1169,7 +1167,7 @@ t_creating_a_feed.xml
           <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
         <li id="li_20BF70A19E7E45BA91CD972E2FCE0EA4"> <span class="uicontrol"> アップロード方法  </span> <p>ほとんどのフィードには、ファイルを配布する方法が2つあります。FTPとホストコンテンツネットワークを参照してください。 </p> 
           <ul id="ul_5888C2E9097645CE89938EE09F8CB4F1"> 
-          <li id="li_EA9ED19F3BEA4BEAB1A9F2C2FAFF85F7"> <span class="uicontrol">FTP</span> <p>サイト検索/マーチャンダイジングサーバーはパッシブFTPを使用します。 </p> <p>ファイルを別のサーバーにプッシュするには、FTPしか使用できません。 </p> <p> <span class="uicontrol"> FTPサーバー </span> - FTPサーバーの名前を指定します。プロトコルや先行する「ftp://」は含めないでください。 </p> <p> <span class="uicontrol"> FTPユーザー名 </span> - FTPアカウント名を指定します。 </p> <p> <span class="uicontrol"> FTPパスワード </span> - FTPアカウントのパスワードを指定します。 </p> <p> <span class="uicontrol"> FTPファイル名 </span>  — 送信するファイルの名前を指定します。この名前は、フィードで複数のファイルが生成される場合にテンプレートとなります。通常、名前の末尾で拡張子の前に番号が増えます。 次に例を示します。basename.xml、basename1.xml、basename2.xml、...、basename-Nth.xml </p> <p> <span class="uicontrol"> FTPディレクトリ </span>  — 特定のディレクトリパスが必要な場合は、ここに入力します。パスにファイル名を含めないでください。 </p> </li> 
+          <li id="li_EA9ED19F3BEA4BEAB1A9F2C2FAFF85F7"> <span class="uicontrol">FTP</span> <p>サイト検索/マーチャンダイジングサーバーはパッシブFTPを使用します。 </p> <p>ファイルを別のサーバーにプッシュするには、FTPが唯一の方法です。 </p> <p> <span class="uicontrol"> FTPサーバー </span> - FTPサーバーの名前を指定します。プロトコルや先行する「ftp://」は含めないでください。 </p> <p> <span class="uicontrol"> FTPユーザー名 </span> - FTPアカウント名を指定します。 </p> <p> <span class="uicontrol"> FTPパスワード </span> - FTPアカウントのパスワードを指定します。 </p> <p> <span class="uicontrol"> FTPファイル名 </span>  — 送信するファイルの名前を指定します。この名前は、フィードで複数のファイルが生成される場合にテンプレートとなります。通常、名前の末尾で拡張子の前に番号が増えます。 次に例を示します。basename.xml、basename1.xml、basename2.xml、...、basename-Nth.xml </p> <p> <span class="uicontrol"> FTPディレクトリ </span>  — 特定のディレクトリパスが必要な場合は、ここに入力します。パスにファイル名を含めないでください。 </p> </li> 
           <li id="li_181268A7EE40456CA1DB768E8C66EEB9"> <span class="uicontrol"> ホストコンテンツネットワーク  </span> <p>ホストコンテンツネットワークは、サイト検索/マーチャンダイジングのWebサーバーからファイルを提供する手段です。 フィードの受信者は、HTTPリクエストを使用してWebサーバーから取り込みます。 この設定に必要な情報は<span class="uicontrol">コンテンツネットワークファイル名</span>だけです。 ファイル名は、提供されるファイルの基本名です。 ファイル名の拡張子が付いたファイル名のみを使用してください。 
             <!--Depending on the feed, the file name is a template for multiple files where the feed might generate multiple files in the following format: basename.xml, basename1.xml, basename2.xml, ..., basename-Nth.xml. --> </p> <p>ベースファイル名を入力し、フィードが正常に保存されると、コンテンツネットワークファイルのURLがウィザードの検証パネルに表示されます。 URLは、フィードが正常に処理されるとアクティブになります。 ベンダーは、このURLからフィードデータを取得できます。 </p> </li> 
           </ul> </li> 
@@ -1201,7 +1199,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col1"> <p>1 </p> </td> 
       <td colname="col2"> <p>フィード名 </p> </td> 
       <td colname="col3"> <p>フィードの名前を指定します。 </p> </td> 
       </tr> 
@@ -1232,7 +1230,7 @@ t_creating_a_feed.xml
           <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
         <li id="li_2D9ECAFB8E8544D39B486F7BC3DCE589"> <span class="uicontrol"> アップロード方法  </span> <p>ほとんどのフィードには、ファイルを配布する方法が2つあります。FTPとホストコンテンツネットワークを参照してください。 </p> <p>データフィードを送信する場合の推奨アップロード方法は<span class="uicontrol"> FTP </span>です。 この目的で、Google Merchant CenterがFTPサーバーをホストします。 このGoogle製品検索フィードに対するGoogle FTPアカウントの個別設定については、Google Merchant Centerヘルプを参照してください。 </p> 
           <ul id="ul_BC0D8B541068407883CAC948496DBD0A"> 
-          <li id="li_DB28CA23C94A4AF09E1A0EB06DF8F40C"> <span class="uicontrol">FTP</span> <p>サイト検索/マーチャンダイジングサーバーはパッシブFTPを使用します。 </p> <p>ファイルを別のサーバーにプッシュするには、FTPしか使用できません。 </p> <p> <span class="uicontrol"> FTPサーバー </span> - FTPサーバーの名前を指定します。この場合、 
+          <li id="li_DB28CA23C94A4AF09E1A0EB06DF8F40C"> <span class="uicontrol">FTP</span> <p>サイト検索/マーチャンダイジングサーバーはパッシブFTPを使用します。 </p> <p>ファイルを別のサーバーにプッシュするには、FTPが唯一の方法です。 </p> <p> <span class="uicontrol"> FTPサーバー </span> - FTPサーバーの名前を指定します。この場合、 
             <code>
               uploads.google.com 
             </code>. プロトコルや先行する「ftp://」は含めないでください。 </p> <p> <span class="uicontrol"> FTPユーザー名 </span> - FTPアカウント名を指定します。 </p> <p> <span class="uicontrol"> FTPパスワード </span> - FTPアカウントのパスワードを指定します。 </p> <p> <span class="uicontrol"> FTPファイル名 </span>  — 送信するファイルの名前を指定します。この名前は、フィードで複数のファイルが生成される場合にテンプレートとなります。通常、名前の末尾で拡張子の前に番号が増えます。 次に例を示します。basename.xml、basename1.xml、basename2.xml、...、basename-Nth.xml </p> <p> <span class="uicontrol"> FTPディレクトリ </span>  — 特定のディレクトリパスが必要な場合は、ここに入力します。パスにファイル名を含めないでください。 </p> </li> 
@@ -1276,7 +1274,7 @@ t_creating_a_feed.xml
       <td colname="col3"> <p>ベンダー固有のフィードフィールドを、サイト検索/マーチャンダイジングメタデータフィールドにマップできます。 このウィザードのマッピング手順は重要です。これは、フィードがインデックス内のフィールドとフィードデータ内のフィールドとの間の情報を関連付けることができるからです。 ほとんどの場合、<span class="wintitle">汎用フィード</span>を除き、相関関係は動的に生成された検索テンプレートに保存されます。 </p> <p>フィールドマップテーブルの各行は、フィールドマッピングを表します。 テーブルの追加/削除列で、<span class="uicontrol"> + </span>をクリックして、新しいフィールドマッピング行を追加します。「<span class="uicontrol"> - </span>」をクリックすると、現在選択されているフィールドマッピング行がテーブルから削除されます。 フィードフィールドをメタデータフィールドに関連付けるには、それぞれのドロップダウンリストを使用して目的のフィールドを選択します。 </p> <p> <b>高度な使用方法</b> </p> <p>独自のカスタムフィールドを作成できます。 <span class="wintitle">フィードフィールド</span>ドロップダウンリストで、<span class="uicontrol">カスタム</span>をクリックします。 関連するテキストフィールドに、そのフィールドのカスタムタグ名を入力します。 このカスタムオプションは、フィードに特別なベンダー固有のフィールドが必要な場合に役立ちます。 </p> <p>カスタムメタデータフィールドを作成することもできます。 「<span class="wintitle">メタデータフィールド</span>」ドロップダウンリストで、「<span class="uicontrol">カスタム</span>」をクリックします。 関連するテキストフィールドに、カスタムメタデータフィールドの値を入力します。 この値は、事前に生成されたテンプレートに挿入され、カスタム検索テンプレートタグの挿入にも使用できます。 </p> <p><a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local">検索テンプレートタグ</a>を参照してください。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>検索条件 </p> </td> 
       <td colname="col3"> <p>フィードファイルが生成されると、検索クエリを使用してデータがフィルターされます。 このパネルで、検索クエリに使用するフィルターを定義します。 </p> 
         <ul id="ul_994585E89A044BD3A89A99D30F277432"> 
@@ -1297,7 +1295,7 @@ t_creating_a_feed.xml
           <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
         <li id="li_07B5BCF7936241A7915C4898B231184B"> <span class="uicontrol"> アップロード方法  </span> <p>ほとんどのフィードには、ファイルを配布する方法が2つあります。FTPとホストコンテンツネットワークを参照してください。 </p> 
           <ul id="ul_74FA98A82754469BA5FADCC63FC364F7"> 
-          <li id="li_02940B712D6444A8B65C0A51834187E6"> <span class="uicontrol">FTP</span> <p>サイト検索/マーチャンダイジングサーバーはパッシブFTPを使用します。 </p> <p>ファイルを別のサーバーにプッシュするには、FTPしか使用できません。 </p> <p> <span class="uicontrol"> FTPサーバー </span> - FTPサーバーの名前を指定します。プロトコルや先行する「ftp://」は含めないでください。 </p> <p> <span class="uicontrol"> FTPユーザー名 </span> - FTPアカウント名を指定します。 </p> <p> <span class="uicontrol"> FTPパスワード </span> - FTPアカウントのパスワードを指定します。 </p> <p> <span class="uicontrol"> FTPファイル名 </span>  — 送信するファイルの名前を指定します。この名前は、フィードで複数のファイルが生成される場合にテンプレートとなります。通常、名前の末尾で拡張子の前に番号が増えます。 次に例を示します。basename.xml、basename1.xml、basename2.xml、...、basename-Nth.xml </p> <p> <span class="uicontrol"> FTPディレクトリ </span>  — 特定のディレクトリパスが必要な場合は、ここに入力します。パスにファイル名を含めないでください。 </p> </li> 
+          <li id="li_02940B712D6444A8B65C0A51834187E6"> <span class="uicontrol">FTP</span> <p>サイト検索/マーチャンダイジングサーバーはパッシブFTPを使用します。 </p> <p>ファイルを別のサーバーにプッシュするには、FTPが唯一の方法です。 </p> <p> <span class="uicontrol"> FTPサーバー </span> - FTPサーバーの名前を指定します。プロトコルや先行する「ftp://」は含めないでください。 </p> <p> <span class="uicontrol"> FTPユーザー名 </span> - FTPアカウント名を指定します。 </p> <p> <span class="uicontrol"> FTPパスワード </span> - FTPアカウントのパスワードを指定します。 </p> <p> <span class="uicontrol"> FTPファイル名 </span>  — 送信するファイルの名前を指定します。この名前は、フィードで複数のファイルが生成される場合にテンプレートとなります。通常、名前の末尾で拡張子の前に番号が増えます。 次に例を示します。basename.xml、basename1.xml、basename2.xml、...、basename-Nth.xml </p> <p> <span class="uicontrol"> FTPディレクトリ </span>  — 特定のディレクトリパスが必要な場合は、ここに入力します。パスにファイル名を含めないでください。 </p> </li> 
           <li id="li_EAE504436CD84452BA04BE51855A2BEF"> <span class="uicontrol"> ホストコンテンツネットワーク  </span> <p>コンテンツネットワークは、サイト検索/マーチャンダイジングのWebサーバーからファイルを提供する方法です。 フィードの受信者は、HTTPリクエストを使用してWebサーバーから取り込みます。 </p> <p> 
             <!--After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. --> </p> </li> 
           </ul> </li> 
