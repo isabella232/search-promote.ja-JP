@@ -3,10 +3,8 @@ title: AdobeSearch&Promoteサービス終了のお知らせ
 description: AdobeSearch&Promoteのサービス終了のお知らせの詳細を表示します。
 feature: null
 role: 管理者，業務従事者，データエンジニア，開発者
-hide: true
-hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: aa10a950262e5d1828da3d2e417dd5a5b752029b
+source-git-commit: e3a31b27ea130dc25be6691dd06e29686a97c5e4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
