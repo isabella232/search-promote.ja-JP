@@ -1,16 +1,14 @@
 ---
 description: ランキングルールを使用すると、含まれるメタタグコンテンツと関連するAdobe Analytics指標に基づいて、顧客の検索結果の相対的な位置やランクを制御できます。
-seo-description: ランキングルールを使用すると、含まれるメタタグコンテンツと関連するAdobe Analytics指標に基づいて、顧客の検索結果の相対的な位置やランクを制御できます。
-seo-title: ランキングルールについて
 solution: Target
 subtopic: Ranking Rules
 title: ランキングルールについて
-topic: Rules,Site search and merchandising
+topic: ルール，サイト検索とマーチャンダイジング
 uuid: 21962f9a-1d9c-442f-a6c4-5f452436c640
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '4647'
+source-wordcount: '4621'
 ht-degree: 1%
 
 ---
@@ -206,7 +204,7 @@ ht-degree: 1%
 1. [!DNL Define Ranking Rules]ページで、**[!UICONTROL Add Rule]**&#x200B;をクリックして新しいランキングルールを追加するか、ルールセットへの参照を追加します。
 1. [!DNL Add Ranking Rule]ページで、必要なオプションを設定します。 アスタリスク(*)が付いているフィールドは必須です。
 
-   選択するデータソースタイプは、[!DNL Data Source Name]ドロップダウンリストで選択できる選択肢に影響します。 例えば、データソースのタイプとして&#x200B;**[!UICONTROL Meta Tag]**&#x200B;を選択した場合、データソース名はWebサイトページ上のメタタグの名前を参照します。 **[!UICONTROL Adobe Analytics Metric (Number)]**&#x200B;を選択した場合、データソース名は、レポートスイートで選択したAdobe Analytics指標名の1つを参照します。この指標名は、サイト検索/マーチャンダイジングの&#x200B;**[!UICONTROL Edit Adobe Analytics Metrics]**&#x200B;ページに表示されます。
+   選択するデータソースタイプは、[!DNL Data Source Name]ドロップダウンリストで選択できる選択肢に影響します。 例えば、データソースのタイプとして&#x200B;**[!UICONTROL Meta Tag]**&#x200B;を選択した場合、データソース名はWebサイトページのメタタグの名前を参照します。 **[!UICONTROL Adobe Analytics Metric (Number)]**&#x200B;を選択した場合、データソース名は、レポートスイートで選択したAdobe Analytics指標名の1つを参照します。この指標名は、サイト検索/マーチャンダイジングの&#x200B;**[!UICONTROL Edit Adobe Analytics Metrics]**&#x200B;ページに表示されます。
 
    「[レポートスイートのAdobe Analytics指標の編集](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664)」を参照してください。
 
@@ -239,7 +237,7 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>重み付け/条件 </p> </td> 
-      <td colname="col2"> <p>単純な単一のルール重み付け番号、またはルール重み付け番号とテスト条件のペアのリストが含まれます。 </p> <p>ルール重み付け番号は1 ～ 10の値で、ドキュメントの全体的なランクを決定する際に、このランク付けルールが他のランク付けルールに対してどれだけ重要かを示します。 ルールの重み付けが高いほど、重要度が高いことを示します。 重み付けが0の場合、ルールは無視されます。 </p> <p>ドロップダウンリストから「<span class="uicontrol">カスタム</span>」を選択し、ルール重み付け/テスト条件のペアのリストを定義して、様々なページのルール重み付けをカスタマイズします。 テスト条件は、データソースの値のテストに使用されるPerlの一部、またはカスタムフィルタースクリプト内で定義されるグローバル変数(例えば、次の例のように、price、brand、season、page表示ー)です。 テスト条件が「true」と評価された場合は、関連付けられたルール重み付けの値が適用されます。 テスト条件が「false」に評価された場合、リスト内の次の条件が評価されます。 <code> 0&nbsp;({price}&nbsp;&gt;&nbsp;50.00)&nbsp;&amp;&amp;&nbsp;({brand}=~/Kuhl/)5&nbsp;{season}&nbsp;=~&nbsp;/Fall/10&nbsp;{pageviews}&nbsp;&gt;&nbsp;1000005 </code>上のカスタム作成重み付け/条件の例では、最初のテスト条件が「true」に評価された場合にルール重み付け0が適用されます。つまり、価格に50より大きい値が含まれ、ブランドには「Kuhl」が含まれます)。 最初のテスト条件が「false」と評価された場合、次の条件が評価されます。 前の条件に一致しなかった場合は、ルール重み付け5が割り当てられます。 </p> <p>常に、リストの最後に条件を指定しないルール重み付けを指定する必要があります。 この操作を行わない場合、「true」と評価される条件が1つもない場合、ルールでは0の重み付けが取得されます。 </p> </td> 
+      <td colname="col2"> <p>単純な単一のルール重み付け番号、またはルール重み付け番号とテスト条件のペアのリストが含まれます。 </p> <p>ルール重み付け番号は1 ～ 10の値で、ドキュメントの全体的なランクを決定する際に、このランク付けルールが他のランク付けルールに対してどれだけ重要かを示します。 ルールの重み付けが高いほど、重要度が高いことを示します。 重み付けが0の場合、ルールは無視されます。 </p> <p>ドロップダウンリストから「<span class="uicontrol">カスタム</span>」を選択し、ルール重み付け/テスト条件のペアのリストを定義して、様々なページのルール重み付けをカスタマイズします。 テスト条件は、データソースの値のテストに使用されるPerlの一部、またはカスタムフィルタースクリプト内で定義されるグローバル変数(例えば、次の例のように、price、brand、season、page表示ー)です。 テスト条件が「true」と評価された場合は、関連付けられたルール重み付けの値が適用されます。 テスト条件が「false」に評価された場合、リスト内の次の条件が評価されます。 <code> 0&nbsp;({price}&nbsp;&gt;&nbsp;50.00)&nbsp;&amp;&amp;&nbsp;({brand}=~/Kuhl/)5&nbsp;{season}&nbsp;=~&nbsp;/Fall/10&nbsp;{pageviews}&nbsp;&gt;&nbsp;1000005 </code>上のカスタム作成重み付け/条件の例では、最初のテスト条件が「true」と評価された場合にルール重み付け0が適用されます。つまり、価格に50より大きい値が含まれ、ブランドには「Kuhl」が含まれます)。 最初のテスト条件が「false」と評価された場合、次の条件が評価されます。 前の条件に一致しなかった場合は、ルール重み付け5が割り当てられます。 </p> <p>常に、リストの最後に条件を指定しないルール重み付けを指定する必要があります。 この操作を行わない場合、「true」と評価される条件が1つもない場合、ルールでは0の重み付けが取得されます。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>値/ランク </p> </td> 
