@@ -1,16 +1,14 @@
 ---
 description: パンくずリストは、Webサイトに追加できるナビゲーションコントロールです。 パンくずリストには、検索結果セット内のどこにあるかに関するフィードバックが表示されます。 また、前のステップにすばやく戻ることもできます。
-seo-description: パンくずリストは、Webサイトに追加できるナビゲーションコントロールです。 パンくずリストには、検索結果セット内のどこにあるかに関するフィードバックが表示されます。 また、前のステップにすばやく戻ることもできます。
-seo-title: パンくずリストについて
 solution: Target
 subtopic: Navigation
 title: パンくずリストについて
-topic: Design,Site search and merchandising
+topic: デザイン，サイト検索とマーチャンダイジング
 uuid: 3e630a72-a631-4f4f-8aa5-adf2882cdf1c
 translation-type: tm+mt
-source-git-commit: 7f1b5d94e8002992d62ec1e3dce11f9c5605fde8
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '755'
 ht-degree: 1%
 
 ---
