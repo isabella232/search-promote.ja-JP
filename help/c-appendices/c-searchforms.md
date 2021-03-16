@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: フォームの検索
+description: Search&amp;Promoteでの検索フォームについて説明します。
 solution: Target
 title: フォームの検索
-topic: Appendices,Site search and merchandising
+topic: 付録，サイト検索とマーチャンダイジング
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 translation-type: tm+mt
-source-git-commit: 4542702e1d2ba04c70d9f6b24bfa32e1f1c6acb5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2921'
+source-wordcount: '2931'
 ht-degree: 0%
 
 ---
