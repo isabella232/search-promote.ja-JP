@@ -1,16 +1,14 @@
 ---
 description: 動的ファセットを使用して、検索時に新しい範囲選択を自動的に作成します。 必要に応じて、各動的ファセットフィールドを、AdobeのSearch&amp;Promoteアカウント内の最大1つのテーブル名に関連付けることができます。 検索時に、これらのテーブルの関係を、検索に関係する動的ファセットフィールドに適用します。
-seo-description: 動的ファセットを使用して、検索時に新しい範囲選択を自動的に作成します。 必要に応じて、各動的ファセットフィールドを、AdobeのSearch&amp;Promoteアカウント内の最大1つのテーブル名に関連付けることができます。 検索時に、これらのテーブルの関係を、検索に関係する動的ファセットフィールドに適用します。
-seo-title: 動的ファセットについて
 solution: Target
 subtopic: Navigation
 title: 動的ファセットについて
-topic: Design,Site search and merchandising
+topic: デザイン，サイト検索とマーチャンダイジング
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
 translation-type: tm+mt
-source-git-commit: ffdec2cfcb30e733c664a7d1ca23868b7a9a9aa5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
