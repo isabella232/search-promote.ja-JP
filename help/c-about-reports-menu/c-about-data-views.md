@@ -1,15 +1,13 @@
 ---
 description: データ表示には、検索結果とメタフィールドが表示されます。 各列はメタフィールドで、各行は検索クエリの結果です。 列の選択と並べ替えを行って、データ表示をカスタマイズします。 データ表示には、カスタムのタイトルと説明を付けることもできます。
-seo-description: データ表示には、検索結果とメタフィールドが表示されます。 各列はメタフィールドで、各行は検索クエリの結果です。 列の選択と並べ替えを行って、データ表示をカスタマイズします。 データ表示には、カスタムのタイトルと説明を付けることもできます。
-seo-title: データ表示について
 solution: Target
 title: データ表示について
-topic: Reports,Site search and merchandising
+topic: レポート，サイト検索とマーチャンダイジング
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
 translation-type: tm+mt
-source-git-commit: 7af85dd37f06fe506e5f57e28a25385ca7ab3db5
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
