@@ -1,16 +1,14 @@
 ---
 description: SEO（検索エンジン最適化）メタタグを使用すると、ページの特定の要素をカスタマイズし、検索エンジンの配置を改善できます。
-seo-description: SEO（検索エンジン最適化）メタタグを使用すると、ページの特定の要素をカスタマイズし、検索エンジンの配置を改善できます。
-seo-title: SEOについて
 solution: Target
 subtopic: SEO
 title: SEOについて
-topic: Settings,Site search and merchandising
+topic: 設定，サイト検索とマーチャンダイジング
 uuid: 5c5d64f5-fe79-4489-85c6-399d1437f2c4
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -217,7 +215,7 @@ SEOフィールドの`<search-include>`タグの`file`属性に指定できる9�
 
 ## 設定したSEOメタタグのプレビュー{#task_3F97949E193C4F92A104AD117FE49621}
 
-設定したSEOフィールドの結果値をプレビューして、その使用場所に挿入された値を確認できます。
+設定したSEOフィールドの結果値をプレビューして、その使用場所に何が挿入されるかを確認できます。
 
 SEOフィールドには、フィールドに含める値を含めることができるので、検索結果は、指定した検索クエリに依存する場合があります。
 
