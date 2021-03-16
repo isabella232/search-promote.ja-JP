@@ -1,15 +1,13 @@
 ---
 description: 直接ヒットを使用すると、顧客が一致する用語を検索した場合に、顧客を指定のURLにリダイレクトできます。 この種の機能を使用すると、Webサイトの検索のナビゲーションを改善できます。
-seo-description: 直接ヒットを使用すると、顧客が一致する用語を検索した場合に、顧客を指定のURLにリダイレクトできます。 この種の機能を使用すると、Webサイトの検索のナビゲーションを改善できます。
-seo-title: ダイレクトヒットについて
 solution: Target
 title: ダイレクトヒットについて
-topic: Rules,Site search and merchandising
+topic: ルール，サイト検索とマーチャンダイジング
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '400'
 ht-degree: 1%
 
 ---
