@@ -1,15 +1,13 @@
 ---
 description: 検索前のルールを使用して、着信クエリを分析し、使用するプレゼンテーションテンプレートを決定します。 検索前のルールは、各クエリに対して順に実行されます。 ルールの順序を変更するには、ドラッグ&ドロップを使用します。 実際の注文は、保存するまで変更されません。
-seo-description: 検索前のルールを使用して、着信クエリを分析し、使用するプレゼンテーションテンプレートを決定します。 検索前のルールは、各クエリに対して順に実行されます。 ルールの順序を変更するには、ドラッグ&ドロップを使用します。 実際の注文は、保存するまで変更されません。
-seo-title: 検索前のルールについて
 solution: Target
 title: 検索前のルールについて
-topic: Rules,Site search and merchandising
+topic: ルール，サイト検索とマーチャンダイジング
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
 translation-type: tm+mt
-source-git-commit: d07cdc2c88f93eed4cecb0ee8818f7fdea06ee9d
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1709'
+source-wordcount: '1666'
 ht-degree: 1%
 
 ---
