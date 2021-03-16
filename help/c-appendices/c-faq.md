@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: よくある質問
+description: Search&amp;Promoteに関するよくある質問を読みます。
 solution: Target
 title: よくある質問
-topic: Appendices,Site search and merchandising
+topic: 付録，サイト検索とマーチャンダイジング
 uuid: 4ce454a4-e770-4587-91a0-a25491818ac6
 translation-type: tm+mt
-source-git-commit: 4270ea66ba645ad0f71c9c8b5c2a1fcc6eb02ad2
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '8639'
+source-wordcount: '8648'
 ht-degree: 0%
 
 ---
@@ -119,7 +117,7 @@ SWFインデックスを無効にするには、次のURLマスクのいずれ�
 
 サイト検索/マーチャンダイジングが、Webサイトを訪問する顧客がどのようにして探しているものを見つけるかを支援するかを説明する、よくある質問ページです。
 
-一般検索に関するよくある質問は、次のとおりです。
+一般検索に関するよくある質問は次のとおりです。
 
 * [サイトを使用するには、ソフトウェアをインストールする必要があるか…](#section_02AB2AFF71984F9DAA3AF2B7C0847A22)
 * [サイトがページ数の上限を超えるとどうなりますか。](#section_ECA5FA01032D4322BABA4E2C7FE498C1)
@@ -430,7 +428,7 @@ Webサイトコンテンツのクロールおよびインデックス作成が�
 Webサイトでの[!DNL Search&Promote]での機能の実装に関して、次のよくある質問があります。
 
 * [ビジネスルールが実行されないのはなぜですか。](#section_7FEB60383D8A4B11A60DFF9067274699)
-* [インデックスのスケジュール設定、インデックスの開始中にエラーが発生し、ステージングされたインデックスの開始中に問題が発生するのはなぜですか？](#section_E05758193DF5436784B0145839989F75)
+* [インデックスのスケジュール設定、インデックスの開始中にエラーが発生し、ステージングされたインデックスの開始中に問題が発生するのはなぜですか。](#section_E05758193DF5436784B0145839989F75)
 * [インデックスサイズの制限が許可された境界を超えています。この問題が起こるのはなぜですか？](#section_12E7DA979C4C4B1D8A3A6415FC3DDA70)
 
 ## ビジネスルールが実行されないのはなぜですか。{#section_7FEB60383D8A4B11A60DFF9067274699}
