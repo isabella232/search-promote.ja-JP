@@ -1,16 +1,14 @@
 ---
 description: ルールの書き換えメニューを使用して、クロールおよび検索URLとタイトルルールを設定します。
-seo-description: ルールの書き換えメニューを使用して、クロールおよび検索URLとタイトルルールを設定します。
-seo-title: 書き換えルールメニューについて
 solution: Target
 subtopic: Rewrite Rules
 title: 書き換えルールメニューについて
-topic: Settings,Site search and merchandising
+topic: 設定，サイト検索とマーチャンダイジング
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '10216'
+source-wordcount: '10202'
 ht-degree: 0%
 
 ---
@@ -45,7 +43,7 @@ RewriteCond TestString CondPattern [Flags]
 RewriteRule Pattern Substitution [Flags]
 ```
 
-埋め込みURLが見つかると、検索ロボットはURLを各クロールルールのパターンと一致させようとします。 パターンが一致する場合、書き換えエンジンは対応するRewriteCondディレクティブを探します。 条件が存在しない場合、URLは置換文字列から構成される新しい値で置換され、ルールセット内の次のルールに続きます。 条件が存在する場合は、リストに表示された順に処理されます。 再書き込みエンジンは、条件パターン(CondPattern)とテスト文字列(TestString)とを照合しようとします。 2つの一致が見つかった場合は、それ以上条件がなくなるまで、次の条件が処理されます。 すべての条件が一致する場合、URLはルールで指定されている置換に置き換えられます。 条件が満たされない場合、条件の完全なセットと対応するルールは失敗します。
+埋め込みURLが見つかると、検索ロボットはURLと各クロールルールのパターンとの一致を試みます。 パターンが一致する場合、書き換えエンジンは対応するRewriteCondディレクティブを探します。 条件が存在しない場合、URLは置換文字列から構成される新しい値で置換され、ルールセット内の次のルールに続きます。 条件が存在する場合は、リストに表示された順に処理されます。 再書き込みエンジンは、条件パターン(CondPattern)とテスト文字列(TestString)とを照合しようとします。 2つの一致が見つかった場合は、それ以上条件がなくなるまで、次の条件が処理されます。 すべての条件が一致する場合、URLはルールで指定されている置換に置き換えられます。 条件が満たされない場合、条件の完全なセットと対応するルールは失敗します。
 
 ## RewriteRuleディレクティブについて{#section_162122340BB34F12BB9A36DC9349092B}
 
@@ -251,11 +249,11 @@ RewriteRuleはEフラグ`([E=sessionid:$1])`を使用して、sessionid CGIパ�
 
 正規式`^&#]+`は、URLの一部を`sessionid`と次の`**&**or**#**`文字の間に一致させます。 このRewriteRuleは、sessionid変数の初期値を作成する目的でのみ使用されるので、書き換えは行われません。 ルールの「Substitution」フィールドは`-`に設定され、書き換えの必要がないことを示します。
 
-RewriteCondは変数`sessionid` ( `%{sessionid}`)を調べます。 1文字(!.+)の場合、RewriteRuleは一致と見なされます。
+RewriteCondは変数`sessionid` ( `%{sessionid}`)を調べます。 1文字も含まない場合は(!.+)の場合、RewriteRuleは一致と見なされます。
 
 このルールを使用すると、URLは`https://www.domain.com/home/?sessionid=1234&function=start`として読み取られ、値`1234`を変数`sessionid`に割り当てます。
 
-2つ目のルールは、次のRewriteRuleパターンに一致するすべてのURLを書き換えるために使用します。
+2つ目のルールは、次のRewriteRuleパターンに一致するすべてのURLを書き換えるために使用されます。
 
 ```
 RewriteRule   
@@ -333,7 +331,7 @@ RewriteCond TestString CondPattern [Flags]
 RewriteRule Pattern Substitution [Flags]
 ```
 
-埋め込みURLが見つかると、検索ロボットはURLを各クロールルールのパターンと一致させようとします。 パターンが一致する場合、書き換えエンジンは対応するRewriteCondディレクティブを探します。 条件が存在しない場合、URLは置換文字列から構成される新しい値で置換され、ルールセット内の次のルールに続きます。 条件が存在する場合は、リストに表示された順に処理されます。 再書き込みエンジンは、条件パターン(CondPattern)とテスト文字列(TestString)とを照合しようとします。 2つの一致が見つかった場合は、それ以上条件がなくなるまで、次の条件が処理されます。 すべての条件が一致する場合、URLはルールで指定されている置換に置き換えられます。 条件が満たされない場合、条件の完全なセットと対応するルールは失敗します。
+埋め込みURLが見つかると、検索ロボットはURLと各クロールルールのパターンとの一致を試みます。 パターンが一致する場合、書き換えエンジンは対応するRewriteCondディレクティブを探します。 条件が存在しない場合、URLは置換文字列から構成される新しい値で置換され、ルールセット内の次のルールに続きます。 条件が存在する場合は、リストに表示された順に処理されます。 再書き込みエンジンは、条件パターン(CondPattern)とテスト文字列(TestString)とを照合しようとします。 2つの一致が見つかった場合は、それ以上条件がなくなるまで、次の条件が処理されます。 すべての条件が一致する場合、URLはルールで指定されている置換に置き換えられます。 条件が満たされない場合、条件の完全なセットと対応するルールは失敗します。
 
 ## RewriteRuleディレクティブについて{#section_32B24B29627946398AFBC5F869A610CB}
 
@@ -536,11 +534,11 @@ RewriteRuleはEフラグ`([E=sessionid:$1])`を使用して、sessionid CGIパ�
 
 正規式`^&#]+`は、URLの一部を`sessionid`と次の**&amp;**または**#**文字の間で一致させます。 このRewriteRuleは、sessionid変数の初期値を作成する目的でのみ使用されるので、書き換えは行われません。 ルールの「Substitution」フィールドは`-`に設定され、書き換えの必要がないことを示します。
 
-RewriteCondは変数`sessionid` ( `%{sessionid}`)を調べます。 1文字(!.+)の場合、RewriteRuleは一致と見なされます。
+RewriteCondは変数`sessionid` ( `%{sessionid}`)を調べます。 1文字も含まない場合は(!.+)の場合、RewriteRuleは一致と見なされます。
 
 このルールを使用すると、URLは`https://www.domain.com/home/?sessionid=1234&function=start`として読み取られ、値`1234`を変数`sessionid`に割り当てます。
 
-2つ目のルールは、次のRewriteRuleパターンに一致するすべてのURLを書き換えるために使用します。
+2つ目のルールは、次のRewriteRuleパターンに一致するすべてのURLを書き換えるために使用されます。
 
 ```
 RewriteRule   
@@ -895,7 +893,7 @@ RewriteRule
 
 RewriteRuleバックリファレンス対応するRewriteRuleパターン内のこれらの一致するバックリファレンスを返し、$N (0 &lt;= N &lt;= 9)の形式をとります。 例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
-RewriteCond Backreferences — これらの一致するバックリファレンスは、最後に一致したRewriteCondPatternに含まれ、%Nの形式をとります(0 &lt;= N &lt;= 9)。
+RewriteCond Backreferences — これらの一致するバックリファレンスは、最後に一致したRewriteCondPattern内にあり、%Nの形式をとります(0 &lt;= N &lt;= 9)。
 
 関数：次に、${NAME_OF_FUNCTION:key}の形式の関数を示します。NAME_OF_FUNCTIONは次のとおりです。
 
@@ -935,7 +933,7 @@ RewriteCond Backreferences — これらの一致するバックリファレン�
   </tr> 
   <tr> 
    <td colname="col1"> <p> 'nocase|NC' </p> </td> 
-   <td colname="col2"> <p>大文字と小文字は区別されません。 </p> <p>このフラグは、Patternで大文字と小文字が区別されなくなります。 つまり、パターンが現在のURLと一致する場合、「A-Z」と「a-z」の間に違いはありません。 </p> </td> 
+   <td colname="col2"> <p>大文字と小文字は区別されません。 </p> <p>このフラグは、Patternで大文字と小文字を区別しません。 つまり、パターンが現在のURLと一致する場合、「A-Z」と「a-z」の間に違いはありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 'skip|S=num' </p> </td> 
@@ -1145,7 +1143,7 @@ RewriteRule Pattern Substitution [Flags]
 
 プレーンテキスト — 変更せずに渡されるテキスト。
 
-**バ** ックリファレンスPatternまたはCondPatternのグループ化されたパーツ（括弧内）にアクセスできます。次に、2種類のバックリファレンスを示します。
+**バ** ックリファレンスパターンまたはCondPatternのグループ化されたパーツ（括弧内）にアクセスできます。次に、2種類のバックリファレンスを示します。
 
 * **RewriteRule** Backreferences対応するRewriteRuleパターンのバックリファレンスと一致し、$N (0  &lt;>例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
@@ -1186,7 +1184,7 @@ RewriteRule Pattern Substitution [Flags]
   </tr> 
   <tr> 
    <td colname="col1"> <p> 'nocase|NC' </p> </td> 
-   <td colname="col2"> <p> 大文字と小文字は区別されません。 </p> <p> このフラグは、Patternで大文字と小文字が区別されなくなります。 つまり、パターンが現在のタイトルと一致する場合、「A-Z」と「a-z」の間に違いはありません。 </p> </td> 
+   <td colname="col2"> <p> 大文字と小文字は区別されません。 </p> <p> このフラグは、Patternで大文字と小文字を区別しません。 つまり、パターンが現在のタイトルと一致する場合、「A-Z」と「a-z」の間に違いはありません。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 'skip|S=num' </p> </td> 
