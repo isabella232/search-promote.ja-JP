@@ -1,15 +1,13 @@
 ---
 description: テンプレートを使用して、プレゼンテーションテンプレートと転送テンプレートを管理できます。
-seo-description: テンプレートを使用して、プレゼンテーションテンプレートと転送テンプレートを管理できます。
-seo-title: テンプレートについて
 solution: Target
 title: テンプレートについて
-topic: Design,Site search and merchandising
+topic: デザイン，サイト検索とマーチャンダイジング
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
 translation-type: tm+mt
-source-git-commit: 60cedaac1846e384a37699a42bf7fda33828e1c0
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2652'
 ht-degree: 1%
 
 ---
