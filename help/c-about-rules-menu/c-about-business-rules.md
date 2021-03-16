@@ -1,15 +1,13 @@
 ---
 description: ビジネスルールを使用して、検索をマーチャンダイジングできます。
-seo-description: ビジネスルールを使用して、検索をマーチャンダイジングできます。
-seo-title: ビジネス・ルールについて
 solution: Target
 title: ビジネス・ルールについて
-topic: Rules,Site search and merchandising
+topic: ルール，サイト検索とマーチャンダイジング
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
-source-git-commit: fc1f0b15a15a9d0308494fc23c5b4258442c8aab
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '3127'
+source-wordcount: '3120'
 ht-degree: 1%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 1%
 
 各ビジネスルールは、トリガーとアクションで構成されます。
 
-トリガーは、ルールを実行するタイミングを定義します。 例えば、クエリ用語が「mens」の場合や、結果の大部分がhatsの場合です。 トリガーは、すべての条件に一致する必要がある複数の条件か、トリガー全体をtrueにするために条件のいずれかに一致する必要がある複数の条件で構成されます。 トリガー演算子を変更して、優先順位を指定できます。
+トリガーは、ルールを実行するタイミングを定義します。 例えば、クエリ用語が「mens」の場合や、結果の大部分がhatsの場合です。 トリガーは複数の条件で構成され、これらの条件のすべてが真になるか、トリガー全体が真になるように条件のいずれかが真になる必要があります。 トリガー演算子を変更して、優先順位を指定できます。
 
 アクションは、トリガー条件が満たされた場合の動作を定義します。 例えば、バナーを設定して、特定の結果を位置1に表示または移動します。 ルールの表には、ルールに関する概要情報が表示されます。 ルール名をクリックすると、そのルール名が開き、追加情報が表示されます。
 
@@ -95,11 +93,11 @@ ht-degree: 1%
 
       `if a AND b AND c then ...`
 
-   * 次の例のように、いずれかのトリガーがtrueである必要がある応答です。
+   * 次の例のように、いずれかのトリガーがtrueである必要がある場合の応答です。
 
       `if a OR b OR c then ...`
 
-   * トリガーのカスタムの組み合わせが指定された応答です。 つまり、個々のトリガーまたは「条件」を`AND`演算子と`OR`演算子と組み合わせます。
+   * トリガーのカスタムの組み合わせが指定された応答。 つまり、個々のトリガーまたは「条件」を`AND`演算子と`OR`演算子と組み合わせます。
 
       また、次の例のように、左括弧と右括弧の組み合わせを追加して、評価の優先順位を変更することもできます。
 
@@ -107,7 +105,7 @@ ht-degree: 1%
 
       >[!NOTE]
       >
-      >`AND`演算子と`OR`演算子をカスタムビジネスルールセットで組み合わせる場合は、トリガーが正しい順序で評価されるように、括弧を適切に指定してください。
+      >カスタムビジネスルールセットで`AND`演算子と`OR`演算子を組み合わせる場合は、トリガーが正しい順序で評価されるように、括弧を適切に指定してください。
 
       トリガーの組み合わせをカスタマイズできるというこの特徴は、デフォルトでは有効になっていません。 お使いの場合は、テクニカルサポートにこの機能を有効にするように依頼してください。
    <table> 
@@ -120,20 +118,20 @@ ht-degree: 1%
     <tbody> 
       <tr> 
       <td colname="col1"> <p>キーワードの一致 </p> </td> 
-      <td colname="col2"> <p>トリガーは、検索語句が特定の大文字と小文字を区別するキーワードと一致する場合にtrueになります。 言語学辞書で定義されているように、トリガーは、キーワードとそのすべての同義語の両方に対してtrueです。 </p> </td> 
+      <td colname="col2"> <p>トリガーは、検索語句が特定の大文字と小文字を区別するキーワードと一致する場合にtrueになります。 このトリガーは、言語学辞書で定義されている、キーワードとそのすべての同義語の両方に当てはまります。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> クエリの一致 </p> </td> 
-      <td colname="col2"> <p> Triggerは、すべての検索パラメーターが一致する場合にtrueになります。 </p> </td> 
+      <td colname="col2"> <p> トリガーは、すべての検索パラメータが一致する場合にtrueになります。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> 結果グループが優先 </p> </td> 
-      <td colname="col2"> <p> トリガーは、特定の検索で定義された結果のグループが結果セットを支配する場合にtrueです。 </p> <p>デフォルトでは、優先度は50%に設定されています。 この設定は、設定できるマーチャンダイジング設定です。 </p> <p> 
+      <td colname="col2"> <p> トリガーは、特定の検索で定義された結果のグループが結果セットより優先される場合にtrueです。 </p> <p>デフォルトでは、優先度は50%に設定されています。 この設定は、設定できるマーチャンダイジング設定です。 </p> <p> 
         <!--See <xref href="t_Configuring_Merchandising_preferences.xml#task_7AC7B9F5D9F44E10AB5BC0B8CB31C37A" type="task" format="dita" scope="local">Configuring Merchandising preferences</xref>. --> </p> <p>このトリガーが真になるには、グループ全体が結果セット内に存在する必要があります。 結果のグループは動的です。 インデックス操作の後、元の検索条件に一致する結果に応じて変化する場合があります。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>結果グループが存在する </p> </td> 
-      <td colname="col2"> <p> トリガーは、特定の検索で定義された結果のグループが結果セットに存在する場合にtrueです。 このトリガーを満たすには、グループ全体が結果セット内に存在する必要があります（結果はどのページにも表示できます）。 結果のグループは動的で、元の検索条件に一致する結果に応じてインデックス操作後に変化する場合があります。 </p> </td> 
+      <td colname="col2"> <p> トリガーは、特定の検索で定義された結果のグループが結果セットに存在する場合にtrueになります。 このトリガーを満たすには、グループ全体が結果セット内に存在する必要があります（結果はどのページにも表示できます）。 結果のグループは動的で、元の検索条件に一致する結果に応じてインデックス操作後に変化する場合があります。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> 結果の存在 </p> </td> 
@@ -191,7 +189,7 @@ ht-degree: 1%
       </tr> 
       <tr> 
       <td colname="col1"> <p>追加バナーコマンド </p> </td> 
-      <td colname="col2"> <p>AdobeのDynamic Mediaクラシックテンプレートにのみ適用されます。 </p> <p>バナーテンプレートで使用する初期設定のパラメーターを変更できます。 </p> <p><a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita">AdobeDynamic Mediaクラシック</a>を使用したバナーの追加のオプションの表を参照してください。 </p> <p>「AdobeDynamic Mediaクラシック<a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local">を使用したバナーの編集」も参照してください。</a> </p> </td> 
+      <td colname="col2"> <p>AdobeのDynamic Mediaクラシックテンプレートにのみ適用されます。 </p> <p>バナーテンプレートで使用する初期設定のパラメーターを変更できます。 </p> <p><a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita">AdobeDynamic Mediaクラシック</a>を使用したバナーの追加のオプションの表を参照してください。 </p> <p>「AdobeDynamic Mediaクラシック</a>を使用したバナーの編集」も参照してください。<a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local"> </a></p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>バナーの削除 </p> </td> 
@@ -251,14 +249,14 @@ ht-degree: 1%
 
       パラメーターの変更が[!DNL Actions]パネルに追加されます。
 
-      「AdobeDynamic Mediaクラシック[を使用したバナーの編集」も参照してください。](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
+      「AdobeDynamic Mediaクラシック](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)を使用したバナーの編集」も参照してください。[
 
    * [ビジネスルールビルダ]ページのプレゼンテーションテンプレート領域で、ページから削除するバナーを右クリックし、[**[!UICONTROL Remove banner]**]をクリックします。 アクションパネルに「バナーを削除」アクションが追加されます。
 
 1. （オプション）**[!UICONTROL Schedule]**&#x200B;パネルで、次のいずれかの操作を行います。
 
-   * **[!UICONTROL Run Indefinitely]**&#x200B;をクリックすると、関連するトリガーが満たされたときにルールが実行されます。 このオプションはデフォルトです。
-   * **[!UICONTROL Fixed Schedule]**&#x200B;をクリックし、関連するトリガーに適合した場合にルールを実行する開始の日時と終了日時を指定します。
+   * **[!UICONTROL Run Indefinitely]**&#x200B;をクリックすると、関連するトリガーが満たされるたびにルールが実行されます。 このオプションはデフォルトです。
+   * **[!UICONTROL Fixed Schedule]**&#x200B;をクリックし、開始の日時と、ルールを実行する終了日時を、関連するトリガーに達したときに指定します。
 
 1. クリック **[!UICONTROL Save Rule]**.
 1. （オプション）[!DNL Business Rules]ページで、次のいずれかの操作を行います。
@@ -309,14 +307,14 @@ Visual Rule BuilderまたはAdvanced Rule Builderを使用して、追加した�
 
       パラメーターの変更が[!DNL Actions]パネルに追加されます。
 
-      「AdobeDynamic Mediaクラシック[を使用したバナーの編集」も参照してください。](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)
+      「AdobeDynamic Mediaクラシック](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9)を使用したバナーの編集」も参照してください。[
 
    * [!DNL Business Rule Builder]ページのプレゼンテーションテンプレート領域で、ページから削除するバナーを右クリックし、「**[!UICONTROL Remove banner]**」をクリックします。 バナーの削除アクションが[!DNL Actions]パネルに追加されます。
 
 1. （オプション）[!DNL Schedule]パネルで、次のいずれかの操作を行います。
 
-   * **[!UICONTROL Run Indefinitely]**&#x200B;をクリックすると、関連するトリガーが満たされたときにルールが実行されます。 このオプションはデフォルトです。
-   * **[!UICONTROL Fixed Schedule]**&#x200B;をクリックし、関連するトリガーが満たされた場合にルールを実行する開始の日時と終了日時を指定します。
+   * **[!UICONTROL Run Indefinitely]**&#x200B;をクリックすると、関連するトリガーが満たされるたびにルールが実行されます。 このオプションはデフォルトです。
+   * **[!UICONTROL Fixed Schedule]**&#x200B;をクリックし、開始の日時と、ルールを実行する終了日時を、関連するトリガーに達したときに指定します。
 
 1. クリック **[!UICONTROL Save Rule]**.
 
@@ -334,7 +332,7 @@ Visual Rule BuilderまたはAdvanced Rule Builderを使用して、追加した�
 
       [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
 
-## ビジネスルール{#task_89F1879C71A54EE9B7454439302C03EC}のコピー
+## ビジネスルールのコピー{#task_89F1879C71A54EE9B7454439302C03EC}
 
 既存のビジネスルールをコピーして、作成する新しいビジネスルールの基本として使用できます。
 
