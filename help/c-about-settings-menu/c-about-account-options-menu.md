@@ -1,16 +1,14 @@
 ---
 description: アカウントオプションメニューを使用して、アカウント設定の更新、マーチャンダイジングの環境設定の設定、独自のSearch&amp;Promoteアカウントの削除を行います。
-seo-description: アカウントオプションメニューを使用して、アカウント設定の更新、マーチャンダイジングの環境設定の設定、独自のSearch&amp;Promoteアカウントの削除を行います。
-seo-title: '[アカウントオプション]メニューについて'
 solution: Target
 subtopic: Account Options
 title: '[アカウントオプション]メニューについて'
-topic: Settings,Site search and merchandising
+topic: 設定，サイト検索とマーチャンダイジング
 uuid: 0f830033-de9e-4197-8d76-906c818662eb
 translation-type: tm+mt
-source-git-commit: f21a3f7fe0aeaab517a5ca36da43594873b3e69a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1662'
 ht-degree: 2%
 
 ---
@@ -105,8 +103,8 @@ Webサイトの名前や住所、タイムゾーンなどのアカウント設�
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>トリガーグループ優性しきい値 </p> </td> 
-      <td colname="col2"> <p> 「アカウントのデフォルトを使用」を指定する「グループ優先」の結果ベースのトリガーに適用するしきい値の割合。 </p> <p>この設定を変更すると、直ちにライブ検索に影響を与える可能性があるので、注意が必要です。 </p> </td> 
+      <td colname="col1"> <p>トリガー群優性閾値 </p> </td> 
+      <td colname="col2"> <p> 「アカウントのデフォルトを使用」を指定する、「グループ優先」の結果ベースのトリガーに適用するしきい値の割合。 </p> <p>この設定を変更すると、直ちにライブ検索に影響を与える可能性があるので、注意が必要です。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>グループ定義 </p> </td> 
@@ -114,7 +112,7 @@ Webサイトの名前や住所、タイムゾーンなどのアカウント設�
       </tr> 
       <tr> 
       <td colname="col1"> <p> 「マーチャンダイジングドキュメントID」(MDI)フィールド </p> </td> 
-      <td colname="col2"> <p> 指定するフィールドは、「単一の結果」の結果ベースのトリガーおよびアクションを使用して操作する検索結果を「一意に」修飾する必要があります。 </p> <p>事前定義URLフィールドの使用は、場合によっては機能しますが、お勧めしません。 各ページに固有のIDを持つユーザー定義のメタフィールド（SKUやproduct_idなど）は、「URL」フィールドを使用するよりも効率的です。 「none」を指定すると、ルールマネージャーの「single result」結果ベースのトリガーとアクションが無効になります。 このオプションの変更は、今後保存されるルールにのみ適用されます。既存のルールは、元々保存されたMDIを引き続き使用します。 </p> </td> 
+      <td colname="col2"> <p> 指定するフィールドは、「単一の結果」の結果ベースのトリガーとアクションを使用して操作する検索結果を「一意に」修飾する必要があります。 </p> <p>事前定義URLフィールドの使用は、場合によっては機能しますが、お勧めしません。 各ページに固有のIDを持つユーザー定義のメタフィールド（SKUやproduct_idなど）は、「URL」フィールドを使用するよりも効率的です。 「none」を指定すると、ルールマネージャーの「single result」結果ベースのトリガーとアクションが無効になります。 このオプションの変更は、今後保存されるルールにのみ適用されます。既存のルールは、元々保存されたMDIを引き続き使用します。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>デフォルトのVRB(Visual Rule Builder)検索語句 </p> </td> 
@@ -122,7 +120,7 @@ Webサイトの名前や住所、タイムゾーンなどのアカウント設�
       </tr> 
       <tr> 
       <td colname="col1"> <p>VRB既定の検索 </p> </td> 
-      <td colname="col2"> <p>この設定を使用すると、Visual Rule Builderで最初に選択されるデフォルトの検索を設定できます。 </p> <p> この設定は、複数の検索を含む導入でのみ有効です。 VRBを使用すると、定義したグループが適用するトリガーまたはアクションを選択できます。 </p> </td> 
+      <td colname="col2"> <p>この設定を使用すると、Visual Rule Builderで最初に選択されるデフォルトの検索を設定できます。 </p> <p> この設定は、複数の検索を含む導入でのみ有効です。 VRBを使用すると、定義したグループが適用するトリガーまたはアクションの検索対象を選択できます。 </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>VRB/シミュレータのタイムアウト </p> </td> 
@@ -139,7 +137,7 @@ Webサイトの名前や住所、タイムゾーンなどのアカウント設�
 
 [バナーについて](../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA)を参照してください。
 
-「AdobeDynamic Mediaクラシック[を使用したバナーの追加」を参照してください。](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)
+「AdobeDynamic Mediaクラシック](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3)を使用したバナーの追加」を参照してください。[
 
 **AdobeのDynamic Mediaクラシックアカウントへのアクセスを設定するには**
 
