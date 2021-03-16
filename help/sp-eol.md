@@ -1,42 +1,45 @@
 ---
-title: 'Lorem Ipsum '
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. アオサギは、アオサギを刺す。
-solution: Target
+title: AdobeSearch&Promoteサービス終了のお知らせ
+description: AdobeSearch&Promoteのサービス終了のお知らせの詳細を表示します。
+feature: null
+role: 管理者，業務従事者，データエンジニア，開発者
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: ce3b55f0265c52670a81a17b9eff79309ff32bc0
+source-git-commit: aa10a950262e5d1828da3d2e417dd5a5b752029b
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 5%
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
 
-# Lorem Ipsum
+# AdobeSearch&amp;Promoteサービス終了のお知らせ
 
-## ロレム・イプサム・ドロール・シット・アメット
+## Search&amp;Promoteサービス終了に関するよくある質問(FAQ)
 
-Consectetur adipiscing elit. アオサギは、アオサギを刺す。 キスクペレンテスクエニムシット・マクシムス・コモド。 サスペンディス・ヴィタエ・リサス・ヴォルタット、ビヒュラ・オルチa、プラセラト・ヌラ。 キュラビチュア・ウルランコルパー・キス・ドローア・アク・ラシニア。 Fusce aliqueetgestas mi nec facilisis.
+### **_Search&amp;Promoteは何日に停止しますか。_**
 
-ドネク・ネケ・オディオ、スケレリスク・オディオa、consectetur efficiture ex。 ウミガメは、かじを使わない。 モーリスの不敬な聖餐式はレオ・エフィクターの効果を発揮します。 Quisque mattis nulla eget nulla ornare, ac tempor lorem maximus. facilis nisl elit, et vulputate nunc maximus quis.
+Search&amp;Promoteサービスの終了は2022年8月1日に予定されています。 この日、Search&amp;Promote管理ユーザーインターフェイスにアクセスできなくなり、Search&amp;PromoteAPIへのリクエストは結果を提供しなくなります。 この日までに、サービスは完全に利用でき、機能します。
 
-### **_Lorem ipsum dolor sit amet, consectetur adipiscing elit?_**
+### **_検索または他のAPIリクエストがSearch&amp;Promoteに対して行われた場合、どうなりますか。_**
 
-スズメダレスのスズメタス。 ドネックのインペルディエットはエレメンタム・エゲスタの オークター・マレスアダのオークター、ドイス・ソダレ・リグラ・マクシムス。
+Search&amp;Promoteに対して行われた検索やその他のAPIリクエストでは、結果が返されなくなります。 要求は、「ホストが見つかりません」エラー、3xx HTTPリダイレクト、404、408などのHTTPエラー、または他のHTTPエラーコードを引き起こす可能性があります。
 
-### **_ペレンテスク・フリンギラ・プルス・コンバリスソリティュディン・レオ・シット・アメットコンディメンタム・エックス？_**
+### **_Adobeには、サイト検索とコマース検索に代わるオプションがありますか。_**
 
-マグナ・ディクタム、モレスティ・マウリス、イアクリス・レオ。 ペレンテスク・エラ・アック・テルラ・ビキュラ・ウルチリエ。 モルビコンディメンタムリグラウトコンディメンタムコンサクト。
+はい。商品とコマースの検索の場合、[Magento Commerce](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html)からのライブ検索は、Adobeの今後の検索アプリケーションです。 Magento Commerceからのライブ検索は、2021年の前半に開始される予定です。
 
-### **_Curabiture id nunc at massa fringilla condimentum?_**
+### **_Adobeは、Search&amp;Promoteに類似した機能を持つフレームワークまたはプラットフォームをオファーに推奨できますか。_**
 
-Morbi eu nisl nec urna aliquet laoreet. サスペンディスルクトゥスニスルインビベンダム・スクレリスク。 ペレンテスクなシットアメットラクスベルエラトコンバリス・オルナレ。 グレビダ・エロス・デイピバス・テポールのクイスク。
+はい。このSearch&amp;Promote機能がマーケティング戦略に重要な場合は、[Apache Solr](https://solr.apache.org/)や[Elastic FreeやOpen](https://www.elastic.co/about/free-and-open)を含む、パワー検索に存在する多数のオープンソースフレームワークを考慮してください。
 
-### **_マッサ・フリンギラコンディメンタム？_**
+また、[AWS](https://aws.amazon.com/cloudsearch/)と[Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/)の両方が、それぞれのクラウドプラットフォームでクラウドネイティブの検索機能を提供します。 両方のオプションをAdobe Experience Manager Sitesに統合して、サイト検索の電源を入れることもできます。
 
-Morbi eu nisl nec urna aliquet laoreet. サスペンディスルクトゥスニスルインビベンダム・スクレリスク。 ペレンテスクなシットアメットラクスベルエラトコンバリス・オルナレ。 グレビダ・エロス・デイピバス・テポールのクイスク。
+### **_詳しくは、誰にお問い合わせいただけますか？_**
 
-### **_ナム・エト・アック・クアム・ソリキチュディン・エゲスタス・アメット・リグラ？_**
+質問がある場合は、Customer Success Manager(CSM)にお問い合わせいただくか、[searchquestions@adobe.com](mailto:searchquestions@adobe.com)のAdobeチームにお問い合わせください。
 
-でもベリット・ポーティター・ラシニア・サジティス・シット・メトスのリベロと言えば ヌラ・ビクラル・オディオ・モリス・ドロール・ファシリス・テンポール。 モルビのsit amet felはsit amet dolor varius vehulaです。 ヌラ・ベル・レオはプルス・バリュス・ロンカスを使った。
+### **_該当するSearch&amp;Promoteライセンスをサービス終了前に更新できますか。_**
+
+はい。2022年8月1日までの契約終了日でライセンスを更新する場合は、Adobeの担当者にお問い合わせください。
