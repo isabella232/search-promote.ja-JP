@@ -7,9 +7,9 @@ audience: end-user
 user-guide-title: Adobe検索&アンプ；アンプ；プロモートガイド
 breadcrumb-title: Adobe検索&アンプ；アンプ；プロモートガイド
 translation-type: tm+mt
-source-git-commit: 4beba3603171a481c89d9b785072f73d6062fe01
+source-git-commit: aa10a950262e5d1828da3d2e417dd5a5b752029b
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '259'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # AdobeSearch and Promoteガイド{#using}
 
-+ [Lorem Ipsum](sp-eol.md)
++ [Search&amp;Promoteサービス終了のお知らせ](sp-eol.md)
 + [Search&amp;Promoteドキュメントの概要](sp-home.md)
 + リリースノート{#release-notes}
    + [Search&amp;Promote18.1.1リリースノート（2018年2月14日）](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
