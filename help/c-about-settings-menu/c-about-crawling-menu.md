@@ -1,16 +1,14 @@
 ---
 description: クロールメニューの設定日、URLマスク、パスワード、コンテンツタイプ、接続、フォーム定義、URL入力ポイントを使用します。
-seo-description: クロールメニューの設定日、URLマスク、パスワード、コンテンツタイプ、接続、フォーム定義、URL入力ポイントを使用します。
-seo-title: クロールメニューについて
 solution: Target
 subtopic: Crawling
 title: クロールメニューについて
-topic: Settings,Site search and merchandising
+topic: 設定，サイト検索とマーチャンダイジング
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 translation-type: tm+mt
-source-git-commit: 552f93f1f630c64bbe3d5c8a87c4f5895ae6868c
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '11033'
+source-wordcount: '11016'
 ht-degree: 1%
 
 ---
@@ -30,7 +28,7 @@ ht-degree: 1%
 
 「[アカウント設定の指定](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)」を参照してください。
 
-メインURLエントリポイントを指定した後、必要に応じて、クロールする追加のエントリポイントを順番に指定できます。 多くの場合、メインエントリポイントの下のページからリンクされていないWebページに対して、追加のエントリポイントを指定します。 次の例のように、Webサイトが複数のドメインにまたがる場合は、追加のエントリポイントを指定します。
+メインURLエントリポイントを指定した後、必要に応じて、クロールする追加のエントリポイントを順に指定できます。 多くの場合、メインエントリポイントの下のページからリンクされていないWebページに対して、追加のエントリポイントを指定します。 次の例のように、Webサイトが複数のドメインにまたがる場合は、追加のエントリポイントを指定します。
 
 `https://www.domain.com/`
 
@@ -113,7 +111,7 @@ WebサイトのメインURLエントリポイントを設定するには、「�
 1. [!DNL URL Entrypoints]ページの[!DNL Entrypoints]フィールドに、1行に1つのURLアドレスを入力します。
 1. （オプション）**[!UICONTROL Add Index Connector Configurations]**&#x200B;ドロップダウンリストで、インデックス作成のエントリポイントとして追加するインデックスコネクタを選択します。
 
-   このドロップダウンリストは、1つ以上のインデックスコネクタ定義を以前に追加した場合にのみ使用できます。
+   ドロップダウンリストは、1つ以上のインデックスコネクタ定義を以前に追加した場合にのみ使用できます。
 
    ![](assets/url_entrypoints_index_connector.png)
 
@@ -1229,10 +1227,10 @@ index:<indexconnector_configuration_name>
       <td colname="col1"> <p>マップ </p> </td> 
       <td colname="col2"> <p>列番号を使用して、列とメタデータのマッピングを指定します。 </p> <p> 
       <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
-      <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> 列 </span> <p> 最初の列を1にして、列番号を指定します。 各列に新しいマップ行を追加するには、「<span class="wintitle">アクション</span>」の下の「<span class="uicontrol"> + </span>」をクリックします。 </p> <p>データソースの各列を参照する必要はありません。 代わりに、値をスキップすることもできます。 </p> </li> 
+      <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> 列 </span> <p> 最初の列を1にして、列番号を指定します。 各列に新しいマップ行を追加するには、<span class="wintitle">アクション</span>の下の<span class="uicontrol"> + </span>をクリックします。 </p> <p>データソースの各列を参照する必要はありません。 代わりに、値をスキップすることもできます。 </p> </li> 
       <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> フィールド </span> <p>生成された各&lt;meta&gt;タグで使用するname属性値を定義します。 </p> </li> 
       <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> メタデータ? </span> <p><span class="uicontrol">フィールド</span>が、現在のアカウントに対して定義済みのメタデータフィールドを選択できるドロップダウンリストになります。 </p> <p>必要に応じて、<span class="uicontrol">フィールド</span>の値は、未定義のメタデータフィールドにすることができます。 未定義のメタデータフィールドは、<span class="wintitle">フィルタースクリプト</span>で使用されるコンテンツの作成に役立ちます。 </p> <p><a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local">フィルタリングスクリプトについて</a>を参照してください。 </p> <p>Index Connectorが、任意のマップフィールドで複数のヒットを持つXMLドキュメントを処理する場合、複数の値が連結されて、結果のキャッシュドキュメントで単一の値になります。 デフォルトでは、これらの値はコンマ区切り文字を使用して組み合わされます。 ただし、対応する<span class="wintitle">フィールド</span>値が定義済みのメタデータフィールドであるとします。 さらに、そのフィールドには<span class="wintitle">許可リスト</span>属性が設定されています。 この場合、フィールドのリスト区切り文字値（最初に定義された区切り文字）が連結に使用されます。 </p> </li> 
-      <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> プライマリキー? </span> <p>プライマリ・キーとして識別されるマップ定義は1つだけです。 このフィールドは、このドキュメントをインデックスに追加したときに表示される一意の参照になります。 この値は、ドキュメントのインデックス内のURLで使用されます。 </p> <p><span class="uicontrol">プライマリキー</span>の値は、インデックスコネクタ設定で表されるすべてのドキュメントで一意である必要があります。発生した重複は無視されます。 ソースドキュメントに<span class="uicontrol">プライマリキー</span>として使用する一意の値が1つだけ含まれていないが、2つ以上のフィールドを組み合わせて<i>一意の識別子を形成できる場合は、複数の<span class="uicontrol">列</span>の値を縦区切り("|")で定義できますの値。</span></i><span class="uicontrol"> </span></p> </li> 
+      <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> プライマリキー? </span> <p>プライマリ・キーとして識別されるマップ定義は1つだけです。 このフィールドは、このドキュメントをインデックスに追加したときに表示される一意の参照になります。 この値は、ドキュメントのインデックス内のURLで使用されます。 </p> <p><span class="uicontrol">プライマリキー</span>の値は、インデックスコネクタ設定で表されるすべてのドキュメントで一意である必要があります。発生した重複は無視されます。 ソースドキュメントに<span class="uicontrol">プライマリキー</span>として使用する一意の値が1つだけ含まれていないが、2つ以上のフィールドを組み合わせて<i>一意の識別子を形成できる場合は、複数の<span class="uicontrol">列</span>の値を縦区切り("|")で定義できますの値。</i><span class="uicontrol"></span> </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892D96"> <span class="uicontrol"> HTMLを削除しますか？  </span> <p>このオプションを選択すると、このフィールドのデータに含まれるHTMLタグがすべて削除されます。 </p> </li> 
       <li id="li_359D2902859B4C5BADB0BA26F0BA4DC0"> <span class="uicontrol"> アクション </span> <p>行をマップに追加したり、マップから行を削除したりできます。 行の順序は重要ではありません。 </p> </li> 
       </ul> </p> </td> 
@@ -1331,7 +1329,7 @@ index:<indexconnector_configuration_name>
       </ul> </p> <p>XPathは比較的複雑な表記法です。 詳しくは、次の場所を参照してください。 </p> <p><a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a>を参照 </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> フィールド </span> <p>生成された各<span class="codeph"> &lt;meta&gt; </span>タグで使用するname属性値を定義します。 </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> メタデータ? </span> <p><span class="uicontrol">フィールド</span>が、現在のアカウントに対して定義済みのメタデータフィールドを選択できるドロップダウンリストになります。 </p> <p>必要に応じて、<span class="uicontrol">フィールド</span>の値は、未定義のメタデータフィールドにすることができます。 未定義のメタデータフィールドは、<span class="wintitle">フィルタースクリプト</span>で使用されるコンテンツの作成に役立ちます。 </p> <p><a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local">フィルタリングスクリプトについて</a>を参照してください。 </p> <p>Index Connectorが、任意のマップフィールドで複数のヒットを持つXMLドキュメントを処理する場合、複数の値が連結されて、結果のキャッシュドキュメントで単一の値になります。 デフォルトでは、これらの値はコンマ区切り文字を使用して組み合わされます。 ただし、対応する<span class="wintitle">フィールド</span>値が定義済みのメタデータフィールドであるとします。 さらに、そのフィールドには<span class="wintitle">許可リスト</span>属性が設定されています。 この場合、フィールドのリスト区切り文字値（最初に定義された区切り文字）が連結に使用されます。 </p> </li> 
-      <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> プライマリキー? </span> <p>プライマリ・キーとして識別されるマップ定義は1つだけです。 このフィールドは、このドキュメントをインデックスに追加したときに表示される一意の参照になります。 この値は、ドキュメントのインデックス内のURLで使用されます。 </p> <p><span class="uicontrol">プライマリキー</span>の値は、インデックスコネクタ設定で表されるすべてのドキュメントで一意である必要があります。発生した重複は無視されます。 ソースドキュメントに<span class="uicontrol">プライマリキー</span>として使用する一意の値が1つだけ含まれていない場合でも、<i>2つ以上のフィールドを組み合わせて</i>一意の識別子を形成できる場合は、複数の<span class="uicontrol">タグ</span>を縦区切り文字("|")の値。</span><span class="uicontrol"> </span></p> </li> 
+      <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> プライマリキー? </span> <p>プライマリ・キーとして識別されるマップ定義は1つだけです。 このフィールドは、このドキュメントをインデックスに追加したときに表示される一意の参照になります。 この値は、ドキュメントのインデックス内のURLで使用されます。 </p> <p><span class="uicontrol">プライマリキー</span>の値は、インデックスコネクタ設定で表されるすべてのドキュメントで一意である必要があります。発生した重複は無視されます。 ソースドキュメントに<span class="uicontrol">プライマリキー</span>として使用する一意の値が1つだけ含まれていない場合でも、<i>2つ以上のフィールドを組み合わせて</i>一意の識別子を形成できる場合は、複数の<span class="uicontrol">タグ</span>を縦区切り文字("|")の値。<span class="uicontrol"></span> </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC81F"> <span class="uicontrol"> HTMLを削除しますか？  </span> <p>このオプションを選択すると、このフィールドのデータに含まれるHTMLタグはすべて削除されます。 </p> </li> 
       <li id="li_5E829D1D0DBD4BB7AAB5DB983053D248"> <span class="uicontrol"> 削除に使用しますか？  </span> <p>Incremental Index操作でのみ使用されます。 このXPathパターンに一致するレコードは、削除対象の項目を識別します。 これらの各レコードの<span class="uicontrol">プライマリキー</span>値は、Delete File Pathと同様に、「削除」リクエストの作成に使用されます。 </p> <p> <b>注意</b>:この機能は、デフォルトでは有効になっていません。お使いの機能をアクティブにするには、テクニカルサポートにお問い合わせください。 </p> </li> 
       <li id="li_D40E2F9AD8AD49FC9AC4B8C75BA31E28"> <span class="uicontrol"> アクション </span> <p>行をマップに追加したり、マップから行を削除したりできます。 行の順序は重要ではありません。 </p> </li> 
@@ -1387,7 +1385,7 @@ index:<indexconnector_configuration_name>
       </ul> </p> <p>XPathは比較的複雑な表記法です。 詳しくは、次の場所を参照してください。 </p> <p><a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a>を参照 </p> </li> 
       <li id="li_84999D07E0AE4265BC7928BBB49957B9"> <span class="uicontrol"> フィールド </span> <p>生成された各&lt;meta&gt;タグで使用するname属性値を定義します。 </p> </li> 
       <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> メタデータ? </span> <p><span class="uicontrol">フィールド</span>が、現在のアカウントに対して定義済みのメタデータフィールドを選択できるドロップダウンリストになります。 </p> <p>必要に応じて、<span class="uicontrol">フィールド</span>の値は、未定義のメタデータフィールドにすることができます。 未定義のメタデータフィールドは、<span class="wintitle">フィルタースクリプト</span>で使用されるコンテンツの作成に役立ちます。 </p> <p><a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local">フィルタリングスクリプトについて</a>を参照してください。 </p> <p>Index Connectorが、任意のマップフィールドで複数のヒットを持つXMLドキュメントを処理する場合、複数の値が連結されて、結果のキャッシュドキュメントで単一の値になります。 デフォルトでは、これらの値はコンマ区切り文字を使用して組み合わされます。 ただし、対応する<span class="wintitle">フィールド</span>値が定義済みのメタデータフィールドであるとします。 さらに、そのフィールドには<span class="wintitle">許可リスト</span>属性が設定されています。 この場合、フィールドのリスト区切り文字値（最初に定義された区切り文字）が連結に使用されます。 </p> </li> 
-      <li id="li_9F435EFB3EC74B409EC82A851824609F"> <span class="uicontrol"> プライマリキー? </span> <p>プライマリ・キーとして識別されるマップ定義は1つだけです。 このフィールドは、このドキュメントをインデックスに追加したときに表示される一意の参照になります。 この値は、ドキュメントのインデックス内のURLで使用されます。 </p> <p><span class="uicontrol">プライマリキー</span>の値は、インデックスコネクタ設定で表されるすべてのドキュメントで一意である必要があります。発生した重複は無視されます。 ソースドキュメントに<span class="uicontrol">プライマリキー</span>として使用する一意の値が1つだけ含まれていない場合でも、<i>2つ以上のフィールドを組み合わせて</i>一意の識別子を形成できる場合は、複数の<span class="uicontrol">タグ</span>を縦区切り文字("|")の値。</span><span class="uicontrol"> </span></p> </li> 
+      <li id="li_9F435EFB3EC74B409EC82A851824609F"> <span class="uicontrol"> プライマリキー? </span> <p>プライマリ・キーとして識別されるマップ定義は1つだけです。 このフィールドは、このドキュメントをインデックスに追加したときに表示される一意の参照になります。 この値は、ドキュメントのインデックス内のURLで使用されます。 </p> <p><span class="uicontrol">プライマリキー</span>の値は、インデックスコネクタ設定で表されるすべてのドキュメントで一意である必要があります。発生した重複は無視されます。 ソースドキュメントに<span class="uicontrol">プライマリキー</span>として使用する一意の値が1つだけ含まれていない場合でも、<i>2つ以上のフィールドを組み合わせて</i>一意の識別子を形成できる場合は、複数の<span class="uicontrol">タグ</span>を縦区切り文字("|")の値。<span class="uicontrol"></span> </p> </li> 
       <li id="li_9F435EFB3EC74B409EC82A851824610G"> <span class="uicontrol"> HTMLを削除しますか？  </span> <p>このオプションを選択すると、このフィールドのデータに含まれるHTMLタグはすべて削除されます。 </p> </li> 
       <li id="li_6302D18971AD439FBECE27742649C56B"> <span class="uicontrol"> アクション </span> <p>行をマップに追加したり、マップから行を削除したりできます。 行の順序は重要ではありません。 </p> </li> 
       </ul> </p> </td> 
