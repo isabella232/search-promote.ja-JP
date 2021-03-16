@@ -1,16 +1,14 @@
 ---
 description: 最近の検索はcookieベースのシステムで、プレゼンテーションテンプレートを使用して顧客の最近の検索履歴を表示できます。
-seo-description: 最近の検索はcookieベースのシステムで、プレゼンテーションテンプレートを使用して顧客の最近の検索履歴を表示できます。
-seo-title: 最近の検索の設定
 solution: Target
 subtopic: Navigation
 title: 最近の検索の設定
-topic: Design,Site search and merchandising
+topic: デザイン，サイト検索とマーチャンダイジング
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '186'
 ht-degree: 2%
 
 ---
