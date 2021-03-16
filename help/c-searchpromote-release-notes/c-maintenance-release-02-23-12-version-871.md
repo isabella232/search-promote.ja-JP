@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Search&amp;Promote 8.7.1リリースノート（2012年2月24日）
+description: Search&amp;Promote 8.7.1リリースノート。
 solution: Target
 title: Search&amp;Promote 8.7.1リリースノート（2012年2月24日）
-topic: Release Notes,Site search and merchandising
+topic: リリースノート，サイト検索とマーチャンダイジング
 uuid: 3fabf7b2-4a27-4f0a-862a-52f701a0631d
 translation-type: tm+mt
-source-git-commit: ef818327e1cdaad79ac47575a8dfba1de3dc5c2e
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 34%
+source-wordcount: '179'
+ht-degree: 32%
 
 ---
 
