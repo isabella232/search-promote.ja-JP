@@ -1,15 +1,13 @@
 ---
 description: 「除外された単語」を使用すると、検索結果から除外する頻度の高い語句や、「a」や「the」などの共通語を指定できます。
-seo-description: 「除外された単語」を使用すると、検索結果から除外する頻度の高い語句や、「a」や「the」などの共通語を指定できます。
-seo-title: 除外された単語について
 solution: Target
 title: 除外された単語について
-topic: Linguistics,Site search and merchandising
+topic: 言語、サイト検索、マーチャンダイジング
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
 translation-type: tm+mt
-source-git-commit: 46cdbdf94ba8f92dba7d03ce80b25a2ae73b228a
+source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
