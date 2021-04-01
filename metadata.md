@@ -1,15 +1,18 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: 学習とサポート
 solution-hub-url: https://helpx.adobe.com/jp/support/target.html
 solution-image: https://www.adobe.com/jp
 getting-started-title: 導入
 getting-started-url: https://helpx.adobe.com/jp/target/get-started.html
 tutorials-url: https://helpx.adobe.com/jp/target/kt/index/target-videos.html
-git-repo: https://github.com/AdobeDocs/search-promote.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/search-promote.ja-JP
 index: y
 translation-type: tm+mt
-source-git-commit: 87f8584440256c90546e3fb997b387fc87b590f9
+source-git-commit: 5ecb1d79057b166887c37c1c54905a93e2a87835
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 95%
 
 ---
 
