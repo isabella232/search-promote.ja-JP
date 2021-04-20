@@ -2,7 +2,7 @@
 description: 検索後ルールを使用すると、検索結果を調べ、検索が表示コンテンツに与える影響を判断できます。
 solution: Target
 title: 検索後ルールについて
-topic: ルール，サイト検索とマーチャンダイジング
+topic: Rules,Site search and merchandising
 uuid: 312d1e4a-f5b6-4629-8645-17e6f6c09fc4
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

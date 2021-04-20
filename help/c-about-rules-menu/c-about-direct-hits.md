@@ -2,7 +2,7 @@
 description: 直接ヒットを使用すると、顧客が一致する用語を検索した場合に、顧客を指定のURLにリダイレクトできます。 この種の機能を使用すると、Webサイトの検索のナビゲーションを改善できます。
 solution: Target
 title: ダイレクトヒットについて
-topic: ルール，サイト検索とマーチャンダイジング
+topic: Rules,Site search and merchandising
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

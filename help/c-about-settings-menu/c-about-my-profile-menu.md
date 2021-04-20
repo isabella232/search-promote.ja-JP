@@ -3,7 +3,7 @@ description: 個人プロファイル、環境設定、ログインパスワー�
 solution: Target
 subtopic: My Profile
 title: '[マイプロファイル]メニューについて'
-topic: 設定，サイト検索とマーチャンダイジング
+topic: Settings,Site search and merchandising
 uuid: 6a0a4e57-59fa-48fb-b712-eb16a9f47c3a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

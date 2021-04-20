@@ -3,7 +3,7 @@ description: 検索メニューを使用して、除外する単語、コレク�
 solution: Target
 subtopic: Searching
 title: 検索メニューについて
-topic: 設定，サイト検索とマーチャンダイジング
+topic: Settings,Site search and merchandising
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

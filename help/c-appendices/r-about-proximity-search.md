@@ -2,7 +2,7 @@
 description: 近接検索を使用すると、Webサイト上の任意のページに固有の場所を関連付け、特定の場所からの距離（近接性）で結果を検索および並べ替えることができます。
 solution: Target
 title: 近接検索について
-topic: 付録，サイト検索とマーチャンダイジング
+topic: Appendices,Site search and merchandising
 uuid: 24fc9265-3400-46a7-b6e0-4de5b049a39a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

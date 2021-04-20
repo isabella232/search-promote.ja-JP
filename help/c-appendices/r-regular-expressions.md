@@ -2,7 +2,7 @@
 description: 正規式を作成する構文とルールに関するリフレッシャー。
 solution: Target
 title: 正規表現
-topic: 付録，サイト検索とマーチャンダイジング
+topic: Appendices,Site search and merchandising
 uuid: 369b54f6-372a-41de-bb5d-3ae0bd640199
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

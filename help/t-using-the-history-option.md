@@ -2,7 +2,7 @@
 description: 履歴を使用すると、ファセット、パンくずリスト、バナー、テンプレートなど、実装された機能に対して行われたすべてのリビジョンのリストを確認して、いくつかのリビジョンを指定できます。
 solution: Target
 title: 「履歴」オプションの使用
-topic: 履歴、サイト検索、マーチャンダイジングの使用
+topic: Using History,Site search and merchandising
 uuid: 48b9ee9d-cd61-41e7-b8c3-5f1665b9a9cb
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

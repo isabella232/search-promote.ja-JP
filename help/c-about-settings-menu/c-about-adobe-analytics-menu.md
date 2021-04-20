@@ -3,7 +3,7 @@ description: Adobe Analyticsメニューを使用して、Adobe Analytics指標�
 solution: Target
 subtopic: Adobe Analytics
 title: Adobe Analyticsメニューについて
-topic: 設定，サイト検索とマーチャンダイジング
+topic: Settings,Site search and merchandising
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

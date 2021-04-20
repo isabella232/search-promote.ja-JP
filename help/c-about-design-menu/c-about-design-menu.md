@@ -2,7 +2,7 @@
 description: 「デザイン」メニューを使用して、検索結果ページのプレゼンテーションを作成します。
 solution: Target
 title: 検索結果ページのデザイン
-topic: デザイン，サイト検索とマーチャンダイジング
+topic: Design,Site search and merchandising
 uuid: 61cb3ead-705e-45b7-a365-2c694d160d0a
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: 顧客が失敗した検索を試みた場合に、有効な検索用語に対する提案を受け取るように、「Did You Mean」を設定できます。 サーチクエリは、有効な検索に結びついた検索用語に対するスペルや修正を探して入力することで形成されます。
 solution: Target
 title: Did You Mean
-topic: 言語、サイト検索、マーチャンダイジング
+topic: Linguistics,Site search and merchandising
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

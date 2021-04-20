@@ -2,7 +2,7 @@
 description: Search&amp;Promote 15.1.1リリースノート。
 solution: Target
 title: Search&amp;Promote 15.1.1リリースノート（2015年1月16日）
-topic: リリースノート，サイト検索とマーチャンダイジング
+topic: Release Notes,Site search and merchandising
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: Search&amp;Promote 8.9.6リリースノート。
 solution: Target
 title: Search&amp;Promote 8.9.6リリースノート（2013年3月22日）
-topic: リリースノート，サイト検索とマーチャンダイジング
+topic: Release Notes,Site search and merchandising
 uuid: f0f32eba-35c1-4666-a0b8-ec8adc4a832f
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

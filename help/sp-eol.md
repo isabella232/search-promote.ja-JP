@@ -2,7 +2,7 @@
 title: AdobeSearch&Promoteサービス終了のお知らせ
 description: AdobeSearch&Promoteのサービス終了のお知らせの詳細を表示します。
 feature: null
-role: 管理者，業務従事者，データエンジニア，開発者
+role: Administrator,Business Practitioner,Data Engineer,Developer
 hide: true
 hidefromtoc: true
 translation-type: tm+mt

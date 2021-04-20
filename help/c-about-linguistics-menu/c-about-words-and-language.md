@@ -2,7 +2,7 @@
 description: 単語と言語を使用して、検索用語とWebページのコンテンツとの一致方法を判断できます。
 solution: Target
 title: 単語と言語について
-topic: 言語、サイト検索、マーチャンダイジング
+topic: Linguistics,Site search and merchandising
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

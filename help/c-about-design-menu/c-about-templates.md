@@ -2,7 +2,7 @@
 description: テンプレートを使用して、プレゼンテーションテンプレートと転送テンプレートを管理できます。
 solution: Target
 title: テンプレートについて
-topic: デザイン，サイト検索とマーチャンダイジング
+topic: Design,Site search and merchandising
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

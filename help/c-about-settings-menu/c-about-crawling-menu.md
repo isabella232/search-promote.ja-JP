@@ -3,7 +3,7 @@ description: クロールメニューの設定日、URLマスク、パスワー�
 solution: Target
 subtopic: Crawling
 title: クロールメニューについて
-topic: 設定，サイト検索とマーチャンダイジング
+topic: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: Search&Promoteおよび動的なナビゲーションを初めて使用する場合は、ここに開始してアカウントを使用してください。 特に、Webサイトのインデックスを作成し、検索結果のルック&フィールをカスタマイズする方法について学びます。
 solution: Target
 title: 導入
-topic: はじめに，サイト検索とマーチャンダイジング
+topic: Getting Started,Site search and merchandising
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

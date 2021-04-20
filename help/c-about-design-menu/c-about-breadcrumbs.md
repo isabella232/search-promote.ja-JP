@@ -3,7 +3,7 @@ description: パンくずリストは、Webサイトに追加できるナビゲ�
 solution: Target
 subtopic: Navigation
 title: パンくずリストについて
-topic: デザイン，サイト検索とマーチャンダイジング
+topic: Design,Site search and merchandising
 uuid: 3e630a72-a631-4f4f-8aa5-adf2882cdf1c
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

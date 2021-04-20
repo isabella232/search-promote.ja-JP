@@ -2,7 +2,7 @@
 description: 製品メニューの「アカウント」を使用して、アクセスして使用するアカウントを選択します。
 solution: Target
 title: アカウントメニューについて
-topic: 設定，サイト検索とマーチャンダイジング
+topic: Settings,Site search and merchandising
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

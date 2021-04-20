@@ -2,7 +2,7 @@
 description: クエリクリーニング規則を使用して、入力クエリを分析および変更します。
 solution: Target
 title: クエリクリーニングルールについて
-topic: ルール，サイト検索とマーチャンダイジング
+topic: Rules,Site search and merchandising
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

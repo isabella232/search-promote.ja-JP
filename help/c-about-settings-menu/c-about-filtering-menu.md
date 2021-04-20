@@ -3,7 +3,7 @@ description: フィルタリングメニューを使用して、Webドキュメ�
 solution: Target
 subtopic: Filtering
 title: フィルタリングメニューについて
-topic: 設定，サイト検索とマーチャンダイジング
+topic: Settings,Site search and merchandising
 uuid: ebb08fa8-4e17-417d-868b-11fc2af9f284
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

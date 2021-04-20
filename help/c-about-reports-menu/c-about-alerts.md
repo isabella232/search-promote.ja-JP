@@ -2,7 +2,7 @@
 description: アラートページは、アカウントに関するすべてのアラートを表示し、管理するための一元的な場所です。
 solution: Target
 title: アラートについて
-topic: レポート，サイト検索とマーチャンダイジング
+topic: Reports,Site search and merchandising
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

@@ -2,7 +2,7 @@
 description: ステージングを使用すると、ライブインデックスに影響を与えることなく、設定や設定に対する変更をテストし、プレビューできます。
 solution: Target
 title: ステージングについて
-topic: ステージング、サイト検索、マーチャンダイジング
+topic: Staging,Site search and merchandising
 uuid: 2e5889a6-2e9c-4ac7-9d6e-d35e7cafda5b
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

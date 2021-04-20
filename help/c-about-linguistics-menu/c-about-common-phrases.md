@@ -2,7 +2,7 @@
 description: Webサイトで使用する共通フレーズを定義して、顧客が検索クエリを入力したときに、定義したフレーズを引用符で囲む必要がないようにすることができます。
 solution: Target
 title: 共通フレーズについて
-topic: 言語、サイト検索、マーチャンダイジング
+topic: Linguistics,Site search and merchandising
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

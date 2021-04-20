@@ -2,7 +2,7 @@
 description: データ表示には、検索結果とメタフィールドが表示されます。 各列はメタフィールドで、各行は検索クエリの結果です。 列の選択と並べ替えを行って、データ表示をカスタマイズします。 データ表示には、カスタムのタイトルと説明を付けることもできます。
 solution: Target
 title: データ表示について
-topic: レポート，サイト検索とマーチャンダイジング
+topic: Reports,Site search and merchandising
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f

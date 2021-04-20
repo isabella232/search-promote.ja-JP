@@ -2,7 +2,7 @@
 description: ビジネスルールを使用して、検索をマーチャンダイジングできます。
 solution: Target
 title: ビジネス・ルールについて
-topic: ルール，サイト検索とマーチャンダイジング
+topic: Rules,Site search and merchandising
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 translation-type: tm+mt
 source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
