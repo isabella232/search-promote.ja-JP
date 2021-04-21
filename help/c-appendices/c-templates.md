@@ -2,16 +2,16 @@
 description: Search&amp;Promoteでのプレゼンテーションおよびテンプレートタグの使用について説明します。
 solution: Target
 title: テンプレート
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
+exl-id: f8cc4b5c-4e75-426b-8234-76af8bb0f4c5
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '15153'
+source-wordcount: '15148'
 ht-degree: 2%
 
 ---
-
 
 # テンプレート{#templates}
 
@@ -255,7 +255,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--NEW 02/27/2014--> <span class="codeph"> &lt;guided-dynamic-facets&gt;&lt;/guided-dynamic-facets&gt; </span> </p> </td> 
    <td colname="col2"> 
@@ -605,7 +605,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-breadcrumb&gt; breadcrumbname  </span>"]&gt;&lt;/guided-breadcrumb&gt; </span><span class="varname"> </span></p> </td> 
    <td colname="col2"> <p>パンくずリストのループタグ。 開始タグと終了タグの間のコンテンツは、現在の状態のクエリ番号ごとに反復されます。 </p> <p><span class="codeph"> <span class="varname"> gsname </span> </span>を省略した場合は、"default"という名前の階層リンクが使用されます。 </p> </td> 
   </tr> 
@@ -757,7 +757,7 @@ ht-degree: 2%
    <td colname="col2"> <p>ページナビゲーションにリンクを作成します。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Matched search-eng version, 2/1/2013--> <span class="codeph"> &lt;guided-page-link gsname="first|prev|next|last|viewall|viewpages"&gt;&lt;/guided-page-link&gt; </span> </p> </td> 
    <td colname="col2"> <p>最初、前、次または最後のページへのリンクを作成します。 また、1つのページのすべてのページを表示するためのリンクを作成することもできます。 </p> </td> 
@@ -900,7 +900,7 @@ ht-degree: 2%
    <td colname="col2"> <p>最近の検索へのリンクを作成できます。 HTML属性を直接アンカータグに渡すことができます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-recent-searches-path /&gt; </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> guided-recent-searches </span>ループ内で、最近の検索の相対URLパスを取得できます。 通常は、<span class="codeph"> guided-recent-search-link </span>を使用します。 ただし、独自のリンクを作成する場合は、このタグを使用できます。 次に例を示します。 </p> <p> <code class="syntax html"> &lt;guided-lt/&gt;a&amp;nbsp;href="&lt;guided_recent_searches_path&gt;"&gt;&lt;guided-recent-searches-value&gt;&lt;/a&gt; </code> </p> </td> 
   </tr> 
@@ -1040,7 +1040,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-if-autocomplete&gt; &lt;guided-else-autocomplete&gt; &lt;/guided-if-autocomplete&gt; </span> </p> </td> 
    <td colname="col2"> <p>オートコンプリート機能が有効かどうかを検出します。 タグを使用して、オートコンプリートに必要なヘッドおよびフォームコンテンツをオプションで取得できます。 これにより、この機能のオン/オフを切り替え、プレゼンテーションテンプレートを変更する必要がなくなります。 </p> </td> 
   </tr> 
@@ -1076,7 +1076,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;guided-store /&gt; </span> </p> </td> 
    <td colname="col2"> <p>現在のストアを出力します。 </p> </td> 
   </tr> 
@@ -1208,7 +1208,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;guided-current-path&gt; </span> </p> </td> 
    <td colname="col2"> <p>現在使用されているパスが表示されます。 通常は、既存の検索に新しいパラメーターを追加するリンクを作成する際に使用します。 デフォルトでは、パスはURLエスケープされています。 使用するエスケープモードは、escapeパラメーターを使用して指定できます。 </p> <p>例： </p> <p> <code class="syntax html"> &lt;a&nbsp;href="&lt;guided-current-path&nbsp;/&gt;&amp;lang=fr"&gt; 
@@ -1223,7 +1223,7 @@ ht-degree: 2%
        </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> 
      <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;guided-query-param gsname="query_parameter"&gt; </span> </p> </td> 
    <td colname="col2"> <p>URL上にあるクエリパラメーターの既存の値を取得できます。 パラメーターが存在しない場合、このタグは空の文字列を返します。 エスケープオプションを指定しない場合、返される文字列は自動的にHTMLエスケープされます。HTMLエスケープまたはURLエスケープのどちらかを指定できます。 </p> <p>例： </p> <p> 
@@ -1705,7 +1705,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-title&gt; ...  &lt;/search-if-title&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-title&gt; ...  &lt;/search-if-not-title&gt; </span> </p> </td> 
    <td colname="col2"> <p>これらのタグは、次に<span class="codeph"> &lt;search-title&gt; </span>を呼び出すと、ドキュメントのタイトルからテキストが返される（または返されない）場合に、それらの間のHTMLを含みます。 </p> </td> 
   </tr> 
@@ -1715,7 +1715,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p> これらのタグは、ドキュメントの説明から<span class="codeph"> &lt;search-description&gt; </span>を次に呼び出すと、それらの間のHTMLを含みます。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-bodytext&gt; ...  &lt;/search-if-bodytext&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-bodytext&gt; ...  &lt;/search-if-not-bodytext&gt; </span> </p> </td> 
    <td colname="col2"> <p>これらのタグは、次に<span class="codeph"> &lt;search-bodytext&gt; </span>を呼び出すと、ドキュメントの本文からテキストが返される（または返されない）場合に、それらの間のHTMLを含みます。 </p> </td> 
   </tr> 
@@ -1756,7 +1756,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-link target="frame-name" hbx-enable="yes/no" hbx-linkid-name="field-name" hbx-linkid-none="text" hbx-linkid-length="XX"&gt; ...  &lt;/search-link&gt; </span> </p> </td> 
    <td colname="col2"> <p>このタグのペアによって、タグ間のHTMLの周囲にアンカーリンクが作成されます。 リンクをクリックすると、結果ページが表示されます。 オプションのターゲット属性は、フレーム対応ブラウザが結果ページを表示する名前付きウィンドウを指定します。 </p> <p>hbx-enable属性を「yes」に設定すると、HBXで利用できる分析を利用できます。 hbx-linkid-nameを、追跡するメタデータフィールドの名前に設定します。 例えば、SKU番号で検索結果を追跡するには、hbx-linkid-nameを、SKU情報を含むメタデータフィールドの名前に設定します。 </p> <p>日付型フィールドは現在サポートされていません。 hbx-linkid-nameの値は、生成されたアンカー内のリンクIDに追加されます。 名前の付いたメタデータフィールドが空の場合は常に、リンクIDにhbx-linkid-none属性の値が追加されます。 hbx-linkid-lengthの値は、Metaタグから取得して表示する文字の数を制限します。 デフォルトの文字数は12です。 </p> </td> 
   </tr> 
@@ -1766,7 +1766,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p>このタグのペアは、<span class="codeph"> &lt;search-link&gt; ... &lt;/search-link&gt; </span>タグに似ています。 生成されたアンカーリンクをクリックすると、結果ページが表示されますが、結果の前に最も近いアンカータグまでスクロールされたページが表示されます。 PDFリンクの場合、Acrobatビューアに結果を含むページが表示されます。 オプションのターゲット属性は、フレーム対応ブラウザが結果ページを表示する名前付きウィンドウを指定します。 </p> <p>hbx-enable属性を「yes」に設定すると、HBXで利用できる分析を利用できます。 hbx-linkid-nameを、追跡するメタデータフィールドの名前に設定します。 例えば、SKU番号で検索結果を追跡するには、hbx-linkid-nameを、SKU情報を含むメタデータフィールドの名前に設定します。 </p> <p>日付型フィールドは現在サポートされていません。 hbx-linkid-nameの値は、生成されたアンカー内のリンクIDに追加されます。 名前の付いたメタデータフィールドが空の場合は常に、リンクIDにhbx-linkid-none属性の値が追加されます。 hbx-linkid-lengthの値は、Metaタグから取得して表示する文字の数を制限します。 デフォルトの文字数は12です。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-link-extension&gt; ...  &lt;/search-if-link-extension&gt; </span> </p> <p> <span class="codeph"> &lt;search-if-not-link-extension&gt; ...  &lt;/search-if-not-link-extension&gt; </span> </p> </td> 
    <td colname="col2"> <p>value属性で結果のURLの末尾と一致する拡張子が指定されている場合、これらのタグには、それらの間のHTMLが含まれます。 このタグは、リンクの拡張に基づいて検索結果にグラフィックを含める場合に役立ちます。 value属性は、次のように1つ以上の拡張子（スペース区切り）のリストです。VALUE=".pdf"またはVALUE=".html .htm" </p> </td> 
   </tr> 
@@ -1930,7 +1930,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-list name="field-name" quotes="yes/no" commas="yes/no" data="values/counts/results" separator="X" sortby="none/values/counts/results" max-items="XX" date-format="date-format-string" gmt="yes/no" language="0/language-id" encoding="html/javascript/json/perl/url/none"&gt; </span> </p> </td> 
    <td colname="col2"> <p>このタグは、結果セット全体に含まれる一意のフィールド値、値の数または結果の数のリストを表示します。 </p> <p>このタグは、検索クエリの<span class="codeph"> sp_sfvl_field </span> CGIパラメータで指定されたフィールドの出力のみを生成します。 オプションの「引用符」属性は、出力される個々の項目を重複引用符で囲むかどうかを制御します（encoding=perlの場合は一重引用符）。 「quotes」のデフォルト値は「yes」です。 オプションの「コンマ」属性は、個々の項目の出力をコンマで区切るかどうかを制御します。 「コンマ」のデフォルト値は「yes」です。 オプションの「data」属性は、各固有フィールドの値を出力するか(data="values")、各固有フィールドの値の合計数を出力するか(data="counts")、各固有値を含む結果の数を出力するか(data="results")を制御します。 デフォルト値の「data」は「values」です。 リストタイプ以外のフィールドの場合、data="counts"とdata="results"は等価です。 separator属性は、出力の値の間に挿入される1文字または区切り文字を定義します。 オプションの「sortby」属性で、出力の順序を制御します。sortby="none"は特定の順序を意味しません。sortby="values"はフィールド値（フィールドのSortingプロパティに従って昇順または降順）で並べ替え、sortby="counts"はフィールド値のカウント順で並べ替え、sortby="results"は各値を含む結果の数の降順で並べ替えます。 </p> <p>sortby="counts"とsortby="results"は、リストタイプ以外のフィールドと同じです。 オプションの「max-items」属性では、出力する項目数を制限します。 デフォルト値の「max-items」は —1で、「output all items」を意味します。 </p> <p>最大アイテム数は100までに絶対制限されます。 「date-format」、「gmt」および「language」属性は、指定したフィールドのコンテンツタイプが「date」の場合にのみ有効です。 「date-format」属性には、「%A, %B %d, %Y」などのUNIXスタイルの日付形式文字列（「2016年7月25日月曜日」の場合）を指定します。 "gmt"はデフォルトで"yes"に設定され、日付文字列の時間部分をGMT("yes")で出力するか、アカウントのタイムゾーン("no")で出力するかを制御します。 </p> <p><a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local">日付形式の文字列</a>を参照してください。 </p> <p>「language」属性は、出力日付文字列の言語とロケールの規則を制御します。 「0」（デフォルト）は、「アカウントの言語を使用」を意味します。 その他の「言語」値は、特定の言語識別子として解釈されます。例えば、「en_US」は「英語（米国）」を意味します。 オプションの「encoding」属性は、出力文字列文字をHTMLエンコード、JavaScriptエンコード、Perlエンコード、URLエンコードのどちらにエンコードするかを制御し、結果ページの出力に使用します。 デフォルト値の「encoding」は「html」です。 </p> <p><a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local">言語識別子</a>を参照してください。 </p> </td> 
   </tr> 
@@ -1976,7 +1976,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p>このタグは、現在の&lt;search-field-values&gt;ループ反復のフィールド値を出力します。 このタグは、<span class="codeph"> &lt;search-field-values&gt; </span>ループ内でのみ有効です。 「date-format」、「gmt」および「language」属性は、含まれる&lt;search-field-values&gt;タグで指定されたフィールド名のコンテンツタイプが「date」の場合にのみ有効です。 「date-format」属性には、「%A, %B %d, %Y」などのUNIXスタイルの日付形式文字列（「Monday, July 25, 2020」の場合）を指定します。 </p> <p><a href="../c-appendices/c-templates.md#section_4BBDBBEF2B96414497617CD4B52D96E4" type="section" format="dita" scope="local">日付形式の文字列</a>を参照してください。 </p> <p>オプションの「encoding」属性は、出力文字列文字をHTMLエンコード、JavaScriptエンコード、Perlエンコード、URLエンコードのどちらにエンコードするかを制御し、結果ページの出力に使用します。 デフォルト値の「encoding」は「none」です。 通常は、encoding属性を指定する必要はありません。 "gmt"はデフォルトで"yes"に設定され、日付文字列の時間部分をGMT("yes")で出力するか、アカウントのタイムゾーン("no")で出力するかを制御します。 「language」属性は、出力日付文字列の言語とロケールの規則を制御します。 「0」（デフォルト）は、「アカウントの言語を使用」を意味します。 その他の「言語」値は、特定の言語識別子として解釈されます。例えば、「en_US」は「英語（米国）」を意味します。 </p> <p><a href="../c-appendices/c-templates.md#section_0490DECC00E34691ADE5A9ED90A6D911" type="section" format="dita" scope="local">言語識別子</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-field-value-count results="yes/no"&gt; </span> </p> </td> 
    <td colname="col2"> <p>このタグは、現在の<span class="codeph"> &lt;search-field-values&gt; </span>ループの繰り返しに関連付けられたカウントを出力します。 出力数は、フィールド値を含む結果セット全体の結果数(results="yes")か、結果セット全体のフィールド値の合計数です。 デフォルト値の「results」は「no」です。 </p> <p>リストタイプ以外のフィールドの場合、results="yes"とresults="no"は等価です。 このタグは、<span class="codeph"> &lt;search-field-values&gt; </span>ループ内でのみ有効です。 </p> </td> 
   </tr> 
@@ -2006,7 +2006,7 @@ r_search_template_tags.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-if-suggestions&gt; ...  &lt;/search-if-suggestions&gt; </span> </p> </td> 
    <td colname="col2"> <p>これらのタグを任意の「提案」テンプレートタグ（<span class="codeph"> &lt;search-suggestion&gt; </span>、<span class="codeph"> &lt;search-suggestion-link&gt; </span>など）で囲みます。 サーチクエリが生成された場合、検索エンジンはopenタグとcloseタグの間のすべてを出力して処理します。 検索でサーチクエリが生成されない場合、ネストされたコンテンツは1つも出力されません。 </p> </td> 
   </tr> 
@@ -2082,7 +2082,7 @@ r_search_template_tags.xml
    <td colname="col2"> <p>テンプレートリンクの下の基本的な外観セクションに設定された、検索結果ヘッダーのHTML。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <span class="codeph"> &lt;search-cdata&gt; ...  &lt;/search-cdata&gt; </span> </p> </td> 
    <td colname="col2"> <p>search-cdataタグは、XMLタグに置き換えられます。<span class="codeph"> &lt;search-cdata&gt; </span>は<span class="codeph"> &lt;![CDATA["と&lt;/search-cdata&gt; </span>タグは" <span class="codeph"> ]]&gt; </span>"に置き換えられます。 XMLパーサーは、openタグとcloseタグの間の情報を解析しません。 </p> </td> 
   </tr> 
