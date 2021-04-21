@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.9.8リリースノート。
 solution: Target
 title: Search&amp;Promote 8.9.8リリースノート（2013年5月24日）
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: ff4bfc53-1d0e-4b7d-83ad-54c81d3f9769
+exl-id: f4034289-e9cf-4cc4-97bf-2bc5769c043d
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 55%
+source-wordcount: '203'
+ht-degree: 56%
 
 ---
-
 
 # Search&amp;Promote8.9.8リリースノート（2013年5月24日）{#search-promote-release-notes}
 
@@ -25,7 +25,7 @@ ht-degree: 55%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 共通フレーズ - 完全一致のサポート </p> </td> 
-   <td colname="col2"> <p> 共通フレーズには、「boot cut」や「tank top」など、個別の部分ではなく、全体として検索される2語以上の語句が含まれます。 共通フレーズには、それぞれ個別の語とは異なる独自の意味があります。 </p> <p> 貴社のビジネスに関連する共通フレーズのディクショナリをお客様がメンテナンスします。複数の語を含む検索クエリを実行すると、ディクショナリに対して完全に一致するかを調べる検索が実行されます。 </p> <p>共通フレーズは、追加、編集または削除できます。また、ドメインディクショナリと同様に、共通フレーズをグループ化することもできます。例えば、アパレル、布地、ジュエリー、サイズ、ショッピング、一般というグループで、共通フレーズをグループ化できます。 </p> <p><a href="../c-about-linguistics-menu/c-about-common-phrases.md#concept_4946E53586DF492EAEB1B7F757FD440F" format="dita" scope="local">共通フレーズについて</a>を参照してください。 </p> </td> 
+   <td colname="col2"> <p> 共通フレーズには、「boot cut」や「tank top」など、個別の部分ではなく、全体として検索される2語以上の語句が含まれます。 共通フレーズには、それぞれ一意の語とは異なる独自の意味があります。 </p> <p> 貴社のビジネスに関連する共通フレーズのディクショナリをお客様がメンテナンスします。複数の語を含む検索クエリを実行すると、ディクショナリに対して完全に一致するかを調べる検索が実行されます。 </p> <p>共通フレーズは、追加、編集または削除できます。また、ドメインディクショナリと同様に、共通フレーズをグループ化することもできます。例えば、アパレル、布地、ジュエリー、サイズ、ショッピング、一般というグループで、共通フレーズをグループ化できます。 </p> <p><a href="../c-about-linguistics-menu/c-about-common-phrases.md#concept_4946E53586DF492EAEB1B7F757FD440F" format="dita" scope="local">共通フレーズについて</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,4 +46,3 @@ ht-degree: 55%
 * ステージングされたインデックスをリモートからプッシュして有効にするためのサポートを追加しました。
 
    [インデックス作成のためのリモートコントロールについて](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F)を参照してください。
-
