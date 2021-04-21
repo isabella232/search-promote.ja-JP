@@ -2,16 +2,16 @@
 description: Search&Promoteおよび動的なナビゲーションを初めて使用する場合は、ここに開始してアカウントを使用してください。 特に、Webサイトのインデックスを作成し、検索結果のルック&フィールをカスタマイズする方法について学びます。
 solution: Target
 title: 導入
-topic: Getting Started,Site search and merchandising
+topic-legacy: Getting Started,Site search and merchandising
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
+exl-id: f2772d7a-b558-403e-9e77-8c87302e2b02
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
-
 
 # 導入{#getting-started}
 
@@ -142,4 +142,3 @@ Webサイトのサイズが大きい場合や、頻繁に変更されるペー�
 * 辞書を設定して、関連単語のグループ（購入、購入、調達など）を指定できます。 これらの関連語は、顧客の検索クエリがWebページで使用されている用語と完全に一致しない場合でも、関連する結果を返すのに役立ちます。 上記の例で使用されている同義語を使用して、顧客の検索クエリで「purchase」という語を含むページを返します。
 
    [辞書](c-about-linguistics-menu/c-about-dictionaries.md#concept_B8028B71EC8144669614C64578EDB034)についてを参照してください。
-
