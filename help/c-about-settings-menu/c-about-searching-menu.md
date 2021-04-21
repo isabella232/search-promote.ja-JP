@@ -3,16 +3,16 @@ description: 検索メニューを使用して、除外する単語、コレク�
 solution: Target
 subtopic: Searching
 title: 検索メニューについて
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
+exl-id: 4cb70240-051b-4bf3-ae2a-b151acc7cba1
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '11170'
+source-wordcount: '11165'
 ht-degree: 1%
 
 ---
-
 
 # 検索メニューについて{#about-the-searching-menu}
 
@@ -1141,7 +1141,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>フィード名 </p> </td> 
       <td colname="col3"> <p>フィードの名前を指定します。 </p> </td> 
       </tr> 
@@ -1157,7 +1157,7 @@ t_creating_a_feed.xml
         </ul> <p>汎用フィードには、特別なCGIパラメーターを指定する必要があります。 このフィードに関連付けられている特別なテンプレートを連結するには、<span class="codeph"> sp_t </span>パラメータを定義します。 <span class="codeph"> sp_t </span>の値をトランスポートテンプレートファイルの名前に設定します。 例えば、<span class="codeph"> super_feed.tpl </span>という名前のトランスポートテンプレートファイルを追加した場合、カスタムCGI検索パラメーターを<span class="codeph"> sp_t=super_feed </span>として作成します。 <span class="codeph"> sp_t </span>を入力するテキストボックスは、<span class="wintitle">メタフィールド</span>ドロップダウンリストから<span class="uicontrol">フリーフォーム</span>を選択するまで表示されません。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>ファイルの送信 </p> </td> 
       <td colname="col3"> <p>フィードファイルの送信スケジュールを設定し、ファイルのアップロードに使用する方法を設定できます。 </p> 
         <ul id="ul_30E830C41F6A4526822AF1FD3083075A"> 
@@ -1199,7 +1199,7 @@ t_creating_a_feed.xml
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>フィード名 </p> </td> 
       <td colname="col3"> <p>フィードの名前を指定します。 </p> </td> 
       </tr> 
@@ -1209,7 +1209,7 @@ t_creating_a_feed.xml
       <td colname="col3"> <p>ベンダー固有のフィードフィールドを、サイト検索/マーチャンダイジングメタデータフィールドにマップできます。 このウィザードのマッピング手順は重要です。これは、フィードがインデックス内のフィールドとフィードデータ内のフィールドとの間の情報を関連付けることができるからです。 ほとんどの場合、<span class="wintitle">汎用フィード</span>を除き、相関関係は動的に生成された検索テンプレートに保存されます。 </p> <p>フィールドマップテーブルの各行は、フィールドマッピングを表します。 テーブルの<span class="wintitle">追加/Remove </span>列で、<span class="uicontrol"> + </span>をクリックして、新しいフィールドマッピング行を追加します。「<span class="uicontrol"> - </span>」をクリックすると、現在選択されているフィールドマッピング行がテーブルから削除されます。 フィードフィールドをサイト検索/マーチャンダイジングメタデータフィールドに関連付けるには、それぞれのドロップダウンリストを使用して目的のフィールドを選択します。 </p> <p> <b>高度な使用方法</b> </p> <p>独自のカスタムフィールドを作成できます。 <span class="wintitle">フィードフィールド</span>ドロップダウンリストで、<span class="uicontrol">カスタム</span>をクリックします。 関連するテキストフィールドに、そのフィールドのカスタムタグ名を入力します。 このカスタムオプションは、フィードに特別なベンダー固有のフィールドが必要な場合に役立ちます。 </p> <p>カスタムメタデータフィールドを作成することもできます。 「<span class="wintitle">メタデータフィールド</span>」ドロップダウンリストで、「<span class="uicontrol">カスタム</span>」をクリックします。 関連するテキストフィールドに、カスタムメタデータフィールドの値を入力します。 この値は、事前に生成されたテンプレートに挿入され、カスタム検索テンプレートタグの挿入にも使用できます。 </p> <p><a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local">検索テンプレートタグ</a>を参照してください。 </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col1"> <p>3 </p> </td> 
       <td colname="col2"> <p>検索条件 </p> </td> 
       <td colname="col3"> <p>フィードファイルが生成されると、検索クエリを使用してデータがフィルターされます。 このパネルで、検索クエリに使用するフィルターを定義します。 </p> 
         <ul id="ul_8179321A58BB4C72B0CDB2B2BEC58FE4"> 
