@@ -3,16 +3,16 @@ description: クロールメニューの設定日、URLマスク、パスワー�
 solution: Target
 subtopic: Crawling
 title: クロールメニューについて
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
+exl-id: 22dbbc30-bf1c-4d51-8fb0-708115ba844b
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '11016'
+source-wordcount: '11011'
 ht-degree: 1%
 
 ---
-
 
 # クロールメニューについて{#about-the-crawling-menu}
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 「[アカウント設定の指定](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9)」を参照してください。
 
-メインURLエントリポイントを指定した後、必要に応じて、クロールする追加のエントリポイントを順に指定できます。 多くの場合、メインエントリポイントの下のページからリンクされていないWebページに対して、追加のエントリポイントを指定します。 次の例のように、Webサイトが複数のドメインにまたがる場合は、追加のエントリポイントを指定します。
+メインURLエントリポイントを指定した後、必要に応じて、クロールする追加のエントリポイントを順番に指定できます。 多くの場合、メインエントリポイントの下のページからリンクされていないWebページに対して、追加のエントリポイントを指定します。 次の例のように、Webサイトが複数のドメインにまたがる場合は、追加のエントリポイントを指定します。
 
 `https://www.domain.com/`
 
@@ -111,7 +111,7 @@ WebサイトのメインURLエントリポイントを設定するには、「�
 1. [!DNL URL Entrypoints]ページの[!DNL Entrypoints]フィールドに、1行に1つのURLアドレスを入力します。
 1. （オプション）**[!UICONTROL Add Index Connector Configurations]**&#x200B;ドロップダウンリストで、インデックス作成のエントリポイントとして追加するインデックスコネクタを選択します。
 
-   ドロップダウンリストは、1つ以上のインデックスコネクタ定義を以前に追加した場合にのみ使用できます。
+   このドロップダウンリストは、1つ以上のインデックスコネクタ定義を以前に追加した場合にのみ使用できます。
 
    ![](assets/url_entrypoints_index_connector.png)
 
