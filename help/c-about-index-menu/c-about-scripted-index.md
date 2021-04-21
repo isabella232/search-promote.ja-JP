@@ -3,16 +3,16 @@ description: スクリプトインデックスを使用すると、ログイン�
 solution: Target
 subtopic: Scripted Index
 title: スクリプトインデックスについて
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
+exl-id: e1d14cd5-4885-4e3a-bc5f-fe0b6a4df15e
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1725'
 ht-degree: 1%
 
 ---
-
 
 # スクリプトインデックスについて{#about-scripted-index}
 
@@ -265,7 +265,7 @@ update regexp ^https://www\.mydomain\.com/information/.*$
    * **[!UICONTROL Index]**/**[!UICONTROL Scripted Index]**/**[!UICONTROL Staged Index]**&#x200B;をクリックします。
 
 1. クリック **[!UICONTROL Scripted Index Now]**.
-1. （オプション）インデックス作成エラーが発生した場合は、**[!UICONTROL View Errors]**&#x200B;をクリックして関連するログを表示します。
+1. （オプション）インデックスエラーが発生した場合は、**[!UICONTROL View Errors]**&#x200B;をクリックして関連するログを表示します。
 
 ## ライブWebサイトまたはステージWebサイトのスクリプト化された増分インデックスログの表示{#task_CBFCE9B9A87B4DF7A2A35A6E83DE93D7}
 
@@ -286,4 +286,3 @@ update regexp ^https://www\.mydomain\.com/information/.*$
    * **[!UICONTROL First]**、**[!UICONTROL Prev]**、**[!UICONTROL Next]**、**[!UICONTROL Last]**、または&#x200B;**[!UICONTROL Go to line]**&#x200B;のナビゲーションオプションを使用してログ内を移動します。
 
    * 表示オプション&#x200B;**[!UICONTROL Errors only]**、**[!UICONTROL Wrap line]**、または&#x200B;**[!UICONTROL Show]**&#x200B;を使用して、表示内容を絞り込みます。
-
