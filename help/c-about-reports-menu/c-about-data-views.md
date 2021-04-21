@@ -2,16 +2,16 @@
 description: データ表示には、検索結果とメタフィールドが表示されます。 各列はメタフィールドで、各行は検索クエリの結果です。 列の選択と並べ替えを行って、データ表示をカスタマイズします。 データ表示には、カスタムのタイトルと説明を付けることもできます。
 solution: Target
 title: データ表示について
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
+exl-id: 9ef5eaef-85d6-41e9-af44-b4775755e5bf
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
-
 
 # データ表示について{#about-data-views}
 
@@ -185,4 +185,3 @@ ht-degree: 1%
    * [!DNL Data Views]ページのテーブルの[!DNL Title]列で、開くデータ表示の名前をクリックします。
 
    * [!DNL Data Views]ページのテーブルの[!DNL Actions]列で、開くデータ表示の行の&#x200B;**[!UICONTROL View]**&#x200B;をクリックします。
-
