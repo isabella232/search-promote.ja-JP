@@ -2,16 +2,16 @@
 description: ステージングを使用すると、ライブインデックスに影響を与えることなく、設定や設定に対する変更をテストし、プレビューできます。
 solution: Target
 title: ステージングについて
-topic: Staging,Site search and merchandising
+topic-legacy: Staging,Site search and merchandising
 uuid: 2e5889a6-2e9c-4ac7-9d6e-d35e7cafda5b
+exl-id: 61f254b7-4dc1-4a5e-a22e-94763f140c50
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
-
 
 # ステージングについて{#about-staging}
 
