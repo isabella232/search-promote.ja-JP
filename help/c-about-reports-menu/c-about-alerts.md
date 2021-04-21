@@ -2,16 +2,16 @@
 description: アラートページは、アカウントに関するすべてのアラートを表示し、管理するための一元的な場所です。
 solution: Target
 title: アラートについて
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
+exl-id: b6d637c9-2a2c-49b3-828b-3ae272bf28aa
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
-
 
 # アラートについて{#about-alerts}
 
@@ -50,4 +50,3 @@ ht-degree: 0%
    * 表示されたすべてのアラートを選択するには、左側の列の上部にあるチェックボックスを選択します。
 
       一致するすべてのアラートを1ページではなく選択する場合は、右側のドロップダウンリストで&#x200B;**[!UICONTROL All Alerts]**&#x200B;を選択し、列の上部にあるチェックボックスを選択します。
-
