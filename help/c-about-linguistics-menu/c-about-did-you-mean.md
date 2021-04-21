@@ -2,16 +2,16 @@
 description: 顧客が失敗した検索を試みた場合に、有効な検索用語に対する提案を受け取るように、「Did You Mean」を設定できます。 サーチクエリは、有効な検索に結びついた検索用語に対するスペルや修正を探して入力することで形成されます。
 solution: Target
 title: Did You Mean
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
+exl-id: c86da375-ac5f-442b-9975-6a4e1ba8a70d
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '728'
 ht-degree: 2%
 
 ---
-
 
 # {#about-did-you-mean}という意味について
 
@@ -99,4 +99,3 @@ t_configuring_did_you_mean.xml
    * クリック **[!UICONTROL Push Live]**.
 
       [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
-
