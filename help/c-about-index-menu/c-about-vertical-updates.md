@@ -3,16 +3,16 @@ description: 「垂直更新」を使用すると、大量のデータを処理�
 solution: Target
 subtopic: Vertical Update
 title: 垂直方向の更新について
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
+exl-id: 8d6a48c0-377d-4a15-bddc-c67e28037bfc
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
-
 
 # 垂直更新について{#about-vertical-update}
 
@@ -134,4 +134,3 @@ URLを指定して、縦置き版の更新に含めるインデックスコネ�
    * **[!UICONTROL First]**、**[!UICONTROL Prev]**、**[!UICONTROL Next]**、**[!UICONTROL Last]**、または&#x200B;**[!UICONTROL Go to line]**&#x200B;のナビゲーションオプションを使用してログ内を移動します。
 
    * 表示オプション&#x200B;**[!UICONTROL Errors only]**、**[!UICONTROL Wrap line]**、または&#x200B;**[!UICONTROL Show]**&#x200B;を使用して、表示内容を絞り込みます。
-
