@@ -2,16 +2,16 @@
 description: Search&amp;Promote 15.3.1リリースノート。
 solution: Target
 title: Search&amp;Promote 15.3.1リリースノート（2015年3月25日）
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: f02da5a4-2207-4603-aa05-5cff7be16dd5
+exl-id: 2d254275-f777-45e5-a838-b6a35365a6dd
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '254'
 ht-degree: 1%
 
 ---
-
 
 # Search&amp;Promote15.3.1リリースノート（2015年3月25日）{#search-promote-release-notes}
 
@@ -43,4 +43,3 @@ ht-degree: 1%
 * スクリプトフィルタリングを使用せずに、MDIフィールドを入力できます。
 * 候補のエンコードが正しくありません。
 * 複雑なビジネスルールで、「その他のファセットが選択された」トリガーが正しく機能するようになりました。
-
