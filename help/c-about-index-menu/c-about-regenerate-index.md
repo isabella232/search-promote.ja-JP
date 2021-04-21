@@ -3,16 +3,16 @@ description: 「インデックスを再生成」を使用すると、サイト�
 solution: Target
 subtopic: Regenerate Index
 title: インデックスの再生成について
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 9d1f1d88-0453-4422-a625-a348febbf224
+exl-id: 4155a52c-33f6-4f54-b69b-2a092530f7aa
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
-
 
 # インデックスの再生成{#about-regenerate-index}について
 
@@ -75,4 +75,3 @@ ht-degree: 0%
    * **[!UICONTROL First]**、**[!UICONTROL Prev]**、**[!UICONTROL Next]**、**[!UICONTROL Last]**、または&#x200B;**[!UICONTROL Go to line]**&#x200B;のナビゲーションオプションを使用してログ内を移動します。
 
    * 表示オプション&#x200B;**[!UICONTROL Errors only]**、**[!UICONTROL Wrap line]**、または&#x200B;**[!UICONTROL Show]**&#x200B;を使用して、表示内容を絞り込みます。
-
