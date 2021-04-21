@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.7.1リリースノート。
 solution: Target
 title: Search&amp;Promote 8.7.1リリースノート（2012年2月24日）
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 3fabf7b2-4a27-4f0a-862a-52f701a0631d
+exl-id: b10f0081-ed69-4c6b-86c9-816326b647f0
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 32%
+source-wordcount: '173'
+ht-degree: 33%
 
 ---
-
 
 # Search&amp;Promote8.7.1リリースノート（2012年2月24日）{#search-promote-release-notes}
 
@@ -38,4 +38,3 @@ HTC プレゼンテーションテンプレートをメモリおよびファイ�
 * テンプレートキャッシュが無効化されないようにタイムスタンプを保持する。
 * 「Dynamic Mediaクラシック」バナーダイアログボックスにスクロールバーが表示された場合、一部のパラメーター変更フィールドが切れていた問題を修正しました。
 * Dynamic Mediaクラシックバナーパラメーターに対して行ったビジネスルールの変更がすべてステージング領域では動作しましたが、ライブにプッシュした場合は有効になりませんでした。
-
