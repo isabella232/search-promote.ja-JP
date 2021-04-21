@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.13.0リリースノート。
 solution: Target
 title: Search&amp;Promote 8.13.0リリースノート（2014年4月17日）
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: b3524992-ff00-4a7c-a404-078242456734
+exl-id: cba582ad-d388-4317-af06-b8b12b300f02
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 56%
+source-wordcount: '324'
+ht-degree: 57%
 
 ---
-
 
 # Search&amp;Promote8.13.0リリースノート（2014年4月17日）{#search-promote-release-notes}
 
@@ -49,4 +49,3 @@ ht-degree: 56%
 * SPIN XPath 検証関数が誤検知エラーを返していた問題を修正しました。
 
 * SPIN の有効化／無効化の操作の後、ユーザーがメンバーセンターログインページにリダイレクトされていた問題を修正しました。
-
