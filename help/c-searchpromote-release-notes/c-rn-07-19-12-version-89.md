@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.9リリースノート。
 solution: Target
 title: Search&amp;Promote 8.9リリースノート（2012年7月19日）
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 3853c75d-19ed-4e36-9e81-dcbffe5f5b0c
+exl-id: d61bf0ee-60a9-4c89-8381-5514ba85cb99
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 57%
+source-wordcount: '281'
+ht-degree: 59%
 
 ---
-
 
 # Search&amp;Promote8.9リリースノート（2012年7月19日）{#search-promote-release-notes}
 
@@ -39,4 +39,3 @@ ht-degree: 57%
 * 一部のバナーで「Edit」をクリックしても、Edit ページが表示されませんでした。
 * 更新コードの再ランク付けが、異常に遅い場合がありました。
 * ファセット名に大文字と小文字が混在している場合、ファセット項目の削除やプッシュが機能しませんでした。
-
