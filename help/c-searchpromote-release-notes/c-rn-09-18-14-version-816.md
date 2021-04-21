@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.16.0リリースノート。
 solution: Target
 title: Search&amp;Promote 8.16.0リリースノート（2014年9月19日）
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 0a59858b-213b-40d6-aea1-d085c4d6d2fa
+exl-id: 929d6f97-4939-4e37-aded-6a746757b960
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 36%
+source-wordcount: '332'
+ht-degree: 37%
 
 ---
-
 
 # Search&amp;Promote8.16.0リリースノート（2014年9月19日）{#search-promote-release-notes}
 
@@ -52,4 +52,3 @@ ht-degree: 36%
 * **[!UICONTROL Common Phrases]**&#x200B;機能で検索結果が一致しませんでした。
 * ルールリストの概要で、属性名の表示が切り詰められていた問題を修正しました。
 * 個々のビジネスルールをライブにプッシュすると、すべてのビジネスルールがライブにプッシュされていました。
-
