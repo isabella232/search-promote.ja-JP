@@ -2,16 +2,16 @@
 description: 検索前のルールを使用して、着信クエリを分析し、使用するプレゼンテーションテンプレートを決定します。 検索前のルールは、各クエリに対して順に実行されます。 ルールの順序を変更するには、ドラッグ&ドロップを使用します。 実際の注文は、保存するまで変更されません。
 solution: Target
 title: 検索前のルールについて
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
+exl-id: 23e7feda-956a-48ce-8c61-fe0498c1bbda
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1661'
 ht-degree: 1%
 
 ---
-
 
 # 検索前のルールについて{#about-pre-search-rules}
 
@@ -234,4 +234,3 @@ ht-degree: 1%
    * クリック **[!UICONTROL Push Live]**.
 
       [プッシュステージ設定をライブにする](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)を参照してください。
-
