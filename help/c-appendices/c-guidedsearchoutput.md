@@ -2,16 +2,16 @@
 description: XMLやJSONなど、テキストベースの任意の形式で出力をカスタマイズする方法を説明します。
 solution: Target
 title: ガイド付き検索の出力
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
+exl-id: 5e36b30f-defb-4a28-8516-53cea81d44c2
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '6289'
+source-wordcount: '6284'
 ht-degree: 3%
 
 ---
-
 
 # ガイド付き検索の出力{#guided-search-output}
 
@@ -3005,4 +3005,3 @@ Geometrixxと呼ばれる架空のWebサイト上の*検索の出力例です。
  
 </customer-results> 
 ```
-
