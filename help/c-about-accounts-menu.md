@@ -2,16 +2,16 @@
 description: 製品メニューの「アカウント」を使用して、アクセスして使用するアカウントを選択します。
 solution: Target
 title: アカウントメニューについて
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
+exl-id: f3f43b71-cbcb-4325-88de-72db1c049700
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '167'
 ht-degree: 2%
 
 ---
-
 
 # [アカウント]メニュー{#about-the-accounts-menu}について
 
@@ -40,4 +40,3 @@ t_selecting_a_different_account_to_use.xml
 
    * 表の「[!DNL Name]」列見出しの下で、開始に使用して管理するアカウント名をクリックします。
    * 表の「[!DNL Number]」列見出しの下で、開始に使用して管理するアカウント番号をクリックします。
-
