@@ -2,16 +2,16 @@
 description: Search&amp;Promote 8.7リリースノート。
 solution: Target
 title: Search&amp;Promote 8.7リリースノート（2012年1月20日）
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: b640a215-1e2f-4cda-9e02-c3db04326cca
+exl-id: 52faf509-7b09-4310-a08c-8865b57c6119
 translation-type: tm+mt
-source-git-commit: d015154efdccbb4c6a39a56907c0c337ec065c9f
+source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
-
 
 # Search&amp;Promote8.7リリースノート（2012年1月19日）{#search-promote-release-notes}
 
@@ -30,4 +30,3 @@ ht-degree: 0%
 * URL入力ポイント検証を停止する、古いURLブロッカーサービス。
 * JSONパーサーは、形式の正しくないUTF-8文字を使用して結果を解析できません。
 * $記号を含む複数選択ファセットに対してファセットの取り消しパスが壊れています。
-
