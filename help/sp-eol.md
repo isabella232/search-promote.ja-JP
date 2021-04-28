@@ -5,14 +5,14 @@ feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
 hide: true
 hidefromtoc: true
+exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 translation-type: tm+mt
-source-git-commit: 681e3e6768f214759598482526ce7ffba27e860e
+source-git-commit: 1562d46d096206f21228cb8ca9cbd8cec406e8dc
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
-
 
 # AdobeSearch&amp;Promoteサービス終了のお知らせ
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ### **_Search&amp;Promoteは何日に停止しますか。_**
 
-Search&amp;Promoteサービスの終了は2022年8月1日に予定されています。 この日、Search&amp;Promote管理ユーザーインターフェイスにアクセスできなくなり、Search&amp;PromoteAPIへのリクエストは結果を提供しなくなります。 この日までに、サービスは完全に利用でき、機能します。
+Search&amp;Promoteサービスの終了は2022年9月1日&#x200B;**に予定されています。**&#x200B;この日、Search&amp;Promote管理ユーザーインターフェイスにアクセスできなくなり、Search&amp;PromoteAPIへのリクエストは結果を提供しなくなります。 この日までに、サービスは完全に利用でき、機能します。
 
 ### **_検索または他のAPIリクエストがSearch&amp;Promoteに対して行われた場合、どうなりますか。_**
 
@@ -42,4 +42,4 @@ Search&amp;Promoteに対して行われた検索やその他のAPIリクエス�
 
 ### **_該当するSearch&amp;Promoteライセンスをサービス終了前に更新できますか。_**
 
-はい。2022年8月1日までの契約終了日でライセンスを更新する場合は、Adobeの担当者にお問い合わせください。
+はい。2022年9月1日&#x200B;****&#x200B;以降の契約終了日でライセンスを更新する場合は、Adobeの担当者にお問い合わせください。
