@@ -3,13 +3,11 @@ title: AdobeSearch&Promoteサービス終了のお知らせ
 description: AdobeSearch&Promoteのサービス終了のお知らせの詳細を表示します。
 feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
-hide: true
-hidefromtoc: true
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 translation-type: tm+mt
-source-git-commit: 1562d46d096206f21228cb8ca9cbd8cec406e8dc
+source-git-commit: 99d23647ba5d30ed90d9e8ac377d627f6266c618
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -20,7 +18,7 @@ ht-degree: 0%
 
 ### **_Search&amp;Promoteは何日に停止しますか。_**
 
-Search&amp;Promoteサービスの終了は2022年9月1日&#x200B;**に予定されています。**&#x200B;この日、Search&amp;Promote管理ユーザーインターフェイスにアクセスできなくなり、Search&amp;PromoteAPIへのリクエストは結果を提供しなくなります。 この日までに、サービスは完全に利用でき、機能します。
+AdobeSearch&amp;Promoteのサービス終了は、2022年9月1日&#x200B;**に予定されています。** この日、Search&amp;Promote管理ユーザーインターフェイスにアクセスできなくなり、Search&amp;PromoteAPIへのリクエストは結果を提供しなくなります。 この日までに、サービスは完全に利用でき、機能します。
 
 ### **_検索または他のAPIリクエストがSearch&amp;Promoteに対して行われた場合、どうなりますか。_**
 
