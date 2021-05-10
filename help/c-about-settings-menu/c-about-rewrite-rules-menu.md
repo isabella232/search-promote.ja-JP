@@ -7,9 +7,9 @@ topic-legacy: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 exl-id: cff17ead-6997-4ff6-a995-7ca020b06d50
 translation-type: tm+mt
-source-git-commit: 7559f5f7437d46e3510d4659772308666425ec96
+source-git-commit: aa095add9eb656913792b3f14001dda66cdd7d67
 workflow-type: tm+mt
-source-wordcount: '10197'
+source-wordcount: '10178'
 ht-degree: 0%
 
 ---
@@ -281,14 +281,14 @@ t_adding_a_crawl_list_store_url_rule.xml
 
  -->
 
-**クロールリストストアのURLルールを追加するには**
+**クロールリストストアのURLルールを追加するには：**
 
 1. 製品メニューで、**[!UICONTROL Settings]**/**[!UICONTROL Rewrite Rules]**/**[!UICONTROL Crawl List Store URL Rules]**&#x200B;をクリックします。
 1. [!DNL Crawl List Store URL Rules]フィールドに、必要なルールを入力します。
 
    空白行と、「#」（ハッシュ）文字で始まるコメント行が使用できます。
-1. （オプション）[!DNL Crawl List Store URL Rules]ページの[!DNL Test Crawl List Store URL Rules]フィールドに、クロールルールをテストするテストURLを入力し、**「テスト**」をクリックします。
-1. 「**変更を保存**」をクリックします。
+1. （オプション）[!DNL Crawl List Store URL Rules]ページの[!DNL Test Crawl List Store URL Rules]フィールドに、クロールルールをテストするテストURLを入力し、**[!UICONTROL Test]**&#x200B;をクリックします。
+1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）結果をプレビューする場合は、ステージングされたサイトインデックスを再構築します。
 
    「[ステージングされたWebサイトの増分インデックスの設定](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)」を参照してください。
@@ -566,14 +566,14 @@ t_adding_crawl_list_retrieve_url_rules.xml
 
  -->
 
-**クロールリスト取得URLルールを追加するには**
+**クロールリスト取得URLルールを追加するには：**
 
 1. 製品メニューで、**[!UICONTROL Settings]**/**[!UICONTROL Rewrite Rules]**/**[!UICONTROL Crawl List Retrieve URL Rules]**&#x200B;をクリックします。
 1. [!DNL Crawl List Retrieve URL Rules]フィールドに、必要なルールを入力します。
 
    空白行と、「#」（ハッシュ）文字で始まるコメント行が使用できます。
-1. （オプション）[!DNL Crawl List Retrieve URL Rules]ページの[!DNL Test Crawl List Retrieve URL Rules]フィールドに、クロールルールをテストするテストURLを入力し、**「テスト**」をクリックします。
-1. 「**変更を保存**」をクリックします。
+1. （オプション）[!DNL Crawl List Retrieve URL Rules]ページの[!DNL Test Crawl List Retrieve URL Rules]フィールドに、クロールルールをテストするテストURLを入力し、**[!UICONTROL Test]**&#x200B;をクリックします。
+1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）結果をプレビューする場合は、ステージングされたサイトインデックスを再構築します。
 
    「[ステージングされたWebサイトの増分インデックスの設定](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)」を参照してください。
@@ -637,22 +637,21 @@ RewriteRule Pattern Substitution [Flags]
 
 [正規式](../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A)を参照してください。
 
-「not」文字(&#39;!&#39;)は、 を追加します。 「not」文字を使用すると、パターンを無効にできます。つまり、現在のタイトルがパターンと一致しない場合にのみ真になります。 「not」文字は、除外パターンに一致した方がよい場合や、最終的なデフォルトのルールとして使用できます。 注意：パターンでは、「not」文字とグループ化されたワイルドカードの両方を使用できません。 また、置換文字列に$Nが含まれる場合は、無効なパターンを使用することはできません。
+「not」文字(&#39;!&#39;)は、 を追加します。 「not」文字を使用すると、パターンを無効にできます。つまり、現在のタイトルがパターンと一致しない場合にのみ真になります。 「not」文字は、除外パターンに一致した方がよい場合や、最終的なデフォルトのルールとして使用できます。 注意：パターンでは、「not」文字とグループ化されたワイルドカードの両方を使用できません。 また、置換文字列に`$N`が含まれる場合は、無効なパターンを使用することはできません。
 
 括弧を使用して逆参照を作成できます。逆参照はSubstitutionとCondPatternで参照できます。
 
-**** 置換タイトルは置換文字列に置換されます。文字列には次の値を含めることができます。
+置換 — タイトルを置換文字列に置換します。 文字列には次の値を含めることができます。
 
 プレーンテキスト — 変更せずに渡されるテキスト。
 
 バックリファレンスは、PatternまたはCondPatternのグループ化されたパーツ（括弧内）にアクセスできます。 次に、2種類のバックリファレンスを示します。
 
-* RewriteRuleバックリファレンス
+* RewriteRule Backreferences — 対応するRewriteRuleパターンのバックリファレンスと一致し、$N (0 &lt;= N &lt;= 9)の形式をとります。
 
-   対応するRewriteRuleパターン内のこれらの一致後参照は、$N (0 &lt;= N &lt;= 9)の形式をとります。 例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
-* RewriteCond Backreferences
+   例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
-   最後に一致したRewriteCondPattern内のこれらの一致後参照は、%N (0 &lt;= N &lt;= 9)の形式をとります。
+* RewriteCond Backreferences — これらの一致するバックリファレンスは、最後に一致したRewriteCondPatternに含まれ、%Nの形式をとります(0 &lt;= N &lt;= 9)。
 
 変数これらは%{NAME_OF_VARIABLE}の形式の変数です。NAME_OF_VARIABLEは、定義された変数の名前を示す文字列にすることができます。 環境変数の設定について詳しくは、`[E]`フラグを参照してください。
 
@@ -720,8 +719,11 @@ RewriteCond TestString CondPattern [Flags]
 
 バックリファレンスは、PatternまたはCondPatternのグループ化されたパーツ（括弧内）にアクセスできます。 バックリファレンスには次の2種類があります。
 
-* RewriteRuleバックリファレンス対応するRewriteRuleパターン内のこれらの一致するバックリファレンスを返し、$N (0 &lt;= N &lt;= 9)の形式をとります。 例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
-* RewriteCond Backreferences最後に一致したRewriteCondPatternのバックリファレンスと一致し、%N (0 &lt;= N &lt;= 9)の形式をとります。
+* RewriteRule Backreferences — 対応するRewriteRuleパターンのバックリファレンスと一致し、$N (0 &lt;= N &lt;= 9)の形式をとります。
+
+   例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond Backreferences — これらの一致するバックリファレンスは、最後に一致したRewriteCondPatternに含まれ、%Nの形式をとります(0 &lt;= N &lt;= 9)。
 
 変数これらは%{NAME_OF_VARIABLE}の形式の変数です。NAME_OF_VARIABLEは、定義された変数の名前を示す文字列にすることができます。 環境変数の設定について詳しくは、`[E]`フラグを参照してください。
 
@@ -797,7 +799,15 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>}
 ```
 
-ルールのパターン`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`には、「My会社 — 」に続くタイトルコンテンツに一致する後方参照`(.*)`が含まれています。 パターンの一部を括弧( )で囲むと、代替(Substitution)で参照可能な逆参照が作成されることに注意してください。 この例では、置換(${toupper:**$1**})は、toupper関数を使用してバックリファレンス(**$1**)を書き換えます。
+ルールのパターン
+
+`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`
+
+には、「My会社 — 」の後に続くタイトルコンテンツと一致するバックリファレンス`(.*)`が含まれます。 パターンの一部を括弧( )で囲むと、代替(Substitution)で参照可能な逆参照が作成されることに注意してください。 この例では、置換
+
+`(${toupper:**$1**})`
+
+toupper関数を使用してバックリファレンス(`**$1**`)を書き換えます。
 
 したがって、「マイ会社 — ようこそ」という形式のタイトルは、「ようこそ」と書き換えられます。
 
@@ -815,14 +825,14 @@ t_adding_crawl_title_rules.xml
 
  -->
 
-**クロールタイトルルールを追加するには**
+**クロールタイトルルールを追加するには：**
 
 1. 製品メニューで、**[!UICONTROL Settings]**/**[!UICONTROL Rewrite Rules]**/**[!UICONTROL Crawl Title Rules]**&#x200B;をクリックします。
 1. [!DNL Crawl Title Rules]フィールドに、必要なルールを入力します。
 
    空白行と、「#」（ハッシュ）文字で始まるコメント行が使用できます。
-1. （オプション）[!DNL Crawl Title Rules]ページの[!DNL Test Crawl Title Rules]フィールドに、テストする検索ルールを持つテストURLを入力し、**「テスト**」をクリックします。
-1. 「**変更を保存**」をクリックします。
+1. （オプション）[!DNL Crawl Title Rules]ページの[!DNL Test Crawl Title Rules]フィールドに、テストする検索ルールを持つテストURLを入力し、**[!UICONTROL Test]**&#x200B;をクリックします。
+1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）結果をプレビューする場合は、ステージングされたサイトインデックスを再構築します。
 
    「[ステージングされたWebサイトの増分インデックスの設定](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)」を参照してください。
@@ -983,15 +993,17 @@ RewriteCond
 
 バックリファレンスは、PatternまたはCondPatternのグループ化されたパーツ（括弧内）にアクセスできます。 バックリファレンスには次の2種類があります。
 
-* ** RewriteRule Backreferences**対応するRewriteRuleパターン内のこれらの一致するバックリファレンスは$N (0 &lt;= N &lt;= 9)の形式をとります。 例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences — 対応するRewriteRuleパターンのバックリファレンスと一致し、$N (0 &lt;= N &lt;= 9)の形式をとります。
 
-* **RewriteCond** Backreferencesこれらの一致するバックリファレンスは、最後に一致したRewriteCondPattern内にあり、%Nの形式をとります(0)  &lt;>
+   例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond Backreferences — これらの一致するバックリファレンスは、最後に一致したRewriteCondPatternに含まれ、%Nの形式をとります(0 &lt;= N &lt;= 9)。
 
 変数これらは%{NAME_OF_VARIABLE}の形式の変数です。NAME_OF_VARIABLEは、定義された変数の名前を示す文字列にすることができます。 変数の設定について詳しくは、RewriteRule *`[E]`*&#x200B;フラグを参照してください。
 
 >[!NOTE]
 >
->書き換えルールは、通常、変数を使用します。 現在のURLのすべてのCGIパラメーターは、自動的に変数に変換されます。 例えば、検索URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"`は自動的に4つの変数を提供し、これを書き換えルールで参照できます。 この例では、1つの変数を「session」、その値を「1234」、別の変数を「id」、値を「5678」と呼びます。 （他の2つの変数は`sp_a`と`sp_q`です）。 必要な変数はすべて、Webページの検索フォームから非表示フィールドとして渡す必要があります。 この例では、検索を実行するウェブサイトユーザを識別する「session」値と「id」値を渡す必要があります。 検索フォームで非表示のフィールドを渡すには、`<input type=hidden name="session" value="1234">`のようなタグを使用します。
+>書き換えルールは、通常、変数を使用します。 現在のURLのすべてのCGIパラメーターは、自動的に変数に変換されます。 例えば、検索URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"`は自動的に4つの変数を提供します。これらの変数は書き換えルールで参照できます。 この例では、1つの変数を「session」、その値を「1234」、別の変数を「id」、値を「5678」と呼びます。 （他の2つの変数は`sp_a`と`sp_q`です）。 必要な変数はすべて、Webページの検索フォームから非表示フィールドとして渡す必要があります。 この例では、検索を実行するウェブサイトユーザを識別する「session」値と「id」値を渡す必要があります。 検索フォームで非表示のフィールドを渡すには、`<input type=hidden name="session" value="1234">`のようなタグを使用します。
 
 関数これらは${NAME_OF_FUNCTION:key}の形式の関数です。NAME_OF_FUNCTIONは次のとおりです。
 
@@ -1070,14 +1082,15 @@ t_adding_search_url_rules.xml
 
  -->
 
-**検索URLルールを追加するには**
+**検索URLルールを追加するには：**
 
 1. 製品メニューで、**[!UICONTROL Settings]**/**[!UICONTROL Rewrite Rules]**/**[!UICONTROL Search URL Rules]**&#x200B;をクリックします。
 1. [!DNL Search URL Rules]フィールドに、必要なルールを入力します。
 
    空白行と、「#」（ハッシュ）文字で始まるコメント行が使用できます。
-1. （オプション）[!DNL Search URL Rules]ページの[!DNL Test Search URL Rules]フィールドに、クロールルールをテストするテストURLを入力し、**「テスト**」をクリックします。
-1. 「**変更を保存**」をクリックします。
+
+1. （オプション）[!DNL Search URL Rules]ページの[!DNL Test Search URL Rules]フィールドに、クロールルールをテストするテストURLを入力し、**[!UICONTROL Test]**&#x200B;をクリックします。
+1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）結果をプレビューする場合は、ステージングされたサイトインデックスを再構築します。
 
    「[ステージングされたWebサイトの増分インデックスの設定](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)」を参照してください。
@@ -1143,9 +1156,11 @@ RewriteRule Pattern Substitution [Flags]
 
 プレーンテキスト — 変更せずに渡されるテキスト。
 
-**バ** ックリファレンスパターンまたはCondPatternのグループ化されたパーツ（括弧内）にアクセスできます。次に、2種類のバックリファレンスを示します。
+* 逆参照 — PatternまたはCondPatternのグループ化されたパーツ（括弧内）にアクセスできます。 次に、2種類のバックリファレンスを示します。
 
-* **RewriteRule** Backreferences対応するRewriteRuleパターンのバックリファレンスと一致し、$N (0  &lt;>例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences — 対応するRewriteRuleパターンのバックリファレンスと一致し、$N (0 &lt;= N &lt;= 9)の形式をとります。
+
+   例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
 * ** RewriteCond Backreferences**一致する最後に一致したRewriteCondPattern内のバックリファレンスに一致し、%Nの形式をとります(0 &lt;= N &lt;= 9)。
 
@@ -1213,9 +1228,11 @@ RewriteCond TestString CondPattern [Flags]
 
 バックリファレンスは、PatternまたはCondPatternのグループ化されたパーツ（括弧内）にアクセスできます。 バックリファレンスには次の2種類があります。
 
-* **RewriteRule** Backreferences対応するRewriteRuleパターンのバックリファレンスと一致し、$N (0  &lt;>例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+* RewriteRule Backreferences — 対応するRewriteRuleパターンのバックリファレンスと一致し、$N (0 &lt;= N &lt;= 9)の形式をとります。
 
-* **RewriteCond** Backreferencesこれらの一致するバックリファレンスは、最後に一致したRewriteCondPattern内にあり、%Nの形式をとります(0)  &lt;>
+   例：`RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond Backreferences — これらの一致するバックリファレンスは、最後に一致したRewriteCondPatternに含まれ、%Nの形式をとります(0 &lt;= N &lt;= 9)。
 
 **** 変数これらは%{NAME_OF_VARIABLE}の形式の変数です。NAME_OF_VARIABLEは、定義された変数の名前を表す文字列にすることができます。環境変数の設定について詳しくは、`[E]`フラグを参照してください。 変数は、検索結果を生成した検索フォームでも定義できます。
 
@@ -1291,7 +1308,11 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>} 
 ```
 
-ルールのパターン`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`には、「My会社 — 」に続くタイトルコンテンツに一致する後方参照&#x200B;**`(.*)`**&#x200B;が含まれています。 パターンの一部を括弧( )で囲むと、代替(Substitution)で参照可能な逆参照が作成されることに注意してください。 この例では、置換(${toupper:**$1**})は、toupper関数を使用してバックリファレンス(**$1**)を書き換えます。
+ルールのパターン`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))`には、「My会社 — 」に続くタイトルコンテンツに一致する後方参照&#x200B;**`(.*)`**&#x200B;が含まれています。 パターンの一部を括弧( )で囲むと、代替(Substitution)で参照可能な逆参照が作成されることに注意してください。 この例では、置換
+
+`(${toupper:**$1**})`
+
+toupper関数を使用して、バックリファレンス(**$1**)を書き換えます。
 
 したがって、「マイ会社 — ようこそ」という形式のタイトルは、「ようこそ」と書き換えられます。
 
@@ -1309,14 +1330,14 @@ t_adding_search_title_rules.xml
 
  -->
 
-**検索タイトルルールを追加するには**
+**検索タイトルルールを追加するには：**
 
 1. 製品メニューで、**[!UICONTROL Settings]**/**[!UICONTROL Rewrite Rules]**/**[!UICONTROL Search Title Rules]**&#x200B;をクリックします。
 1. [!DNL Search Title Rules]フィールドに、必要なルールを入力します。
 
    空白行と、「#」（ハッシュ）文字で始まるコメント行が使用できます。
-1. （オプション）[!DNL Search Title Rules]ページの[!DNL Test Search Title Rules]フィールドにテストタイトルを入力し、「**テスト**」をクリックします。
-1. 「**変更を保存**」をクリックします。
+1. （オプション）[!DNL Search Title Rules]ページの[!DNL Test Search Title Rules]フィールドにテストタイトルを入力し、**[!UICONTROL Test]**&#x200B;をクリックします。
+1. クリック **[!UICONTROL Save Changes]**.
 1. （オプション）結果をプレビューする場合は、ステージングされたサイトインデックスを再構築します。
 
    「[ステージングされたWebサイトの増分インデックスの設定](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0)」を参照してください。
