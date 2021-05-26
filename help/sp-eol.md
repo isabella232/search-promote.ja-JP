@@ -1,43 +1,42 @@
 ---
-title: AdobeSearch&Promoteサービス終了のお知らせ
-description: AdobeSearch&Promoteのサービス終了のお知らせの詳細を表示します。
+title: AdobeSearch&Promoteのサービス終了のお知らせ
+description: AdobeSearch&Promoteのサービス終了のお知らせの詳細
 feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
-translation-type: tm+mt
-source-git-commit: 99d23647ba5d30ed90d9e8ac377d627f6266c618
+source-git-commit: 27dca9caf3e59d5ed20fdea3d5ef279bd5aac097
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
-# AdobeSearch&amp;Promoteサービス終了のお知らせ
+# AdobeSearch&amp;Promoteのサービス終了のお知らせ
 
-## Search&amp;Promoteサービス終了に関するよくある質問(FAQ)
+## Search&amp;Promoteのサービス終了に関するよくある質問(FAQ)
 
-### **_Search&amp;Promoteは何日に停止しますか。_**
+### **_何日にSearch&amp;Promoteは運転を止めますか？_**
 
-AdobeSearch&amp;Promoteのサービス終了は、2022年9月1日&#x200B;**に予定されています。** この日、Search&amp;Promote管理ユーザーインターフェイスにアクセスできなくなり、Search&amp;PromoteAPIへのリクエストは結果を提供しなくなります。 この日までに、サービスは完全に利用でき、機能します。
+**2022年9月1日**&#x200B;に、AdobeSearch&amp;Promoteのサービス終了が予定されています。 この日以降、Search&amp;Promote管理ユーザーインターフェイスにアクセスできなくなり、Search&amp;PromoteAPIへのリクエストで結果が配信されなくなります。 この日までに、サービスは完全に利用でき、機能します。 2022年9月1日を見越し、Search&amp;Promoteに対する契約上の権利は2022年8月31日を過ぎると認められません。
 
-### **_検索または他のAPIリクエストがSearch&amp;Promoteに対して行われた場合、どうなりますか。_**
+### **_検索または他のAPIリクエストがSearch&amp;Promoteに対しておこなわれるとどうなりますか？_**
 
-Search&amp;Promoteに対して行われた検索やその他のAPIリクエストでは、結果が返されなくなります。 要求は、「ホストが見つかりません」エラー、3xx HTTPリダイレクト、404、408などのHTTPエラー、または他のHTTPエラーコードを引き起こす可能性があります。
+Search&amp;Promoteに対しておこなわれた検索やその他のAPIリクエストでは、結果が返されなくなります。 リクエストには、「Host not Found」エラー、3xx HTTPリダイレクト、404、408などのHTTPエラー、またはその他のHTTPエラーコードが発生する場合があります。
 
-### **_Adobeには、サイト検索とコマース検索に代わるオプションがありますか。_**
+### **_Adobeには、サイト検索やコマース検索の代替オプションはありますか。_**
 
-はい。商品とコマースの検索の場合、[Magento Commerce](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html)からのライブ検索は、Adobeの今後の検索アプリケーションです。 Magento Commerceからのライブ検索は、2021年の前半に開始される予定です。
+はい。製品およびコマースの検索の場合、[Magento Commerceからのライブ検索](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html)は、今後のAdobeの検索アプリケーションです。 「Magento Commerceからのライブ検索」は、2021年上半期に開始される予定です。
 
-### **_Adobeは、Search&amp;Promoteに類似した機能を持つフレームワークまたはプラットフォームをオファーに推奨できますか。_**
+### **_Adobeは、Search&amp;Promoteと同様の機能を提供するフレームワークまたはプラットフォームをレコメンデーションできますか。_**
 
-はい。このSearch&amp;Promote機能がマーケティング戦略に重要な場合は、[Apache Solr](https://solr.apache.org/)や[Elastic FreeやOpen](https://www.elastic.co/about/free-and-open)を含む、パワー検索に存在する多数のオープンソースフレームワークを考慮してください。
+はい。Search&amp;Promote機能がマーケティング戦略にとって重要な場合は、[Apache Solr](https://solr.apache.org/)や[Elastic FreeやOpen](https://www.elastic.co/about/free-and-open)など、検索を強化するための多くのオープンソースフレームワークを検討してください。
 
-また、[AWS](https://aws.amazon.com/cloudsearch/)と[Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/)の両方が、それぞれのクラウドプラットフォームでクラウドネイティブの検索機能を提供します。 両方のオプションをAdobe Experience Manager Sitesに統合して、サイト検索の電源を入れることもできます。
+また、[AWS](https://aws.amazon.com/cloudsearch/)と[Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/)の両方が、それぞれのクラウドプラットフォームでクラウドネイティブな検索機能を提供します。 両方のオプションをAdobe Experience Manager Sitesに統合して、サイト検索を強化することもできます。
 
-### **_詳しくは、誰にお問い合わせいただけますか？_**
+### **_詳しくは、誰に問い合わせればよいですか？_**
 
-質問がある場合は、Customer Success Manager(CSM)にお問い合わせいただくか、[searchquestions@adobe.com](mailto:searchquestions@adobe.com)のAdobeチームにお問い合わせください。
+ご質問があれば、カスタマーサクセスマネージャー(CSM)にお問い合わせいただくか、Adobeチーム([searchquestions@adobe.com](mailto:searchquestions@adobe.com))にお問い合わせください。
 
-### **_該当するSearch&amp;Promoteライセンスをサービス終了前に更新できますか。_**
+### **_サービスを終了する前に、該当するSearch&amp;Promoteライセンスを更新できますか？_**
 
-はい。2022年9月1日&#x200B;****&#x200B;以降の契約終了日でライセンスを更新する場合は、Adobeの担当者にお問い合わせください。
+はい。Adobe担当者と協力して、契約終了日を&#x200B;**2022年9月1日**&#x200B;以下に設定して、ライセンスを更新してください。
