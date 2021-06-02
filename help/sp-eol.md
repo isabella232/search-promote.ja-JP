@@ -4,7 +4,7 @@ description: AdobeSearch&Promoteのサービス終了のお知らせの詳細
 feature: null
 role: Administrator,Business Practitioner,Data Engineer,Developer
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
-source-git-commit: 27dca9caf3e59d5ed20fdea3d5ef279bd5aac097
+source-git-commit: cffbd6a62e1ffe1f5fe1f2f6123e8bc5199b55dc
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -39,4 +39,4 @@ Search&amp;Promoteに対しておこなわれた検索やその他のAPIリク�
 
 ### **_サービスを終了する前に、該当するSearch&amp;Promoteライセンスを更新できますか？_**
 
-はい。Adobe担当者と協力して、契約終了日を&#x200B;**2022年9月1日**&#x200B;以下に設定して、ライセンスを更新してください。
+はい。Adobe担当者と協力して、契約終了日を&#x200B;**2022年8月31日**&#x200B;までにしてライセンスを更新してください。
