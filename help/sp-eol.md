@@ -4,9 +4,9 @@ description: AdobeSearch&Promoteのサービス終了のお知らせの詳細
 feature: null
 role: Admin,User,Data Engineer,Developer
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
-source-git-commit: dd301b1be029f8f9e4e0a0738d61c19f0e6ba2be
+source-git-commit: 2465f73573d96f96be3cc39d0ba9962af8c2b990
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Search&amp;Promoteに対しておこなわれた検索やその他のAPIリク�
 
 はい。製品およびコマースの検索の場合、[Magento Commerceからのライブ検索](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html)は、今後のAdobeの検索アプリケーションです。 「Magento Commerceからのライブ検索」は、2021年上半期に開始される予定です。
 
-### **_Adobeは、Search&amp;Promoteと同様の機能を提供するフレームワークまたはプラットフォームをレコメンデーションできますか。_**
+<!-- ### **_Can Adobe recommend any frameworks or platforms that offer features similar to Search&Promote?_**
 
-はい。Search&amp;Promote機能がマーケティング戦略にとって重要な場合は、[Apache Solr](https://solr.apache.org/)や[Elastic FreeやOpen](https://www.elastic.co/about/free-and-open)など、検索を強化するための多くのオープンソースフレームワークを検討してください。
+  Yes. If the Search&Promote feature is critical to your marketing strategy, consider the many open-source frameworks that exist to power search, including [Apache Solr](https://solr.apache.org/) and [Elastic Free and Open](https://www.elastic.co/about/free-and-open).  
 
-また、[AWS](https://aws.amazon.com/cloudsearch/)と[Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/)の両方が、それぞれのクラウドプラットフォームでクラウドネイティブな検索機能を提供します。 両方のオプションをAdobe Experience Manager Sitesに統合して、サイト検索を強化することもできます。
+  Also, both [AWS](https://aws.amazon.com/cloudsearch/) and [Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/) provide cloud-native search capabilities on their respective cloud platforms. You can integrate both options into Adobe Experience Manager Sites to power site search and more. -->
 
 ### **_詳しくは、誰に問い合わせればよいですか？_**
 
